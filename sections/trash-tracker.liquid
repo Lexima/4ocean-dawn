@@ -1,0 +1,206 @@
+<script src="{{ 'component-trash-tracker.js' | asset_url }}" defer="defer"></script>
+
+
+{%- style -%}
+
+.section-{{section.id}}-padding {
+    padding-top: calc({{ section.settings.padding_top }}px * 0.75);
+    padding-bottom: calc({{ section.settings.padding_bottom }}px * 0.75);
+}
+
+@media screen and(min-width: 750px) {
+    .section-{{section.id}}-padding {
+        padding-top: {{section.settings.padding_top}}px;
+        padding-bottom: {{section.settings.padding_bottom}}px;
+    }
+}
+
+.trash-tracker-bg {
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.trash-tracker-bg:after {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.2;
+    background-image: url('data:image/svg+xml;utf8, {%- render 'graphic-worldmap' -%}');
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    pointer-events: none;
+}
+
+@media screen and (min-width: 750px) {
+  .trash-tracker-bg:after {
+    background-size: 66%;
+  }
+}
+
+
+
+
+.trash-tracker__content {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.trash-tracker p {
+    margin: 0;
+}
+
+.trash-tracker__title {
+  letter-spacing: 0.2rem;
+  font-weight: 700;
+}
+
+.trash-tracker__content .button {
+  margin-top: 3rem;
+}
+
+{%- endstyle -%}
+<template id="trash-tracker-template">
+  <style>
+.trash-tracker__count {
+    font-size: 333%;
+    font-weight: 800;
+}
+
+@media screen and (min-width: 750px) {
+  .trash-tracker__count {
+    font-size: 666%;
+}
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+  </style>
+  
+  <span class="trash-tracker__count">Loading</span>
+</template>
+<div class="color-{{ section.settings.color_scheme }} gradient trash-tracker">
+    <div class="trash-tracker-bg page-width">
+        <div class="section-{{ section.id }}-padding trash-tracker__content page-width--narrow">
+            {%- if section.settings.title -%}
+                <h4 class="trash-tracker__title">
+                    {{section.settings.title}}
+                </h4>
+            {%- endif -%}
+            {%- if section.settings.show_icon -%}
+            <div>
+              {% render 'icon-arrow' %}
+            </div>
+            {%- endif -%}
+            <trash-tracker></trash-tracker>
+            {%- if section.settings.copy -%}
+                {{section.settings.copy}}
+            {%- endif -%}
+            {%- if section.settings.button_link -%}
+            <a href="{{section.settings.button_link}}" class="button button--secondary">{{section.settings.button_text}}
+              {% render 'icon-arrow' %}
+            </a>
+            {%- endif -%}
+
+
+        </div>
+    </div>
+</div>
+
+{% schema %}
+
+{
+  "name": "Trash Counter",
+  "tag": "section",
+  "class": "sections",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    }, {
+      "type": "richtext",
+      "id": "copy",
+      "label": "Copy"
+    }, {
+      "type": "select",
+      "id": "color_scheme",
+      "options": [
+        {
+          "value": "accent-1",
+          "label": "t:sections.all.colors.accent_1.label"
+        }, {
+          "value": "accent-2",
+          "label": "t:sections.all.colors.accent_2.label"
+        }, {
+          "value": "background-1",
+          "label": "t:sections.all.colors.background_1.label"
+        }, {
+          "value": "background-2",
+          "label": "t:sections.all.colors.background_2.label"
+        }, {
+          "value": "inverse",
+          "label": "t:sections.all.colors.inverse.label"
+        }
+      ],
+      "default": "background-1",
+      "label": "t:sections.all.colors.label"
+    }, 
+    {
+      "type": "header",
+      "content": "button"
+    },
+    {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    },
+     {
+      "type": "checkbox",
+      "id": "show_icon",
+      "label": "Show Pound Icon",
+      "default": true
+     },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    }, {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 100
+    }, {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 100
+    }
+  ],
+  "presets": [
+    {
+      "name": "Trash Tracker"
+    }
+  ]
+}
+
+{% endschema %}
