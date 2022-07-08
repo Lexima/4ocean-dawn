@@ -32,7 +32,7 @@
 
 <section class="color-{{ section.settings.color_scheme }} {% if section.settings.secondary_background %}background-secondary{% else %}gradient{% endif %}">
   <div class="page-width section-{{ section.id }}-padding{% if section.settings.secondary_background %} isolate{% endif %}">
-    <div class="featured-product product grid grid--1-col gradient color-{{ section.settings.color_scheme }}{% if section.settings.secondary_background == false %} isolate{% endif %} {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %}">
+    <div class="featured-product product grid grid--1-col gradient color-{{ section.settings.color_scheme }}{% if section.settings.secondary_background == false %} isolate{% endif %} {% if product.media.size > 0 %}grid--2-col-tablet{% else %}product--no-media{% endif %} {{ section.settings.alignment}}">
       <div class="grid__item product__media-wrapper">
         <media-gallery id="MediaGallery-{{ section.id }}" role="region" aria-label="{{ 'products.product.media.gallery_viewer' | t }}" data-desktop-layout="stacked">
           <a class="skip-to-content-link button visually-hidden" href="#ProductInfo-{{ section.id }}">
@@ -279,7 +279,12 @@
                         >
                             <span>
                               {%- if product.selected_or_first_available_variant.available -%}
+                                {%- if product.metafields.custom.pounds_pulled != blank and block.settings.pounds_pulled -%}
+                                {%- render 'pounds_pulled', pounds_pulled: product.metafields.custom.pounds_pulled -%}
+                                {% else %}
                                 {{ 'products.product.add_to_cart' | t }}
+                                {%- endif -%}
+                                {% render 'icon-arrow' %}
                               {%- else -%}
                                 {{ 'products.product.sold_out' | t }}
                               {%- endif -%}
@@ -337,10 +342,6 @@
               {%- endif -%}
             {%- endcase -%}
           {%- endfor -%}
-        <a{% if product == blank %} role="link" aria-disabled="true"{% else %} href="{{ product.url }}"{% endif %} class="link product__view-details animate-arrow">
-          {{ 'products.product.view_full_details' | t }}
-          {% render 'icon-arrow' %}
-        </a>
         </div>
       </div>
     </div>
@@ -573,9 +574,16 @@
         {
           "type": "checkbox",
           "id": "show_dynamic_checkout",
-          "default": true,
+          "default": false,
           "label": "t:sections.featured-product.blocks.buy_buttons.settings.show_dynamic_checkout.label",
           "info": "t:sections.featured-product.blocks.buy_buttons.settings.show_dynamic_checkout.info"
+        },
+        {
+          "type": "checkbox",
+          "id": "pounds_pulled",
+          "default": true,
+          "label": "Show pounds pulled",
+          "info": "Tick this box to show the pounds this product pulls, if it is entered in the product metafields"
         }
       ]
     },
@@ -664,6 +672,22 @@
       "label": "t:sections.featured-product.settings.secondary_background.label"
     },
     {
+      "type": "select",
+      "id": "alignment",
+      "label": "Alignment",
+      "options": [
+      {
+        "value": "align-left",
+        "label": "Left"
+      },
+      {
+        "value": "align-right",
+        "label": "Right"
+      }
+      ],
+      "default": "align-left"
+    },
+    {
       "type": "header",
       "content": "t:sections.featured-product.settings.header.content",
       "info": "t:sections.featured-product.settings.header.info"
@@ -710,36 +734,13 @@
       "name": "t:sections.featured-product.presets.name",
       "blocks": [
         {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
-        {
           "type": "title"
-        },
-        {
-          "type": "text",
-          "settings": {
-            "text": "{{ section.settings.product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
-          }
         },
         {
           "type": "price"
         },
         {
-          "type": "variant_picker"
-        },
-        {
-          "type": "quantity_selector"
-        },
-        {
           "type": "buy_buttons"
-        },
-        {
-          "type": "share"
         }
       ]
     }
