@@ -1,0 +1,60 @@
+.text-eyebrow {
+    font-weight: 700;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+.cta__container {
+    display: flex;
+    flex-direction: column;
+    columns: 2rem;
+}
+
+.cta__container img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cta__button {
+    margin: 3rem 0;
+}
+
+.cta__image {
+    display: flex;
+    justify-content: center;
+}
+
+.cta__content {
+    margin-top: 10rem;
+    margin-bottom: 10rem;
+}
+
+h2 {
+    margin: 0;
+}
+
+@media screen and (min-width: 990px) {
+    .cta__container {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .align-right {
+        flex-direction: row-reverse;
+    }
+
+    .align-left {
+        flex-direction: row;
+    }
+
+    .text-eyebrow {
+        text-transform: uppercase;
+    }
+
+    .cta__content {
+        width: 50%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
