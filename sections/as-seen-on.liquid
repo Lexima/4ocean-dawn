@@ -17,6 +17,14 @@
 <div class="as-seen-on">
   <div class="page-width section-{{ section.id }}-padding isolate">
 
+    {%- unless section.settings.title == blank -%}
+      <div class="title-wrapper--no-top-margin">
+        <h2 class="title">
+          {{ section.settings.title | escape }}
+        </h2>
+      </div>
+    {%- endunless -%}
+
     <ul class="as-seen-on-list contains-content-container grid grid--{{ section.settings.columns_desktop }}-col-desktop">
       {%- for block in section.blocks -%}
 
@@ -68,6 +76,11 @@
   "class": "section",
   "tag": "section",
   "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title"
+    },
     {
       "type": "range",
       "id": "columns_desktop",
