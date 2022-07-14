@@ -1,0 +1,23 @@
+.as-seen-on .title {
+  text-align: center;
+}
+
+.as-seen-on .grid {
+  --grid-desktop-horizontal-spacing: 35px;
+}
+
+.as-seen-on a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.as-seen-on-list__title {
+  font-size: calc(var(--font-heading-scale) * 2.4rem);
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 5px;
+}
+
+.as-seen-on-list__subtitle {
+  color: #0565CE;
+}
