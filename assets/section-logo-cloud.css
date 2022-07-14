@@ -13,7 +13,18 @@
 }
 
 @media screen and (max-width: 749px) {
-  /* .logo-cloud-list__item {
-    width: calc(100% / 2);
-  } */
+  .logo-cloud-list {
+    overflow: scroll;
+    justify-content: flex-start;
+  }
+  .logo-cloud-list {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .logo-cloud-list::-webkit-scrollbar { 
+    display: none;
+  }
+  .logo-cloud-list__item {
+    min-width: calc((100% / 2) - 30px);
+  }
 }
