@@ -4,6 +4,7 @@
 
 .as-seen-on .grid {
   --grid-desktop-horizontal-spacing: 35px;
+  --grid-mobile-vertical-spacing: 35px;
 }
 
 .as-seen-on a {
