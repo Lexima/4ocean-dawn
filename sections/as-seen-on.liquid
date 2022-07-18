@@ -1,4 +1,6 @@
 {{ 'section-as-seen-on.css' | asset_url | stylesheet_tag }}
+<link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
+<noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
 
 {%- style -%}
   .section-{{ section.id }}-padding {
@@ -25,47 +27,59 @@
       </div>
     {%- endunless -%}
 
-    <ul class="as-seen-on-list contains-content-container grid grid--1-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop">
-      {%- for block in section.blocks -%}
+    <slider-component>
+      <ul class="as-seen-on-list contains-content-container grid grid--1-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop" id="Slider-{{ section.id }}">
+        {%- for block in section.blocks -%}
 
-        <li class="as-seen-on-list__item grid__item" {{ block.shopify_attributes }}>
-          {%- if block.settings.link != blank -%}
-          <a href="{{ block.settings.link }}">
-          {%- endif -%}
-            {%- if block.settings.image != blank -%}
-              <div class="media media--transparent media--adapt"
-                  style="padding-bottom: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;">
-                <img
-                  srcset="{%- if block.settings.image.width >= 275 -%}{{ block.settings.image | image_url: width: 275 }} 275w,{%- endif -%}
-                    {%- if block.settings.image.width >= 550 -%}{{ block.settings.image | image_url: width: 550 }} 550w,{%- endif -%}
-                    {%- if block.settings.image.width >= 710 -%}{{ block.settings.image | image_url: width: 710 }} 710w,{%- endif -%}
-                    {%- if block.settings.image.width >= 1420 -%}{{ block.settings.image | image_url: width: 1420 }} 1420w,{%- endif -%}
-                    {{ block.settings.image | image_url }} {{ block.settings.image.width }}w"
-                  src="{{ block.settings.image | image_url: width: 550 }}"
-                  sizes="(min-width: 990px) {% if section.blocks.size <= 2 %}710px{% else %}550px{% endif %},
-                    (min-width: 750px) {% if section.blocks.size == 1 %}710px{% else %}550px{% endif %},
-                    calc(100vw - 30px)"
-                  alt="{{ block.settings.image.alt }}"
-                  height="{{ block.settings.image.height }}"
-                  width="{{ block.settings.image.width }}"
-                  loading="lazy"
-                >
-              </div>
+          <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="as-seen-on-list__item grid__item" {{ block.shopify_attributes }}>
+            {%- if block.settings.link != blank -%}
+            <a href="{{ block.settings.link }}">
             {%- endif -%}
-            <div class="as-seen-on-list__info">
-              {%- if block.settings.title != blank -%}
-                <h3 class="as-seen-on-list__title">{{ block.settings.title | escape }}</h3>
+              {%- if block.settings.image != blank -%}
+                <div class="media media--transparent media--adapt"
+                    style="padding-bottom: {{ 1 | divided_by: block.settings.image.aspect_ratio | times: 100 }}%;">
+                  <img
+                    srcset="{%- if block.settings.image.width >= 275 -%}{{ block.settings.image | image_url: width: 275 }} 275w,{%- endif -%}
+                      {%- if block.settings.image.width >= 550 -%}{{ block.settings.image | image_url: width: 550 }} 550w,{%- endif -%}
+                      {%- if block.settings.image.width >= 710 -%}{{ block.settings.image | image_url: width: 710 }} 710w,{%- endif -%}
+                      {%- if block.settings.image.width >= 1420 -%}{{ block.settings.image | image_url: width: 1420 }} 1420w,{%- endif -%}
+                      {{ block.settings.image | image_url }} {{ block.settings.image.width }}w"
+                    src="{{ block.settings.image | image_url: width: 550 }}"
+                    sizes="(min-width: 990px) {% if section.blocks.size <= 2 %}710px{% else %}550px{% endif %},
+                      (min-width: 750px) {% if section.blocks.size == 1 %}710px{% else %}550px{% endif %},
+                      calc(100vw - 30px)"
+                    alt="{{ block.settings.image.alt }}"
+                    height="{{ block.settings.image.height }}"
+                    width="{{ block.settings.image.width }}"
+                    loading="lazy"
+                  >
+                </div>
               {%- endif -%}
-              {%- if block.settings.sub_title != blank -%}
-                <div class="as-seen-on-list__subtitle">{{ block.settings.sub_title }}<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></div>
-              {%- endif -%}
-            </div>
-          {%- if block.settings.link != blank -%}
-          </a>
-          {%- endif -%}
-        </li>
-      {%- endfor -%}
-    </ul>
+              <div class="as-seen-on-list__info">
+                {%- if block.settings.title != blank -%}
+                  <h3 class="as-seen-on-list__title">{{ block.settings.title | escape }}</h3>
+                {%- endif -%}
+                {%- if block.settings.sub_title != blank -%}
+                  <div class="as-seen-on-list__subtitle">{{ block.settings.sub_title }}<span class="icon-wrap">&nbsp;{% render 'icon-arrow' %}</span></div>
+                {%- endif -%}
+              </div>
+            {%- if block.settings.link != blank -%}
+            </a>
+            {%- endif -%}
+          </li>
+        {%- endfor -%}
+      </ul>
+      <div class="slider-buttons no-js-hidden">
+        <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}">{% render 'icon-caret' %}</button>
+        <div class="slider-counter caption">
+          <span class="slider-counter--current">1</span>
+          <span aria-hidden="true"> / </span>
+          <span class="visually-hidden">{{ 'general.slider.of' | t }}</span>
+          <span class="slider-counter--total">{{ section.blocks.size }}</span>
+        </div>
+        <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'general.slider.next_slide' | t }}">{% render 'icon-caret' %}</button>
+      </div>
+    </slider-component>
 
   </div>
 </div>
