@@ -1,0 +1,17 @@
+.featured-collections__heading,
+.featured-collections__description {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.featured-collections__description {
+  margin-bottom: 3.5rem;
+}
+
+.featured-collections__description p {
+  margin: 0;
+}
+
+.featured-collections__description strong {
+  color: #0565CE;
+}
