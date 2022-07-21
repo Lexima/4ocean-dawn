@@ -899,3 +899,38 @@ class VariantRadios extends VariantSelects {
 }
 
 customElements.define('variant-radios', VariantRadios);
+
+class scrollableSlider extends HTMLElement {
+  constructor() {
+    super();
+    this.slidesContainer = this.querySelector('ul');
+    this.isMouseDown = false;
+    this.startX = 0;
+    this.scrollPosition = 0;
+
+    this.slidesContainer.addEventListener('mousedown', this.startDragging.bind(this));
+    this.slidesContainer.addEventListener('mouseup', this.stopDragging.bind(this));
+    this.slidesContainer.addEventListener('mouseleave', this.stopDragging.bind(this));
+    this.slidesContainer.addEventListener('mousemove', this.moveSlider.bind(this));
+  }
+
+  startDragging(e) {
+    this.isMouseDown = true;
+    this.startX = e.pageX - this.slidesContainer.offsetLeft;
+    this.scrollPosition = this.slidesContainer.scrollLeft;
+  }
+
+  stopDragging() {
+    this.isMouseDown = false;
+  }
+
+  moveSlider(e) {
+    e.preventDefault();
+    if(!this.isMouseDown) return;
+    const x = e.pageX - this.slidesContainer.offsetLeft;
+    const scroll = x - this.startX;
+    this.slidesContainer.scrollLeft = this.scrollPosition - scroll;
+  }
+}
+
+customElements.define('scrollable-slider', scrollableSlider);
