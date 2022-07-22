@@ -15,3 +15,31 @@
 .featured-collections__description strong {
   color: #0565CE;
 }
+
+.featured-collections__slider {
+  --grid-mobile-horizontal-spacing: 17px;
+}
+.featured-collections__slider .grid--peek.slider .grid__item:first-of-type {
+  margin-left: 35px;
+}
+.featured-collections__slider .grid--peek.slider .grid__item:last-of-type {
+  margin-right: 35px;
+}
+.featured-collections__slider .slider.slider--tablet {
+  scroll-padding-left: 35px;
+}
+
+.card--featured-collections .card__inner {
+  --card-corner-radius: 8px;
+}
+.card--featured-collections .card__content {
+  display: block;
+  padding: 13px;
+}
+.card--featured-collections .card__information {
+  padding: 0;
+}
+.card--featured-collections .card__heading {
+  color: var(--collection-name-color);
+  font-size: calc(var(--font-heading-scale) * 1.6rem);
+}

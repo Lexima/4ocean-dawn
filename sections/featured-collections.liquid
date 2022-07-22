@@ -44,7 +44,7 @@
       </div>
     {%- endunless -%}
   
-    <slider-component class="slider-mobile-gutter">
+    <slider-component class="featured-collections__slider">
       <ul class="collection-list contains-card{% if settings.card_style == 'standard' %} contains-card--standard{% endif %} grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down slider slider--tablet{% if show_desktop_slider %} slider--desktop{% endif %} grid--peek collection-list--{{ section.blocks.size }}-items"
         id="Slider-{{ section.id }}"
         role="list"
@@ -56,8 +56,10 @@
           endif
         -%}
         {%- for block in section.blocks -%}
-          <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="collection-list__item grid__item{% if show_mobile_slider %} slider__slide{% endif %}{% if block.settings.collection.featured_image == nil %} collection-list__item--no-media{% endif %}" {{ block.shopify_attributes }}>
-            {% render 'card-collection', card_collection: block.settings.collection , media_aspect_ratio: section.settings.image_ratio, columns: columns %}
+          <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="collection-list__item grid__item{% if show_mobile_slider %} slider__slide{% endif %}{% if block.settings.collection.featured_image == nil %} collection-list__item--no-media{% endif %}" 
+            style="--collection-name-color: {{ section.settings.collection_name_color }};"
+            {{ block.shopify_attributes }}>
+            {% render 'card-featured-collection', card_collection: block.settings.collection , media_aspect_ratio: section.settings.image_ratio, columns: columns %}
           </li>
         {%- endfor -%}
       </ul>
@@ -88,7 +90,6 @@
   "name": "Featured collections",
   "tag": "section",
   "class": "section section-collection-list featured-collections",
-  "max_blocks": 15,
   "settings": [
     {
       "type": "text",
@@ -99,7 +100,8 @@
     {
       "type": "richtext",
       "id": "description",
-      "label": "Description"
+      "label": "Description",
+      "info": "Make text bold to highlight it with color"
     },
     {
       "type": "select",
@@ -156,11 +158,21 @@
         {
           "value": "square",
           "label": "t:sections.collection-list.settings.image_ratio.options__3.label"
+        },
+        {
+          "value": "landscape",
+          "label": "Landscape"
         }
       ],
       "default": "square",
       "label": "t:sections.collection-list.settings.image_ratio.label",
       "info": "t:sections.collection-list.settings.image_ratio.info"
+    },
+    {
+      "type": "color",
+      "id": "collection_name_color",
+      "default": "#fff",
+      "label": "Collection name color"
     },
     {
       "type": "range",
