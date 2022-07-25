@@ -1,6 +1,6 @@
 {{ 'section-collection-list.css' | asset_url | stylesheet_tag }}
-{{ 'section-featured-collections.css' | asset_url | stylesheet_tag }}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
+{{ 'section-featured-collections.css' | asset_url | stylesheet_tag }}
 
 <link rel="stylesheet" href="{{ 'component-slider.css' | asset_url }}" media="print" onload="this.media='all'">
 <noscript>{{ 'component-slider.css' | asset_url | stylesheet_tag }}</noscript>
@@ -33,7 +33,7 @@
 -%}
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
-  <div class="collection-list-wrapper page-width isolate{% if show_mobile_slider %} page-width-desktop{% endif %}{% if section.settings.title == blank %} no-heading{% endif %}{% if section.settings.show_view_all == false or section.blocks.size > collections.size %} no-mobile-link{% endif %} section-{{ section.id }}-padding {{ section.settings.content_alignment }}">
+  <div class="collection-list-wrapper page-width isolate{% if show_mobile_slider %} page-width-desktop{% endif %}{% if section.settings.title == blank %} no-heading{% endif %} section-{{ section.id }}-padding {{ section.settings.content_alignment }}">
     {%- unless section.settings.title == blank -%}
       <h2 id="SectionHeading-{{ section.id }}" class="featured-collections__heading {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
     {%- endunless -%}
@@ -57,7 +57,7 @@
         -%}
         {%- for block in section.blocks -%}
           <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="collection-list__item grid__item{% if show_mobile_slider %} slider__slide{% endif %}{% if block.settings.collection.featured_image == nil %} collection-list__item--no-media{% endif %}" 
-            style="--collection-name-color: {{ section.settings.collection_name_color }};"
+            style="--collection-name-color: {{ block.settings.collection_name_color }};"
             {{ block.shopify_attributes }}>
             {% render 'card-featured-collection', card_collection: block.settings.collection , media_aspect_ratio: section.settings.image_ratio, columns: columns %}
           </li>
@@ -77,9 +77,9 @@
       {%- endif -%}
     </slider-component>
   
-    {%- if section.settings.show_view_all and section.blocks.size < collections.size -%}
-      <div class="center collection-list-view-all{% if show_mobile_slider %} small-hide medium-hide{% endif %}">
-        <a href="{{ routes.collections_url }}" class="button" id="ViewAllButton-{{ section.id }}" aria-labelledby="ViewAllButton-{{ section.id }} SectionHeading-{{ section.id }}">{{ 'sections.collection_list.view_all' | t }}</a>
+    {%- if section.settings.show_button -%}
+      <div class="center collection-list-view-all featured-collections__view-all">
+        <a href="{{ section.settings.button_link }}" class="button button--full-width" id="ViewAllButton-{{ section.id }}" aria-labelledby="ViewAllButton-{{ section.id }} SectionHeading-{{ section.id }}">{{ section.settings.button_label }}</a>
       </div>
     {%- endif -%}
   </div>
@@ -169,12 +169,6 @@
       "info": "t:sections.collection-list.settings.image_ratio.info"
     },
     {
-      "type": "color",
-      "id": "collection_name_color",
-      "default": "#fff",
-      "label": "Collection name color"
-    },
-    {
       "type": "range",
       "id": "columns_desktop",
       "min": 1,
@@ -214,9 +208,19 @@
     },
     {
       "type": "checkbox",
-      "id": "show_view_all",
+      "id": "show_button",
       "default": false,
-      "label": "t:sections.collection-list.settings.show_view_all.label"
+      "label": "Show button"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
     },
     {
       "type": "header",
@@ -272,6 +276,12 @@
           "type": "collection",
           "id": "collection",
           "label": "t:sections.collection-list.blocks.featured_collection.settings.collection.label"
+        },
+        {
+          "type": "color",
+          "id": "collection_name_color",
+          "default": "#fff",
+          "label": "Collection name color"
         }
       ]
     }
