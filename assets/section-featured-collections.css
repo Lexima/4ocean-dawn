@@ -18,6 +18,7 @@
 
 .featured-collections__slider {
   --grid-mobile-horizontal-spacing: 17px;
+  --grid-desktop-horizontal-spacing: 35px;
 }
 .featured-collections__slider .grid--peek.slider .grid__item:first-of-type {
   margin-left: 35px;
@@ -58,6 +59,8 @@
   right: 0;
   transform: translateY(-50%);
   justify-content: space-between;
+  z-index: 1;
+  pointer-events: none;
 }
 .featured-collections__slider .slider-button {
   width: 24px;
@@ -66,6 +69,7 @@
   box-shadow: 0px 0px 9px rgba(0, 0, 0, 0.25);
   color: #0565CE;
   border-radius: 50%;
+  pointer-events: all;
 }
 .featured-collections__slider .slider-button--prev {
   margin-left: 24px;
@@ -80,10 +84,54 @@
   padding: 0 3.3rem;
 }
 .featured-collections__view-all .button {
+  width: 100%;
   background-color: #0565CE;
   border: none;
 }
 .featured-collections__view-all .button:before,
 .featured-collections__view-all .button:after {
   content: none;
+}
+
+@media only screen and (min-width: 750px) {
+  .featured-collections__heading {
+    margin-bottom: 1.5rem;
+  }
+  .featured-collections__description {
+    display: inline-block;
+    max-width: 600px;
+  }
+  .card--featured-collections .card__inner .card__content {
+    padding: 22px 30px;
+  }
+  .card--featured-collections .card__heading {
+    font-size: calc(var(--font-heading-scale) * 2.4rem);
+  }
+  .featured-collections__slider .grid--peek.slider .grid__item:first-of-type {
+    margin-left: 0;
+  }
+  .featured-collections__slider .grid--peek.slider .grid__item:last-of-type {
+    margin-right: 0;
+  }
+  .featured-collections__slider .slider.slider--tablet {
+    scroll-padding-left: 0;
+  }
+  .featured-collections__slider .slider-button {
+    width: 50px;
+    height: 50px;
+  }
+  .featured-collections__slider .slider-button .icon {
+    height: 1.2rem;
+  }
+  .featured-collections__slider .slider-button--prev {
+    margin-left: 0;
+    transform: translateX(-50%);
+  }
+  .featured-collections__slider .slider-button--next {
+    margin-right: 0;
+    transform: translateX(50%);
+  }
+  .featured-collections__view-all .button {
+    width: auto;
+  }
 }
