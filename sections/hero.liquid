@@ -49,14 +49,16 @@
     margin: 0;
 }
 
-.video__overlay-content {}
+.video__overlay-content {
+    width: 60rem;
+}
 
 {% endstyle %}
 
 <section>
     {%- if section.settings.video_url != blank -%}
     <div class="hero__video-container">
-        <video class="hero__video" autoplay loop playsinline muted preload="metadata">
+        <video class="hero__video" autoplay loop playsinline muted preload="metadata" poster="{{section.settings.video_image | image_url: width: 1920}}">
             <source src="{{section.settings.video_url}}" type="video/mp4">
         </video>
         <div class="video__overlay video__overlay--overlay {{section.settings.desktop_content_alignment}}">
@@ -77,6 +79,7 @@
             {%- when 'button' -%}
                 <a href="{{block.settings.url}}" class="button">
                     {{block.settings.text}}
+                    {% render 'icon-arrow'%}
                 </a>
         {%- endcase -%}
     {%- endfor -%}
@@ -124,6 +127,11 @@
         "type": "url",
         "id": "video_url",
         "label": "Paste URL from Shopify Files here"
+      },
+      {
+        "type": "image_picker",
+        "id": "video_image",
+        "label": "Placeholder Image"
       },
       {
         "type": "range",
