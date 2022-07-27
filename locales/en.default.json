@@ -148,7 +148,10 @@
       "xr_button": "View in your space",
       "xr_button_label": "View in your space, loads item in augmented reality window",
       "include_taxes": "Tax included.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping</a> calculated at checkout."
+      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
+      "add_to_cart_pounds_pulled": "Buy it now & pull",
+      "pound": "pound",
+      "pounds": "pounds"
     },
     "modal": {
       "label": "Media gallery"

@@ -65,4 +65,12 @@
     position: relative;
     z-index: 1;
   }
+
+  .featured-product.align-left {
+    flex-direction: row;
+  }
+
+  .featured-product.align-right {
+    flex-direction: row-reverse;
+  }
 }
