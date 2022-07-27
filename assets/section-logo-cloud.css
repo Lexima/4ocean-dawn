@@ -9,6 +9,11 @@
   justify-content: flex-start;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  cursor: grab;
+}
+
+.logo-cloud-list:active {
+  cursor: grabbing;
 }
 
 .logo-cloud-list::-webkit-scrollbar { 

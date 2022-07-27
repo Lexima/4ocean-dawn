@@ -17,7 +17,7 @@
 <div class="logo-cloud">
   <div class="section-{{ section.id }}-padding isolate">
 
-    <scrollable-slider>
+    <draggable-slider>
       <ul class="logo-cloud-list">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
@@ -47,7 +47,7 @@
           {%- endcase -%}
         {%- endfor -%}
       </ul>
-    </scrollable-slider>
+    </draggable-slider>
 
   </div>
 </div>

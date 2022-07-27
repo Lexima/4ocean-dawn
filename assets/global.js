@@ -900,7 +900,7 @@ class VariantRadios extends VariantSelects {
 
 customElements.define('variant-radios', VariantRadios);
 
-class scrollableSlider extends HTMLElement {
+class draggableSlider extends HTMLElement {
   constructor() {
     super();
     this.slidesContainer = this.querySelector('ul');
@@ -933,4 +933,4 @@ class scrollableSlider extends HTMLElement {
   }
 }
 
-customElements.define('scrollable-slider', scrollableSlider);
+customElements.define('draggable-slider', draggableSlider);
