@@ -10,6 +10,10 @@
     padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
     padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
   }
+  #shopify-section-{{ section.id }} {
+    --columns-mobile: {{ section.settings.columns_mobile }};
+    --columns-desktop: {{ section.settings.columns_desktop }};
+  }
 
   @media screen and (min-width: 750px) {
     .section-{{ section.id }}-padding {
