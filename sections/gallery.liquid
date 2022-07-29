@@ -15,10 +15,6 @@
   }
 {%- endstyle -%}
 
-{%- liquid
-  assign columns_mobile_int = section.settings.columns_mobile | plus: 0
--%}
-
 <div class="multicolumn color-{{ section.settings.color_scheme }} gradient background-none no-heading">
   <div class="section-{{ section.id }}-padding isolate">
 
@@ -32,9 +28,6 @@
             <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="multicolumn-list__item grid__item center" {{ block.shopify_attributes }}>            
               <div class="multicolumn-card content-container">
                 {%- if block.settings.image != blank -%}
-                  {% if section.settings.image_ratio == 'adapt' or section.settings.image_ratio == 'circle' %}
-                    {% assign spaced_image = true %}
-                  {% endif %}
                   <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--full-width">
                     {% if block.settings.link != blank %}
                     <a href="{{ block.settings.link }}" target="_blank">
