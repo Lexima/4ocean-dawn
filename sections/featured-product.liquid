@@ -374,6 +374,10 @@
       </div>
     </product-modal>
   </div>
+
+  {%- if section.settings.show_border -%}
+    <hr>
+  {%- endif -%}
 </section>
 
 <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
@@ -687,6 +691,13 @@
       ],
       "default": "align-left"
     },
+   {
+    "type": "checkbox",
+    "id": "show_border",
+    "label": "Add border below product",
+    "default": true,
+    "info": "Add a vertical separator below the featured product"
+   },
     {
       "type": "header",
       "content": "t:sections.featured-product.settings.header.content",
