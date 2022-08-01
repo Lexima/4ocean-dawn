@@ -1,0 +1,90 @@
+{%- style -%}
+
+.trash-counter__callout {
+    width: max-content;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 60px;
+    padding: 0 3rem;
+}
+
+{%- endstyle -%}
+
+
+<script src="{{ 'component-trash-tracker.js' | asset_url }}" defer="defer"></script>
+
+
+<div class="trash-counter__callout color-{{ section.settings.color_scheme }}">
+    <p>
+        <trash-tracker></trash-tracker>
+        {{section.settings.text}}
+    </p>
+</div>
+
+<template id="trash-tracker-template">
+    <style>
+  .trash-tracker__count {
+      font-size: 100%;
+      font-weight: 800;
+  }
+  
+  @media screen and (min-width: 750px) {
+    .trash-tracker__count {
+      font-size: 100%;
+  }
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+  }
+    </style>
+    <span class="trash-tracker__count">Loading</span>
+</template>
+
+{% schema %}
+{
+    "name": "Pounds Pulled Callout",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+    {
+        "type": "text",
+        "id": "text",
+        "label": "Callout text",
+        "default": "pounds of trash pulled from the ocean since 2017"
+
+    },
+    {
+        "type": "select",
+        "id": "color_scheme",
+        "options": [
+          {
+            "value": "accent-1",
+            "label": "t:sections.all.colors.accent_1.label"
+          },
+          {
+            "value": "accent-2",
+            "label": "t:sections.all.colors.accent_2.label"
+          },
+          {
+            "value": "background-1",
+            "label": "t:sections.all.colors.background_1.label"
+          },
+          {
+            "value": "background-2",
+            "label": "t:sections.all.colors.background_2.label"
+          },
+          {
+            "value": "inverse",
+            "label": "t:sections.all.colors.inverse.label"
+          }
+        ],
+        "default": "background-1",
+        "label": "t:sections.all.colors.label",
+        "info": "t:sections.image-banner.settings.color_scheme.info"
+      }
+    
+    ]
+}
+{% endschema %}
