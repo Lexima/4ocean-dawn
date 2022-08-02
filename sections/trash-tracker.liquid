@@ -1,4 +1,5 @@
 <script src="{{ 'component-trash-tracker.js' | asset_url }}" defer="defer"></script>
+{{ 'section-trash-tracker.css' | asset_url | stylesheet_tag }}
 
 
 {%- style -%}
@@ -15,54 +16,11 @@
     }
 }
 
-.trash-tracker-bg {
-    position: relative;
-    margin: 0 auto;
-
-}
-
 .trash-tracker-bg::after {
-    content: ' ';
-    display: block;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    opacity: 0.2;
-    background-image: url('data:image/svg+xml;utf8, {%- render 'graphic-worldmap' -%}');
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-    pointer-events: none;
-}
-
-@media screen and (min-width: 750px) {
-  .trash-tracker-bg:after {
-    background-size: 66%;
-  }
+  background-image: url('data:image/svg+xml;utf8, {%- render 'graphic-worldmap' -%}');
 }
 
 
-
-
-.trash-tracker__content {
-    margin: 0 auto;
-    text-align: center;
-}
-
-.trash-tracker p {
-    margin: 0;
-}
-
-.trash-tracker__title {
-  letter-spacing: 0.2rem;
-  font-weight: 700;
-}
-
-.trash-tracker__content .button {
-  margin-top: 3rem;
-}
 
 {%- endstyle -%}
 <template id="trash-tracker-template">
@@ -96,7 +54,7 @@
             {%- endif -%}
             {%- if section.settings.show_icon -%}
             <div>
-              {% render 'icon-arrow' %}
+              {% render 'icon-pound' %}
             </div>
             {%- endif -%}
             <trash-tracker></trash-tracker>
