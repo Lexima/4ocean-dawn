@@ -59,6 +59,7 @@
 .maximize-impact__media {
   margin-left: -1.5rem;
   margin-right: -1.5rem;
+  border: none;
 }
 
 @media screen and (min-width: 750px) {
