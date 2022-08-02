@@ -1,18 +1,17 @@
 {% style %}
 
-@media screen and (min-width: 750px) {
+@media screen and(min-width: 750px) {
 
-.featured-products__text {
-    width: 50%;
-    margin: 0 auto;
-}
+    .featured-products__text {
+        width: 50%;
+        margin: 0 auto;
+    }
 }
 
 .featured-products {
     padding-top: 6rem;
     padding-bottom: 6rem;
 }
-
 
 {% endstyle %}
 {{ 'component-card.css' | asset_url | stylesheet_tag }}
@@ -62,6 +61,13 @@
             </div>
         {% endfor %}
 
+        {% if section.settings.button_text %}
+            <div class="page-width">
+                <a class="button button--secondary" href="{{section.settings.button_link}}">{{section.settings.button_text}}</a>
+            </div>
+        {% endif %}
+
+
     </div>
 </div>
 
@@ -99,6 +105,11 @@
         "type": "text",
         "id": "button_text",
         "label": "Button text"
+      },
+      {
+        "type": "url",
+        "id": "button_link",
+        "label": "Button link"
       },
       {
         "type": "checkbox",
