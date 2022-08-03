@@ -514,3 +514,100 @@ noscript .localization-selector.link {
     }
   }
 }
+
+/* Custom styles */
+.footer__callout h3 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.4;
+  margin-top: 1.5rem;
+  margin-bottom: 6rem;
+}
+.footer-block__heading {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.footer-block__details-content .list-menu__item--link {
+  padding: 0;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+.footer .grid.footer__list-social {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-row-gap: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 5rem;
+  justify-content: space-between;
+}
+a.list-social__link {
+  padding: 0;
+}
+li.list-social__item .icon {
+  width: 6rem;
+  height: 6rem;
+}
+.footer-svg-icons {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  grid-column-gap: 4rem;
+  grid-row-gap: 4rem;
+  align-items: center;
+}
+.footer-svg-icons img {
+  width: 100%;
+}
+.footer__column.footer__column--info {
+  padding: 0;
+}
+.footer__content-bottom {
+  background-color: #fff;
+  color: #2E2F38;
+  padding-bottom: 3rem;
+}
+
+@media screen and (max-width: 749px) {
+  .footer .grid {
+    display: flex;
+  }
+  .footer-block.grid__item {
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+  .footer-block.grid__item.footer-block--social {
+    max-width: none;
+  }
+  .footer__content-top {
+    padding-left: 2.7rem;
+    padding-right: 2.7rem;
+  }
+}
+
+@media screen and (min-width: 750px) {
+  .footer__callout h3 {
+    margin-top: 3.5rem;
+    margin-bottom: 7rem;
+  }
+  .footer-block__heading,
+  .footer-block__details-content .list-menu__item--link {
+    font-size: 1.8rem;
+  }
+  .footer-block__heading {
+    margin-bottom: 2rem;
+  }
+  .footer-block__details-content .list-menu__item--link {
+    margin-bottom: 1.5rem;
+  }
+  li.list-social__item .icon {
+    width: 4.5rem;
+    height: 4.5rem;
+  }
+  .footer-svg-icons {
+    width: 45%;
+    margin-left: auto;
+    grid-column-gap: 6rem;
+    grid-row-gap: 6rem;
+    margin-top: 5rem;
+  }
+}
