@@ -59,9 +59,9 @@
       {%- for block in section.blocks -%}
         {% case block.type %}
           {%- when 'icon' -%}
-            <div class="signature-bracelet__gird-icon{% unless block.settings.visible_mobile %} hidden-mobile{% endunless %}">
+            <div class="signature-bracelet__grid-icon{% unless block.settings.visible_mobile %} hidden-mobile{% endunless %}">
               {%- if block.settings.image != blank -%}
-                <div class="signature-bracelet__gird-icon-image">
+                <div class="signature-bracelet__grid-icon-image">
                   <div class="media media--transparent media--circle">
                     <img
                       srcset="{%- if block.settings.image.width >= 275 -%}{{ block.settings.image | image_url: width: 275 }} 275w,{%- endif -%}
@@ -82,7 +82,7 @@
                 </div>
               {%- endif -%}
               {%- if block.settings.text != blank -%}
-                <div class="signature-bracelet__gird-icon-text">
+                <div class="signature-bracelet__grid-icon-text">
                   {{ block.settings.text }}
                 </div>
               {%- endif -%}
