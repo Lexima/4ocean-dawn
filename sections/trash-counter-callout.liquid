@@ -5,8 +5,22 @@
     margin: 0 auto;
     text-align: center;
     border-radius: 60px;
-    padding: 0 3rem;
+    background: #D6FAFF;
+    color:  #0057B7;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
 }
+
+.trash-counter__callout--overlay {
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+}
+
 
 {%- endstyle -%}
 
@@ -14,33 +28,12 @@
 <script src="{{ 'component-trash-tracker.js' | asset_url }}" defer="defer"></script>
 
 
-<div class="trash-counter__callout color-{{ section.settings.color_scheme }} small-hide">
-    <p>
-        <trash-tracker></trash-tracker>
+<div class="trash-counter__callout color-{{ section.settings.color_scheme }} small-hide {% if section.settings.overlay_section_below %}trash-counter__callout--overlay {% endif %}">
+        <trash-count></trash-count>
+        <span>
         {{section.settings.text}}
-    </p>
+    </span>
 </div>
-
-<template id="trash-tracker-template">
-    <style>
-  .trash-tracker__count {
-      font-size: 100%;
-      font-weight: 800;
-  }
-  
-  @media screen and (min-width: 750px) {
-    .trash-tracker__count {
-      font-size: 100%;
-  }
-  }
-  
-  * {
-    margin: 0;
-    padding: 0;
-  }
-    </style>
-    <span class="trash-tracker__count">Loading</span>
-</template>
 
 {% schema %}
 {
@@ -54,37 +47,19 @@
         "label": "Callout text",
         "default": "pounds of trash pulled from the ocean since 2017"
 
-    },
+    }, 
+   {
+    "type": "checkbox",
+    "id": "overlay_section_below",
+    "label": "Overlay onto section below",
+    "default": false,
+    "info": "Check this to overlay the callout onto the section below"
+   }
+    ],
+   "presets": [
     {
-        "type": "select",
-        "id": "color_scheme",
-        "options": [
-          {
-            "value": "accent-1",
-            "label": "t:sections.all.colors.accent_1.label"
-          },
-          {
-            "value": "accent-2",
-            "label": "t:sections.all.colors.accent_2.label"
-          },
-          {
-            "value": "background-1",
-            "label": "t:sections.all.colors.background_1.label"
-          },
-          {
-            "value": "background-2",
-            "label": "t:sections.all.colors.background_2.label"
-          },
-          {
-            "value": "inverse",
-            "label": "t:sections.all.colors.inverse.label"
-          }
-        ],
-        "default": "background-1",
-        "label": "t:sections.all.colors.label",
-        "info": "t:sections.image-banner.settings.color_scheme.info"
-      }
-    
-    ]
+      "name":"Pounds pulled callout"
+    }
+   ]
 }
 {% endschema %}
