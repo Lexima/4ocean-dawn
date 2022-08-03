@@ -2638,6 +2638,9 @@ details[open] > .header__menu-item .icon-caret {
 .header__submenu {
   transition: opacity var(--duration-default) ease,
     transform var(--duration-default) ease;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 }
 
 .global-settings-popup,
@@ -2650,7 +2653,8 @@ details[open] > .header__menu-item .icon-caret {
 }
 
 .header__submenu.list-menu {
-  padding: 2.4rem 0;
+   padding: 2.4rem 0;
+   width: max-content;
 }
 
 .header__submenu .header__submenu {
