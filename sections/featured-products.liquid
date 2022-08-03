@@ -1,74 +1,86 @@
 {% style %}
 
+.section-{{section.id}}-padding {
+  padding-top: calc({{ section.settings.padding_top }}px * 0.75);
+  padding-bottom: calc({{ section.settings.padding_bottom }}px * 0.75);
+}
+
 @media screen and(min-width: 750px) {
+  .section-{{section.id}}-padding {
+      padding-top: {{section.settings.padding_top}}px;
+      padding-bottom: {{section.settings.padding_bottom}}px;
+  }
 
-    .featured-products__text {
-        width: 50%;
-        margin: 0 auto;
-    }
+  .featured-products__copy {
+    padding-bottom: 4rem;
+  }
 }
 
-.featured-products {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+.featured-products__heading {
+  margin: 0;
 }
 
+.featured-products__copy {
+  padding-bottom: 2rem;
+}
+
+.featured-products__button  {
+  margin-top: 3rem;
+}
 {% endstyle %}
-{{ 'component-card.css' | asset_url | stylesheet_tag }}
-{%- if section.settings.enable_quick_add -%}
-    <link rel="stylesheet" href="{{ 'quick-add.css' | asset_url }}" media="print" onload="this.media='all'">
-    <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
-    <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
-{%- endif -%}
 
 
-<div class="featured-products color-{{section.settings.color_scheme}}">
+<div class="featured-products color-{{section.settings.color_scheme}} section-{{ section.id }}-padding">
     <div class="featured-products__text center page-width">
 
+        {%- for block in section.blocks -%}
+            {%- case block.type -%}
+                {%- when 'heading' -%}
+                    <h2 class="featured-products__heading {{ block.settings.heading_size }}" {{ block.shopify_attributes }}>
+                        {{block.settings.heading}}
+                    </h2>
+                {%- when 'eyebrow' -%}
+                    <p class="featured-products__eyebrow smallcaps" {{ block.shopify_attributes }}>
+                        {{block.settings.eyebrow_text}}
+                    </p>
+                {%- when 'copy' -%}
+                    <div class="featured-products__copy" {{ block.shopify_attributes }}>
+                        {{block.settings.copy_text}}
+                    </div>
+                {%- when 'button' -%}
+                    <a href="{{block.settings.button_link}}" class="featured-products__button button button--secondary" {{ block.shopify_attributes }}>
+                        {{block.settings.button_text}}
+                    </a>
+                {%- when 'products' -%}
+                    {{ 'component-card.css' | asset_url | stylesheet_tag }}
+                    {%- if block.settings.enable_quick_add -%}
+                        <link rel="stylesheet" href="{{ 'quick-add.css' | asset_url }}" media="print" onload="this.media='all'">
+                        <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
+                        <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+                    {%- endif -%}
+                    <div class="featured-products__products grid grid--1-col grid--4-col-desktop grid--3-tablet page-width">
 
-        {% if section.settings.eyebrow %}
 
-            <p class="smallcaps">{{section.settings.eyebrow}}</p>
+                        {% for product in block.settings.product_list %}
+                            <div class="grid__item">
+                                {% render 'card-product',
+                  card_product: product,
+                  show_quick_add: block.settings.enable_quick_add,
+                  show_pounds_pulled: block.settings.show_pounds_pulled,
+                  full_button: true,
+                  section_id: section.id
+          
+                %}
+                            </div>
+                        {% endfor %}
 
-        {% endif %}
+                    </div>
 
-        {% if section.settings.heading %}
-
-            <h2>{{section.settings.heading}}</h2>
-
-        {% endif %}
-
-        {% if section.settings.copy %}
-
-            {{section.settings.copy}}
-
-        {% endif %}
-
+            {%- endcase -%}
+        {%- endfor -%}
 
     </div>
-    <div class="featured-products__products grid grid--1-col grid--4-col-desktop grid--3-tablet page-width">
 
-
-        {% for product in section.settings.product_list %}
-            <div class="grid__item">
-                {% render 'card-product',
-        card_product: product,
-        show_quick_add: true,
-        show_pounds_pulled: section.settings.show_pounds_pulled,
-        section_id: section.id
-
-      %}
-            </div>
-        {% endfor %}
-
-        {% if section.settings.button_text %}
-            <div class="page-width">
-                <a class="button button--secondary" href="{{section.settings.button_link}}">{{section.settings.button_text}}</a>
-            </div>
-        {% endif %}
-
-
-    </div>
 </div>
 
 
@@ -78,53 +90,6 @@
     "tag": "section",
     "class": "section",
     "settings": [
-    {
-        "type": "text",
-        "id": "heading",
-        "label": "Section heading",
-        "default": "Heading"
-    },
-    {
-        "type": "text",
-        "id": "eyebrow",
-        "label": "Eyebrow text",
-        "default": "Featured Products"
-    },
-    {
-        "type": "richtext",
-        "id": "copy",
-        "label": "Copy Text"
-    },
-    {
-        "type": "product_list",
-        "id": "product_list",
-        "label": "Products",
-        "limit": 8
-      },
-      {
-        "type": "text",
-        "id": "button_text",
-        "label": "Button text"
-      },
-      {
-        "type": "url",
-        "id": "button_link",
-        "label": "Button link"
-      },
-      {
-        "type": "checkbox",
-        "id": "show_pounds_pulled",
-        "label": "Show pounds pulled",
-        "default": false,
-        "info": "Enable information on pounds pulled in button and on hover"
-     },
-     {
-        "type": "checkbox",
-        "id": "enable_quick_add",
-        "label": "Enable quick add",
-        "default": true,
-        "info": "Enable ability to add directly to cart"
-     },
      {
         "type": "select",
         "id": "color_scheme",
@@ -153,7 +118,133 @@
         "default": "background-1",
         "label": "t:sections.all.colors.label",
         "info": "t:sections.all.colors.has_cards_info"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.all.padding.section_padding_heading"
+      }, {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 150,
+        "step": 2,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_top",
+        "default": 90
+      }, {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 150,
+        "step": 2,
+        "unit": "px",
+        "label": "t:sections.all.padding.padding_bottom",
+        "default": 120
       }
+    ],
+    "blocks": [
+    {
+      "type": "heading",
+      "name": "Heading",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "label": "Section heading"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.all.heading_size.label"
+        }
+      ]
+    },
+    {
+      "type": "eyebrow",
+      "name": "Eyebrow",
+      "limit": 1,
+     "settings": [
+     {
+      "type": "text",
+      "id": "eyebrow_text",
+      "label": "Text"
+     }
+     ]
+    },
+    {
+      "type": "copy",
+      "name": "Copy",
+      "limit": 1,
+     "settings": [
+     {
+      "type": "richtext",
+      "id": "copy_text",
+      "label": "Text"
+      }
+     ]
+    },
+    {
+      "type": "products",
+      "name": "Products",
+      "limit": 1,
+      "settings": [
+      {
+        "type": "product_list",
+        "id": "product_list",
+        "label": "Products",
+        "limit": 8
+      },
+      {
+        "type": "checkbox",
+        "id": "show_pounds_pulled",
+        "label": "Show pounds pulled",
+        "default": false,
+        "info": "Enable information on pounds pulled in button and on hover"
+     },
+     {
+        "type": "checkbox",
+        "id": "enable_quick_add",
+        "label": "Enable quick add",
+        "default": true,
+        "info": "Enable ability to add directly to cart"
+     }
+      ]
+    },
+    {
+      "type": "button",
+      "name": "Button",
+      "limit": 1,
+     "settings": [
+     {
+      "type": "text",
+      "id": "button_text",
+      "label": "Button Text",
+      "default": "View more"
+     },
+    {
+      "type": "url",
+      "id": "button_url",
+      "label": "Select the destination of the button"
+    }
+     ]
+    }
+    
     ],
     "presets": [
       {
