@@ -1,15 +1,10 @@
 
-customElements.define('trash-tracker',
+customElements.define('trash-count',
     class trashTracker extends HTMLElement {
         constructor() {
             super();
             this.trashUrl = 'https://us-central1-trash-tracker-49de1.cloudfunctions.net'
 
-            let template = document.getElementById('trash-tracker-template');
-            let templateContent = template.content;
-
-            const shadowRoot = this.attachShadow({ mode: 'open' });
-            shadowRoot.appendChild(templateContent.cloneNode(true));
         }
 
         async trashFetch(endpoint) {
@@ -52,15 +47,16 @@ customElements.define('trash-tracker',
 
         }
 
-        connectedCallback() {
-            this.render();
+        async connectedCallback() {
+            const count = await this.render();
+
+            this.innerHTML = count;
         }
 
         async render() {
             const count = this.getTrashCount('count') ?? this.storeTrashCount('count', await this.trashFetch('getTrashCount'), 86400000);
-            const target = this.shadowRoot.querySelector('.trash-tracker__count');
-            target.innerHTML = count;
 
+            return count;
         }
     }
 )
