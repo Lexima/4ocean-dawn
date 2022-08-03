@@ -4,6 +4,11 @@
     height: auto;
     vertical-align: middle;
     max-height: 66vh;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    position: absolute;
 }
 
 .hero__image {
@@ -11,14 +16,17 @@
     width: 100%;
 }
 
-.hero__image img {
-    vertical-align: middle;
-
+img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    object-position: center;
 }
 
 .hero__video-container {
     position: relative;
-    max-height: 66vh;
+    min-height: 66vh;
 }
 
 .video__overlay {
@@ -67,11 +75,6 @@
 }
 
 @media screen and (min-width: 750px) {
-    .hero__video {
-        width: 100%;
-        object-fit: cover;
-        }
-
     .video__overlay {
         padding-bottom: 8rem;
     }
@@ -81,15 +84,17 @@
 <div>
     <div class="hero__video-container">
         {%- if section.settings.video_url != blank -%}
-        <video class="hero__video" autoplay loop playsinline muted preload="metadata" poster="{{section.settings.video_image | image_url: width: 1920}}">
+        <video class="hero__video" autoplay loop playsinline muted preload="metadata" 
+        {%- if section.settings.video_image -%}
+            poster="{{ section.settings.video_image | image_url: width: 1920 }}"
+        {%- endif -%}
+        >
             <source src="{{section.settings.video_url}}" type="video/mp4">
         </video>
         {%- endif -%}
 
         {%- if section.settings.image != blank -%}
-            <picture class="hero__image">
                 {{section.settings.image | image_url: width: 1920 | image_tag}}
-            </picture>
         {%- endif -%}
 
 
