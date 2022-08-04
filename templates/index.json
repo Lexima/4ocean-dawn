@@ -298,6 +298,66 @@
         "padding_bottom": 36
       }
     },
+    "16596569859f763dc9": {
+      "type": "featured-products",
+      "blocks": {
+        "b364446f-4789-45dc-b688-463329a31c05": {
+          "type": "eyebrow",
+          "settings": {
+            "eyebrow_text": "impactful products"
+          }
+        },
+        "1c534d51-dd15-4f8f-a236-e1a17628b213": {
+          "type": "heading",
+          "settings": {
+            "heading": "Every product cleans the ocean",
+            "heading_size": "h1"
+          }
+        },
+        "83342e45-d5f1-468d-aa9c-3c2e68b88154": {
+          "type": "copy",
+          "settings": {
+            "copy_text": "<p>Each product purchased will <strong>pull one or more pounds<\/strong> of trash from the world’s oceans, rivers & coastlines.<\/p>"
+          }
+        },
+        "3ac2a637-50cf-4cd6-8f70-8fafea2cc6c7": {
+          "type": "products",
+          "settings": {
+            "product_list": [
+              "4ocean-gift-cards",
+              "4ocean-earth-t-shirt",
+              "cleanup-beach-bag",
+              "4ocean-cleanup-combo",
+              "4ocean-braided-anklet",
+              "4ocean-classic-trucker-hat-4o-logo",
+              "4ocean-face-mask-support-frames",
+              "4ocean-face-mask-support-frames-bulk"
+            ],
+            "show_pounds_pulled": false,
+            "enable_quick_add": true
+          }
+        },
+        "a0265eb2-aa36-4e4c-bd23-10c9738e53ff": {
+          "type": "button",
+          "settings": {
+            "button_text": "View all products",
+            "button_url": "shopify:\/\/collections\/all-products-1"
+          }
+        }
+      },
+      "block_order": [
+        "b364446f-4789-45dc-b688-463329a31c05",
+        "1c534d51-dd15-4f8f-a236-e1a17628b213",
+        "83342e45-d5f1-468d-aa9c-3c2e68b88154",
+        "3ac2a637-50cf-4cd6-8f70-8fafea2cc6c7",
+        "a0265eb2-aa36-4e4c-bd23-10c9738e53ff"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 90,
+        "padding_bottom": 120
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -361,6 +421,7 @@
     "165965661438fa70cd",
     "1659656782465848b9",
     "16596568306f9c9ca7",
+    "16596569859f763dc9",
     "multicolumn"
   ]
 }
