@@ -1,0 +1,83 @@
+.maximize-impact__media--desktop {
+  display: none;
+}
+.maximize-impact__heading {
+  margin-bottom: 1rem;
+}
+.maximize-impact__text {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+}
+.maximize-impact__product-form-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+  padding: 0 2rem;
+}
+.maximize-impact__quantity {
+  width: 8rem;
+  margin-right: 2.2rem;
+}
+.maximize-impact__quantity:after {
+  border-radius: 5px;
+}
+.maximize-impact__quantity .quantity__button {
+  width: 1.7rem;
+  height: 1.5rem;
+  position: absolute;
+  right: 10px;
+  color: #B8B8B8;
+  margin: 0;
+  z-index: 1;
+}
+.maximize-impact__quantity .quantity__button[name="plus"] {
+  top: 8px;
+  transform: rotate(180deg);
+  right: 9px;
+}
+.maximize-impact__quantity .quantity__button[name="minus"] {
+  bottom: 8px;
+}
+.maximize-impact__quantity .quantity__input {
+  font-size: 1.8rem;
+  color: #000;
+  padding-right: 30px;
+}
+.maximize-impact__product-form-container .product-form {
+  flex-grow: 1;
+}
+.maximize-impact__product-form-container .product-form .product-form__submit {
+  font-weight: 700;
+  font-size: 1.6rem;
+  min-height: 5.4rem;
+  background-color: #0565CE;
+  margin: 0;
+}
+.maximize-impact__product-form-container .product-form .product-form__submit:after {
+  box-shadow: none;
+}
+.maximize-impact__media {
+  margin-left: -1.5rem;
+  margin-right: -1.5rem;
+  border: none;
+}
+
+@media screen and (min-width: 750px) {
+  .maximize-impact__media--mobile {
+    display: none;
+  }
+  .maximize-impact__media--desktop {
+    display: block;
+  }
+  .maximize-impact__text {
+    margin-bottom: 4rem;
+  }
+  .maximize-impact__product-form-container {
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .maximize-impact__quantity .quantity__button[name="plus"] {
+    right: 10px;
+  }
+}
