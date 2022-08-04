@@ -1,0 +1,33 @@
+.logo-cloud-list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  overflow: scroll;
+  justify-content: flex-start;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  cursor: grab;
+}
+
+.logo-cloud-list:active {
+  cursor: grabbing;
+}
+
+.logo-cloud-list::-webkit-scrollbar { 
+  display: none;
+}
+
+.logo-cloud-list__item {
+  min-width: calc((92% / 6) - 30px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 749px) {
+  .logo-cloud-list__item {
+    min-width: calc((82% / 2) - 30px);
+  }
+}
