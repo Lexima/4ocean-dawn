@@ -413,6 +413,44 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1659657461877b4616": {
+      "type": "maximize-impact",
+      "blocks": {
+        "165965746185fe0f61-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Maximize your impact",
+            "heading_size": "h1"
+          }
+        },
+        "165965746185fe0f61-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pull extra pounds, Just $10 each<\/p>",
+            "text_style": "body"
+          }
+        },
+        "165965746185fe0f61-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "button_label": "Button label"
+          }
+        }
+      },
+      "block_order": [
+        "165965746185fe0f61-0",
+        "165965746185fe0f61-1",
+        "165965746185fe0f61-2"
+      ],
+      "settings": {
+        "product": "pound-plus",
+        "image_mobile": "shopify:\/\/shop_images\/Group_363_1.png",
+        "image": "shopify:\/\/shop_images\/Group_363.png",
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -425,6 +463,7 @@
     "1659656782465848b9",
     "16596568306f9c9ca7",
     "16596569859f763dc9",
-    "multicolumn"
+    "multicolumn",
+    "1659657461877b4616"
   ]
 }
