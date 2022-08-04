@@ -364,8 +364,9 @@
         "column1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Group_279.png",
+            "title": "Business For Good",
+            "text": "<p>As a Certified B Corp and Public Benefit Corporation, we’re committed to our mission of ending the ocean plastic crisis and need your help to maximize our impact<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -373,8 +374,9 @@
         "column2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Group_278.png",
+            "title": "One Pound Promise",
+            "text": "<p>Our professional, full-time captains and crews pull one pound of trash from the ocean, rivers, and coastlines for every product sold<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -382,8 +384,9 @@
         "column3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Group_277.png",
+            "title": "Ocean First Philanthropy",
+            "text": "<p>We donate at least 1% of our gross sales to ocean-friendly organizations with a proven track record of driving positive change for the ocean and our planet<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -395,8 +398,8 @@
         "column3"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
+        "title": "Our stance",
+        "heading_size": "h0",
         "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
