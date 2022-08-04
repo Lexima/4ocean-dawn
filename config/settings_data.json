@@ -121,8 +121,8 @@
         "settings": {
           "color_scheme": "background-1",
           "logo_width": 90,
-          "logo_position": "middle-left",
-          "menu": "main-menu",
+          "logo_position": "top-center",
+          "menu": "ehouse-main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
           "enable_sticky_header": true,
