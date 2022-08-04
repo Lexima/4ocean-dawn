@@ -47,7 +47,12 @@
 
 <div class="color-{{ section.settings.color_scheme }} isolate gradient">
   <div class="collection section-{{ section.id }}-padding{% if section.settings.full_width %} collection--full-width{% endif %}">
-      <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %}">
+      <div class="collection__title title-wrapper title-wrapper--no-top-margin page-width{% if show_mobile_slider %} title-wrapper--self-padded-tablet-down{% endif %}{% if show_desktop_slider %} collection__title--desktop-slider{% endif %} {{ section.settings.heading_align }}">
+        {%- if section.settings.pre_title != blank -%}
+        <h4 class="collection__pre-heading">
+          {{ section.settings.pre_title }}
+        </h4>
+        {%- endif -%}
         {%- if section.settings.title != blank -%}
           <h2 class="title {{ section.settings.heading_size }}">{{ section.settings.title | escape }}</h2>
         {%- endif -%}
@@ -114,6 +119,11 @@
   "settings": [
     {
       "type": "text",
+      "id": "pre_title",
+      "label": "Pre Heading"
+    },
+    {
+      "type": "text",
       "id": "title",
       "default": "Featured collection",
       "label": "t:sections.featured-collection.settings.title.label"
@@ -137,6 +147,22 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "heading_align",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ],
+      "default": "center",
+      "label": "Text alignment"
     },
     {
       "type": "richtext",

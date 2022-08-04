@@ -78,3 +78,21 @@
 .collection__view-all a:not(.link) {
   margin-top: 1rem;
 }
+
+.collection__pre-heading {
+  font-size: 1.4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #2E2F38;
+  letter-spacing: 0.2em;
+  line-height: 1.7;
+}
+.collection__description strong {
+  color: #0565CE;
+}
+
+@media screen and (min-width: 750px) {
+  .collection__pre-heading {
+    font-size: 1.8rem;
+  }
+}
