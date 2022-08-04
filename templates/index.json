@@ -1,5 +1,12 @@
 {
   "sections": {
+    "165965548128ae1c4a": {
+      "type": "trash-counter-callout",
+      "settings": {
+        "text": "pounds of trash pulled from the ocean since 2017",
+        "overlay_section_below": true
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -121,6 +128,7 @@
     }
   },
   "order": [
+    "165965548128ae1c4a",
     "multicolumn",
     "1659655446a7678272"
   ]
