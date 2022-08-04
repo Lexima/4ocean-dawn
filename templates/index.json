@@ -63,6 +63,60 @@
         "padding_bottom": 100
       }
     },
+    "1659656431af789eee": {
+      "type": "featured-collections",
+      "blocks": {
+        "1659656431d9ba6689-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "accessories",
+            "collection_name_color": "#fff"
+          }
+        },
+        "1659656431d9ba6689-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bracelets-jewelry",
+            "collection_name_color": "#fff"
+          }
+        },
+        "1659656431d9ba6689-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "anklets",
+            "collection_name_color": "#fff"
+          }
+        },
+        "0eec1a48-0d41-4b87-a3fb-576b28a4aed8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "braided-bracelet",
+            "collection_name_color": "#fff"
+          }
+        }
+      },
+      "block_order": [
+        "1659656431d9ba6689-0",
+        "1659656431d9ba6689-1",
+        "1659656431d9ba6689-2",
+        "0eec1a48-0d41-4b87-a3fb-576b28a4aed8"
+      ],
+      "settings": {
+        "title": "Collections that are cleaning the ocean",
+        "description": "<p>Each collection is full of products that <strong>pull one or more<\/strong> poundsof trash from the world’s oceans, rivers & coastlines.<\/p>",
+        "heading_size": "h1",
+        "content_alignment": "center",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_button": false,
+        "button_label": "",
+        "button_link": "",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -183,56 +237,40 @@
         "padding_bottom": 52
       }
     },
-    "1659656431af789eee": {
-      "type": "featured-collections",
+    "165965661438fa70cd": {
+      "type": "featured-product",
       "blocks": {
-        "1659656431d9ba6689-0": {
-          "type": "featured_collection",
+        "165965661484789f34-0": {
+          "type": "title",
           "settings": {
-            "collection": "accessories",
-            "collection_name_color": "#fff"
+            "heading_size": "h1"
           }
         },
-        "1659656431d9ba6689-1": {
-          "type": "featured_collection",
+        "165965661484789f34-1": {
+          "type": "price",
           "settings": {
-            "collection": "bracelets-jewelry",
-            "collection_name_color": "#fff"
           }
         },
-        "1659656431d9ba6689-2": {
-          "type": "featured_collection",
+        "165965661484789f34-2": {
+          "type": "buy_buttons",
           "settings": {
-            "collection": "anklets",
-            "collection_name_color": "#fff"
-          }
-        },
-        "0eec1a48-0d41-4b87-a3fb-576b28a4aed8": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "braided-bracelet",
-            "collection_name_color": "#fff"
+            "show_dynamic_checkout": false,
+            "pounds_pulled": true
           }
         }
       },
       "block_order": [
-        "1659656431d9ba6689-0",
-        "1659656431d9ba6689-1",
-        "1659656431d9ba6689-2",
-        "0eec1a48-0d41-4b87-a3fb-576b28a4aed8"
+        "165965661484789f34-0",
+        "165965661484789f34-1",
+        "165965661484789f34-2"
       ],
       "settings": {
-        "title": "Collections that are cleaning the ocean",
-        "description": "<p>Each collection is full of products that <strong>pull one or more<\/strong> poundsof trash from the world’s oceans, rivers & coastlines.<\/p>",
-        "heading_size": "h1",
-        "content_alignment": "center",
-        "image_ratio": "square",
-        "columns_desktop": 3,
+        "product": "ocean-bracelet-stack",
         "color_scheme": "background-1",
-        "show_button": false,
-        "button_label": "",
-        "button_link": "",
-        "columns_mobile": "2",
+        "secondary_background": false,
+        "alignment": "align-left",
+        "hide_variants": false,
+        "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -242,8 +280,9 @@
     "165965548128ae1c4a",
     "1659655514c374c7b4",
     "1659656335fd10383b",
+    "1659656431af789eee",
     "multicolumn",
     "16596560293ce76896",
-    "1659656431af789eee"
+    "165965661438fa70cd"
   ]
 }
