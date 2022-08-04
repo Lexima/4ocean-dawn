@@ -1,0 +1,287 @@
+{{ 'component-newsletter.css' | asset_url | stylesheet_tag }}
+{{ 'newsletter-section.css' | asset_url | stylesheet_tag }}
+{{ 'section-newsletter-signup.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+  .newsletter-signup-{{ section.id }} {
+    background: {{ section.settings.bg_overlay_color }} url({{ section.settings.bg_image | img_url: 'master' }}) no-repeat 50% 50%;
+    background-size: cover;
+    position: relative;
+  }
+  .newsletter-signup-{{ section.id }}:before {
+    content: '';
+    position: absolute;
+    min-width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    {%- assign opacity = section.settings.bg_overlay_opacity | plus: 0 | divided_by: 100.0 -%}
+    background-color: {{ section.settings.bg_overlay_color | hex_to_rgba: opacity }};
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="newsletter-signup newsletter-signup-{{ section.id }} newsletter center">
+  <div class="newsletter__wrapper content-container isolate content-container--full-width section-{{ section.id }}-padding">
+    {%- for block in section.blocks -%}
+      {%- case block.type -%}
+        {%- when '@app' -%}
+          {% render block %}
+        {%- when 'heading' -%}
+          <h2 class="{{ block.settings.heading_size }}" {{ block.shopify_attributes }}
+            {%- if block.settings.color != blank -%}
+            style="color: {{ block.settings.color }};"
+            {%- endif -%}
+          >{{ block.settings.heading | escape }}</h2>
+        {%- when 'paragraph' -%}
+          <div class="newsletter__subheading rte" {{ block.shopify_attributes }}
+            {%- if block.settings.color != blank -%}
+            style="color: {{ block.settings.color }};"
+            {%- endif -%}
+          >{{ block.settings.text }}</div>
+        {%- when 'email_form' -%}
+          <div {{ block.shopify_attributes }}>
+            {% form 'customer', class: 'newsletter-form' %}
+              <input type="hidden" name="contact[tags]" value="newsletter">
+              <div class="newsletter-form__field-wrapper">
+                <div class="field">
+                  <input
+                    id="NewsletterFormName--{{ section.id }}"
+                    type="text"
+                    name="contact[name]"
+                    class="field__input"
+                    value="{{ form.name }}"
+                    aria-required="true"
+                    autocorrect="off"
+                    autocapitalize="off"
+                    placeholder="First Name"
+                    required
+                  >
+                  <label class="field__label" for="NewsletterFormName--{{ section.id }}">
+                    First Name
+                  </label>
+                </div>
+              </div>
+              <div class="newsletter-form__field-wrapper">
+                <div class="field">
+                  <input
+                    id="NewsletterForm--{{ section.id }}"
+                    type="email"
+                    name="contact[email]"
+                    class="field__input"
+                    value="{{ form.email }}"
+                    aria-required="true"
+                    autocorrect="off"
+                    autocapitalize="off"
+                    autocomplete="email"
+                    {% if form.errors %}
+                      autofocus
+                      aria-invalid="true"
+                      aria-describedby="Newsletter-error--{{ section.id }}"
+                    {% elsif form.posted_successfully? %}
+                      aria-describedby="Newsletter-success--{{ section.id }}"
+                    {% endif %}
+                    placeholder="Email Address"
+                    required
+                  >
+                  <label class="field__label" for="NewsletterForm--{{ section.id }}">
+                    Email Address
+                  </label>
+                </div>
+                {%- if form.errors -%}
+                  <small class="newsletter-form__message form__message" id="Newsletter-error--{{ section.id }}">{% render 'icon-error' %}{{ form.errors.translated_fields['email'] | capitalize }} {{ form.errors.messages['email'] }}</small>
+                {%- endif -%}
+              </div>
+              <div class="newsletter-form__field-wrapper">
+                <div class="field">
+                  <input
+                    id="NewsletterFormPhone--{{ section.id }}"
+                    type="tel"
+                    name="contact[phone]"
+                    class="field__input"
+                    value="{{ form.phone }}"
+                    aria-required="false"
+                    autocorrect="off"
+                    autocapitalize="off"
+                    placeholder="Mobile (optional)"
+                  >
+                  <label class="field__label" for="NewsletterFormPhone--{{ section.id }}">
+                    Mobile (optional)
+                  </label>
+                </div>
+              </div>
+              <div class="newsletter-signup__submit">
+                <button type="submit" class="button button--full-width" name="commit" id="Subscribe" aria-label="{{ 'newsletter.button_label' | t }}">
+                  {{ block.settings.btn_label }}
+                </button>
+              </div>
+              {%- if form.posted_successfully? -%}
+                <h3 class="newsletter-form__message newsletter-form__message--success form__message" id="Newsletter-success--{{ section.id }}" tabindex="-1" autofocus>{% render 'icon-success' %}{{ 'newsletter.success' | t }}</h3>
+              {%- endif -%}
+            {% endform %}
+          </div>
+      {%- endcase -%}
+    {%- endfor -%}
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Newsletter Signup",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "t:sections.newsletter.settings.paragraph.content"
+    },
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Background Image"
+    },
+    {
+      "type": "color",
+      "id": "bg_overlay_color",
+      "label": "Background Overlay Color",
+      "default": "#172c43"
+    },
+    {
+      "type": "range",
+      "id": "bg_overlay_opacity",
+      "label": "Background Overlay Opacity",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 70
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 125
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 150,
+      "step": 5,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 140
+    }
+  ],
+  "blocks": [
+    {
+      "type": "heading",
+      "name": "t:sections.newsletter.blocks.heading.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "heading",
+          "default": "Stay Connected",
+          "label": "t:sections.newsletter.blocks.heading.settings.heading.label"
+        },
+        {
+          "type": "select",
+          "id": "heading_size",
+          "options": [
+            {
+              "value": "h2",
+              "label": "t:sections.all.heading_size.options__1.label"
+            },
+            {
+              "value": "h1",
+              "label": "t:sections.all.heading_size.options__2.label"
+            },
+            {
+              "value": "h0",
+              "label": "t:sections.all.heading_size.options__3.label"
+            }
+          ],
+          "default": "h1",
+          "label": "t:sections.all.heading_size.label"
+        },
+        {
+          "type": "color",
+          "id": "color",
+          "label": "Color",
+          "default": "#fff"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "name": "t:sections.newsletter.blocks.paragraph.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "richtext",
+          "id": "text",
+          "default": "<p>Sign up for email & SMS alerts so you never miss an update about the clean ocean movement and new ways to support our mission!</p>",
+          "label": "t:sections.newsletter.blocks.paragraph.settings.paragraph.label"
+        },
+        {
+          "type": "color",
+          "id": "color",
+          "label": "Color",
+          "default": "#fff"
+        }
+      ]
+    },
+    {
+      "type": "email_form",
+      "name": "t:sections.newsletter.blocks.email_form.name",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "btn_label",
+          "default": "Keep me posted!",
+          "label": "Button label"
+        }
+      ]
+    },
+    {
+      "type": "@app"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Newsletter Signup",
+      "blocks": [
+        {
+          "type": "heading"
+        },
+        {
+          "type": "paragraph"
+        },
+        {
+          "type": "email_form"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
