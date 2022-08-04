@@ -7,6 +7,49 @@
         "overlay_section_below": true
       }
     },
+    "1659655514c374c7b4": {
+      "type": "hero",
+      "blocks": {
+        "16596555145eb11c87-0": {
+          "type": "eyebrow",
+          "settings": {
+            "eyebrow": "<p>~16 billion pounds of plastic enters the ocean each year.<\/p>"
+          }
+        },
+        "16596555145eb11c87-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "We’re on a mission to stop this.",
+            "heading_size": "h0"
+          }
+        },
+        "16596555145eb11c87-2": {
+          "type": "copy",
+          "settings": {
+            "copy": "<p><strong>Every purchase pulls one pound<\/strong> or more of trash and plastic from the world’s oceans, rivers and coastlines.<\/p>"
+          }
+        },
+        "16596555145eb11c87-3": {
+          "type": "button",
+          "settings": {
+            "text": "Shop now & pull the next pound",
+            "link": "shopify:\/\/collections\/all-products-1"
+          }
+        }
+      },
+      "block_order": [
+        "16596555145eb11c87-0",
+        "16596555145eb11c87-1",
+        "16596555145eb11c87-2",
+        "16596555145eb11c87-3"
+      ],
+      "settings": {
+        "desktop_content_alignment": "center",
+        "overlay_opacity": 70,
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/Hero.jpg"
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -129,6 +172,7 @@
   },
   "order": [
     "165965548128ae1c4a",
+    "1659655514c374c7b4",
     "multicolumn",
     "1659655446a7678272"
   ]
