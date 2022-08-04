@@ -50,6 +50,19 @@
         "image": "shopify:\/\/shop_images\/Hero.jpg"
       }
     },
+    "1659656335fd10383b": {
+      "type": "trash-tracker",
+      "settings": {
+        "title": "OUR GLOBAL IMPACT",
+        "copy": "<p>pounds of trash have been pulled from the world’s oceans, rivers, and coastlines since January 2017<\/p>",
+        "color_scheme": "accent-1",
+        "button_text": "Shop now & pull the next pound",
+        "button_link": "shopify:\/\/pages\/4ocean-bali-crew-encounters-whale-shark-swimming-in-plastic-pollution",
+        "show_icon": true,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -103,45 +116,46 @@
         "padding_bottom": 36
       }
     },
-    "1659655446a7678272": {
+    "16596560293ce76896": {
       "type": "signature-bracelet",
+      "disabled": true,
       "blocks": {
-        "1659655446efa7809e-0": {
+        "16596560299a71b078-0": {
           "type": "icon",
           "settings": {
             "text": "",
             "visible_mobile": true
           }
         },
-        "1659655446efa7809e-1": {
+        "16596560299a71b078-1": {
           "type": "icon",
           "settings": {
             "text": "",
             "visible_mobile": true
           }
         },
-        "1659655446efa7809e-2": {
+        "16596560299a71b078-2": {
           "type": "icon",
           "settings": {
             "text": "",
             "visible_mobile": true
           }
         },
-        "1659655446efa7809e-3": {
+        "16596560299a71b078-3": {
           "type": "icon",
           "settings": {
             "text": "",
             "visible_mobile": true
           }
         },
-        "1659655446efa7809e-4": {
+        "16596560299a71b078-4": {
           "type": "icon",
           "settings": {
             "text": "",
             "visible_mobile": true
           }
         },
-        "1659655446efa7809e-5": {
+        "16596560299a71b078-5": {
           "type": "icon",
           "settings": {
             "text": "",
@@ -150,12 +164,12 @@
         }
       },
       "block_order": [
-        "1659655446efa7809e-0",
-        "1659655446efa7809e-1",
-        "1659655446efa7809e-2",
-        "1659655446efa7809e-3",
-        "1659655446efa7809e-4",
-        "1659655446efa7809e-5"
+        "16596560299a71b078-0",
+        "16596560299a71b078-1",
+        "16596560299a71b078-2",
+        "16596560299a71b078-3",
+        "16596560299a71b078-4",
+        "16596560299a71b078-5"
       ],
       "settings": {
         "pre_title": "",
@@ -173,7 +187,8 @@
   "order": [
     "165965548128ae1c4a",
     "1659655514c374c7b4",
+    "1659656335fd10383b",
     "multicolumn",
-    "1659655446a7678272"
+    "16596560293ce76896"
   ]
 }
