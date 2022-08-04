@@ -117,59 +117,6 @@
         "padding_bottom": 36
       }
     },
-    "multicolumn": {
-      "type": "multicolumn",
-      "blocks": {
-        "column1": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column2": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "column3": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "column1",
-        "column2",
-        "column3"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "third",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "16596560293ce76896": {
       "type": "signature-bracelet",
       "disabled": true,
@@ -274,6 +221,135 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1659656782465848b9": {
+      "type": "featured-product",
+      "blocks": {
+        "1659656781c2ddfb64-0": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "1659656781c2ddfb64-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1659656781c2ddfb64-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "pounds_pulled": true
+          }
+        }
+      },
+      "block_order": [
+        "1659656781c2ddfb64-0",
+        "1659656781c2ddfb64-1",
+        "1659656781c2ddfb64-2"
+      ],
+      "settings": {
+        "product": "mesoamerican-reef-braided-bracelet",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "alignment": "align-right",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16596568306f9c9ca7": {
+      "type": "featured-product",
+      "blocks": {
+        "1659656830f628a90a-0": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "1659656830f628a90a-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1659656830f628a90a-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "pounds_pulled": true
+          }
+        }
+      },
+      "block_order": [
+        "1659656830f628a90a-0",
+        "1659656830f628a90a-1",
+        "1659656830f628a90a-2"
+      ],
+      "settings": {
+        "product": "4ocean-x-cariuma-men-s-oca-low-top-sneakers-in-off-white",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "alignment": "align-left",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "multicolumn": {
+      "type": "multicolumn",
+      "blocks": {
+        "column1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "column3": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "column1",
+        "column2",
+        "column3"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_width": "third",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "center",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -281,8 +357,10 @@
     "1659655514c374c7b4",
     "1659656335fd10383b",
     "1659656431af789eee",
-    "multicolumn",
     "16596560293ce76896",
-    "165965661438fa70cd"
+    "165965661438fa70cd",
+    "1659656782465848b9",
+    "16596568306f9c9ca7",
+    "multicolumn"
   ]
 }
