@@ -2912,3 +2912,9 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+
+.smallcaps {
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-weight: 700;
+}
