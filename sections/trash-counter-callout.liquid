@@ -1,0 +1,65 @@
+{%- style -%}
+
+.trash-counter__callout {
+    width: max-content;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 60px;
+    background: #D6FAFF;
+    color:  #0057B7;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.trash-counter__callout--overlay {
+  position: absolute;
+  z-index: 20;
+  left: 0;
+  right: 0;
+}
+
+
+{%- endstyle -%}
+
+
+<script src="{{ 'component-trash-tracker.js' | asset_url }}" defer="defer"></script>
+
+
+<div class="trash-counter__callout color-{{ section.settings.color_scheme }} small-hide {% if section.settings.overlay_section_below %}trash-counter__callout--overlay {% endif %}">
+        <trash-count></trash-count>
+        <span>
+        {{section.settings.text}}
+    </span>
+</div>
+
+{% schema %}
+{
+    "name": "Pounds Pulled Callout",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+    {
+        "type": "text",
+        "id": "text",
+        "label": "Callout text",
+        "default": "pounds of trash pulled from the ocean since 2017"
+
+    }, 
+   {
+    "type": "checkbox",
+    "id": "overlay_section_below",
+    "label": "Overlay onto section below",
+    "default": false,
+    "info": "Check this to overlay the callout onto the section below"
+   }
+    ],
+   "presets": [
+    {
+      "name":"Pounds pulled callout"
+    }
+   ]
+}
+{% endschema %}
