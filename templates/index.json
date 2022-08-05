@@ -405,6 +405,7 @@
       "settings": {
         "title": "Our stance",
         "heading_size": "h0",
+        "heading_alignment": "title-wrapper-with-link--center",
         "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
