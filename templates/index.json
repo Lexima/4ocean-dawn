@@ -70,28 +70,28 @@
           "type": "featured_collection",
           "settings": {
             "collection": "accessories",
-            "collection_name_color": "#fff"
+            "collection_name_color": "#ffffff"
           }
         },
         "1659656431d9ba6689-1": {
           "type": "featured_collection",
           "settings": {
             "collection": "bracelets-jewelry",
-            "collection_name_color": "#fff"
+            "collection_name_color": "#ffffff"
           }
         },
         "1659656431d9ba6689-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "anklets",
-            "collection_name_color": "#fff"
+            "collection_name_color": "#ffffff"
           }
         },
         "0eec1a48-0d41-4b87-a3fb-576b28a4aed8": {
           "type": "featured_collection",
           "settings": {
             "collection": "braided-bracelet",
-            "collection_name_color": "#fff"
+            "collection_name_color": "#ffffff"
           }
         }
       },
@@ -119,48 +119,53 @@
     },
     "16596560293ce76896": {
       "type": "signature-bracelet",
-      "disabled": true,
       "blocks": {
         "16596560299a71b078-0": {
           "type": "icon",
           "settings": {
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Group_277.png",
+            "text": "Lorem ipsum dolor sit amet",
             "visible_mobile": true
           }
         },
         "16596560299a71b078-1": {
           "type": "icon",
           "settings": {
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Group_279.png",
+            "text": "Lorem ipsum dolor sit amet",
             "visible_mobile": true
           }
         },
         "16596560299a71b078-2": {
           "type": "icon",
           "settings": {
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Group_278.png",
+            "text": "Lorem ipsum dolor sit amet",
             "visible_mobile": true
           }
         },
         "16596560299a71b078-3": {
           "type": "icon",
           "settings": {
-            "text": "",
-            "visible_mobile": true
+            "image": "shopify:\/\/shop_images\/Group_277.png",
+            "text": "Lorem ipsum dolor sit amet",
+            "visible_mobile": false
           }
         },
         "16596560299a71b078-4": {
           "type": "icon",
           "settings": {
-            "text": "",
-            "visible_mobile": true
+            "image": "shopify:\/\/shop_images\/Group_278.png",
+            "text": "Lorem ipsum dolor sit amet",
+            "visible_mobile": false
           }
         },
         "16596560299a71b078-5": {
           "type": "icon",
           "settings": {
-            "text": "",
-            "visible_mobile": true
+            "image": "shopify:\/\/shop_images\/Group_279.png",
+            "text": "Lorem ipsum dolor sit amet",
+            "visible_mobile": false
           }
         }
       },
@@ -173,13 +178,13 @@
         "16596560299a71b078-5"
       ],
       "settings": {
-        "pre_title": "",
-        "title": "",
-        "description": "",
+        "pre_title": "It started with one bracelet, one pound.",
+        "title": "The 4ocean Signature Beaded Bracelet",
+        "description": "<p>By purchasing this bracelet you will <strong>pull one pound<\/strong> of trash from the world’s oceans, rivers & coastlines.<\/p>",
         "content_alignment": "center",
         "image": "shopify:\/\/shop_images\/image_3.png",
-        "product": "",
-        "atc_label": "",
+        "product": "the-4ocean-bracelet",
+        "atc_label": "Buy it now & pull 1 pound",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -572,14 +577,14 @@
           "settings": {
             "heading": "Stay Connected",
             "heading_size": "h1",
-            "color": "#fff"
+            "color": "#ffffff"
           }
         },
         "1659658222856f1f0d-1": {
           "type": "paragraph",
           "settings": {
             "text": "<p>Sign up for email & SMS alerts so you never miss an update about the clean ocean movement and new ways to support our mission!<\/p>",
-            "color": "#fff"
+            "color": "#ffffff"
           }
         },
         "1659658222856f1f0d-2": {
