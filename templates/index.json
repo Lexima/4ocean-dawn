@@ -46,8 +46,8 @@
       "settings": {
         "desktop_content_alignment": "center",
         "overlay_opacity": 70,
-        "video_url": "",
-        "image": "shopify:\/\/shop_images\/Hero.jpg"
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3294abf3d3fb40adbdfc2036f9d8caae.mp4",
+        "video_image": "shopify:\/\/shop_images\/Screenshot_2022-07-26_at_16.03.21_1.jpg"
       }
     },
     "1659656335fd10383b": {
