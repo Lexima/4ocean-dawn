@@ -781,12 +781,12 @@
         "8b4fd5f9-4142-453b-96ac-aa8110ca4894"
       ],
       "settings": {
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "columns_desktop": 3,
         "color_scheme": "background-1",
         "columns_mobile": "1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     }
   },
