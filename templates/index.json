@@ -363,6 +363,36 @@
         "padding_bottom": 120
       }
     },
+    "165970857035e82201": {
+      "type": "featured-collection",
+      "settings": {
+        "pre_title": "featured ocean-impact collection",
+        "title": "4ocean Sterling Silver Jewelry",
+        "heading_size": "h1",
+        "heading_align": "center",
+        "description": "<p>Each product purchased will <strong>pull 5 or more pounds<\/strong> of trash from the world’s oceans, rivers & coastlines.<\/p>",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "bracelets-jewelry",
+        "products_to_show": 6,
+        "columns_desktop": 3,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "text_align": "center",
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": true,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -619,6 +649,7 @@
     "1659656782465848b9",
     "16596568306f9c9ca7",
     "16596569859f763dc9",
+    "165970857035e82201",
     "multicolumn",
     "1659657461877b4616",
     "1659657646e1f29cf3",
