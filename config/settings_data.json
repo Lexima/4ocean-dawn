@@ -148,18 +148,17 @@
               "menu": "footer"
             }
           },
-          "footer-2": {
-            "type": "text",
+          "7ae9c940-d631-4a8b-b7b6-7fe98034f8af": {
+            "type": "social_icons",
             "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "Connect WIth Us"
             }
           }
         },
         "block_order": [
           "footer-0",
           "footer-1",
-          "footer-2"
+          "7ae9c940-d631-4a8b-b7b6-7fe98034f8af"
         ],
         "settings": {
           "footer_callout_heading": "Together, we can end the ocean plastic crisis",
