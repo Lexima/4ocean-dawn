@@ -725,6 +725,69 @@
         "padding_top": 125,
         "padding_bottom": 140
       }
+    },
+    "165970919895aa0856": {
+      "type": "gallery",
+      "blocks": {
+        "1659709198531e0392-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-08-05_at_10.22.09_AM.png",
+            "link": ""
+          }
+        },
+        "1659709198531e0392-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-08-05_at_10.21.56_AM.png",
+            "link": ""
+          }
+        },
+        "1659709198531e0392-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-08-05_at_10.22.20_AM.png",
+            "link": ""
+          }
+        },
+        "55e4b613-feb3-43a4-ab52-6a23f81efd5c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-08-05_at_10.22.51_AM.png",
+            "link": ""
+          }
+        },
+        "08e165a8-05da-4180-b2b0-efa9b42173bf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-08-05_at_10.22.38_AM.png",
+            "link": ""
+          }
+        },
+        "8b4fd5f9-4142-453b-96ac-aa8110ca4894": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-08-05_at_10.23.05_AM.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1659709198531e0392-0",
+        "1659709198531e0392-1",
+        "1659709198531e0392-2",
+        "55e4b613-feb3-43a4-ab52-6a23f81efd5c",
+        "08e165a8-05da-4180-b2b0-efa9b42173bf",
+        "8b4fd5f9-4142-453b-96ac-aa8110ca4894"
+      ],
+      "settings": {
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -744,6 +807,7 @@
     "1659657461877b4616",
     "1659657646e1f29cf3",
     "16596578323fc0ed0c",
-    "1659658222d9372ec2"
+    "1659658222d9372ec2",
+    "165970919895aa0856"
   ]
 }
