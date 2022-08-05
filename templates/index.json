@@ -393,6 +393,54 @@
         "padding_bottom": 36
       }
     },
+    "165970873172ebcf50": {
+      "type": "call-to-action",
+      "blocks": {
+        "6d057ebc-7828-4abf-9cfb-c1f8addffe09": {
+          "type": "text",
+          "settings": {
+            "text": "Increase your impact",
+            "text_style": "text-eyebrow"
+          }
+        },
+        "165970873118a4cec7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to a cleaner ocean.",
+            "heading_size": "h0"
+          }
+        },
+        "165970873118a4cec7-1": {
+          "type": "text",
+          "settings": {
+            "text": "Double your impact and enjoy exclusive perks like early access and advanced shipping when you join our monthly bracelet subscription.",
+            "text_style": "text-body"
+          }
+        },
+        "165970873118a4cec7-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Join the Clean Ocean Club",
+            "button_link": "shopify:\/\/products\/clean-ocean-club-beaded-braided-12-months-prepaid-subscription-combo",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "6d057ebc-7828-4abf-9cfb-c1f8addffe09",
+        "165970873118a4cec7-0",
+        "165970873118a4cec7-1",
+        "165970873118a4cec7-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "image": "shopify:\/\/shop_images\/Group_583.png",
+        "image_align": "right",
+        "contain-image": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "multicolumn": {
       "type": "multicolumn",
       "blocks": {
@@ -650,6 +698,7 @@
     "16596568306f9c9ca7",
     "16596569859f763dc9",
     "165970857035e82201",
+    "165970873172ebcf50",
     "multicolumn",
     "1659657461877b4616",
     "1659657646e1f29cf3",
