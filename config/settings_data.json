@@ -103,10 +103,10 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
+              "text": "FREE Beach Cleanup Bag with orders over $50",
               "text_alignment": "center",
-              "color_scheme": "background-1",
-              "link": ""
+              "color_scheme": "background-2",
+              "link": "shopify:\/\/collections\/bags"
             }
           }
         },
@@ -120,6 +120,7 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
+          "logo": "shopify:\/\/shop_images\/Group_29_1.png",
           "logo_width": 90,
           "logo_position": "top-center",
           "menu": "ehouse-main-menu",
