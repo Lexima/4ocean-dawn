@@ -896,6 +896,14 @@ summary::-webkit-details-marker {
   flex-wrap: wrap;
 }
 
+.title-wrapper-with-link--start {
+  justify-content: flex-start;
+}
+
+.title-wrapper-with-link--center {
+  justify-content: center;
+}
+
 .title--primary {
   margin: 4rem 0;
 }
