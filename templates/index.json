@@ -496,6 +496,73 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16596578323fc0ed0c": {
+      "type": "logo-cloud",
+      "blocks": {
+        "165965783270a37baf-0": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-1_b4fa271e-c148-4b3d-a0bb-a38d5ff3fac0.png"
+          }
+        },
+        "165965783270a37baf-1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_copy_2.png"
+          }
+        },
+        "165965783270a37baf-2": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-2_83fb8d5f-123e-42eb-8013-4492cc03899a.png"
+          }
+        },
+        "5b6b5db5-c14c-4c12-936c-b950b8aedd90": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-6_dd1522cb-10fe-4e9d-badd-06bb87cd75b1.png"
+          }
+        },
+        "677197e7-edb6-460a-8cba-de132ec5917d": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-5_7eb3c879-c002-47d2-b8d3-4cdbeafdf2c5.png"
+          }
+        },
+        "cfeb5906-9482-4f56-bbc3-9251a0e1c574": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-3_ef3b9c37-dd97-41ec-877e-c43f3e1edf1e.png"
+          }
+        },
+        "1ae73969-e778-45c2-8351-1a4f26ef1760": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-4_4efda251-5ae2-41fd-8759-16fa8e47e4d9.png"
+          }
+        },
+        "8efaa76d-6935-4704-95c4-898642d3f942": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_copy.png"
+          }
+        }
+      },
+      "block_order": [
+        "165965783270a37baf-0",
+        "165965783270a37baf-1",
+        "165965783270a37baf-2",
+        "5b6b5db5-c14c-4c12-936c-b950b8aedd90",
+        "677197e7-edb6-460a-8cba-de132ec5917d",
+        "cfeb5906-9482-4f56-bbc3-9251a0e1c574",
+        "1ae73969-e778-45c2-8351-1a4f26ef1760",
+        "8efaa76d-6935-4704-95c4-898642d3f942"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -510,6 +577,7 @@
     "16596569859f763dc9",
     "multicolumn",
     "1659657461877b4616",
-    "1659657646e1f29cf3"
+    "1659657646e1f29cf3",
+    "16596578323fc0ed0c"
   ]
 }
