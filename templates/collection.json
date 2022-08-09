@@ -1,11 +1,13 @@
 {
   "sections": {
     "banner": {
-      "type": "main-collection-banner",
+      "type": "main-collection-header",
       "settings": {
-        "show_collection_description": true,
-        "show_collection_image": false,
-        "color_scheme": "background-1"
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "heading_size": "h1",
+        "desktop_content_position": "bottom-left"
       }
     },
     "product-grid": {
