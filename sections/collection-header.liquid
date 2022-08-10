@@ -32,27 +32,36 @@
 
 <section class="collection-header">
   <div id="Banner-{{ section.id }}" class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.adapt_height_first_image %} banner--adapt{% endif %}{% if collection.image == blank %} banner--no-image{% endif %} banner--desktop-transparent">
-    {%- if collection.image != blank -%}
-      <div class="banner__media media{% if collection.image == blank %} placeholder{% endif %}">
+    {%- if section.settings.image != blank -%}
+      {%- assign image = section.settings.image -%}
+    {%- else -%}
+      {%- assign image = collection.image -%}
+    {%- endif -%}
+    {%- if image != blank -%}
+      <div class="banner__media media">
         {%-liquid
-          assign image_height = collection.image.width | divided_by: collection.image.aspect_ratio
+          assign image_height = image.width | divided_by: image.aspect_ratio
           assign sizes = "100vw"
         -%}
-        {{ collection.image | image_url: width: 1500 | image_tag:
+        {{ image | image_url: width: 1500 | image_tag:
           loading: 'lazy',
-          width: collection.image.width,
+          width: image.width,
           height: image_height,
           class: image_class,
           sizes: sizes,
           widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
-          alt: collection.image.alt | escape
+          alt: image.alt | escape
         }}
       </div>
     {%- endif -%}
     <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
       <div class="banner__box content-container content-container--full-width-mobile gradient">
         <h2 class="banner__heading {{ section.settings.heading_size }}">
-          {{ collection.title | escape }}
+          {%- if section.settings.title != blank -%}
+            {{ section.settings.title | escape }}
+          {%- else -%}
+            {{ collection.title | escape }}
+          {%- endif -%}
         </h2>
       </div>
     </div>
@@ -70,8 +79,10 @@
       "content": "Image"
     },
     {
-      "type": "paragraph",
-      "content": "Shows collection image"
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.image-banner.settings.image.label",
+      "info": "If empty collection image is used"
     },
     {
       "type": "range",
@@ -100,7 +111,7 @@
           "label": "t:sections.image-banner.settings.image_height.options__3.label"
         }
       ],
-      "default": "medium",
+      "default": "small",
       "label": "t:sections.image-banner.settings.image_height.label"
     },
     {
@@ -113,6 +124,12 @@
     {
       "type": "header",
       "content": "Heading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "info": "If empty collection title is used"
     },
     {
       "type": "paragraph",
@@ -201,6 +218,11 @@
       ],
       "default": "left",
       "label": "Heading alignment"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection header"
     }
   ]
 }

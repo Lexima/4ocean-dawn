@@ -1,15 +1,15 @@
 .collection-header .banner__box {
   padding: 0;
 }
+.collection-header .banner.banner--no-image {
+  min-height: auto;
+}
 .collection-header .banner--no-image .banner__heading {
   --color-foreground: var(--color-base-text);
 }
 
 @media screen and (max-width: 749px) {
-  .collection-header .banner__content {
+  .collection-header .banner__box {
     display: none;
-  }
-  .collection-header .banner__media {
-    position: static;
   }
 }
