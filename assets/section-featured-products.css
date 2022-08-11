@@ -1,0 +1,35 @@
+.featured-products {
+  --grid-desktop-horizontal-spacing: 3.5rem;
+  --grid-mobile-vertical-spacing: 3.7rem;
+  --card-corner-radius: 8px;
+}
+.featured-products .quick-add__submit {
+  min-width: 185px;
+}
+.featured-products .card__information {
+  padding-top: 2rem;
+}
+.featured-products .card__heading {
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1.5;
+  margin-bottom: 0.5rem;
+}
+.featured-products .yotpo .yotpo-bottomline {
+  float: none;
+  justify-content: center;
+}
+.featured-products .yotpo .text-m {
+  display: none;
+}
+.featured-products .card__content .button {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2;
+}
+
+@media screen and (max-width: 749px) {
+  .featured-products slider-component.page-width {
+    padding: 0 3.3rem;
+  }
+}
