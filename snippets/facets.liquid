@@ -25,6 +25,46 @@
 -%}
 
 <div class="facets-container{% if filter_type == 'drawer' %} facets-container-drawer{% endif %}">
+  <div class="small-hide">
+  <h2>{{results.title}}</h2>
+  <p>
+    {{results.description}}
+  </p>
+</div>
+
+{%- if enable_sorting and filter_type == 'vertical' -%}
+<facet-filters-form class="facets small-hide">
+  <form id="FacetSortForm" class="facets__form-vertical">
+    <details id="Details-{{ forloop.index }}-{{ section.id }}" class=" facets__disclosure-vertical js-filter" open>
+      <summary class="facets__summary caption-large focus-offset" expanded="true">
+        <div>
+          <span class="facets__heading--vertical">{{ 'products.facets.sort_by_label' | t }}</span>
+          {% render 'icon-caret' %}
+        </div>
+      </summary>
+      <div class="parent-display facets__display-vertical">
+        <fieldset class="facets-wrap parent-wrap  facets-wrap-vertical">
+          <legend class="visually-hidden">
+            {{ 'products.facets.sort_by_label' | t }}
+          </legend>
+          <ul class="list-unstyled">
+            {%- assign sort_by = results.sort_by | default: results.default_sort_by -%}
+            {%- for option in results.sort_options -%}
+            <li class="list-menu__item facets__item facet-radio">
+              <label for="Sort-{{ option.value | escape }}-{{ forloop.index }}">
+                <input type="radio" name="sort_by" value="{{ option.value | escape }}" id="Sort-{{ option.value | escape }}-{{ forloop.index }}" {% if option.value == sort_by %} checked{% endif %}>
+              </label>
+              {{ option.name | escape }}
+            </li>
+            {%- endfor -%}
+          </ul>
+        </fieldset>
+      </div>
+    </details>
+  </form>
+</facet-filters-form>
+{%- endif -%}
+
   {%- if filter_type == 'vertical' or filter_type == 'horizontal' -%}
     <facet-filters-form class="facets small-hide">
       <form id="FacetFiltersForm" class="{% if filter_type == 'horizontal' %}facets__form{% else %}facets__form-vertical{% endif %}">
