@@ -14,6 +14,7 @@
     - show_pounds_pulled: {Boolean} Show pounds pulled in the button. Default false
     - full_button: {Boolean} Use full button instead of outline button. Default false
     - section_id: {String} The ID of the section that contains this card.
+    - show_price: {Boolean} Show the product price. Default: true
 
     Usage:
     {% render 'card-product', show_vendor: section.settings.show_vendor %}
@@ -150,7 +151,7 @@
               </p>
             {%- endif -%}
 
-            {% render 'price', product: card_product, price_class:  text_align  %}
+            {% render 'price', product: card_product, price_class: text_align %}
           </div>
         </div>
         {%- if show_quick_add -%}
