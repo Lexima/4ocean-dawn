@@ -1,9 +1,10 @@
 .logo-cloud-list {
-  padding: 0;
+  --horizontal-spacing: 60px;
+  padding: 0 1.5rem;
   margin: 0;
   list-style: none;
   display: flex;
-  gap: 30px;
+  gap: var(--horizontal-spacing);
   align-items: center;
   overflow: scroll;
   justify-content: flex-start;
@@ -21,13 +22,16 @@
 }
 
 .logo-cloud-list__item {
-  min-width: calc((92% / 6) - 30px);
+  min-width: calc((90% / 2) - var(--horizontal-spacing));
   margin-left: auto;
   margin-right: auto;
 }
 
-@media screen and (max-width: 749px) {
+@media screen and (min-width: 750px) {
+  .logo-cloud-list {
+    --horizontal-spacing: 80px;
+  }
   .logo-cloud-list__item {
-    min-width: calc((82% / 2) - 30px);
+    min-width: calc((96% / 7) - var(--horizontal-spacing));
   }
 }
