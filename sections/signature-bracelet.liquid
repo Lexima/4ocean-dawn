@@ -1,0 +1,276 @@
+{{ 'section-signature-bracelet.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<section class="signature-bracelet section-{{ section.id }}-padding">
+  <div class="page-width">
+
+    {%- if section.settings.pre_title != blank -%}
+    <h4 class="signature-bracelet__pre-heading {{ section.settings.content_alignment }}">
+      {{ section.settings.pre_title }}
+    </h4>
+    {%- endif -%}
+    {%- if section.settings.title != blank -%}
+    <h2 class="signature-bracelet__heading h1 {{ section.settings.content_alignment }}">
+      {{ section.settings.title }}
+    </h2>
+    {%- endif -%}
+    {%- if section.settings.description != blank -%}
+    <div class="signature-bracelet__desc {{ section.settings.content_alignment }}">
+      <div class="rte">
+        {{ section.settings.description }}
+      </div>
+    </div>
+    {%- endif -%}
+
+    <div class="signature-bracelet__grid">
+      <div class="signature-bracelet__grid-main-image">
+        {%- if section.settings.image != blank -%}
+          <img
+            srcset="{%- if section.settings.image.width >= 165 -%}{{ section.settings.image | image_url: width: 165 }} 165w,{%- endif -%}
+              {%- if section.settings.image.width >= 360 -%}{{ section.settings.image | image_url: width: 360 }} 360w,{%- endif -%}
+              {%- if section.settings.image.width >= 535 -%}{{ section.settings.image | image_url: width: 535 }} 535w,{%- endif -%}
+              {%- if section.settings.image.width >= 750 -%}{{ section.settings.image | image_url: width: 750 }} 750w,{%- endif -%}
+              {%- if section.settings.image.width >= 1070 -%}{{ section.settings.image | image_url: width: 1070 }} 1070w,{%- endif -%}
+              {%- if section.settings.image.width >= 1500 -%}{{ section.settings.image | image_url: width: 1500 }} 1500w,{%- endif -%}
+              {{ section.settings.image | image_url }} {{ section.settings.image.width }}w"
+            src="{{ section.settings.image | image_url: width: 1500 }}"
+            sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+            alt="{{ section.settings.image.alt | escape }}"
+            loading="lazy"
+            width="{{ section.settings.image.width }}"
+            height="{{ section.settings.image.height }}"
+          >
+        {%- endif -%}
+      </div>
+
+      {%- for block in section.blocks -%}
+        {% case block.type %}
+          {%- when 'icon' -%}
+            <div class="signature-bracelet__grid-icon{% unless block.settings.visible_mobile %} hidden-mobile{% endunless %}">
+              {%- if block.settings.image != blank -%}
+                <div class="signature-bracelet__grid-icon-image">
+                  <div class="media media--transparent media--circle">
+                    <img
+                      srcset="{%- if block.settings.image.width >= 275 -%}{{ block.settings.image | image_url: width: 275 }} 275w,{%- endif -%}
+                        {%- if block.settings.image.width >= 550 -%}{{ block.settings.image | image_url: width: 550 }} 550w,{%- endif -%}
+                        {%- if block.settings.image.width >= 710 -%}{{ block.settings.image | image_url: width: 710 }} 710w,{%- endif -%}
+                        {%- if block.settings.image.width >= 1420 -%}{{ block.settings.image | image_url: width: 1420 }} 1420w,{%- endif -%}
+                        {{ block.settings.image | image_url }} {{ block.settings.image.width }}w"
+                      src="{{ block.settings.image | image_url: width: 550 }}"
+                      sizes="(min-width: 990px) 550px,
+                        (min-width: 750px),
+                        calc(100vw - 30px)"
+                      alt="{{ block.settings.image.alt }}"
+                      height="{{ block.settings.image.height }}"
+                      width="{{ block.settings.image.width }}"
+                      loading="lazy"
+                    >
+                  </div>
+                </div>
+              {%- endif -%}
+              {%- if block.settings.text != blank -%}
+                <div class="signature-bracelet__grid-icon-text">
+                  {{ block.settings.text }}
+                </div>
+              {%- endif -%}
+            </div>
+        {%- endcase -%}
+      {%- endfor -%}
+
+    </div>
+
+    <div class="signature-bracelet__product">
+      {%- assign product = section.settings.product -%}
+      {%- assign product_form_id = 'product-form-' | append: section.id -%}
+      {%- if product != blank -%}
+        <product-form class="product-form">
+          <div class="product-form__error-message-wrapper" role="alert" hidden>
+            <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-error" viewBox="0 0 13 13">
+              <circle cx="6.5" cy="6.50049" r="5.5" stroke="white" stroke-width="2"/>
+              <circle cx="6.5" cy="6.5" r="5.5" fill="#EB001B" stroke="#EB001B" stroke-width="0.7"/>
+              <path d="M5.87413 3.52832L5.97439 7.57216H7.02713L7.12739 3.52832H5.87413ZM6.50076 9.66091C6.88091 9.66091 7.18169 9.37267 7.18169 9.00504C7.18169 8.63742 6.88091 8.34917 6.50076 8.34917C6.12061 8.34917 5.81982 8.63742 5.81982 9.00504C5.81982 9.37267 6.12061 9.66091 6.50076 9.66091Z" fill="white"/>
+              <path d="M5.87413 3.17832H5.51535L5.52424 3.537L5.6245 7.58083L5.63296 7.92216H5.97439H7.02713H7.36856L7.37702 7.58083L7.47728 3.537L7.48617 3.17832H7.12739H5.87413ZM6.50076 10.0109C7.06121 10.0109 7.5317 9.57872 7.5317 9.00504C7.5317 8.43137 7.06121 7.99918 6.50076 7.99918C5.94031 7.99918 5.46982 8.43137 5.46982 9.00504C5.46982 9.57872 5.94031 10.0109 6.50076 10.0109Z" fill="white" stroke="#EB001B" stroke-width="0.7">
+            </svg>
+            <span class="product-form__error-message"></span>
+          </div>
+
+          {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
+            <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
+            <div class="product-form__buttons">
+              <button
+                type="submit"
+                name="add"
+                class="product-form__submit button button--full-width {% if block.settings.show_dynamic_checkout and product.selling_plan_groups == empty %}button--secondary{% else %}button--primary{% endif %}"
+                {% if product.selected_or_first_available_variant.available == false %}disabled{% endif %}
+              >
+                  <span>
+                    {%- if product.selected_or_first_available_variant.available -%}
+                      {{ section.settings.atc_label }}
+                      {% render 'icon-arrow' %}
+                    {%- else -%}
+                      {{ 'products.product.sold_out' | t }}
+                    {%- endif -%}
+                  </span>
+                  <div class="loading-overlay__spinner hidden">
+                    <svg aria-hidden="true" focusable="false" role="presentation" class="spinner" viewBox="0 0 66 66" xmlns="http://www.w3.org/2000/svg">
+                      <circle class="path" fill="none" stroke-width="6" cx="33" cy="33" r="30"></circle>
+                    </svg>
+                  </div>
+              </button>
+            </div>
+          {%- endform -%}
+        </product-form>
+      {%- endif -%}
+    </div>
+  </div>
+</section>
+
+<script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
+
+{% schema %}
+{
+  "name": "Signature Bracelet",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "pre_title",
+      "label": "Pre Heading"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description",
+      "info": "Make text bold to highlight it with color"
+    },
+    {
+      "type": "select",
+      "id": "content_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.rich-text.settings.content_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.rich-text.settings.content_alignment.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.rich-text.settings.content_alignment.options__3.label"
+        }
+      ],
+      "default": "center",
+      "label": "t:sections.rich-text.settings.content_alignment.label"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Main Image"
+    },
+    {
+      "type": "product",
+      "id": "product",
+      "label": "Product"
+    },
+    {
+      "type": "text",
+      "id": "atc_label",
+      "label": "ATC Button Label"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+  ],
+  "blocks": [
+    {
+      "type": "icon",
+      "name": "Icon",
+      "limit": 6,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Text"
+        },
+        {
+          "type": "checkbox",
+          "id": "visible_mobile",
+          "default": true,
+          "label": "Visible on mobile"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Signature Bracelet",
+      "blocks": [
+        {
+          "type": "icon"
+        },
+        {
+          "type": "icon"
+        },
+        {
+          "type": "icon"
+        },
+        {
+          "type": "icon"
+        },
+        {
+          "type": "icon"
+        },
+        {
+          "type": "icon"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
