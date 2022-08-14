@@ -1,0 +1,21 @@
+.gallery-list {
+  align-items: center;
+  --grid-desktop-vertical-spacing: 12px;
+  --grid-desktop-horizontal-spacing: 12px;
+  --grid-mobile-vertical-spacing: 8px;
+  --grid-mobile-horizontal-spacing: 8px;
+}
+.multicolumn-list.gallery-list {
+  padding-left: var(--grid-mobile-horizontal-spacing);
+  padding-right: var(--grid-mobile-horizontal-spacing);
+}
+.gallery-list .multicolumn-card__image-wrapper {
+  margin: 0;
+}
+
+@media only screen and (min-width: 750px) {
+  .multicolumn-list.gallery-list {
+    padding-left: var(--grid-desktop-horizontal-spacing);
+    padding-right: var(--grid-desktop-horizontal-spacing);
+  }
+}
