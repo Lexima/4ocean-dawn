@@ -53,7 +53,7 @@
         }}
       </div>
     {%- endif -%}
-    <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
+    <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width small-hide">
       <div class="banner__box content-container content-container--full-width-mobile" style="color: {{ section.settings.content_color }};">
         {%- if section.settings.eyebrow != blank -%}
           <div class="banner__text rte">
@@ -79,7 +79,37 @@
         {%- endif -%}
       </div>
     </div>
+
+
   </div>
+
+  <div class="banner__content--mobile large-up-hide page-width">
+    <div class="banner__content-container--mobile">
+
+    {%- if section.settings.eyebrow != blank -%}
+    <div class="banner__text rte">
+      {{ section.settings.eyebrow }}
+    </div>
+  {%- endif -%}
+  <h2 class="banner__heading {{ section.settings.heading_size }}">
+    {%- if section.settings.title != blank -%}
+      {{ section.settings.title | escape }}
+    {%- else -%}
+      {{ collection.title | escape }}
+    {%- endif -%}
+  </h2>
+  {%- if section.settings.sub_title != blank -%}
+    <div class="banner__text rte">
+      {{ section.settings.sub_title }}
+    </div>
+  {%- endif -%}
+  {%- if section.settings.button_label != blank -%}
+    <div class="banner__buttons">
+      <a{% if section.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ section.settings.button_link }}"{% endif %} class="button button--secondary">{{ section.settings.button_label | escape }}</a>
+    </div>
+  {%- endif -%}
+  </div>
+</div>
 </section>
 
 {% schema %}

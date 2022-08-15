@@ -19,8 +19,25 @@
   content: none;
 }
 
+
+
 @media screen and (max-width: 749px) {
   .collection-header .banner__box {
     display: none;
+  }
+
+  .banner {
+    min-height: 200px;
+  }
+
+  .banner__content--mobile {
+    background: #0565CE;
+    color: #FFF;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .banner__heading {
+    margin: 0;
   }
 }
