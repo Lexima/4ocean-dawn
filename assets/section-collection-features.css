@@ -40,7 +40,6 @@
 }
 .collection-features .banner__media {
   position: relative;
-  height: auto !important;
 }
 .collection-features .banner__media img {
   position: static !important;
