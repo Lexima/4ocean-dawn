@@ -126,6 +126,10 @@
   --color-foreground: 255, 255, 255;
 }
 
+.card-information .button .icon-arrow {
+  margin-left: 0.5rem;
+}
+
 
 .card__inner {
   width: 100%;

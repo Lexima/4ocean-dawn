@@ -159,7 +159,6 @@
               </p>
             {%- endif -%}
 
-
             {%- if show_price -%}
               {% render 'price', product: card_product, price_class: text_align %}
             {%- endif -%}
@@ -170,8 +169,6 @@
             {%- endunless -%}
           </div>
         </div>
-
-
         {%- if show_quick_add -%}
           <div class="quick-add">
             {%- assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id -%}
