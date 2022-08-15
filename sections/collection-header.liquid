@@ -31,7 +31,7 @@
 {%- endstyle -%}
 
 <section class="collection-header">
-  <div id="Banner-{{ section.id }}" class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.adapt_height_first_image %} banner--adapt{% endif %}{% if collection.image == blank and section.settings.image == blank %} banner--no-image{% endif %} banner--desktop-transparent">
+  <div id="Banner-{{ section.id }}" class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.adapt_height_first_image %} banner--adapt{% endif %}{% if collection.image == blank and section.settings.image == blank %} banner--no-image{% endif %}">
     {%- if section.settings.image != blank -%}
       {%- assign image = section.settings.image -%}
     {%- else -%}
@@ -54,7 +54,12 @@
       </div>
     {%- endif -%}
     <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width">
-      <div class="banner__box content-container content-container--full-width-mobile gradient">
+      <div class="banner__box content-container content-container--full-width-mobile" style="color: {{ section.settings.content_color }};">
+        {%- if section.settings.eyebrow != blank -%}
+          <div class="banner__text rte">
+            {{ section.settings.eyebrow }}
+          </div>
+        {%- endif -%}
         <h2 class="banner__heading {{ section.settings.heading_size }}">
           {%- if section.settings.title != blank -%}
             {{ section.settings.title | escape }}
@@ -62,6 +67,16 @@
             {{ collection.title | escape }}
           {%- endif -%}
         </h2>
+        {%- if section.settings.sub_title != blank -%}
+          <div class="banner__text rte">
+            {{ section.settings.sub_title }}
+          </div>
+        {%- endif -%}
+        {%- if section.settings.button_label != blank -%}
+          <div class="banner__buttons">
+            <a{% if section.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ section.settings.button_link }}"{% endif %} class="button button--secondary">{{ section.settings.button_label | escape }}</a>
+          </div>
+        {%- endif -%}
       </div>
     </div>
   </div>
@@ -121,14 +136,20 @@
       "info": "t:sections.image-banner.settings.adapt_height_first_image.info"
     },
     {
-      "type": "header",
-      "content": "Heading"
+      "type": "richtext",
+      "id": "eyebrow",
+      "label": "Eyebrow"
     },
     {
       "type": "text",
       "id": "title",
       "label": "Heading",
       "info": "If empty collection title is used"
+    },
+    {
+      "type": "richtext",
+      "id": "sub_title",
+      "label": "Description"
     },
     {
       "type": "paragraph",
@@ -196,7 +217,7 @@
         }
       ],
       "default": "bottom-left",
-      "label": "Heading position"
+      "label": "Content position"
     },
     {
       "type": "select",
@@ -216,7 +237,25 @@
         }
       ],
       "default": "left",
-      "label": "Heading alignment"
+      "label": "Content alignment"
+    },
+    {
+      "type": "color",
+      "id": "content_color",
+      "default": "#fff",
+      "label": "Content color",
+      "info": "When no image base text color is applied"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
     }
   ],
   "presets": [

@@ -4,8 +4,19 @@
 .collection-header .banner.banner--no-image {
   min-height: auto;
 }
-.collection-header .banner--no-image .banner__heading {
-  --color-foreground: var(--color-base-text);
+.collection-header .banner__heading {
+  color: inherit;
+}
+.collection-header .banner--no-image .banner__box {
+  color: var(--color-base-text) !important;
+}
+.collection-header .button {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: var(--gradient-base-accent-1);
+}
+.collection-header .button:after {
+  content: none;
 }
 
 @media screen and (max-width: 749px) {
