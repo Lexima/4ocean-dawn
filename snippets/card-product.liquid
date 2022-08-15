@@ -92,7 +92,7 @@
                 >
               {%- endif -%}
             </div>
-            <div class="card__media-overlay">
+            <div class="card__media-overlay small-hide">
               <div class="card__media-overlay__content">
                 {%- if show_pounds_pulled and card_product.metafields.custom.pounds_pulled -%}
                 <p class="card__media-overlay__text">
@@ -159,9 +159,19 @@
               </p>
             {%- endif -%}
 
-            {% render 'price', product: card_product, price_class: text_align %}
+
+            {%- if show_price -%}
+              {% render 'price', product: card_product, price_class: text_align %}
+            {%- endif -%}
+
+            {%- unless show_quick_add -%}
+            <a href="{{ card_product.url }}" class="button medium-hide large-up-hide">See more                 {%- render 'icon-arrow' -%}
+            </a>
+            {%- endunless -%}
           </div>
         </div>
+
+
         {%- if show_quick_add -%}
           <div class="quick-add">
             {%- assign product_form_id = 'quick-add-' | append: section_id | append: card_product.id -%}

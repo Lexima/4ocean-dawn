@@ -121,6 +121,11 @@
   font-weight: bold;
 }
 
+.card-information .button {
+  font-weight: bold;
+  --color-foreground: 255, 255, 255;
+}
+
 
 .card__inner {
   width: 100%;
