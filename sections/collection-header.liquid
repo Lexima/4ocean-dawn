@@ -31,7 +31,7 @@
 {%- endstyle -%}
 
 <section class="collection-header">
-  <div id="Banner-{{ section.id }}" class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.adapt_height_first_image %} banner--adapt{% endif %}{% if collection.image == blank %} banner--no-image{% endif %} banner--desktop-transparent">
+  <div id="Banner-{{ section.id }}" class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.adapt_height_first_image %} banner--adapt{% endif %}{% if collection.image == blank and section.settings.image == blank %} banner--no-image{% endif %} banner--desktop-transparent">
     {%- if section.settings.image != blank -%}
       {%- assign image = section.settings.image -%}
     {%- else -%}
