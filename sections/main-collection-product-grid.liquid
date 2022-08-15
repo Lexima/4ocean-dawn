@@ -116,7 +116,8 @@
                     lazy_load: lazy_load,
                     show_quick_add: section.settings.enable_quick_add,
                     section_id: section.id,
-                    show_price : section.settings.show_price
+                    show_price : section.settings.show_price,
+                    show_pounds_pulled: section.settings.pounds_pulled
 
                   %}
                 </li>
@@ -206,6 +207,12 @@
       "default": true,
       "label": "Show price"
     },
+   {
+    "type": "checkbox",
+    "id": "pounds_pulled",
+    "label": "Show pounds pulled",
+    "default": true
+   },
     {
       "type": "checkbox",
       "id": "enable_quick_add",

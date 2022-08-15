@@ -92,8 +92,16 @@
                 >
               {%- endif -%}
             </div>
-            <div class="card__pounds-pulled-overlay">
-
+            <div class="card__media-overlay">
+              <div class="card__media-overlay__content">
+                {%- if show_pounds_pulled and card_product.metafields.custom.pounds_pulled -%}
+                <p class="card__media-overlay__text">
+                  {%- render 'pounds_pulled', pounds_pulled: card_product.metafields.custom.pounds_pulled -%}
+                </p>
+                {%- endif -%}
+                <a href="{{ card_product.url }}" class="button button--secondary">See more                 {%- render 'icon-arrow' -%}
+                </a>
+              </div>
             </div>
           </div>
         {%- endif -%}
