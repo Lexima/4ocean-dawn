@@ -265,17 +265,6 @@
       }
     </script>
 
-    <script type="text/javascript">
-        (function e() {
-            var e = document.createElement("script");
-            e.type = "text/javascript",
-            e.async = true,
-            e.src = "//staticw2.yotpo.com/ONv5bsDUde4BUgFwPQ0haT0g50UnzbyhgzElqyXS/widget.js";
-            var t = document.getElementsByTagName("script")[0];
-            t.parentNode.insertBefore(e, t)
-        })();
-    </script>
-
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
