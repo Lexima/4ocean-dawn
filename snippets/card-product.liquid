@@ -123,7 +123,7 @@
           <div class="card-information">
             {%- if show_vendor -%}
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
-              <div class="caption-with-letter-spacing light">{{ card_product.vendor }}</div>
+              <div class="caption-with-letter-spacing light {{ text_align }}">{{ card_product.vendor }}</div>
             {%- endif -%}
 
             {%- if show_color -%}
@@ -136,7 +136,7 @@
                 endfor
               -%}
               {% unless product_color == empty %}
-                <div class="card__product-color">{{ product_color }}</div>
+                <div class="card__product-color {{ text_align }}">{{ product_color }}</div>
               {% endunless %}
             {%- endif -%}
 
