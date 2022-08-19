@@ -1,24 +1,25 @@
 .pdp-atc-hero__heading {
   margin-top: 2rem;
   margin-bottom: 0.5rem;
+  color: inherit;
 }
 .pdp-atc-hero__text {
   font-size: 1.1rem;
   margin-bottom: 1.5rem;
-}
-.pdp-atc-hero__text strong {
-  color: var(--gradient-base-accent-1);
 }
 .pdp-atc-hero__product-form-container {
   display: flex;
   align-items: center;
 }
 .pdp-atc-hero__quantity {
+  --inputs-radius: 5px;
+  --inputs-radius-outset: 5px;
   width: 8rem;
   margin-right: 2.2rem;
+  background-color: #fff;
 }
-.pdp-atc-hero__quantity:after {
-  border-radius: 5px;
+.pdp-atc-hero__quantity::after {
+  box-shadow: none;
 }
 .pdp-atc-hero__quantity .quantity__button {
   width: 1.7rem;
@@ -41,6 +42,10 @@
   font-size: 1.8rem;
   color: #000;
   padding-right: 30px;
+  border-radius: 5px;
+  border: 1px solid rgba(var(--color-foreground), var(--inputs-border-opacity));
+  outline-offset: 0;
+  box-shadow: none;
 }
 .pdp-atc-hero__product-form-container .product-form {
   flex-grow: 1;
@@ -56,8 +61,6 @@
   box-shadow: none;
 }
 .pdp-atc-hero__media {
-  margin-left: -1.5rem;
-  margin-right: -1.5rem;
   border: none;
 }
 
@@ -65,18 +68,38 @@
   .pdp-atc-hero {
     border-bottom: 0.1rem solid rgba(var(--color-foreground), 0.08);
   }
+  .pdp-atc-hero__text strong {
+    color: var(--gradient-base-accent-1);
+  }
+  .pdp-atc-hero__media {
+    margin-left: -1.5rem;
+    margin-right: -1.5rem;
+  }
 }
 
 @media screen and (min-width: 750px) {
-  .pdp-atc-hero__text {
-    margin-bottom: 4rem;
-  }
   .pdp-atc-hero__product-form-container {
-    max-width: 400px;
+    max-width: 430px;
     margin-left: auto;
     margin-right: auto;
   }
   .pdp-atc-hero__quantity .quantity__button[name="plus"] {
     right: 10px;
+  }
+  .pdp-atc-hero__content {
+    text-align: center;
+  }
+  .pdp-atc-hero__text {
+    font-size: 1.4rem;
+  }
+  .pdp-atc-hero--with-image .pdp-atc-hero__container {
+    position: relative;
+  }
+  .pdp-atc-hero--with-image .pdp-atc-hero__content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 3rem;
+    color: #fff;
   }
 }
