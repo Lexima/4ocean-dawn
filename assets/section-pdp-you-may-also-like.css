@@ -39,6 +39,9 @@
 .you-may-also-like__slider .card__heading {
   line-height: 1.8;
 }
+.you-may-also-like__title .collection__view-all a:not(.link) {
+  margin-top: 0;
+}
 
 @media screen and (min-width: 750px) {
   .you-may-also-like__container {
