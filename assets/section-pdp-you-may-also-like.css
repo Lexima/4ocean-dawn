@@ -36,6 +36,9 @@
 .you-may-also-like__slider .slider-button .icon {
   height: 5rem;
 }
+.you-may-also-like__slider .card__heading {
+  line-height: 1.8;
+}
 
 @media screen and (min-width: 750px) {
   .you-may-also-like__container {
