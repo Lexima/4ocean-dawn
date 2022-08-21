@@ -1,0 +1,142 @@
+.sticky-product {
+  background: #FFF;
+  width: 100%;
+}
+
+.sticky-product.fixed {
+  position: fixed;
+  top: 0;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+  z-index: 4;
+}
+
+.sticky-product__container {
+  display: grid;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 10px 0;
+  padding: 1rem;
+  grid-template-columns: 100px 2fr 1fr;
+  align-content: center;
+  justify-items: end;
+}
+
+.sticky-product__image img {
+  max-width: 100px;
+  height: auto;
+
+}
+
+.sticky-product__text {
+  justify-self: start;
+}
+
+.sticky-product__title {
+  font-size: 1.5rem;
+}
+
+.sticky-product__quantity {
+  width: 8rem;
+  margin-right: 2.2rem;
+}
+
+.sticky-product__quantity:after {
+  border-radius: 5px;
+}
+
+.sticky-product__quantity .quantity__button {
+  width: 1.7rem;
+  height: 1.5rem;
+  position: absolute;
+  right: 10px;
+  color: #B8B8B8;
+  margin: 0;
+  z-index: 1;
+}
+
+.sticky-product__quantity .quantity__button[name="plus"] {
+  top: 8px;
+  transform: rotate(180deg);
+  right: 9px;
+}
+
+.sticky-product__quantity .quantity__button[name="minus"] {
+  bottom: 8px;
+}
+
+.sticky-product__quantity .quantity__input {
+  font-size: 1.8rem;
+  color: #000;
+  padding-right: 30px;
+  width: 33%;
+}
+
+.sticky-product .price {
+  display: inline;
+}
+
+.sticky-product .product-form__buttons {
+  font-weight: bold;
+  color: #FFF;
+}
+
+.sticky-product .product-form {
+  max-width: 22rem;
+}
+
+.sticky-product .product-form__buttons .price {
+  color: #FFF;
+}
+
+.sticky-product__buttons .product-form__form {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button.loading .price {
+  color: transparent;
+}
+
+.sticky-product .button--full-width {
+  width: max-content;
+}
+
+.sticky-product__title {
+  margin: 0;
+}
+
+.sticky-product .button--round {
+  border-radius: 50%;
+  width: 6rem;
+  height: 6rem;
+  background: #0565CE;
+  display: flex;
+  color: #FFF;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.sticky-product .button--round .icon-arrow {
+  transform: rotate(90deg);
+  font-size: rem;
+}
+
+@media screen and (min-width: 750px) {
+  .sticky-product {
+    padding: 0 5rem;
+  }
+
+  .sticky-product .product-form {
+    max-width: 44rem;
+  }
+
+  .sticky-product__container {
+    grid-template-columns: 100px 2fr 1fr;
+  }
+
+  .sticky-product__title {
+    font-size: 2rem;
+  }
+}

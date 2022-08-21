@@ -934,3 +934,19 @@ class draggableSlider extends HTMLElement {
 }
 
 customElements.define('draggable-slider', draggableSlider);
+
+class scrollToButton extends HTMLElement {
+  constructor() {
+    super();
+    this.addEventListener('click', this.scrollTo.bind(this));
+    this.target = document.querySelector(this.dataset.target);
+  }
+
+  scrollTo() {
+    this.target.scrollIntoView({behavior: "smooth"});
+  }
+
+
+}
+
+customElements.define('scroll-to-button', scrollToButton);
