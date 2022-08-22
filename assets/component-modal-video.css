@@ -1,5 +1,5 @@
 .modal-video {
-  background: rgba(var(--color-foreground), 0.2);
+  background: rgba(0,0,0, 0.2);
   box-sizing: border-box;
   height: 100%;
   left: 0;
@@ -20,7 +20,7 @@
 }
 
 .modal-video__content {
-  background-color: rgb(var(--color-background));
+  background-color: rgba(0,0,0, 0.8);
   height: 100%;
   margin: 0;
   overflow: auto;
@@ -31,20 +31,25 @@
 
 .modal-video__toggle {
   align-items: center;
-  background-color: rgb(var(--color-background));
-  border-radius: 50%;
   border: 0.1rem solid rgba(var(--color-foreground), 0.1);
   color: rgba(var(--color-foreground), 0.55);
   cursor: pointer;
   display: flex;
   justify-content: center;
   margin: 0 0 0 auto;
-  padding: 1.2rem;
+  /* padding: 1.2rem; */
   position: fixed;
   right: 0.5rem;
   top: 2rem;
   width: 4rem;
   z-index: 2;
+}
+
+.media > .modal-video__text {
+  z-index: 5;
+  color: #FFF;
+  /* avoid this */
+  top: 33% !important; 
 }
 
 @media screen and (min-width: 750px) {
@@ -94,6 +99,7 @@
 .modal-video__video iframe {
   height: 100%;
   width: 100%;
+  max-height: 50vw;
 }
 
 .modal-video__video iframe {
