@@ -18,7 +18,7 @@
 <div class="pdp-photo-grid multicolumn color-{{ section.settings.color_scheme }} gradient background-none no-heading">
   <div class="page-width section-{{ section.id }}-padding isolate">
 
-      <ul class="multicolumn-list contains-content-container grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop"
+      <ul class="contains-content-container grid grid--{{ section.settings.columns_mobile }}-col-tablet-down grid--{{ section.settings.columns_desktop }}-col-desktop"
         id="Slider-{{ section.id }}"
         role="list"
       >
@@ -28,7 +28,7 @@
             <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="multicolumn-list__item grid__item center" {{ block.shopify_attributes }}>            
               <div class="multicolumn-card content-container">
                 {%- if block.settings.image != blank -%}
-                  <div class="multicolumn-card__image-wrapper multicolumn-card__image-wrapper--full-width">
+                  <div class="">
                     {% if block.settings.link != blank %}
                     <a href="{{ block.settings.link }}" target="_blank">
                     {% endif %}
