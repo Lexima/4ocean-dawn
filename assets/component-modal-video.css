@@ -1,5 +1,5 @@
 .modal-video {
-  background: rgba(0,0,0, 0.2);
+  background: rgba(0,0,0, 0.8);
   box-sizing: border-box;
   height: 100%;
   left: 0;
@@ -20,13 +20,13 @@
 }
 
 .modal-video__content {
-  background-color: rgba(0,0,0, 0.8);
   height: 100%;
   margin: 0;
   overflow: auto;
   padding: 0;
   position: absolute;
   width: 100%;
+  pointer-events: none;
 }
 
 .modal-video__toggle {
@@ -55,7 +55,7 @@
 @media screen and (min-width: 750px) {
   .modal-video__toggle {
     right: 4.8rem;
-    top: 3.5rem;
+    top: 15.5rem;
   }
 }
 
@@ -82,7 +82,7 @@
 @media screen and (min-width: 750px) {
   .modal-video__content-info {
     height: calc(100% - 7.5rem);
-    padding-top: 9.5rem;
+    padding-top: 20rem;
     width: calc(100% - 9.6rem);
   }
 }
