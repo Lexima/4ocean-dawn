@@ -31,15 +31,16 @@
       <div class="deferred-media">
         <button class="deferred-media__poster full-unstyled-link{% if section.settings.image_padding %} collage-card-spacing{% endif %}" type="button" aria-label="{{ 'sections.video.load_video' | t: description: section.settings.description | escape }}" aria-haspopup="dialog" data-media-id="{{ section.settings.video_url.id }}">
           <div class="media media--transparent ratio"{% if section.settings.cover_image != blank %} style="--ratio-percent: {{ 1 | divided_by: section.settings.cover_image.aspect_ratio | times: 100 }}%"{% else %} style="--ratio-percent: 100%"{% endif %}>
+            <span class="modal-video__text h2">
+              {{section.settings.video_text}}
+              </span>
             <span class="deferred-media__poster-button deferred-media__poster-button--with-text motion-reduce">
               {%- render 'icon-play' -%}
               <span class="deferred-media__poster-button--with-text__text">
               Watch the video
             </span>
             </span>
-            <span class="modal-video__text h2">
-            {{section.settings.video_text}}
-            </span>
+
 
 
             {%- if section.settings.cover_image != blank -%}
@@ -68,9 +69,11 @@
     </modal-opener>
     <modal-dialog id="PopupModal-{{ section.id }}" class="modal-video media-modal color-background-1">
       <div class="modal-video__content" role="dialog" aria-label="{{ section.settings.description | escape }}" aria-modal="true" tabindex="-1">
-        {%- render 'product-banner', show_price: section.settings.show_price, fixed: true -%}
-        <button id="ModalClose-{{ section.id }}" type="button" class="modal-video__toggle" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
+        <button id="ModalClose-{{ section.id }}" type="button" class="modal-video__toggle small-hide medium-hide" aria-label="{{ 'accessibility.close' | t }}">{% render 'icon-close' %}</button>
         <div class="modal-video__content-info">
+          {% if section.settings.show_product_banner %}
+            {%- render 'product-banner', show_price: section.settings.show_price, fixed: true -%}
+          {% endif %}
           <deferred-media class="modal-video__video template-popup">
             <template>
               {%- if section.settings.video_url.type == 'youtube' -%}
@@ -113,7 +116,13 @@
         "id": "video_text",
         "label": "Text",
         "default": "Dive deeper into the Osborne Reef Cleanup"
-       }
+       },
+      {
+        "type": "checkbox",
+        "id": "show_product_banner",
+        "label": "Show Product Banner",
+        "default": true
+      }
     ],
     "presets": [
         {

@@ -5,9 +5,18 @@
 
 .sticky-product.fixed {
   position: fixed;
-  top: 0;
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
-  z-index: 4;
+  z-index: 100;
+}
+
+sticky-product .sticky-product.fixed {
+  top: 0;
+}
+
+@media screen and (min-width: 750px) {
+  .sticky-product.fixed {
+    top: 0;
+  }
 }
 
 .sticky-product__container {

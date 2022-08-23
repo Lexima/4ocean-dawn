@@ -446,7 +446,7 @@ class ModalDialog extends HTMLElement {
     });
     if (this.classList.contains('media-modal')) {
       this.addEventListener('pointerup', (event) => {
-        if (event.pointerType === 'mouse' && !event.target.closest('deferred-media, product-model')) this.hide();
+        if (event.pointerType === 'mouse' && !event.target.closest('deferred-media, product-model, .sticky-product')) this.hide();
       });
     } else {
       this.addEventListener('click', (event) => {
@@ -943,10 +943,19 @@ class scrollToButton extends HTMLElement {
   }
 
   scrollTo() {
+    this.closeModals();
     this.target.scrollIntoView({behavior: "smooth"});
+
   }
 
+  closeModals() {
+    const openModal = document.querySelector('.modal-video');
 
+    if (openModal.hasAttribute('open')) {
+      openModal.removeAttribute('open');
+      document.body.classList.remove('overflow-hidden');
+    }
+  }
 }
 
 customElements.define('scroll-to-button', scrollToButton);

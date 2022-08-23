@@ -26,30 +26,27 @@
   padding: 0;
   position: absolute;
   width: 100%;
-  pointer-events: none;
 }
 
 .modal-video__toggle {
   align-items: center;
   border: 0.1rem solid rgba(var(--color-foreground), 0.1);
-  color: rgba(var(--color-foreground), 0.55);
+  color: #FFF;
   cursor: pointer;
   display: flex;
   justify-content: center;
   margin: 0 0 0 auto;
-  /* padding: 1.2rem; */
   position: fixed;
   right: 0.5rem;
   top: 2rem;
   width: 4rem;
   z-index: 2;
+  background-color: transparent;
 }
 
 .media > .modal-video__text {
   z-index: 5;
   color: #FFF;
-  /* avoid this */
-  top: 33% !important; 
 }
 
 @media screen and (min-width: 750px) {
@@ -62,7 +59,7 @@
 @media screen and (min-width: 990px) {
   .modal-video__toggle {
     right: 4.3rem;
-    top: 3rem;
+    top: 15rem;
   }
 }
 
@@ -73,36 +70,58 @@
 }
 
 .modal-video__content-info {
-  height: calc(100% - 6rem);
   margin: 0 auto;
-  padding-top: 8rem;
-  width: calc(100% - 1rem);
+  height: calc(100% - 6rem);
+}
+
+.modal-video__content-info deferred-media {
+    margin: 0 auto;
+    max-height: 50vh;
+    padding-top: 15rem;
 }
 
 @media screen and (min-width: 750px) {
-  .modal-video__content-info {
-    height: calc(100% - 7.5rem);
-    padding-top: 20rem;
-    width: calc(100% - 9.6rem);
+  .modal-video__content-info deferred-media {
+    width: calc(100% - 8.6rem);
   }
 }
 
 @media screen and (min-width: 990px) {
   .modal-video__content-info {
     height: calc(100% - 7rem);
-    padding-top: 9rem;
-    width: calc(100% - 8.6rem);
+    padding-top: 20rem;
   }
+
+    .modal-video__content-info deferred-media {
+      margin: 0 auto;
+      width: calc(100% - 8.6rem);
+      max-height: 80vh;
+      padding-top: 0;
+    }
+
 }
 
 .modal-video__video,
 .modal-video__video iframe {
   height: 100%;
   width: 100%;
-  max-height: 50vw;
 }
 
 .modal-video__video iframe {
   position: static;
   border: 0;
+}
+
+@media screen and (max-width: 750px) {
+  .modal-video .sticky-product.fixed {
+    bottom: 0;
+  }
+
+  .modal-video .sticky-product .sticky-product__image {
+    display: none;
+  }
+
+  .modal-video .sticky-product .sticky-product__container {
+    grid-template-columns: 2fr 1fr;
+  }
 }
