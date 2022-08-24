@@ -1,7 +1,7 @@
 
 <div class="sticky-product sticky-product-{{product.id}} {%- if fixed -%} fixed {%- endif -%}">
     {{ 'component-product-banner.css' | asset_url | stylesheet_tag }}
-    <div class="sticky-product__container page-width" {{ section.settings.shopify_attributes }}>
+    <div class="sticky-product__container page-width {% if product.variants.size > 1 %} image-hide {% endif %}" {{ section.settings.shopify_attributes }}>
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
 
         <div class="sticky-product__image">
@@ -24,7 +24,7 @@
         <div class="sticky-product__buttons">
 
             {%- if product.variants.size == 1 -%}
-            <div class="product-form__form small-hide">
+            <div class="product-form__form">
             <div class="product-form__quantity {% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}" {{ block.shopify_attributes }}>
                 <label class="form__label hidden" for="Quantity-{{ section.id }}">
                     {{ 'products.product.quantity.label' | t }}
@@ -80,19 +80,13 @@
                     {%- endform -%}
             </product-form>
         </div>
-        
-        <scroll-to-button class="button--round medium-hide large-up-hide" data-target=".product__info-container">
-            {%- render 'icon-cart' -%}
-        </scroll-to-button>
-
-
-        
+            
             {%- else -%}
                 <scroll-to-button data-target="variant-radios">
                     <span class="button--round medium-hide large-up-hide">
                     {%- render 'icon-cart' -%}
                     </span>
-                    <span class="button button--full-width small-hide">
+                    <span class="button small-hide">
                         {%- render 'icon-cart' -%}
                         View options
                     </span>

@@ -1,6 +1,6 @@
 {{ 'component-modal-video.css' | asset_url | stylesheet_tag }}
 
-<div class="collage-card color-{{ settings.card_color_scheme }} page-width">
+<div class="collage-card page-width-desktop">
     <noscript>
       <a href="{{ section.settings.video_url }}" class="collage-card__link{% if section.settings.image_padding %} collage-card-spacing{% endif %}">
         <div class="media media--transparent ratio"{% if section.settings.cover_image != blank %} style="--ratio-percent: {{ 1 | divided_by: section.settings.cover_image.aspect_ratio | times: 100 }}%"{% else %} style="--ratio-percent: 100%"{% endif %}>

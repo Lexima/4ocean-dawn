@@ -22,13 +22,10 @@ sticky-product .sticky-product.fixed {
 .sticky-product__container {
   display: grid;
   align-items: center;
-  justify-content: space-between;
   gap: 20px;
   padding: 10px 0;
   padding: 1rem;
   grid-template-columns: 100px 2fr 1fr;
-  align-content: center;
-  justify-items: end;
 }
 
 .sticky-product__image img {
@@ -91,7 +88,7 @@ sticky-product .sticky-product.fixed {
 }
 
 .sticky-product .product-form {
-  max-width: 22rem;
+ width: 100%;
 }
 
 .sticky-product .product-form__buttons .price {
@@ -100,7 +97,6 @@ sticky-product .sticky-product.fixed {
 
 .sticky-product__buttons .product-form__form {
   display: flex;
-  justify-content: flex-end;
 }
 
 .button.loading .price {
@@ -108,7 +104,7 @@ sticky-product .sticky-product.fixed {
 }
 
 .sticky-product .button--full-width {
-  width: max-content;
+  width: 100%;
 }
 
 .sticky-product__title {
@@ -132,6 +128,10 @@ sticky-product .sticky-product.fixed {
   font-size: rem;
 }
 
+sticky-product .sticky-product__container {
+  justify-items: end;
+}
+
 @media screen and (min-width: 750px) {
   .sticky-product {
     padding: 0 5rem;
@@ -147,5 +147,9 @@ sticky-product .sticky-product.fixed {
 
   .sticky-product__title {
     font-size: 2rem;
+  }
+
+  .sticky-product__buttons .product-form__form {
+    justify-content: space-between;
   }
 }
