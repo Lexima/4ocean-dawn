@@ -1,0 +1,5 @@
+{% if product.metafields.custom.pounds_pulled != blank %}
+  <div class="product__pounds-pulled">
+    Purchasing this product <b>pulls {{ product.metafields.custom.pounds_pulled }} {{ product.metafields.custom.pounds_pulled | pluralize: 'pound', 'pounds' }}</b> of trash from the ocean
+  </div>
+{% endif %}

@@ -500,6 +500,8 @@
             {%- endif -%}
           {%- when 'icons' -%}
             {% include 'product-icons' %}
+          {%- when 'pounds_pulled' -%}
+            {% include 'product-pounds-pulled' %}
           {%- endcase -%}
         {%- endfor -%}
         <a href="{{ product.url }}" class="link product__view-details animate-arrow">
@@ -1042,6 +1044,11 @@
           "label": "Icon 6"
         }
       ]
+    },
+    {
+      "type": "pounds_pulled",
+      "name": "Pounds pulled",
+      "settings": []
     }
   ],
   "settings": [
