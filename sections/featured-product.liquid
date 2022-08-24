@@ -340,6 +340,8 @@
                   <span class="visually-hidden">{{ product.metafields.reviews.rating_count }} {{ "accessibility.total_reviews" | t }}</span>
                 </p>
               {%- endif -%}
+              {%- when 'yotpo_rating' -%}
+                {%- render 'yotpo-star-rating', product: product, show_review_count: block.settings.yotpo_review_count -%}
             {%- endcase -%}
           {%- endfor -%}
         </div>
@@ -628,6 +630,18 @@
           "type": "paragraph",
           "content": "t:sections.featured-product.blocks.rating.settings.paragraph.content"
         }
+      ]
+    },
+    {
+      "type": "yotpo_rating",
+      "name": "Yotpo Star Rating",
+      "settings": [
+     {
+      "type": "checkbox",
+      "id": "yotpo_review_count",
+      "label": "Show Review Count",
+      "default": true
+     }
       ]
     }
   ],
