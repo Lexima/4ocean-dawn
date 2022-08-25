@@ -49,7 +49,7 @@
               "4ocean-braided-anklet",
               "4ocean-classic-trucker-hat-4o-logo"
             ],
-            "show_pounds_pulled": false,
+            "show_pounds_pulled": true,
             "enable_quick_add": true
           }
         }
