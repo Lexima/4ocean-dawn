@@ -1,4 +1,4 @@
-.pdp-photo-grid .multicolumn-list {
+.pdp-photo-grid__list {
   align-items: center;
   --grid-desktop-vertical-spacing: 8px;
   --grid-desktop-horizontal-spacing: 9px;
@@ -7,6 +7,6 @@
   padding-left: 0;
   padding-right: 0;
 }
- .pdp-photo-grid .multicolumn-card__image-wrapper {
+.pdp-photo-grid__image-wrapper {
   margin: 0;
 }
