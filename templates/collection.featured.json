@@ -94,6 +94,46 @@
         "show_text_below": true
       }
     },
+    "166146040354da68b5": {
+      "type": "collection-features",
+      "blocks": {
+        "1661460403bb12b495-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-06-20_at_7.27_1.png",
+            "heading": "Quality over quantity",
+            "heading_size": "h2",
+            "subheading": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<\/p>",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "1661460403bb12b495-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        }
+      },
+      "block_order": [
+        "1661460403bb12b495-0",
+        "1661460403bb12b495-1"
+      ],
+      "settings": {
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "accessibility_info": "Collection Features Carousel"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -119,6 +159,7 @@
     "16614597979e1dd59b",
     "16614600999942c430",
     "1661460157b822af28",
+    "166146040354da68b5",
     "product-grid"
   ]
 }
