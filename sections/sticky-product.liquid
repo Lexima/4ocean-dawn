@@ -14,7 +14,8 @@ class StickyProduct extends HTMLElement {
     }
 
     connectedCallback() {
-        this.target = document.querySelector('product')
+        this.target = document.querySelector('.product')
+        this.header = document.querySelector('sticky-header');
         this.headerBounds = {};
         this.onScrollHandler = this.onScroll.bind(this);
 
@@ -27,17 +28,36 @@ class StickyProduct extends HTMLElement {
 
     createObserver() {
         let observer = new IntersectionObserver((entries, observer) => {
-            entries.forEach(entry => {
-                console.log(entry);
-            })
-          //this.headerBounds = entries[0].intersectionRect;
-          observer.disconnect();
+            const scrollTop = window.pageYOffset;
+            
+            if (entries[0].isIntersecting) {
+                this.hide();
+            } else if (scrollTop > 130)  {
+                this.show();
+            }
+            //observer.disconnect();
+        },{
+            threshold: 0.5
         });
-  
+        
+        //observer.observe(this.header);
         observer.observe(this.target);
       }
 
     onScroll() {
+        const scrollTop = window.pageYOffset;
+
+        if (scrollTop < 130) {
+            requestAnimationFrame(this.hide.bind(this));
+        }
+    }
+
+    hide() {
+        this.classList.add('hide');
+    }
+
+    show() {
+        this.classList.remove('hide'); 
     }
 }
 
@@ -46,9 +66,10 @@ customElements.define('sticky-product', StickyProduct);
 
 
 
+
 {% endjavascript %}
 
-<sticky-product>
+<sticky-product class="hide">
     {%- render 'product-banner', show_price: section.settings.show_price, fixed: true -%}
 </sticky-product>
 
