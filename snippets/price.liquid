@@ -6,6 +6,7 @@
     - use_variant: {Boolean} Renders selected or first variant price instead of overall product pricing (optional)
     - show_badges: {Boolean} Renders 'Sale' and 'Sold Out' tags if the product matches the condition (optional)
     - price_class: {String} Adds a price class to the price element (optional)
+    - show_compare_at: {Boolean} Show compare at prices if price is discounted. Default True. 
 
     Usage:
     {% render 'price', product: product %}
@@ -21,13 +22,25 @@
   assign price = target.price | default: 1999
   assign available = target.available | default: false
   assign money_price = price | money
+  assign money_price = money_price | remove: ".00"
   if settings.currency_code_enabled
     assign money_price = price | money_with_currency
+    assign money_price = money_price | remove: ".00"
   endif
 
   if target == product and product.price_varies
     assign money_price = 'products.product.price.from_price_html' | t: price: money_price
   endif
+
+  if settings.currency_code_enabled
+    assign compare_at_price_display = compare_at_price | money_with_currency
+    assign compare_at_price_display = compare_at_price_display | remove: ".00"
+  else
+  assign compare_at_price_display = compare_at_price | money
+  endif
+  assign compare_at_price_display = compare_at_price_display | remove: ".00"
+
+
 -%}
 
 <div class="price
@@ -49,15 +62,11 @@
       </span>
     </div>
     <div class="price__sale">
-      {%- unless product.price_varies == false and product.compare_at_price_varies %}
+      {%- unless product.price_varies == false and product.compare_at_price_varies or show_compare_at == false  %}
         <span class="visually-hidden visually-hidden--inline">{{ 'products.product.price.regular_price' | t }}</span>
         <span>
           <s class="price-item price-item--regular">
-            {% if settings.currency_code_enabled %}
-              {{ compare_at_price | money_with_currency }}
-            {% else %}
-              {{ compare_at_price | money }}
-            {% endif %}
+              {{ compare_at_price_display }}
           </s>
         </span>
       {%- endunless -%}
