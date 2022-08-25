@@ -8,6 +8,8 @@
   {{ 'component-loading-overlay.css' | asset_url | stylesheet_tag }}
   {{ 'component-deferred-media.css' | asset_url | stylesheet_tag }}
 
+  {{ 'section-main-product-customization.css' | asset_url | stylesheet_tag }}
+
   {%- style -%}
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -275,7 +277,7 @@
               <quantity-input class="quantity">
                 <button class="quantity__button no-js-hidden" name="minus" type="button">
                   <span class="visually-hidden">{{ 'products.product.quantity.decrease' | t: product: product.title | escape }}</span>
-                  {% render 'icon-minus' %}
+                  {% render 'icon-caret' %}
                 </button>
                 <input class="quantity__input"
                     type="number"
@@ -287,7 +289,7 @@
                   >
                 <button class="quantity__button no-js-hidden" name="plus" type="button">
                   <span class="visually-hidden">{{ 'products.product.quantity.increase' | t: product: product.title | escape }}</span>
-                  {% render 'icon-plus' %}
+                  {% render 'icon-caret' %}
                 </button>
               </quantity-input>
             </div>
@@ -410,7 +412,7 @@
               </div>
             </noscript>
           {%- when 'buy_buttons' -%}
-            <div {{ block.shopify_attributes }}>
+            <div class="product-form__buy-buttons" {{ block.shopify_attributes }}>
               <product-form class="product-form">
                 <div class="product-form__error-message-wrapper" role="alert" hidden>
                   <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-error" viewBox="0 0 13 13">
@@ -496,6 +498,10 @@
                 <span class="visually-hidden">{{ product.metafields.reviews.rating_count }} {{ "accessibility.total_reviews" | t }}</span>
               </p>
             {%- endif -%}
+          {%- when 'icons' -%}
+            {% include 'product-icons' %}
+          {%- when 'pounds_pulled' -%}
+            {% include 'product-pounds-pulled' %}
           {%- endcase -%}
         {%- endfor -%}
         <a href="{{ product.url }}" class="link product__view-details animate-arrow">
@@ -1002,6 +1008,47 @@
           "content": "t:sections.main-product.blocks.rating.settings.paragraph.content"
         }
       ]
+    },
+    {
+      "type": "icons",
+      "name": "Icons",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "icon_1",
+          "label": "Icon 1"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_2",
+          "label": "Icon 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_3",
+          "label": "Icon 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_4",
+          "label": "Icon 4"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_5",
+          "label": "Icon 5"
+        },
+        {
+          "type": "image_picker",
+          "id": "icon_6",
+          "label": "Icon 6"
+        }
+      ]
+    },
+    {
+      "type": "pounds_pulled",
+      "name": "Pounds pulled",
+      "settings": []
     }
   ],
   "settings": [
