@@ -311,3 +311,7 @@
 .card-article-info {
   margin-top: 1rem;
 }
+
+.card__product-color {
+  font-size: 1.4rem;
+}
