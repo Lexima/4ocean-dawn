@@ -45,9 +45,9 @@
           "type": "products",
           "settings": {
             "product_list": [
-              "4ocean-biodegradable-sponges-12-pack",
-              "4ocean-braided-anklet",
-              "4ocean-classic-trucker-hat-4o-logo"
+              "4ocean-x-cariuma-men-s-oca-low-top-sneakers-in-4ocean-blue",
+              "4ocean-x-cariuma-women-s-oca-low-top-sneakers-in-charcoal-grey",
+              "4ocean-x-cariuma-men-s-oca-low-top-sneakers-in-off-white"
             ],
             "show_pounds_pulled": true,
             "enable_quick_add": true
@@ -63,6 +63,35 @@
         "color_scheme": "background-1",
         "padding_top": 90,
         "padding_bottom": 120
+      }
+    },
+    "16614600999942c430": {
+      "type": "special-interest",
+      "settings": {
+        "eyebrow": "Another",
+        "title": "Clean Ocean Collaboration",
+        "description": "<p>This black macrame bracelet is hand braided using 100% recycled plastic cord. Designed to represent the tires we’re recovering from the Osborne Reef, the tire-shaped bezel is filled with verified 100% crumb rubber from tires that our crews recovered directly from the Osborne Reef. The tire crumb is set into the bezel with our plant-based epoxy resin. The outer edge of the bezel is etched with tire-tread detail and the back with 4ocean branding. Every bracelet purchased supports the growth of the Osborne Reef Tire Cleanup and helps protect our coral reefs. Matching necklace and earrings sold separately.<\/p>",
+        "quote": "<p>We don’t believe in passing trends, fast fashion’s short attention span, or following the status quo. That’s why we design timeless sneaker silhouettes that are built to endure.”<\/p>",
+        "author": "Cariuma",
+        "padding_top": 40,
+        "padding_bottom": 16
+      }
+    },
+    "1661460157b822af28": {
+      "type": "image-banner",
+      "settings": {
+        "full_width": false,
+        "image": "shopify:\/\/shop_images\/image_69.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "product-grid": {
@@ -88,6 +117,8 @@
     "16614589935ffaedd8",
     "1661459643411e2575",
     "16614597979e1dd59b",
+    "16614600999942c430",
+    "1661460157b822af28",
     "product-grid"
   ]
 }
