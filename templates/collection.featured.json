@@ -7,47 +7,62 @@
         "overlay_section_below": false
       }
     },
-    "1661459228581e40b1": {
-      "type": "hero",
+    "1661459643411e2575": {
+      "type": "collection-header",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Rectangle_228_1.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "eyebrow": "<p>Ocean-friendly, made-to-order sneakers<\/p>",
+        "title": "4ocean x Cariuma",
+        "sub_title": "<p>Purchasing these sneakers pulls two pounds of trash from the ocean<\/p>",
+        "heading_size": "h0",
+        "desktop_content_position": "bottom-left",
+        "desktop_content_alignment": "left",
+        "content_color": "#fff",
+        "button_label": "Shop 4ocean x Cariuma",
+        "button_link": "shopify:\/\/pages\/cariuma-x-4ocean"
+      }
+    },
+    "16614597979e1dd59b": {
+      "type": "featured-products",
       "blocks": {
-        "1661459228bf4c80e8-0": {
-          "type": "eyebrow",
-          "settings": {
-            "eyebrow": "<p>Ocean-friendly, made-to-order sneakers<\/p>"
-          }
-        },
-        "1661459228bf4c80e8-1": {
+        "76902932-56ad-4eb2-b3f6-9899f57c8894": {
           "type": "heading",
           "settings": {
-            "heading": "4ocean x Cariuma",
-            "heading_size": "h0"
+            "heading": "Featured Products",
+            "heading_size": "h2"
           }
         },
-        "1661459228bf4c80e8-2": {
+        "ad517b15-8ea8-4882-a073-eea4fc9ad944": {
           "type": "copy",
           "settings": {
-            "copy": "<p>Purchasing these sneakers pulls two pounds of trash from the ocean<\/p>"
+            "copy_text": ""
           }
         },
-        "1661459228bf4c80e8-3": {
-          "type": "button",
+        "f7f1040a-ffe6-47a1-95b8-ee0954ba25a0": {
+          "type": "products",
           "settings": {
-            "text": "Shop 4ocean x Cariuma",
-            "link": ""
+            "product_list": [
+              "4ocean-biodegradable-sponges-12-pack",
+              "4ocean-braided-anklet",
+              "4ocean-classic-trucker-hat-4o-logo"
+            ],
+            "show_pounds_pulled": false,
+            "enable_quick_add": true
           }
         }
       },
       "block_order": [
-        "1661459228bf4c80e8-0",
-        "1661459228bf4c80e8-1",
-        "1661459228bf4c80e8-2",
-        "1661459228bf4c80e8-3"
+        "76902932-56ad-4eb2-b3f6-9899f57c8894",
+        "ad517b15-8ea8-4882-a073-eea4fc9ad944",
+        "f7f1040a-ffe6-47a1-95b8-ee0954ba25a0"
       ],
       "settings": {
-        "desktop_content_alignment": "left",
-        "overlay_opacity": 20,
-        "video_url": "",
-        "image": "shopify:\/\/shop_images\/Rectangle_228_1.png"
+        "color_scheme": "background-1",
+        "padding_top": 90,
+        "padding_bottom": 120
       }
     },
     "product-grid": {
@@ -71,7 +86,8 @@
   },
   "order": [
     "16614589935ffaedd8",
-    "1661459228581e40b1",
+    "1661459643411e2575",
+    "16614597979e1dd59b",
     "product-grid"
   ]
 }
