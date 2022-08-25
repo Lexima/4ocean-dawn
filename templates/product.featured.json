@@ -42,6 +42,17 @@
         "padding_bottom": 28
       }
     },
+    "1661461261aa804e66": {
+      "type": "pdp-info",
+      "settings": {
+        "title": "Clean the ocean and protect our coral reefs",
+        "description": "<p>This black macrame bracelet is hand braided using 100% recycled plastic cord. Designed to represent the tires we’re recovering from the Osborne Reef, the tire-shaped bezel is filled with verified 100% crumb rubber from tires that our crews recovered directly from the Osborne Reef. The tire crumb is set into the bezel with our plant-based epoxy resin. The outer edge of the bezel is etched with tire-tread detail and the back with 4ocean branding. Every bracelet purchased supports the growth of the Osborne Reef Tire Cleanup and helps protect our coral reefs. Matching necklace and earrings sold separately.<\/p>",
+        "rc_title": "OCEAN FACT",
+        "rc_description": "<p>The Osborne Tire Reef was supposed to be the world’s longest artificial reef.<\/p>",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -261,6 +272,7 @@
   "order": [
     "1661461096a1754ed9",
     "16614610722ad56ab0",
+    "1661461261aa804e66",
     "main",
     "image-with-text",
     "multicolumn",
