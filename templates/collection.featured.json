@@ -1,14 +1,22 @@
 {
   "sections": {
+    "16614589935ffaedd8": {
+      "type": "trash-counter-callout",
+      "settings": {
+        "text": "pounds of trash pulled from the ocean since 2017",
+        "overlay_section_below": false
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
-        "products_per_page": 16,
-        "columns_desktop": 4,
-        "image_ratio": "adapt",
+        "products_per_page": 12,
+        "columns_desktop": 3,
+        "image_ratio": "square",
         "show_secondary_image": false,
         "show_vendor": false,
-        "show_rating": false,
+        "show_rating": true,
+        "enable_quick_add": false,
         "enable_filtering": true,
         "filter_type": "vertical",
         "enable_sorting": true,
@@ -19,6 +27,7 @@
     }
   },
   "order": [
+    "16614589935ffaedd8",
     "product-grid"
   ]
 }
