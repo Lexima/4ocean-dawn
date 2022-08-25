@@ -24,7 +24,7 @@
         <div class="sticky-product__buttons">
 
             {%- if product.variants.size == 1 -%}
-            <div class="product-form__form">
+            <div class="product-form__form small-hide">
             <div class="product-form__quantity {% if settings.inputs_shadow_vertical_offset != 0 and settings.inputs_shadow_vertical_offset < 0 %} product-form__quantity-top{% endif %}" {{ block.shopify_attributes }}>
                 <label class="form__label hidden" for="Quantity-{{ section.id }}">
                     {{ 'products.product.quantity.label' | t }}
@@ -79,7 +79,13 @@
                         </div>
                     {%- endform -%}
             </product-form>
-        </div>
+            </div>
+
+            <scroll-to-button data-target=".product__info-wrapper">
+                <span class="button--round medium-hide large-up-hide">
+                {%- render 'icon-cart' -%}
+                </span>
+            </scroll-to-button>
             
             {%- else -%}
                 <scroll-to-button data-target="variant-radios">

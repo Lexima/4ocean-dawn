@@ -114,6 +114,11 @@
   border: 0;
 }
 
+modal-opener .media {
+  align-items: center;
+  justify-content: center;
+}
+
 @media screen and (max-width: 750px) {
   .modal-video .sticky-product.fixed {
     bottom: 0;

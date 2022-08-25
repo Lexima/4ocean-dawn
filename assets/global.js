@@ -949,13 +949,15 @@ class scrollToButton extends HTMLElement {
   }
 
   closeModals() {
-    const openModal = document.querySelector('.modal-video');
+    const modal = document.querySelector('.modal-video');
 
-    if (openModal.hasAttribute('open')) {
-      openModal.removeAttribute('open');
+    if (modal) {
+    if (modal.hasAttribute('open')) {
+      modal.removeAttribute('open');
       document.body.classList.remove('overflow-hidden');
     }
   }
+}
 }
 
 customElements.define('scroll-to-button', scrollToButton);
