@@ -1,5 +1,47 @@
 {
   "sections": {
+    "1661461096a1754ed9": {
+      "type": "trash-counter-callout",
+      "settings": {
+        "text": "pounds of trash pulled from the ocean since 2017",
+        "overlay_section_below": false
+      }
+    },
+    "16614610722ad56ab0": {
+      "type": "pdp-atc-hero",
+      "blocks": {
+        "1661461072b58c481e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Osborne Reef Bracelet",
+            "heading_size": "h1"
+          }
+        },
+        "1661461072b58c481e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Purchasing this product pulls one pound of trash from the ocean<\/p>"
+          }
+        },
+        "1661461072b58c481e-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "button_label": "Add to bag - $34"
+          }
+        }
+      },
+      "block_order": [
+        "1661461072b58c481e-0",
+        "1661461072b58c481e-1",
+        "1661461072b58c481e-2"
+      ],
+      "settings": {
+        "product": "polar-bear-bracelet",
+        "image": "shopify:\/\/shop_images\/Screen_Shot_2022-06-20_at_1.47_1.png",
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -182,6 +224,7 @@
       "settings": {
         "title": "",
         "heading_size": "h1",
+        "heading_alignment": "title-wrapper-with-link--center",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 2,
@@ -201,10 +244,14 @@
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
+        "btn_label": "Shop All",
+        "btn_link": "",
+        "view_all_style": "link",
         "color_scheme": "background-1",
         "image_ratio": "square",
         "show_secondary_image": true,
         "show_vendor": false,
+        "show_color": true,
         "show_rating": false,
         "padding_top": 36,
         "padding_bottom": 28
@@ -212,6 +259,8 @@
     }
   },
   "order": [
+    "1661461096a1754ed9",
+    "16614610722ad56ab0",
     "main",
     "image-with-text",
     "multicolumn",
