@@ -1,7 +1,7 @@
 
 {{ 'products.product.add_to_cart_pounds_pulled' | t }}
     {{ pounds_pulled }}
-{%- if product.metafields.custom.pounds_pulled == 1 -%}
+{%- if product.metafields.custom.pounds_pulled != 1 -%}
     {{ 'products.product.pound' | t }}
 {%- else -%}
     {{ 'products.product.pounds' | t }}
