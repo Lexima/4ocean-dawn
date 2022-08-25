@@ -7,6 +7,49 @@
         "overlay_section_below": false
       }
     },
+    "1661459228581e40b1": {
+      "type": "hero",
+      "blocks": {
+        "1661459228bf4c80e8-0": {
+          "type": "eyebrow",
+          "settings": {
+            "eyebrow": "<p>Ocean-friendly, made-to-order sneakers<\/p>"
+          }
+        },
+        "1661459228bf4c80e8-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "4ocean x Cariuma",
+            "heading_size": "h0"
+          }
+        },
+        "1661459228bf4c80e8-2": {
+          "type": "copy",
+          "settings": {
+            "copy": "<p>Purchasing these sneakers pulls two pounds of trash from the ocean<\/p>"
+          }
+        },
+        "1661459228bf4c80e8-3": {
+          "type": "button",
+          "settings": {
+            "text": "Shop 4ocean x Cariuma",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1661459228bf4c80e8-0",
+        "1661459228bf4c80e8-1",
+        "1661459228bf4c80e8-2",
+        "1661459228bf4c80e8-3"
+      ],
+      "settings": {
+        "desktop_content_alignment": "left",
+        "overlay_opacity": 20,
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/Rectangle_228_1.png"
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -28,6 +71,7 @@
   },
   "order": [
     "16614589935ffaedd8",
+    "1661459228581e40b1",
     "product-grid"
   ]
 }
