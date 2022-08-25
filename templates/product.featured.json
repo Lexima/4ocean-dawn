@@ -204,6 +204,36 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "16614619567d533cf7": {
+      "type": "pdp-one-pound",
+      "blocks": {
+        "638d1563-c20c-49c6-adf1-062feef8ac1d": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_277.png"
+          }
+        },
+        "bf18dfe4-404b-4c66-917c-ac1a6887036b": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Group_278.png"
+          }
+        }
+      },
+      "block_order": [
+        "638d1563-c20c-49c6-adf1-062feef8ac1d",
+        "bf18dfe4-404b-4c66-917c-ac1a6887036b"
+      ],
+      "settings": {
+        "title": "One pound at a time.",
+        "sub_title": "How your purchase makes a difference.",
+        "image": "shopify:\/\/shop_images\/Rectangle_207.png",
+        "img_side": "right",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -213,6 +243,7 @@
     "1661461356753b0180",
     "1661461448420b601d",
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "16614619567d533cf7"
   ]
 }
