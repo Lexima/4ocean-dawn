@@ -152,6 +152,44 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16614606633327bcc6": {
+      "type": "newsletter-signup",
+      "blocks": {
+        "166146066321b92280-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stay Connected",
+            "heading_size": "h1",
+            "color": "#fff"
+          }
+        },
+        "166146066321b92280-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Sign up for email & SMS alerts so you never miss an update about the clean ocean movement and new ways to support our mission!<\/p>",
+            "color": "#fff"
+          }
+        },
+        "166146066321b92280-2": {
+          "type": "email_form",
+          "settings": {
+            "btn_label": "Keep me posted!"
+          }
+        }
+      },
+      "block_order": [
+        "166146066321b92280-0",
+        "166146066321b92280-1",
+        "166146066321b92280-2"
+      ],
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/image_77.jpg",
+        "bg_overlay_color": "#172c43",
+        "bg_overlay_opacity": 70,
+        "padding_top": 125,
+        "padding_bottom": 140
+      }
     }
   },
   "order": [
@@ -161,6 +199,7 @@
     "16614600999942c430",
     "1661460157b822af28",
     "166146040354da68b5",
-    "product-grid"
+    "product-grid",
+    "16614606633327bcc6"
   ]
 }
