@@ -29,26 +29,21 @@ class StickyProduct extends HTMLElement {
     createObserver() {
         let observer = new IntersectionObserver((entries, observer) => {
             const scrollTop = window.pageYOffset;
-            
-            if (entries[0].isIntersecting) {
-                this.hide();
-            } else if (scrollTop > 130)  {
-                this.show();
-            }
-            //observer.disconnect();
+
+            this.isIntersecting = entries[0].isIntersecting;
+
         },{
-            threshold: 0.5
+            threshold: 0.2
         });
-        
-        //observer.observe(this.header);
         observer.observe(this.target);
       }
 
     onScroll() {
         const scrollTop = window.pageYOffset;
-
-        if (scrollTop < 130) {
+        if (scrollTop < 130 || this.isIntersecting) {
             requestAnimationFrame(this.hide.bind(this));
+        } else if (!this.isIntersecting) {
+            requestAnimationFrame(this.show.bind(this));            
         }
     }
 
@@ -62,11 +57,6 @@ class StickyProduct extends HTMLElement {
 }
 
 customElements.define('sticky-product', StickyProduct);
-
-
-
-
-
 {% endjavascript %}
 
 <sticky-product class="hide">
