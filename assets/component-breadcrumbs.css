@@ -1,0 +1,28 @@
+.breadcrumbs__list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  color: #7592B1;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.breadcrumbs__item {
+  display: inline-block;
+}
+
+.breadcrumbs__item:not(:last-child):after {
+  content: '/';
+  display: inline-block;
+  margin-right: .5rem;
+  vertical-align: middle;
+}
+
+.breadcrumbs__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.breadcrumbs__link[aria-current="page"] {
+  color: #000;
+}
