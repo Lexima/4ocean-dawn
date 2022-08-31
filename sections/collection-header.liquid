@@ -1,0 +1,297 @@
+{{ 'section-image-banner.css' | asset_url | stylesheet_tag }}
+{{ 'component-collection-header.css' | asset_url | stylesheet_tag }}
+
+{%- if section.settings.adapt_height_first_image and collection.image != blank -%}
+  {%- style -%}
+  @media screen and (max-width: 749px) {
+    #Banner-{{ section.id }}::before,
+    #Banner-{{ section.id }} .banner__media::before,
+    #Banner-{{ section.id }}:not(.banner--mobile-bottom) .banner__content::before {
+      padding-bottom: {{ 1 | divided_by: collection.image.aspect_ratio | times: 100 }}%;
+      content: '';
+      display: block;
+    }
+  }
+
+  @media screen and (min-width: 750px) {
+    #Banner-{{ section.id }}::before,
+    #Banner-{{ section.id }} .banner__media::before {
+      padding-bottom: {{ 1 | divided_by: collection.image.aspect_ratio | times: 100 }}%;
+      content: '';
+      display: block;
+    }
+  }
+  {%- endstyle -%}
+{%- endif -%}
+
+{%- style -%}
+  #Banner-{{ section.id }}::after {
+    opacity: {{ section.settings.image_overlay_opacity | divided_by: 100.0 }};
+  }
+{%- endstyle -%}
+
+<section class="collection-header">
+  <div id="Banner-{{ section.id }}" class="banner banner--content-align-{{ section.settings.desktop_content_alignment }} banner--{{ section.settings.image_height }}{% if section.settings.adapt_height_first_image %} banner--adapt{% endif %}{% if collection.image == blank and section.settings.image == blank %} banner--no-image{% endif %}">
+    {%- if section.settings.image != blank -%}
+      {%- assign image = section.settings.image -%}
+    {%- else -%}
+      {%- assign image = collection.image -%}
+    {%- endif -%}
+    {%- if image != blank -%}
+      <div class="banner__media media">
+        {%-liquid
+          assign image_height = image.width | divided_by: image.aspect_ratio
+          assign sizes = "100vw"
+        -%}
+        {{ image | image_url: width: 1500 | image_tag:
+          loading: 'lazy',
+          width: image.width,
+          height: image_height,
+          sizes: sizes,
+          widths: '375, 550, 750, 1100, 1500, 1780, 2000, 3000, 3840',
+          alt: image.alt | escape
+        }}
+      </div>
+    {%- endif -%}
+    <div class="banner__content banner__content--{{ section.settings.desktop_content_position }} page-width small-hide">
+      <div class="banner__box content-container content-container--full-width-mobile" style="color: {{ section.settings.content_color }};">
+        {%- if section.settings.eyebrow != blank -%}
+          <div class="banner__text rte">
+            {{ section.settings.eyebrow }}
+          </div>
+        {%- endif -%}
+        <h2 class="banner__heading {{ section.settings.heading_size }}">
+          {%- if section.settings.title != blank -%}
+            {{ section.settings.title | escape }}
+          {%- else -%}
+            {{ collection.title | escape }}
+          {%- endif -%}
+        </h2>
+        {%- if section.settings.sub_title != blank -%}
+          <div class="banner__text rte">
+            {{ section.settings.sub_title }}
+          </div>
+        {%- endif -%}
+        {%- if section.settings.button_label != blank -%}
+          <div class="banner__buttons">
+            <a{% if section.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ section.settings.button_link }}"{% endif %} class="button button--secondary">{{ section.settings.button_label | escape }}</a>
+          </div>
+        {%- endif -%}
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="banner__content--mobile large-up-hide page-width">
+    <div class="banner__content-container--mobile">
+
+    {%- if section.settings.eyebrow != blank -%}
+    <div class="banner__text rte">
+      {{ section.settings.eyebrow }}
+    </div>
+  {%- endif -%}
+  <h2 class="banner__heading {{ section.settings.heading_size }}">
+    {%- if section.settings.title != blank -%}
+      {{ section.settings.title | escape }}
+    {%- else -%}
+      {{ collection.title | escape }}
+    {%- endif -%}
+  </h2>
+  {%- if section.settings.sub_title != blank -%}
+    <div class="banner__text rte">
+      {{ section.settings.sub_title }}
+    </div>
+  {%- endif -%}
+  {%- if section.settings.button_label != blank -%}
+    <div class="banner__buttons">
+      <a{% if section.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ section.settings.button_link }}"{% endif %} class="button button--secondary">{{ section.settings.button_label | escape }}</a>
+    </div>
+  {%- endif -%}
+  </div>
+</div>
+</section>
+
+{% schema %}
+{
+  "name": "Collection header",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "t:sections.image-banner.settings.image.label",
+      "info": "If empty collection image is used"
+    },
+    {
+      "type": "range",
+      "id": "image_overlay_opacity",
+      "min": 0,
+      "max": 100,
+      "step": 10,
+      "unit": "%",
+      "label": "t:sections.image-banner.settings.image_overlay_opacity.label",
+      "default": 0
+    },
+    {
+      "type": "select",
+      "id": "image_height",
+      "options": [
+        {
+          "value": "small",
+          "label": "t:sections.image-banner.settings.image_height.options__1.label"
+        },
+        {
+          "value": "medium",
+          "label": "t:sections.image-banner.settings.image_height.options__2.label"
+        },
+        {
+          "value": "large",
+          "label": "t:sections.image-banner.settings.image_height.options__3.label"
+        }
+      ],
+      "default": "small",
+      "label": "t:sections.image-banner.settings.image_height.label"
+    },
+    {
+      "type": "checkbox",
+      "id": "adapt_height_first_image",
+      "default": false,
+      "label": "Adapt section height to collection's image size",
+      "info": "t:sections.image-banner.settings.adapt_height_first_image.info"
+    },
+    {
+      "type": "richtext",
+      "id": "eyebrow",
+      "label": "Eyebrow"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "info": "If empty collection title is used"
+    },
+    {
+      "type": "richtext",
+      "id": "sub_title",
+      "label": "Description"
+    },
+    {
+      "type": "paragraph",
+      "content": "Shows collection title"
+    },
+    {
+      "type": "select",
+      "id": "heading_size",
+      "options": [
+        {
+          "value": "h2",
+          "label": "t:sections.all.heading_size.options__1.label"
+        },
+        {
+          "value": "h1",
+          "label": "t:sections.all.heading_size.options__2.label"
+        },
+        {
+          "value": "h0",
+          "label": "t:sections.all.heading_size.options__3.label"
+        }
+      ],
+      "default": "h1",
+      "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "select",
+      "id": "desktop_content_position",
+      "options": [
+        {
+          "value": "top-left",
+          "label": "t:sections.image-banner.settings.desktop_content_position.options__1.label"
+        },
+        {
+          "value": "top-center",
+          "label": "t:sections.image-banner.settings.desktop_content_position.options__2.label"
+        },
+        {
+          "value": "top-right",
+          "label": "t:sections.image-banner.settings.desktop_content_position.options__3.label"
+        },
+        {
+          "value": "middle-left",
+          "label": "t:sections.image-banner.settings.desktop_content_position.options__4.label"
+        },
+        {
+          "value": "middle-center",
+          "label": "t:sections.image-banner.settings.desktop_content_position.options__5.label"
+        },
+        {
+          "value": "middle-right",
+          "label": "t:sections.image-banner.settings.desktop_content_position.options__6.label"
+        },
+        {
+          "value": "bottom-left",
+          "label": "t:sections.image-banner.settings.desktop_content_position.options__7.label"
+        },
+        {
+          "value": "bottom-center",
+          "label": "t:sections.image-banner.settings.desktop_content_position.options__8.label"
+        },
+        {
+          "value": "bottom-right",
+          "label": "t:sections.image-banner.settings.desktop_content_position.options__9.label"
+        }
+      ],
+      "default": "bottom-left",
+      "label": "Content position"
+    },
+    {
+      "type": "select",
+      "id": "desktop_content_alignment",
+      "options": [
+        {
+          "value": "left",
+          "label": "t:sections.image-banner.settings.desktop_content_alignment.options__1.label"
+        },
+        {
+          "value": "center",
+          "label": "t:sections.image-banner.settings.desktop_content_alignment.options__2.label"
+        },
+        {
+          "value": "right",
+          "label": "t:sections.image-banner.settings.desktop_content_alignment.options__3.label"
+        }
+      ],
+      "default": "left",
+      "label": "Content alignment"
+    },
+    {
+      "type": "color",
+      "id": "content_color",
+      "default": "#fff",
+      "label": "Content color",
+      "info": "When no image base text color is applied"
+    },
+    {
+      "type": "text",
+      "id": "button_label",
+      "label": "Button label",
+      "info": "t:sections.image-banner.blocks.buttons.settings.button_label_1.info"
+    },
+    {
+      "type": "url",
+      "id": "button_link",
+      "label": "Button link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection header"
+    }
+  ]
+}
+{% endschema %}
