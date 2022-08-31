@@ -29,7 +29,7 @@
 <div class="section-{{ section.id }}-padding">
   {% comment %} Sort is the first tabbable element when filter type is vertical {% endcomment %}
   {%- if section.settings.enable_sorting and section.settings.filter_type == 'vertical' -%}
-    <facet-filters-form class="facets facets-vertical-sort page-width small-hide no-js-hidden">
+    <facet-filters-form class="facets facets-vertical-sort page-width small-hide medium-hide large-up-hide no-js-hidden">
       <form class="facets-vertical-form" id="FacetSortForm">
         <div class="facet-filters sorting caption">
           <div class="facet-filters__field">
@@ -115,7 +115,9 @@
                     show_rating: section.settings.show_rating,
                     lazy_load: lazy_load,
                     show_quick_add: section.settings.enable_quick_add,
-                    section_id: section.id
+                    section_id: section.id,
+                    show_price : section.settings.show_price,
+                    show_pounds_pulled: section.settings.pounds_pulled
 
                   %}
                 </li>
@@ -199,6 +201,18 @@
       "label": "t:sections.main-collection-product-grid.settings.show_rating.label",
       "info": "t:sections.main-collection-product-grid.settings.show_rating.info"
     },
+    {
+      "type": "checkbox",
+      "id": "show_price",
+      "default": true,
+      "label": "Show price"
+    },
+   {
+    "type": "checkbox",
+    "id": "pounds_pulled",
+    "label": "Show pounds pulled",
+    "default": true
+   },
     {
       "type": "checkbox",
       "id": "enable_quick_add",

@@ -294,6 +294,18 @@
   word-break: break-word;
 }
 
+.facet-radio {
+  padding: 1rem 2rem 1rem 0;
+  flex-grow: 1;
+  position: relative;
+  font-size: 1.4rem;
+  display: flex;
+  word-break: break-word;
+}
+
+.facet-radio input[type="radio"] {
+}
+
 .facet-checkbox input[type='checkbox'] {
   position: absolute;
   opacity: 1;
@@ -973,7 +985,7 @@ input.mobile-facets__checkbox {
     border-top: 0.1rem solid rgba(var(--color-foreground), 0.1);
     margin-right: 0;
   }
-  
+
   .facets-vertical .facets__summary {
     padding-top: 1.5rem;
     margin-bottom: 0;
@@ -983,6 +995,8 @@ input.mobile-facets__checkbox {
   .facets__heading--vertical {
     margin: 0 0 1.5rem 0;
     font-size: 1.5rem;
+    color: #0565CE;
+    font-weight: bold;
   }
 
   .facets__header-vertical {

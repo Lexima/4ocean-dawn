@@ -31,7 +31,7 @@
 .card--card:after,
 .card--standard .card__inner:after {
   content: '';
-  position: absolute;
+  /* position: absolute; */
   width: calc(var(--card-border-width) * 2 + 100%);
   height: calc(var(--card-border-width) * 2 + 100%);
   top: calc(var(--card-border-width) * -1);
@@ -80,6 +80,56 @@
 .card--standard .card__media {
   margin: var(--card-image-padding);
 }
+
+.card__media-overlay {
+  position: absolute;
+  background: #0057B7E5;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0;
+}
+
+.card-wrapper:hover .card__media-overlay__content {
+  opacity: 1;
+}
+
+.card-wrapper:hover .card__media-overlay {
+  opacity: 1;
+}
+
+.card__media-overlay__content {
+  display: flex;
+  justify-content: center;
+  color: #FFF;
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card__media-overlay__content .button--secondary {
+  --alpha-button-background: 0;
+  background: transparent;
+  --color-foreground: 255, 255, 255;
+  --color-button: 255, 255, 255;
+}
+
+.card__media-overlay__text {
+  color: #FFF;
+  font-weight: bold;
+}
+
+.card-information .button {
+  font-weight: bold;
+  --color-foreground: 255, 255, 255;
+}
+
+.card-information .button .icon-arrow {
+  margin-left: 0.5rem;
+}
+
 
 .card__inner {
   width: 100%;
