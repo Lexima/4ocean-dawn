@@ -58,7 +58,7 @@
                         <script src="{{ 'quick-add.js' | asset_url }}" defer="defer"></script>
                         <script src="{{ 'product-form.js' | asset_url }}" defer="defer"></script>
                     {%- endif -%}
-                    <div class="featured-products__products grid grid--1-col grid--4-col-desktop grid--3-tablet page-width">
+                    <div class="featured-products__products grid grid--1-col-tablet-down page-width">
 
 
                         {% for product in block.settings.product_list %}
