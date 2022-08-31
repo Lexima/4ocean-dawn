@@ -1,0 +1,30 @@
+<script src="{{ 'component-sticky-banner.js' | asset_url }}" defer="defer"></script>
+
+
+<sticky-banner data-intersect-target=".product">
+    {%- render 'product-banner', show_price: section.settings.show_price, fixed: true -%}
+</sticky-banner>
+
+
+{% schema %}
+
+{
+    "name": "Sticky product",
+    "tag": "section",
+    "class": "section",
+    "settings": [
+        {
+            "type": "checkbox",
+            "id": "show_price",
+            "default": true,
+            "label": "Show price"
+        }
+    ],
+    "presets": [
+        {
+            "name": "Sticky Product"
+        }
+    ]
+}
+
+{% endschema %}

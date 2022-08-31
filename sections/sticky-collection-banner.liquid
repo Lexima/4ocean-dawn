@@ -1,0 +1,53 @@
+<script src="{{ 'component-sticky-banner.js' | asset_url }}" defer="defer"></script>
+
+
+<sticky-banner data-intersect-target=".collection">
+    {%- render 'collection-banner', fixed: true, section_settings: section.settings -%}
+</sticky-banner>
+
+
+{% schema %}
+
+{
+    "name":"Sticky Collection",
+    "tag":"section",
+    "class":"section",
+    "settings":[
+       {
+          "type":"image_picker",
+          "id":"custom_image",
+          "label":"Image",
+          "info": "Overrides collection image"
+       },
+       {
+         "type":"text",
+         "id":"eyebrow",
+         "label":"Eyebrow text"
+      },
+       {
+         "type":"text",
+         "id":"title",
+         "label":"Title",
+         "info": "Overrides collection title"
+      },
+     {
+        "type": "richtext",
+        "id": "text",
+        "label": "Text",
+        "info": "Overrides collection description"
+     },
+       {
+          "type":"text",
+          "id":"button_label",
+          "label":"Button label"
+       }
+
+    ],
+    "presets":[
+       {
+          "name":"Sticky Collection Banner"
+       }
+    ]
+ }
+
+{% endschema %}

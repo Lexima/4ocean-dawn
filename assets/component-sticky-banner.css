@@ -1,9 +1,9 @@
-.sticky-product {
+.sticky-banner {
   background: #FFF;
   width: 100%;
 }
 
-.sticky-product.fixed {
+.sticky-banner.fixed {
   position: fixed;
   box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
   z-index: 100;
@@ -11,56 +11,55 @@
   transition: transform 0.15s ease-out;
 }
 
-sticky-product.hide .sticky-product {
+sticky-banner.hide .sticky-banner {
   transition: transform 0.15s ease-out;
   transform: translateY(-150px);
 }
 
-
-
-sticky-product .sticky-product.fixed {
+sticky-banner .sticky-banner.fixed {
   top: 0;
 }
 
 @media screen and (min-width: 750px) {
-  .sticky-product.fixed {
+  .sticky-banner.fixed {
     top: 0;
   }
 }
 
-.sticky-product__container {
+.sticky-banner__container {
   display: grid;
   align-items: center;
   gap: 20px;
   padding: 10px 0;
   padding: 1rem;
-  grid-template-columns: 100px 2fr 1fr;
+  grid-template-columns: fit-content(100px) 1fr fit-content(300px);
 }
 
-.sticky-product__image img {
-  max-width: 100px;
-  height: auto;
+.sticky-banner__image img {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
 
 }
 
-.sticky-product__text {
+.sticky-banner__text {
   justify-self: start;
 }
 
-.sticky-product__title {
+.sticky-banner__title {
   font-size: 1.5rem;
 }
 
-.sticky-product__quantity {
+.sticky-banner__quantity {
   width: 8rem;
   margin-right: 2.2rem;
 }
 
-.sticky-product__quantity:after {
+.sticky-banner__quantity:after {
   border-radius: 5px;
 }
 
-.sticky-product__quantity .quantity__button {
+.sticky-banner__quantity .quantity__button {
   width: 1.7rem;
   height: 1.5rem;
   position: absolute;
@@ -70,41 +69,41 @@ sticky-product .sticky-product.fixed {
   z-index: 1;
 }
 
-.sticky-product__quantity .quantity__button[name="plus"] {
+.sticky-banner__quantity .quantity__button[name="plus"] {
   top: 8px;
   transform: rotate(180deg);
   right: 9px;
 }
 
-.sticky-product__quantity .quantity__button[name="minus"] {
+.sticky-banner__quantity .quantity__button[name="minus"] {
   bottom: 8px;
 }
 
-.sticky-product__quantity .quantity__input {
+.sticky-banner__quantity .quantity__input {
   font-size: 1.8rem;
   color: #000;
   padding-right: 30px;
   width: 33%;
 }
 
-.sticky-product .price {
+.sticky-banner .price {
   display: inline;
 }
 
-.sticky-product .product-form__buttons {
+.sticky-banner .product-form__buttons {
   font-weight: bold;
   color: #FFF;
 }
 
-.sticky-product .product-form {
+.sticky-banner .product-form {
  width: 100%;
 }
 
-.sticky-product .product-form__buttons .price {
+.sticky-banner .product-form__buttons .price {
   color: #FFF;
 }
 
-.sticky-product__buttons .product-form__form {
+.sticky-banner__buttons .product-form__form {
   display: flex;
 }
 
@@ -112,15 +111,24 @@ sticky-product .sticky-product.fixed {
   color: transparent;
 }
 
-.sticky-product .button--full-width {
-  width: 100%;
-}
-
-.sticky-product__title {
+.sticky-banner__title {
   margin: 0;
 }
 
-.sticky-product .button--round {
+.sticky-banner__text strong {
+  color: #0565CE;
+}
+
+.sticky-banner__eyebrow {
+  font-weight: bold;
+}
+
+.sticky-banner p {
+  margin: 0;
+  font-size: 1.3rem;
+}
+
+.sticky-banner .button--round {
   border-radius: 50%;
   width: 6rem;
   height: 6rem;
@@ -132,33 +140,38 @@ sticky-product .sticky-product.fixed {
   cursor: pointer;
 }
 
-.sticky-product .button--round .icon-arrow {
+.sticky-banner .button--round .icon-arrow {
   transform: rotate(90deg);
   font-size: rem;
 }
 
-sticky-product .sticky-product__container {
+sticky-product .sticky-banner__container {
   justify-items: end;
 }
 
 @media screen and (min-width: 750px) {
-  .sticky-product {
+  .sticky-banner {
     padding: 0 5rem;
   }
 
-  .sticky-product .product-form {
+  .sticky-banner .product-form {
     max-width: 44rem;
   }
 
-  .sticky-product__container {
-    grid-template-columns: 100px 2fr 1fr;
+  .sticky-banner__container {
+    grid-template-columns: fit-content(100px) 1fr fit-content(400px);
   }
 
-  .sticky-product__title {
+  .sticky-banner__title {
     font-size: 2rem;
   }
 
-  .sticky-product__buttons .product-form__form {
+  .sticky-banner__buttons .product-form__form {
     justify-content: space-between;
+  }
+
+  .sticky-banner__image img {
+    width: 100px;
+    height: 100px;
   }
 }
