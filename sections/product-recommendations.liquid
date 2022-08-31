@@ -1,6 +1,7 @@
 <link rel="stylesheet" href="{{ 'component-card.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'component-price.css' | asset_url }}" media="print" onload="this.media='all'">
 <link rel="stylesheet" href="{{ 'section-product-recommendations.css' | asset_url }}" media="print" onload="this.media='all'">
+{{ 'section-pdp-you-may-also-like.css' | asset_url | stylesheet_tag }}
 
 <noscript>{{ 'component-card.css' | asset_url | stylesheet_tag }}</noscript>
 <noscript>{{ 'component-price.css' | asset_url | stylesheet_tag }}</noscript>
@@ -20,25 +21,53 @@
   }
 {%- endstyle -%}
 
-<div class="color-{{ section.settings.color_scheme }} gradient">
-  <product-recommendations class="product-recommendations page-width section-{{ section.id }}-padding isolate" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ section.settings.products_to_show }}">
-    {% if recommendations.performed and recommendations.products_count > 0 %}
-      <h2 class="product-recommendations__heading {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
-      <ul class="grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down" role="list">
-        {% for recommendation in recommendations.products %}
-          <li class="grid__item">
-            {% render 'card-product',
-              card_product: recommendation,
-              media_aspect_ratio: section.settings.image_ratio,
-              show_secondary_image: section.settings.show_secondary_image,
-              show_vendor: section.settings.show_vendor,
-              show_rating: section.settings.show_rating
-            %}
-          </li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-  </product-recommendations>
+<div class="you-may-also-like">
+  <div class="color-{{ section.settings.color_scheme }} gradient">
+    <product-recommendations class="product-recommendations page-width section-{{ section.id }}-padding isolate" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}">
+      {% if recommendations.performed and recommendations.products_count > 0 %}
+        <div class="you-may-also-like__container">
+
+          <div class="you-may-also-like__title">
+            <h2 class="title {{ section.settings.heading_size }}">{{ section.settings.heading | escape }}</h2>
+            {%- if section.settings.btn_link != blank -%}
+              <div class="collection__view-all">
+                <a href="{{ section.settings.btn_link }}"
+                  class="{% if section.settings.view_all_style == 'link' %}link underlined-link{% elsif section.settings.view_all_style == 'solid' %}button{% else %}button button--secondary{% endif %}"
+                  aria-label="{{ section.settings.btn_label }}"
+                >
+                  {{ section.settings.btn_label }}
+                </a>
+              </div>
+            {%- endif -%}
+          </div>
+
+          <div class="you-may-also-like__slider">
+            <slider-component class="slider-mobile-gutter slider-component-desktop">
+              <ul id="Slider-{{ section.id }}" class="grid product-grid contains-card  slider slider--desktop slider--tablet" role="list">
+                {% for recommendation in recommendations.products %}
+                  <li id="Slide-{{ section.id }}-{{ forloop.index }}" class="grid__item slider__slide">
+                    {% render 'card-product',
+                      card_product: recommendation,
+                      media_aspect_ratio: section.settings.image_ratio,
+                      show_secondary_image: section.settings.show_secondary_image,
+                      show_vendor: section.settings.show_vendor,
+                      show_color: section.settings.show_color,
+                      show_rating: section.settings.show_rating
+                    %}
+                  </li>
+                {% endfor %}
+              </ul>
+              <div class="slider-buttons no-js-hidden">
+                <button type="button" class="slider-button slider-button--prev" name="previous" aria-label="{{ 'general.slider.previous_slide' | t }}" aria-controls="Slider-{{ section.id }}">{% render 'icon-caret' %}</button>
+                <button type="button" class="slider-button slider-button--next" name="next" aria-label="{{ 'general.slider.next_slide' | t }}" aria-controls="Slider-{{ section.id }}">{% render 'icon-caret' %}</button>
+              </div>
+            </slider-component>
+          </div>
+        </div>
+      {% endif %}
+    </product-recommendations>
+
+  </div>
 </div>
 
 {% javascript %}
@@ -114,22 +143,35 @@
       "label": "t:sections.all.heading_size.label"
     },
     {
-      "type": "range",
-      "id": "products_to_show",
-      "min": 2,
-      "max": 10,
-      "step": 1,
-      "default": 4,
-      "label": "t:sections.product-recommendations.settings.products_to_show.label"
+      "type": "text",
+      "id": "btn_label",
+      "default": "Shop All",
+      "label": "Button label"
     },
     {
-      "type": "range",
-      "id": "columns_desktop",
-      "min": 1,
-      "max": 5,
-      "step": 1,
-      "default": 4,
-      "label": "t:sections.product-recommendations.settings.columns_desktop.label"
+      "type": "url",
+      "id": "btn_link",
+      "label": "Button link"
+    },
+    {
+      "type": "select",
+      "id": "view_all_style",
+      "label": "Button style",
+      "options": [
+        {
+          "value": "link",
+          "label": "t:sections.featured-collection.settings.view_all_style.options__1.label"
+        },
+        {
+          "value": "outline",
+          "label": "t:sections.featured-collection.settings.view_all_style.options__2.label"
+        },
+        {
+          "value": "solid",
+          "label": "t:sections.featured-collection.settings.view_all_style.options__3.label"
+        }
+      ],
+      "default": "link"
     },
     {
       "type": "select",
@@ -198,30 +240,16 @@
     },
     {
       "type": "checkbox",
+      "id": "show_color",
+      "default": true,
+      "label": "Show color"
+    },
+    {
+      "type": "checkbox",
       "id": "show_rating",
       "default": false,
       "label": "t:sections.product-recommendations.settings.show_rating.label",
       "info": "t:sections.product-recommendations.settings.show_rating.info"
-    },
-    {
-      "type": "header",
-      "content": "t:sections.product-recommendations.settings.header_mobile.content"
-    },
-    {
-      "type": "select",
-      "id": "columns_mobile",
-      "default": "2",
-      "label": "t:sections.product-recommendations.settings.columns_mobile.label",
-      "options": [
-        {
-          "value": "1",
-          "label": "t:sections.product-recommendations.settings.columns_mobile.options__1.label"
-        },
-        {
-          "value": "2",
-          "label": "t:sections.product-recommendations.settings.columns_mobile.options__2.label"
-        }
-      ]
     },
     {
       "type": "header",
