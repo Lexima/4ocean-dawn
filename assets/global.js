@@ -446,7 +446,7 @@ class ModalDialog extends HTMLElement {
     });
     if (this.classList.contains('media-modal')) {
       this.addEventListener('pointerup', (event) => {
-        if (event.pointerType === 'mouse' && !event.target.closest('deferred-media, product-model')) this.hide();
+        if ((event.pointerType === 'mouse' || event.pointerType === 'touch' ) && !event.target.closest('product-model, .sticky-product')) this.hide();
       });
     } else {
       this.addEventListener('click', (event) => {
@@ -934,3 +934,30 @@ class draggableSlider extends HTMLElement {
 }
 
 customElements.define('draggable-slider', draggableSlider);
+
+class scrollToButton extends HTMLElement {
+  constructor() {
+    super();
+    this.addEventListener('click', this.scrollTo.bind(this));
+    this.target = document.querySelector(this.dataset.target);
+  }
+
+  scrollTo() {
+    this.closeModals();
+    this.target.scrollIntoView({behavior: "smooth"});
+
+  }
+
+  closeModals() {
+    const modal = document.querySelector('.modal-video');
+
+    if (modal) {
+    if (modal.hasAttribute('open')) {
+      modal.removeAttribute('open');
+      document.body.classList.remove('overflow-hidden');
+    }
+  }
+}
+}
+
+customElements.define('scroll-to-button', scrollToButton);

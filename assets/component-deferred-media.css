@@ -60,7 +60,7 @@
   background-color: rgb(var(--color-background));
   border: 0.1rem solid rgba(var(--color-foreground), 0.1);
   border-radius: 50%;
-  color: rgb(var(--color-foreground));
+  color: #0565CE;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -74,6 +74,19 @@
   z-index: 1;
 }
 
+.deferred-media__poster-button--with-text {
+  border-radius: 60px;
+  width: max-content;
+  height: 4rem;
+  padding: 1rem 3rem;
+}
+
+.deferred-media__poster-button--with-text__text {
+  padding-left: 1rem;
+  color: #0565CE;
+  font-weight: 900;
+}
+
 .deferred-media__poster-button:hover {
   transform: translate(-50%, -50%) scale(1.1);
 }
@@ -85,5 +98,7 @@
 
 .deferred-media__poster-button .icon-play {
   margin-left: 0.2rem;
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
