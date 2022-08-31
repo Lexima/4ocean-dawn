@@ -1,0 +1,109 @@
+{{ 'section-special-interest.css' | asset_url | stylesheet_tag }}
+
+{%- style -%}
+.section-{{ section.id }}-padding {
+  padding-top: calc({{ section.settings.padding_top }}px * 0.75);
+  padding-bottom: calc({{ section.settings.padding_bottom }}px  * 0.75);
+}
+
+@media screen and (min-width: 750px) {
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+}
+{%- endstyle -%}
+
+<div class="special-interest">
+  <div class="page-width section-{{ section.id }}-padding">
+    <div class="special-interest__container">
+      <div class="special-interest__main">
+        {%- if section.settings.eyebrow != blank -%}
+          <div class="special-interest__eyebrow">{{ section.settings.eyebrow }}</div>
+        {%- endif -%}
+        {%- if section.settings.title != blank -%}
+          <h2 class="special-interest__title">{{ section.settings.title }}</h2>
+        {%- endif -%}
+        {%- if section.settings.description != blank -%}
+          <div class="special-interest__description rte">{{ section.settings.description }}</div>
+        {%- endif -%}
+      </div>
+      <div class="special-interest__quote">
+        {%- if section.settings.quote != blank -%}
+          <div class="special-interest__quote-text rte">{{ section.settings.quote }}</div>
+        {%- endif -%}
+        {%- if section.settings.author != blank -%}
+          <div class="special-interest__quote-author">{{ section.settings.author }}</div>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Special Interest",
+  "tag": "section",
+  "class": "section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "Eyebrow"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading"
+    },
+    {
+      "type": "richtext",
+      "id": "description",
+      "label": "Description"
+    },
+    {
+      "type": "header",
+      "content": "Quote"
+    },
+    {
+      "type": "richtext",
+      "id": "quote",
+      "label": "Text"
+    },
+    {
+      "type": "text",
+      "id": "author",
+      "label": "Author"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+  ],
+  "presets": [
+    {
+      "name": "Special Interest"
+    }
+  ]
+}
+{% endschema %}
