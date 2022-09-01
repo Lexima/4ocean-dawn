@@ -1,5 +1,5 @@
 
-{{ 'component-product-banner.css' | asset_url | stylesheet_tag }}
+{{ 'component-sticky-banner.css' | asset_url | stylesheet_tag }}
 <div class="sticky-banner sticky-banner-{{product.id}} {%- if fixed -%} fixed {%- endif -%}">
     <div class="sticky-banner__container page-width {% if product.variants.size > 1 %} image-hide {% endif %}" {{ section.settings.shopify_attributes }}>
         {%- assign product_form_id = 'product-form-' | append: section.id -%}
