@@ -41,7 +41,7 @@
         assign text_align = 'center'
       endif
   -%}
-  <div class="card-wrapper underline-links-hover">
+  <div class="card-wrapper">
     <div class="card
       card--{{ settings.card_style }}
       {% if card_product.featured_media %} card--media{% else %} card--text{% endif %}
@@ -99,7 +99,9 @@
                   {%- render 'pounds_pulled', pounds_pulled: card_product.metafields.custom.pounds_pulled -%}
                 </p>
                 {%- endif -%}
-                <a href="{{ card_product.url }}" class="button button--secondary">See more                 {%- render 'icon-arrow' -%}
+                <a href="{{ card_product.url }}" class="button button--secondary">
+                  {{ 'products.product.add_to_cart' | t }}
+                  {%- render 'icon-arrow' -%}
                 </a>
               </div>
             </div>
@@ -266,7 +268,7 @@
     </div>
   </div>
 {%- else -%}
-  <div class="card-wrapper underline-links-hover">
+  <div class="card-wrapper">
     <div class="card
       card--{{ settings.card_style }}
       card--text

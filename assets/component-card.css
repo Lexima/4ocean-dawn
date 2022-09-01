@@ -114,6 +114,8 @@
   background: transparent;
   --color-foreground: 255, 255, 255;
   --color-button: 255, 255, 255;
+  --color-button-text: var(--color-foreground);
+  text-decoration: none;
 }
 
 .card__media-overlay__text {
