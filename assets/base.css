@@ -2564,6 +2564,7 @@ details[open] > .header__submenu {
   margin-left: -1.2rem;
   grid-area: navigation;
   display: none;
+  font-weight: bold;
 }
 
 .header__inline-menu::before {
@@ -2633,7 +2634,7 @@ details[open] > .header__submenu {
 
 .header__menu-item:hover span {
   text-decoration: underline;
-  text-underline-offset: 0.9rem;
+  text-underline-offset: 1.1rem;
   text-decoration-thickness: 0.5rem;
   text-decoration-color:#0565CE;
 }
@@ -2654,7 +2655,7 @@ details[open] > .header__menu-item .icon-caret {
   transition: text-decoration-thickness var(--duration-short) ease;
   color: rgb(var(--color-foreground));
   text-decoration: underline;
-  text-underline-offset: 0.9rem;
+  text-underline-offset: 1.1rem;
   text-decoration-thickness: 0.5rem;
   text-decoration-color:#0565CE;
 
