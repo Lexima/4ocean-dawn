@@ -73,7 +73,9 @@
               show_rating: section.settings.show_rating,
               show_quick_add: section.settings.enable_quick_add,
               section_id: section.id,
-              card_text_align: section.settings.text_align
+              card_align: section.settings.text_align,
+              show_yotpo: section.settings.show_yotpo,
+              yotpo_review_count: true
             %}
           </li>
         {%- else -%}
@@ -341,13 +343,12 @@
       "default": false,
       "label": "t:sections.featured-collection.settings.show_vendor.label"
     },
-    {
-      "type": "checkbox",
-      "id": "show_rating",
-      "default": false,
-      "label": "t:sections.featured-collection.settings.show_rating.label",
-      "info": "t:sections.featured-collection.settings.show_rating.info"
-    },
+   {
+    "type": "checkbox",
+    "id": "show_yotpo",
+    "label": "Show Yotpo star rating",
+    "default": true
+   },
     {
       "type": "checkbox",
       "id": "enable_quick_add",

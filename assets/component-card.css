@@ -362,6 +362,18 @@
   margin-top: 1rem;
 }
 
+
+.card--center .yotpo-star-ratings-layout {
+  justify-content: center;
+}
+
+.card--center .card__heading {
+  text-align: center;
+}
+
+.card--center .price {
+  text-align: center;
+}
 .card__product-color {
   font-size: 1.4rem;
 }
