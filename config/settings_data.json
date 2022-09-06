@@ -96,6 +96,7 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "currency_code_enabled": true,
+    "cart_type": "drawer",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -125,11 +126,11 @@
           "logo_position": "top-center",
           "menu": "ehouse-main-menu",
           "menu_type_desktop": "dropdown",
-          "show_line_separator": true,
           "enable_sticky_header": true,
+          "collab_url": "",
           "margin_bottom": 0,
           "padding_top": 20,
-          "padding_bottom": 20
+          "padding_bottom": 4
         }
       },
       "footer": {
