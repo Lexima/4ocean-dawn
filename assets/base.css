@@ -658,7 +658,7 @@ hr {
 
 @media screen and (min-width: 750px) {
   hr {
-     margin: 7rem 0; 
+    margin: 7rem 0;
   }
 }
 
@@ -2505,6 +2505,10 @@ details[open] .modal-overlay::after {
 }
 
 @media screen and (min-width: 990px) {
+  .search-modal__form {
+    max-width: 47.8rem;
+  }
+
   .search-modal__close-button {
     position: initial;
     margin-left: 0.5rem;
@@ -2560,32 +2564,7 @@ details[open] > .header__submenu {
   margin-left: -1.2rem;
   grid-area: navigation;
   display: none;
-  font-weight: bold;
 }
-
-.header__inline-menu::before {
-  content: "";
-  position: absolute;
-  top: 75px;
-  left: -30px;
-  width: calc(100% + 60px);
-  height: 100%;
-  border-top: 1px solid rgba(0, 0, 0, 0.1);
-  pointer-events: none;
-}
-
-.header__inline-menu::after {
-  content: "";
-  position: absolute;
-  top: 1px;
-  left: -30px;
-  width: calc(100% + 60px);
-  height: 100%;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
-  pointer-events: none;
-}
-
-
 
 .header--top-center .header__inline-menu,
 .header--top-center .header__heading-link {
@@ -2630,9 +2609,11 @@ details[open] > .header__submenu {
 
 .header__menu-item:hover span {
   text-decoration: underline;
-  text-underline-offset: 1.1rem;
-  text-decoration-thickness: 0.5rem;
-  text-decoration-color:#0565CE;
+  text-underline-offset: 0.3rem;
+}
+
+details[open] > .header__menu-item {
+  text-decoration: underline;
 }
 
 details[open]:hover > .header__menu-item {
@@ -2643,27 +2624,20 @@ details[open] > .header__menu-item .icon-caret {
   transform: rotate(180deg);
 }
 
-.header__active-menu-item, li > header-menu > details[open] {
+.header__active-menu-item {
   transition: text-decoration-thickness var(--duration-short) ease;
   color: rgb(var(--color-foreground));
   text-decoration: underline;
-  text-underline-offset: 1.1rem;
-  text-decoration-thickness: 0.5rem;
-  text-decoration-color:#0565CE;
-
+  text-underline-offset: 0.3rem;
 }
 
 .header__menu-item:hover .header__active-menu-item {
-  text-decoration-thickness: 0.5rem;
-  
+  text-decoration-thickness: 0.2rem;
 }
 
 .header__submenu {
   transition: opacity var(--duration-default) ease,
     transform var(--duration-default) ease;
-
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
 }
 
 .global-settings-popup,
@@ -2676,8 +2650,7 @@ details[open] > .header__menu-item .icon-caret {
 }
 
 .header__submenu.list-menu {
-   padding: 2.4rem 0;
-   width: max-content;
+  padding: 2.4rem 0;
 }
 
 .header__submenu .header__submenu {
@@ -2734,10 +2707,6 @@ details-disclosure > details {
 @media screen and (min-width: 750px) {
   .overflow-hidden-mobile {
     overflow: auto;
-  }
-
-  .header__menu-item .icon-caret {
-    display: none;
   }
 }
 
@@ -2956,8 +2925,4 @@ details-disclosure > details {
   letter-spacing: 0.2em;
   text-transform: uppercase;
   font-weight: 700;
-}
-
-.yotpro-widget--hide-count .yotpo-sr-bottom-line-right-panel {
-  display: none;
 }
