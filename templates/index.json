@@ -53,8 +53,8 @@
         "button_link": "shopify:\/\/collections\/shop-all",
         "show_icon": false,
         "font_size": 1,
-        "padding_top": 76,
-        "padding_bottom": 76
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "166247711860c1e5b4": {
