@@ -46,7 +46,7 @@
     "16624760820e78f579": {
       "type": "trash-tracker",
       "settings": {
-        "title": "The 4ocean TrashTracker",
+        "title": "OUR GLOBAL IMPACT",
         "copy": "<p>pounds of trash have been pulled from the world’s oceans, rivers, and coastlines since January 2017<\/p>",
         "color_scheme": "accent-2",
         "button_text": "Shop now & pull the next pound",
@@ -56,10 +56,78 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "166247711860c1e5b4": {
+      "type": "signature-bracelet",
+      "blocks": {
+        "1662477118c59e1986-0": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-06_at_11.15.12_AM.png",
+            "text": "100% recovered 4pcean pl",
+            "visible_mobile": true
+          }
+        },
+        "1662477118c59e1986-1": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "1662477118c59e1986-2": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "1662477118c59e1986-3": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "1662477118c59e1986-4": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "1662477118c59e1986-5": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        }
+      },
+      "block_order": [
+        "1662477118c59e1986-0",
+        "1662477118c59e1986-1",
+        "1662477118c59e1986-2",
+        "1662477118c59e1986-3",
+        "1662477118c59e1986-4",
+        "1662477118c59e1986-5"
+      ],
+      "settings": {
+        "pre_title": "It started with one bracelet, one pound.",
+        "title": "4ocean SignatureBeaded Bracelet",
+        "description": "<p>By purchasing this bracelet you will <strong>pull one pound<\/strong> of trash from the world’s oceans, rivers & coastlines.<\/p>",
+        "content_alignment": "center",
+        "image": "shopify:\/\/shop_images\/New-Signature-Blue-Beaded-PDP-730x620_15_3779c76d-65c9-4564-b004-06be84f48506_1000x_copy.png",
+        "product": "",
+        "atc_label": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "166247613730c29082",
-    "16624760820e78f579"
+    "16624760820e78f579",
+    "166247711860c1e5b4"
   ]
 }
