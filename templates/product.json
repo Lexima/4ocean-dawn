@@ -6,6 +6,13 @@
         "show_price": true
       }
     },
+    "1662480421232cbefb": {
+      "type": "breadcrumbs",
+      "settings": {
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
     "main": {
       "type": "main-product",
       "blocks": {
@@ -37,9 +44,9 @@
             "pills_background_color": "#ffffff",
             "pills_text_color": "#121212",
             "pills_border_color": "#121212",
-            "active_pill_background_color": "#0565CE",
+            "active_pill_background_color": "#0565ce",
             "active_pill_text_color": "#ffffff",
-            "active_pill_border_color": "#0565CE"
+            "active_pill_border_color": "#0565ce"
           }
         },
         "quantity_selector": {
@@ -108,6 +115,7 @@
   },
   "order": [
     "1662039171b82f6aa8",
+    "1662480421232cbefb",
     "main",
     "product-recommendations"
   ]
