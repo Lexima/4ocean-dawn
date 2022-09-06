@@ -59,6 +59,7 @@
         "button_text": "Shop now & pull the next pound",
         "button_link": "shopify:\/\/pages\/4ocean-bali-crew-encounters-whale-shark-swimming-in-plastic-pollution",
         "show_icon": true,
+        "font_size": 1,
         "padding_top": 100,
         "padding_bottom": 100
       }
@@ -339,7 +340,8 @@
               "4ocean-face-mask-support-frames-bulk"
             ],
             "show_pounds_pulled": false,
-            "enable_quick_add": true
+            "enable_quick_add": true,
+            "show_yotpo": true
           }
         },
         "a0265eb2-aa36-4e4c-bd23-10c9738e53ff": {
@@ -381,11 +383,11 @@
         "view_all_style": "solid",
         "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "show_secondary_image": false,
         "text_align": "center",
         "show_vendor": false,
-        "show_rating": true,
+        "show_yotpo": true,
         "enable_quick_add": true,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
@@ -709,7 +711,7 @@
         "1659658222856f1f0d-2": {
           "type": "email_form",
           "settings": {
-            "btn_label": "Keep me posted!"
+            "klaviyo_embed": "<div class=\"klaviyo-form-T29KmL\"><\/div>"
           }
         }
       },
