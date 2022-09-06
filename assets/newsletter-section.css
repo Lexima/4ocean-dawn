@@ -48,3 +48,9 @@
     margin: 0 0 0 1rem;
   }
 }
+
+
+.klaviyo-form {
+  max-width: 44rem;
+  margin: 0 auto;
+}
