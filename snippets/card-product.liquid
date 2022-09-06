@@ -181,8 +181,9 @@
             {%- if show_yotpo -%}
               {%- render 'yotpo-star-rating', product: card_product, show_review_count: yotpo_review_count -%}
             {%- endif -%}
-
-            {% render 'price', product: card_product, price_class:  ''  %}
+            {% if section.settings.show_price %}
+              {% render 'price', product: card_product, price_class:  ''  %}
+            {% endif %}
           </div>
         </div>
         {%- if show_quick_add -%}
