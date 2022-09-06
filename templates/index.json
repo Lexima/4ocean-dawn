@@ -220,6 +220,50 @@
         "padding_top": 90,
         "padding_bottom": 120
       }
+    },
+    "16624787716c817331": {
+      "type": "image-with-text",
+      "blocks": {
+        "16624787714c481e13-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Partner with us",
+            "heading_size": "h1"
+          }
+        },
+        "16624787714c481e13-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Did you know businesses can join the clean ocean movement? Discover all the ways you can meet your sustainability objectives and help advance our mission to end the ocean plastic crisis.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16624787714c481e13-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore Opportunities",
+            "button_link": "https:\/\/www.4oceanpartnerships.com\/pages\/contact-us"
+          }
+        }
+      },
+      "block_order": [
+        "16624787714c481e13-0",
+        "16624787714c481e13-1",
+        "16624787714c481e13-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Partnerships-module-50_50_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -227,6 +271,7 @@
     "16624760820e78f579",
     "166247711860c1e5b4",
     "16624779683f75adc2",
-    "16624784810d3246c7"
+    "16624784810d3246c7",
+    "16624787716c817331"
   ]
 }
