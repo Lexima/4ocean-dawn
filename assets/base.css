@@ -2926,3 +2926,7 @@ details-disclosure > details {
   text-transform: uppercase;
   font-weight: 700;
 }
+
+.yotpro-widget--hide-count .yotpo-sr-bottom-line-right-panel {
+  display: none;
+}

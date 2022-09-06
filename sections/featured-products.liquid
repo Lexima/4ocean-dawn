@@ -68,7 +68,10 @@
                   show_quick_add: block.settings.enable_quick_add,
                   show_pounds_pulled: block.settings.show_pounds_pulled,
                   full_button: true,
-                  section_id: section.id
+                  section_id: section.id,
+                  show_yotpo: block.settings.show_yotpo,
+                  yotpo_review_count: true,
+                  text_align: 'center'
           
                 %}
                             </div>
@@ -223,7 +226,13 @@
         "label": "Enable quick add",
         "default": true,
         "info": "Enable ability to add directly to cart"
-     }
+     },
+    {
+      "type": "checkbox",
+      "id": "show_yotpo",
+      "label": "Show Yotpo star ratings",
+      "default": true
+    }
       ]
     },
     {
