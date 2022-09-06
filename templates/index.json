@@ -310,6 +310,51 @@
         "padding_top": 125,
         "padding_bottom": 140
       }
+    },
+    "16624798747aaa7218": {
+      "type": "as-seen-on",
+      "blocks": {
+        "1662479874a6bd9af8-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-06-10_at_10.38_2.png",
+            "title": "Today Show",
+            "sub_title": "Inside Ocean Tire Cleanup Efforts",
+            "link": ""
+          }
+        },
+        "1662479874a6bd9af8-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-06-10_at_10.38_4.png",
+            "title": "Forbes",
+            "sub_title": "30 under 30: Social Entreprenuers",
+            "link": ""
+          }
+        },
+        "1662479874a6bd9af8-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-06-10_at_10.38_3.png",
+            "title": "Washington Post",
+            "sub_title": "Stop the Flow of Plastic",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1662479874a6bd9af8-0",
+        "1662479874a6bd9af8-1",
+        "1662479874a6bd9af8-2"
+      ],
+      "settings": {
+        "title": "As seen on",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -320,6 +365,7 @@
     "16624784810d3246c7",
     "1662478910f3689957",
     "16624787716c817331",
-    "1662478942ab413a2d"
+    "1662478942ab413a2d",
+    "16624798747aaa7218"
   ]
 }
