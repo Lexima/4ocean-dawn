@@ -12,8 +12,12 @@
 @media screen and (min-width: 750px) {
   .blog-articles {
     grid-template-columns: 1fr 1fr;
-    column-gap: var(--grid-desktop-horizontal-spacing);
+    column-gap: 3.5rem;
     row-gap: var(--grid-desktop-vertical-spacing); 
+  }
+
+  .blog-title {
+    font-size: 3.2rem;
   }
 
   .blog-articles--collage > *:nth-child(3n + 1),

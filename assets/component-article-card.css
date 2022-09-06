@@ -1,4 +1,7 @@
 @media screen and (max-width: 749px) {
+  .article {
+    --card-text-alignment: center;
+  }
   .articles-wrapper .article {
     width: 100%;
   }
@@ -48,6 +51,7 @@
 
 .article-card .card__heading {
   margin-bottom: 0.6rem;
+  font-weight: 600;
 }
 
 .blog-articles .article-card .card__information,
@@ -57,7 +61,8 @@
 }
 
 .article-card__info {
-  padding-top: 0.4rem;
+  font-size: 1.3rem;
+  font-weight: 500;
 }
 
 .article-card__footer {
@@ -75,7 +80,8 @@
 
 .article-card__excerpt {
   width: 100%;
-  margin-top: 1.2rem;
+  margin-top: .7rem;
+  font-size: 1.2rem;
 }
 
 .article-card__link:not(:only-child) {
@@ -85,6 +91,13 @@
 @media screen and (min-width: 990px) {
   .article-card__link:not(:only-child) {
     margin-right: 4rem;
+  }
+  .blog-articles .article-card .card__information {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+  }
+  .article-card__excerpt {
+    font-size: 1.3rem;
   }
 }
 
