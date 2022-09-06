@@ -3,15 +3,23 @@
 {{ 'component-price.css' | asset_url | stylesheet_tag }}
 {{ 'component-discounts.css' | asset_url | stylesheet_tag }}
 
-<div class="page-width{% if cart == empty %} is-empty{% endif %}" id="main-cart-footer" data-id="{{ section.id }}">
+{%- style -%}
+  .section-{{ section.id }}-padding {
+    padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
+    padding-bottom: {{ section.settings.padding_bottom | times: 0.75 | round: 0 }}px;
+  }
+
+  @media screen and (min-width: 750px) {
+    .section-{{ section.id }}-padding {
+      padding-top: {{ section.settings.padding_top }}px;
+      padding-bottom: {{ section.settings.padding_bottom }}px;
+    }
+  }
+{%- endstyle -%}
+
+<div class="page-width{% if cart == empty %} is-empty{% endif %} section-{{ section.id }}-padding" id="main-cart-footer" data-id="{{ section.id }}">
   <div>
     <div class="cart__footer">
-      {%- if settings.show_cart_note -%}
-        <cart-note class="cart__note field">
-          <label for="Cart-note">{{ 'sections.cart.note' | t }}</label>
-          <textarea class="text-area field__input" name="note" form="cart" id="Cart-note" placeholder="{{ 'sections.cart.note' | t }}">{{ cart.note }}</textarea>
-        </cart-note>
-      {%- endif -%}
 
       <div class="cart__blocks">
         {% for block in section.blocks %}
@@ -19,10 +27,10 @@
             {%- when '@app' -%}
               {% render block %}
             {%- when 'subtotal' -%}
-              <div class="js-contents" {{ block.shopify_attributes }}>
+              <div class="totals-wrapper js-contents" {{ block.shopify_attributes }}>
                 <div class="totals">
-                  <h2 class="totals__subtotal">{{ 'sections.cart.subtotal' | t }}</h2>
-                  <p class="totals__subtotal-value">{{ cart.total_price | money_with_currency }}</p>
+                  <h2 class="totals__subtotal">{{ 'sections.cart.subtotal' | t }}:</h2>
+                  <p class="totals__subtotal-value">{{ cart.total_price | money_without_trailing_zeros }}</p>
                 </div>
 
                 <div>
@@ -39,6 +47,7 @@
                   {%- endif -%}
                 </div>
 
+                {% comment %}
                 <small class="tax-note caption-large rte">
                   {%- if cart.taxes_included and shop.shipping_policy.body != blank -%}
                     {{ 'sections.cart.taxes_included_and_shipping_policy_html' | t: link: shop.shipping_policy.url }}
@@ -50,8 +59,18 @@
                     {{ 'sections.cart.taxes_and_shipping_at_checkout' | t }}
                   {%- endif -%}
                 </small>
+                {% endcomment %}
               </div>
             {%- else -%}
+              {%- if settings.show_cart_note -%}
+                <cart-note class="cart__note field">
+                  <label for="Cart-note">{{ 'sections.cart.note' | t }}</label>
+                  <textarea class="text-area field__input" name="note" form="cart" id="Cart-note" placeholder="{{ 'sections.cart.note' | t }}">{{ cart.note }}</textarea>
+                </cart-note>
+              {%- endif -%}
+
+              <div id="cart-errors"></div>
+
               <div class="cart__ctas" {{ block.shopify_attributes }}>
                 <noscript>
                   <button type="submit" class="cart__update-button button button--secondary" form="cart">
@@ -69,10 +88,17 @@
                   {{ content_for_additional_checkout_buttons }}
                 </div>
               {%- endif -%}
+
+              <div class="cart__continue-shopping">
+                <a href="{{ routes.all_products_collection_url }}" class="button">
+                  {% render 'icon-caret' %}
+                  {{ 'general.continue_shopping' | t }}
+                </a>
+              </div>
+
           {%- endcase -%}
         {% endfor %}
 
-        <div id="cart-errors"></div>
       </div>
     </div>
   </div>
@@ -103,6 +129,32 @@
 {
   "name": "t:sections.main-cart-footer.name",
   "class": "cart__footer-wrapper",
+  "settings": [
+    {
+      "type": "header",
+      "content": "t:sections.all.padding.section_padding_heading"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_top",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "t:sections.all.padding.padding_bottom",
+      "default": 52
+    }
+  ],
   "blocks": [
     {
       "type": "subtotal",
