@@ -1,0 +1,64 @@
+
+{{ 'component-product-banner.css' | asset_url | stylesheet_tag }}
+
+
+
+
+{%- liquid
+    if section_settings.custom_image != blank
+        assign image = section_settings.custom_image
+    else
+        assign image = collection.featured_image
+    endif
+  -%}
+
+
+<div class="sticky-banner sticky-banner-{{collection.id}} {%- if fixed -%} fixed {%- endif -%}">
+    <div class="sticky-banner__container page-width" {{ section.settings.shopify_attributes }}>
+        <div class="sticky-banner__image">
+
+            <img srcset="{%- if image.width >= 165 -%}{{ image | image_url: width: 165 }} 165w,{%- endif -%} {%- if image.width >= 330 -%}{{ image | image_url: width: 330 }} 330w,{%- endif -%} {%- if image.width >= 535 -%}{{ image | image_url: width: 535 }} 535w,{%- endif -%} {%- if image.width >= 750 -%}{{ image | image_url: width: 750 }} 750w,{%- endif -%} {%- if image.width >= 1000 -%}{{ image | image_url: width: 1000 }} 1000w,{%- endif -%} {%- if image.width >= 1500 -%}{{ image | image_url: width: 1500 }} 1500w,{%- endif -%} {%- if image.width >= 3000 -%}{{ image | image_url: width: 3000 }} 3000w,{%- endif -%} {{ image | image_url }} {{ image.width }}w" src="{{ image | image_url: width: 1500 }}" sizes="
+                                            (min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 3 }}px,
+                                            (min-width: 750px) {% if columns > 1 %}calc((100vw - 10rem) / 2){% else %}calc(100vw - 10rem){% endif %},
+                                            calc(100vw - 3rem)" alt="" height="{{ image.height }}" width="{{ image.width }}" loading="lazy">
+
+        </div>
+
+        <div class="sticky-banner__text">
+            {% if section_settings.eyebrow != blank %}
+            <p class="sticky-banner__eyebrow">
+                {{section_settings.eyebrow}}
+            </p>
+            {% endif %}
+            <h2 class="sticky-banner__title">
+                {% if section_settings.title != blank %}
+                {{section_settings.title}}
+                {% else %}
+                {{collection.title}}
+                {% endif %}
+            </h2>
+            {% if section_settings.text != blank %}
+            {{section_settings.text}}
+            {% else %}
+            {{collection.description}}
+            {% endif %}
+        </div>
+
+
+        <div class="sticky-banner__buttons">
+                <scroll-to-button data-target=".collection">
+                    <span class="button--round medium-hide large-up-hide">
+                    {%- render 'icon-arrow' -%}
+                    </span>
+                    <span class="button button--full-width small-hide">
+                        {% if section_settings.button_label != blank %}
+                            {{section_settings.button_label}}
+                        {% else %}
+                            View Collection
+                        {% endif %}
+                        
+                    </span>
+                </scroll-to-button>
+        </div>
+    </div>
+</div>
