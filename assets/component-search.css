@@ -31,3 +31,10 @@
 input::-webkit-search-decoration {
   -webkit-appearance: none;
 }
+
+div.klevu-fluid .klevu-pt-rs-hover.klevups-enabled,
+div.klevu-fluid .klevu-searching-area-l2 {
+  width: 98% !important;
+  left: 50% !important;
+  transform: translateX(-50%);
+}
