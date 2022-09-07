@@ -125,8 +125,8 @@
           "logo_position": "top-center",
           "menu": "4ocean-test-menu-08-12-20",
           "menu_type_desktop": "dropdown",
-          "show_line_separator": true,
           "enable_sticky_header": true,
+          "collab_url": "",
           "margin_bottom": 0,
           "padding_top": 20,
           "padding_bottom": 8
@@ -158,7 +158,7 @@
           "671dcf98-5362-4e60-b1bf-eb5e32e44f4d": {
             "type": "svg_icon",
             "settings": {
-              "icon": ""
+              "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0996\/1022\/files\/Three_logos.svg?v=1662553235"
             }
           }
         },
@@ -170,7 +170,7 @@
         ],
         "settings": {
           "footer_callout_heading": "Together, we can end the ocean plastic crisis",
-          "logo": "",
+          "logo": "https:\/\/cdn.shopify.com\/s\/files\/1\/0996\/1022\/files\/4ocean_White.svg?v=1662553235",
           "logo_width": 230,
           "color_scheme": "accent-2",
           "newsletter_enable": false,
@@ -334,7 +334,6 @@
             "logo_width": 90,
             "logo_position": "middle-left",
             "menu": "main-menu",
-            "show_line_separator": true,
             "enable_sticky_header": true,
             "margin_bottom": 0
           }
