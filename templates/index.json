@@ -1,5 +1,12 @@
 {
   "sections": {
+    "166263842607ac0839": {
+      "type": "trash-counter-callout",
+      "settings": {
+        "text": "pounds of trash pulled from the ocean since 2017",
+        "overlay_section_below": true
+      }
+    },
     "166247613730c29082": {
       "type": "hero",
       "blocks": {
@@ -205,7 +212,8 @@
               "sandbar-jewelry-set"
             ],
             "show_pounds_pulled": false,
-            "enable_quick_add": true
+            "enable_quick_add": true,
+            "show_yotpo": true
           }
         }
       },
@@ -433,6 +441,7 @@
     }
   },
   "order": [
+    "166263842607ac0839",
     "166247613730c29082",
     "16624760820e78f579",
     "166247711860c1e5b4",
