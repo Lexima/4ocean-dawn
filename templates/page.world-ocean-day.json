@@ -359,6 +359,46 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1663012341d1421352": {
+      "type": "call-to-action",
+      "blocks": {
+        "16630123413fe1132c-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to a cleaner ocean.",
+            "heading_size": "h1"
+          }
+        },
+        "16630123413fe1132c-1": {
+          "type": "text",
+          "settings": {
+            "text": "4ocean is committed to ending the ocean plastic crisis, but we’re not cleaning the ocean so people can have pretty beaches. The clean ocean movement has never been about aesthetics. This movement is about restoring the marine environment so it can sustain life. It’s about creating jobs in communities whose livelihoods and quality of life are heavily impacted by plastic pollution. The jobs we create incentivize local environmental stewardship and provide new opportunities for growth, equality, education, and prosperity. It’s about working with the communities we serve to create cleaner, safer living conditions for millions of people around the world. Every time you shop 4ocean and pull a pound of trash, you make it possible for us to expand our global ocean cleanup operation, empower people in communities impacted by plastic pollution, and advance our mission to end the ocean plastic crisis.",
+            "text_style": "text-body"
+          }
+        },
+        "c780e332-7560-4920-9ff5-644bb08fa1db": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/shop-all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16630123413fe1132c-0",
+        "16630123413fe1132c-1",
+        "c780e332-7560-4920-9ff5-644bb08fa1db"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "image": "shopify:\/\/shop_images\/WOD-LP-Module-6_1600x_72155592-93f5-4654-9cc4-544b84c1be7d.webp",
+        "image_align": "right",
+        "contain-image": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -369,6 +409,7 @@
     "1663011222b7369d66",
     "1663010546b3e7781c",
     "16630113386e0161a5",
-    "16630113665796d567"
+    "16630113665796d567",
+    "1663012341d1421352"
   ]
 }
