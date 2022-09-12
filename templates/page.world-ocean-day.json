@@ -130,6 +130,36 @@
         "padding_bottom": 36
       }
     },
+    "1663011222b7369d66": {
+      "type": "rich-text",
+      "blocks": {
+        "166301122264d97188-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Why the ocean is worth protecting<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "166301122264d97188-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The ocean is the world’s largest ecosystem and the life support system of our planet. Without the ocean, life as we know it simply would not exist. So no matter how far away you live, even if you’ve never seen it, the ocean touches you with every breath you take and every drop of water you drink. Let’s explore some of the reasons why the ocean deserves to be celebrated and, more importantly, protected.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "166301122264d97188-0",
+        "166301122264d97188-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1663010546b3e7781c": {
       "type": "collection-features",
       "blocks": {
@@ -214,6 +244,77 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16630113386e0161a5": {
+      "type": "rich-text",
+      "blocks": {
+        "166301133897be0b3e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Why the ocean needs protecting<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "166301133897be0b3e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The ocean isn’t as limitless or as immune to human impacts as we once believed. Only recently has science started to understand the devastating effects of human activities on this finite natural resource. <\/p><p>The combined impacts of climate change, overfishing, pollution, habitat destruction, and other forms of human exploitation continue to threaten our ocean and no area has been left untouched. Let’s explore just a few of these threats together.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "166301133897be0b3e-0",
+        "166301133897be0b3e-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16630113665796d567": {
+      "type": "collection-features",
+      "blocks": {
+        "166301136607391965-0": {
+          "type": "slide",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "166301136607391965-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        }
+      },
+      "block_order": [
+        "166301136607391965-0",
+        "166301136607391965-1"
+      ],
+      "settings": {
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "accessibility_info": "Collection Features Carousel",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -221,6 +322,9 @@
     "16630072514f53d9fa",
     "16630075035d89ff2b",
     "1663008621e5250da3",
-    "1663010546b3e7781c"
+    "1663011222b7369d66",
+    "1663010546b3e7781c",
+    "16630113386e0161a5",
+    "16630113665796d567"
   ]
 }
