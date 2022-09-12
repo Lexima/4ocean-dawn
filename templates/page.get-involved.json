@@ -6,9 +6,318 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "16630248613f553607": {
+      "type": "image-banner",
+      "blocks": {
+        "1663024860b38188f9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get involved in the clean ocean movement",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "1663024860b38188f9-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/4ocean-get-involved-hero-desktop_1800x_f875e9e0-ae65-4606-a80c-c90b1621d21b.webp",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1663024946592e20c2": {
+      "type": "image-with-text",
+      "blocks": {
+        "ba2245ed-4348-47f9-8321-ec8434b41ee9": {
+          "type": "caption",
+          "settings": {
+            "caption": "LIVE THE MISSION",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "166302494670928926-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Small acts add up",
+            "heading_size": "h2"
+          }
+        },
+        "166302494670928926-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At least 80% of all marine debris comes from a land-based source, so no matter where you live, you can have a direct impact on the amount of plastic that enters our oceans.<\/p><p>To help you maximize your impact, we’ve collected some of the simplest and most effective things you can do to help us advance our mission of ending the ocean plastic crisis.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "166302494670928926-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "ba2245ed-4348-47f9-8321-ec8434b41ee9",
+        "166302494670928926-0",
+        "166302494670928926-1",
+        "166302494670928926-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4ocean-get-involved-small-acts_1600x_35613333-4114-4ca4-80e5-42b2dd3e1ac8.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1663025022f89c1db8": {
+      "type": "rich-text",
+      "blocks": {
+        "16630250220fd53003-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Take Action<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16630250220fd53003-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>8 ways to support our mission to end the ocean plastic crisis<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16630250220fd53003-0",
+        "16630250220fd53003-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16630250658366cd54": {
+      "type": "collection-features",
+      "blocks": {
+        "1663025065c8d73447-0": {
+          "type": "slide",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "1663025065c8d73447-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "252a4273-4a6f-4617-a345-627c0a857eeb": {
+          "type": "slide",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "2084897a-abae-485c-8cc4-1144500899fa": {
+          "type": "slide",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "237b8c90-eb43-4d4f-b4fa-61ee079d062c": {
+          "type": "slide",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        }
+      },
+      "block_order": [
+        "1663025065c8d73447-0",
+        "1663025065c8d73447-1",
+        "252a4273-4a6f-4617-a345-627c0a857eeb",
+        "2084897a-abae-485c-8cc4-1144500899fa",
+        "237b8c90-eb43-4d4f-b4fa-61ee079d062c"
+      ],
+      "settings": {
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "accessibility_info": "Collection Features Carousel",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1663025130f561d3ce": {
+      "type": "image-with-text",
+      "blocks": {
+        "1663025130f940755b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Want to maximize your impact? Join the Clean Ocean Club and pull double pounds every month!",
+            "heading_size": "h2"
+          }
+        },
+        "1663025130f940755b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Tell Me More",
+            "button_link": "shopify:\/\/products\/clean-ocean-club-beaded-braided-12-months-prepaid-subscription-combo"
+          }
+        }
+      },
+      "block_order": [
+        "1663025130f940755b-0",
+        "1663025130f940755b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4ocean-get-involved-clean-oean-club_800x_77890b91-303d-495d-b04f-52a203e7a2f4.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1663025243b832688b": {
+      "type": "image-with-text",
+      "blocks": {
+        "16630252430991bc99-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "One change at a time",
+            "heading_size": "h2"
+          }
+        },
+        "16630252430991bc99-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ultimately, there’s no right or wrong way to quit plastic. There will always be more we can do to reduce the amount of plastic in the ocean and our lives. Adopting an ocean-minded lifestyle is a journey, so go at your own pace and do what works for you. And most importantly, start by giving yourself permission to fail. It means you’re trying, and that’s truly the most important thing. Even the smallest changes can make a big difference.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16630252430991bc99-0",
+        "16630252430991bc99-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4ocean-get-involved_1600x_fc34b056-074a-4fa5-9fb8-50be329982d2.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1663025293908f06e8": {
+      "type": "newsletter-signup",
+      "blocks": {
+        "1663025293a511d4e6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stay Connected",
+            "heading_size": "h1",
+            "color": "#fff"
+          }
+        },
+        "1663025293a511d4e6-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Sign up for email & SMS alerts so you never miss an update about the clean ocean movement and new ways to support our mission!<\/p>",
+            "color": "#fff"
+          }
+        },
+        "1663025293a511d4e6-2": {
+          "type": "email_form",
+          "settings": {
+            "klaviyo_embed": "<div class=\"klaviyo-form-T29KmL\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "1663025293a511d4e6-0",
+        "1663025293a511d4e6-1",
+        "1663025293a511d4e6-2"
+      ],
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/Hero2-Desktop-2_740x_ec401944-3a1f-4e5e-bc12-5f1a7d4734ac.webp",
+        "bg_overlay_color": "#172c43",
+        "bg_overlay_opacity": 70,
+        "padding_top": 125,
+        "padding_bottom": 140
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16630248613f553607",
+    "1663024946592e20c2",
+    "1663025022f89c1db8",
+    "16630250658366cd54",
+    "1663025130f561d3ce",
+    "1663025243b832688b",
+    "1663025293908f06e8"
   ]
 }
