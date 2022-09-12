@@ -295,6 +295,50 @@
         "padding_top": 90,
         "padding_bottom": 120
       }
+    },
+    "1663024512264bf79a": {
+      "type": "image-with-text",
+      "blocks": {
+        "16630245129ef502d5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Restoring the value of our environment",
+            "heading_size": "h2"
+          }
+        },
+        "16630245129ef502d5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Plastic waste costs $16.50 per pound in reduced environmental value according to a recent study. At least 16 billion pounds of plastic enters the ocean each year, which reduces the value we assign our natural spaces by about $264 billion.<\/p><p>So when you shop 4ocean, you’re not just cleaning the ocean and reducing the world’s plastic footprint. Every item you purchase adds $16.50 back to the value of our environment. Talk about making an impact!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "9e623469-9b81-4b1b-aacb-5aa7e0f294fe": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop All + Pull Pounds",
+            "button_link": "shopify:\/\/collections\/shop-all"
+          }
+        }
+      },
+      "block_order": [
+        "16630245129ef502d5-0",
+        "16630245129ef502d5-1",
+        "9e623469-9b81-4b1b-aacb-5aa7e0f294fe"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4ocean-resolution-guide-Restoring_1600x_40883b9e-f292-4b02-baf0-5ee86d58e560.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -306,6 +350,7 @@
     "1663023927295df932",
     "1663024002fa0d17de",
     "1663024202bfd5c100",
-    "1663024249859fc839"
+    "1663024249859fc839",
+    "1663024512264bf79a"
   ]
 }
