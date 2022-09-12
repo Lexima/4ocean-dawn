@@ -514,6 +514,46 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "166301535450a4ee10": {
+      "type": "call-to-action",
+      "blocks": {
+        "1663015354e2af3772-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Clean the ocean with every purchase",
+            "heading_size": "h2"
+          }
+        },
+        "1663015354e2af3772-1": {
+          "type": "text",
+          "settings": {
+            "text": "As always, you can rely on 4ocean’s professional, full-time captains and crews to recover harmful marine debris on your behalf. Visit our shop where every product sold funds the removal of one pound of trash from the world’s oceans, rivers, and coastlines.",
+            "text_style": "text-body"
+          }
+        },
+        "1663015354e2af3772-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/shop-all",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1663015354e2af3772-0",
+        "1663015354e2af3772-1",
+        "1663015354e2af3772-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "image": "shopify:\/\/shop_images\/WOD-LP-Module-8_1600x_3068a822-4a50-4adf-b358-afb7693275f4.webp",
+        "image_align": "right",
+        "contain-image": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -527,6 +567,7 @@
     "16630113665796d567",
     "1663012341d1421352",
     "1663012707878cb84e",
-    "166301276465392df3"
+    "166301276465392df3",
+    "166301535450a4ee10"
   ]
 }
