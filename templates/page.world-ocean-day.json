@@ -399,6 +399,121 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1663012707878cb84e": {
+      "type": "rich-text",
+      "blocks": {
+        "1663012707a91a763f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Help us drive positive action for ocean conservation<\/p><p><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1663012707a91a763f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It’s one thing to celebrate World Oceans Day and another to take action to protect the ocean. Here’s a short list of ways to help drive positive action for our one shared ocean.<\/p><p><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1663012707a91a763f-0",
+        "1663012707a91a763f-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "166301276465392df3": {
+      "type": "collection-features",
+      "blocks": {
+        "1663012764591a7711-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WOD-LP-Module-7b_1800x_ccce195a-36f2-4ab1-bc7e-b316967fc1b9.webp",
+            "heading": "Have a conversatio",
+            "heading_size": "h2",
+            "subheading": "<p>Take a moment to reflect on your lifestyle and ask whether there’s more you can do to eliminate single-use plastic from your daily life. Talk to friends and family members, too! Encourage them to go plastic free alongside you and work together to support each other on this journey. <\/p>",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "1663012764591a7711-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WOD-LP-Module-7c_1800x_319d71f5-67e5-417f-b5c0-e9865b1f3575.webp",
+            "heading": "Get organized",
+            "heading_size": "h2",
+            "subheading": "<p>If you’re able to do so safely, organize a small cleanup with family and friends in your local neighborhood or join a pre-planned event near you. If that’s not possible, be aware of your surroundings and pick up any trash you see to keep it out of the ocean.<\/p>",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "58b9ed91-159d-4cbd-a0ef-ee7b2df21077": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WOD-LP-Module-7d_1800x_4602cc33-80c1-4500-a071-3bd148e9bfd4.webp",
+            "heading": "Stay informed",
+            "heading_size": "h2",
+            "subheading": "<p>Spend part of the day searching the internet for resources that can help you go plastic-free and keep you up to date on the ocean plastic crisis. There are countless blogs, newsletters, and email alerts to sign up for. Staying informed will ensure you stay part of the conversation. Only by educating ourselves can we understand this complex issue and take effective action to solve it.<\/p>",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "5a6589ec-ef08-40ca-b50a-329ccf907bdc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WOD-LP-Module-7e_1800x_0cfbcc4b-bd13-4985-b9f3-26c0b8d39222.webp",
+            "heading": "Spread the word",
+            "heading_size": "h2",
+            "subheading": "<p>People can’t be part of the solution until they’re aware of the problem. Share this page on your favorite social media platforms to help raise awareness about the importance of protecting our one shared ocean. <\/p><p>Talk about what you’re doing to end your reliance on single-use plastics and encourage others to get involved in the clean ocean movement alongside you. Make sure you tag @4ocean and use #WorldOceansDay2022 to increase the visibility of anything you post!<\/p>",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "e7bb50fa-7c31-4dac-aede-72ebbf1d3bfb": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WOD-LP-Module-7f_1800x_4be7054d-6c34-4cc1-a34a-2e2596c30714.webp",
+            "heading": "Support your favorite ocean-friendly organizations",
+            "heading_size": "h2",
+            "subheading": "<p>There are many incredible organizations working hard every single day to protect the ocean and all of the animals that call it home. If you’re able, consider donating time, supplies, or money to support their efforts and advance the clean ocean movement. We’re in this together!<\/p>",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        }
+      },
+      "block_order": [
+        "1663012764591a7711-0",
+        "1663012764591a7711-1",
+        "58b9ed91-159d-4cbd-a0ef-ee7b2df21077",
+        "5a6589ec-ef08-40ca-b50a-329ccf907bdc",
+        "e7bb50fa-7c31-4dac-aede-72ebbf1d3bfb"
+      ],
+      "settings": {
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "accessibility_info": "Collection Features Carousel",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -410,6 +525,8 @@
     "1663010546b3e7781c",
     "16630113386e0161a5",
     "16630113665796d567",
-    "1663012341d1421352"
+    "1663012341d1421352",
+    "1663012707878cb84e",
+    "166301276465392df3"
   ]
 }
