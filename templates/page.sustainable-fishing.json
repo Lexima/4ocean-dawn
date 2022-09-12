@@ -6,9 +6,84 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "166302708860c8e0b9": {
+      "type": "image-banner",
+      "blocks": {
+        "1663027088b12f503f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "An analysis of the global fishing industry",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "1663027088b12f503f-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/4ocean-sustainable-fishing-Hero-Desktop_2880x_250406c8-75f7-4dd0-8c07-3d3cf1baccb9.webp",
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "16630271291d9f4176": {
+      "type": "image-with-text",
+      "blocks": {
+        "16630271290cb04dd1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The state of the world’s fisheries",
+            "heading_size": "h2"
+          }
+        },
+        "16630271290cb04dd1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For centuries, humans have relied on the ocean’s abundance of fish for sustenance. Today, seafood is the world’s largest traded food commodity and the primary source of protein for approximately 3 billion people. The industry also provides employment and income for millions of people, which is particularly important for coastal communities in developing economies.<br\/><br\/>As our global population grows, so does our demand for seafood. Advancements in commercial fishing technology mean humans now have the ability to wipe out entire fish populations in a very short period of time. Today, as much as 80% of the world’s fisheries are either overfished or collapsing.It’s estimated that approximately170 billion pounds of wildlife are removed from the ocean by fishers each year.Scientists fear that continuing to fish at our current rate will cause a full-scale collapse of the world’s fisheries which would have a significant impact on global food security.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16630271290cb04dd1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16630271290cb04dd1-0",
+        "16630271290cb04dd1-1",
+        "16630271290cb04dd1-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4ocean-sustainable-fishing-Overview_1600x_96269075-ec74-4067-a23a-3aef4318c6c8.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "166302708860c8e0b9",
+    "16630271291d9f4176"
   ]
 }
