@@ -278,12 +278,26 @@
     "16630113665796d567": {
       "type": "collection-features",
       "blocks": {
+        "5ce976c9-61c8-4143-95bc-463e88a684ec": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WOD-LP-Module-5a_1800x_1bc3bbc8-87df-4c11-a1e4-a97097937114.webp",
+            "heading": "Climate change",
+            "heading_size": "h2",
+            "subheading": "<p>Climate change creates several unique challenges that can impact the long-term future of the ocean, including more frequent severe weather events, rising ocean temperatures, ocean acidification, and rising sea levels.<\/p><p>Climate change is changing the chemistry of the ocean and causing dangerous imbalances that not only impact marine life, but the humans who live near and rely on the ocean to survive.<\/p>",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
         "166301136607391965-0": {
           "type": "slide",
           "settings": {
-            "heading": "",
+            "image": "shopify:\/\/shop_images\/WOD-LP-Module-5b_1800x_4764a3bf-8215-4d2e-b1bc-7ec1d38c90fe.webp",
+            "heading": "Overfishing",
             "heading_size": "h2",
-            "subheading": "",
+            "subheading": "<p>As our global population grows, so does our demand for seafood. Advancements in commercial fishing technology mean humans now have the ability to wipe out entire fish populations in a very short period of time. <\/p><p>Today, as much as 80% of the world’s fisheries are either overfished or collapsing. It’s estimated that approximately 170 billion pounds of wildlife are removed from the ocean by fishers each year. <\/p><p>Scientists fear that continuing to fish at our current rate will cause a full-scale collapse of the world’s fisheries—a major threat to global food security. <\/p>",
             "box_align": "left",
             "text_alignment": "left",
             "color_scheme": "background-2",
@@ -293,9 +307,36 @@
         "166301136607391965-1": {
           "type": "slide",
           "settings": {
-            "heading": "",
+            "image": "shopify:\/\/shop_images\/WOD-LP-Module-5c_1800x_80686810-ff46-418e-b19f-a4cf59f3d28a.jpg",
+            "heading": "Plastic pollution",
             "heading_size": "h2",
-            "subheading": "",
+            "subheading": "<p>Approximately 18 billion pounds of plastic enters the ocean every year. Plastic pollution poses significant ingestion and entanglement risks for wildlife and can introduce toxins into the marine food chain. It also degrades the marine environment, threatens already vulnerable and endangered species, and impacts biodiversity, which is crucial to the ocean’s health. <\/p><p>Microplastics have also been found in the air we breathe and foods we eat. Researchers estimate that the average person consumes one credit card worth of plastic each week. While scientists are only starting to understand the impact that plastic has on people, they have learned that plastics contain chemicals that can disrupt the human endocrine system and even cause cancer, diabetes, reproductive disorders, and neurological damage in unborn babies and young children.<\/p>",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "f3a48be9-b1d2-4a99-8e45-6678d42c4364": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WOD-LP-Module-5d_1800x_2543cc55-fc46-4d7f-9da2-d27be16d48e1.jpg",
+            "heading": "Chemical and nutrient pollution",
+            "heading_size": "h2",
+            "subheading": "<p>Chemical and nutrient pollution from industrial and agricultural runoff can harm crucial marine habitats and impact wildlife; common pollutants include pesticides, herbicides, fertilizers, oil, detergents, and sewage. Many of these toxins are “forever chemicals” that have already been banned but will persist in our environment indefinitely.<\/p><p>Plastic can both introduce and absorb chemical pollutants from the surrounding environment; in fact, plastic can accumulate toxins in concentrations up to 1 million times greater than surrounding seawater. These toxins can be absorbed into the living tissue of animals that eat plastic and cause significant health impacts. The same is true for humans who consume seafood.<\/p>",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "cb376786-2474-4039-94ff-dd01504eaae7": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WOD-LP-Module-5e_1800x_daa1ef81-9ac7-4f9c-9796-8ccb789a8a0c.webp",
+            "heading": "Noise pollution",
+            "heading_size": "h2",
+            "subheading": "<p>Noise pollution from increased boat traffic, activities in the oil and gas industry (like seismology), and military activities (like underwater sonar) can interrupt animals’ normal behavior patterns and drive them away from crucial habitats. Some noises are so loud that they can cause injuries or even be fatal to wildlife. <\/p>",
             "box_align": "left",
             "text_alignment": "left",
             "color_scheme": "background-2",
@@ -304,8 +345,11 @@
         }
       },
       "block_order": [
+        "5ce976c9-61c8-4143-95bc-463e88a684ec",
         "166301136607391965-0",
-        "166301136607391965-1"
+        "166301136607391965-1",
+        "f3a48be9-b1d2-4a99-8e45-6678d42c4364",
+        "cb376786-2474-4039-94ff-dd01504eaae7"
       ],
       "settings": {
         "slider_visual": "dots",
