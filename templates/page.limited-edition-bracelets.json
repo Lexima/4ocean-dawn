@@ -182,6 +182,99 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1663026753ffa57b67": {
+      "type": "image-banner",
+      "blocks": {
+        "16630267535e654d55-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The bracelet that started it all",
+            "heading_size": "h1"
+          }
+        },
+        "16630267535e654d55-1": {
+          "type": "text",
+          "settings": {
+            "text": "The 4ocean Signature Bracelet is the first bracelet we ever launched. It instantly identifies you as a member of the clean ocean movement, symbolizes your commitment to our mission of ending the ocean plastic crisis, and acts as a daily reminder to make ocean-minded choices. It’s also the perfect gift idea for anyone who’s new to the clean ocean movement.",
+            "text_style": "body"
+          }
+        },
+        "df541ef8-0f7d-4bd6-adc6-4daadd859d72": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Shop Now",
+            "button_link_2": "shopify:\/\/products\/the-4ocean-bracelet",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16630267535e654d55-0",
+        "16630267535e654d55-1",
+        "df541ef8-0f7d-4bd6-adc6-4daadd859d72"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/4ocean-signature-blue-bracelet-Desktop_2400x_9ab0991d-e559-48db-adb9-475353622c77.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1663026928964e3e4f": {
+      "type": "image-with-text",
+      "blocks": {
+        "166302692899c83162-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Find 4ocean at a store near you!",
+            "heading_size": "h2"
+          }
+        },
+        "166302692899c83162-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Limited edition bracelets that are no longer available online can still be found in select shops around the country.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "166302692899c83162-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Store Locator",
+            "button_link": "shopify:\/\/pages\/store-locator"
+          }
+        }
+      },
+      "block_order": [
+        "166302692899c83162-0",
+        "166302692899c83162-1",
+        "166302692899c83162-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4ocean-Store-locator_1600x_a498056e-157f-4432-aef2-763ca937bee7.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -190,6 +283,8 @@
     "1663026069c6b0feb3",
     "1663026320e44bbcff",
     "1663026530a98935f0",
-    "16630266673b2a4763"
+    "16630266673b2a4763",
+    "1663026753ffa57b67",
+    "1663026928964e3e4f"
   ]
 }
