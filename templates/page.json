@@ -20,20 +20,10 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
-    },
-    "1663003319010e9577": {
-      "type": "modal-video",
-      "settings": {
-        "cover_image": "shopify:\/\/shop_images\/4ocean-osborne-reef-welcome-video-hero-desktop_1800x_ae396442-473a-47b1-84a8-fdb2c027ef1e.webp",
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "video_text": "Here’s your special message from Alex",
-        "show_product_banner": true
-      }
     }
   },
   "order": [
     "main",
-    "166300323391be55a0",
-    "1663003319010e9577"
+    "166300323391be55a0"
   ]
 }
