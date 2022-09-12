@@ -339,6 +339,47 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1663024643e0df33df": {
+      "type": "image-banner",
+      "blocks": {
+        "1663024643ad20cfd9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Discover more ways to get involved in the clean ocean movement in 2022",
+            "heading_size": "h2"
+          }
+        },
+        "1663024643ad20cfd9-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Get Involved",
+            "button_link_1": "shopify:\/\/pages\/get-involved",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1663024643ad20cfd9-0",
+        "1663024643ad20cfd9-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/4ocean-resolution-guide-Discover-Desktop_2880x_60bdca2c-b279-42a4-b65b-8788343ca316.webp",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -351,6 +392,7 @@
     "1663024002fa0d17de",
     "1663024202bfd5c100",
     "1663024249859fc839",
-    "1663024512264bf79a"
+    "1663024512264bf79a",
+    "1663024643e0df33df"
   ]
 }
