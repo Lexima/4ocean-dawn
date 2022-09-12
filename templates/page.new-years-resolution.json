@@ -277,10 +277,18 @@
             "enable_quick_add": true,
             "show_yotpo": true
           }
+        },
+        "9c4f7a86-3575-42cd-93ba-a1a1abb8fab0": {
+          "type": "button",
+          "settings": {
+            "button_text": "Shop Now",
+            "button_url": "shopify:\/\/collections\/shop-all"
+          }
         }
       },
       "block_order": [
-        "d314a0a7-cfac-40b2-930a-6b3a90e401f3"
+        "d314a0a7-cfac-40b2-930a-6b3a90e401f3",
+        "9c4f7a86-3575-42cd-93ba-a1a1abb8fab0"
       ],
       "settings": {
         "color_scheme": "background-1",
