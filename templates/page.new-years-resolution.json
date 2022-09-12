@@ -6,9 +6,298 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "166302369050c1b362": {
+      "type": "image-banner",
+      "blocks": {
+        "166302369010e2a394-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The 4ocean New Year’s Resolution Guide",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "166302369010e2a394-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/4ocean-Hero-Banner-resolution-guide-desktop_2880x_7baa2720-d3b4-4e57-b47b-55598a1a9959.webp",
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1663023751b8cf4eb5": {
+      "type": "image-with-text",
+      "blocks": {
+        "1663023751f944ca07-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Tips and tools for an ocean-minded new year!",
+            "heading_size": "h2"
+          }
+        },
+        "1663023751f944ca07-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>New Year’s resolutions are usually about self improvement. This year (and every year), we’re encouraging the clean ocean movement to make a resolution about improving the environment instead.<br\/><br\/>New Year’s resolutions can feel overwhelming, but reducing your plastic footprint doesn’t have to be. We created this guide to help you figure out what steps you can take to be more ocean-minded in 2022 and provide you with the tools you need to succeed.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1663023751f944ca07-0",
+        "1663023751f944ca07-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4ocean-resolution-guide-Tips-And-Tools_1600x_ea18655a-0920-4f6b-bf55-71bde0c7e026.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "166302380374d9ad3f": {
+      "type": "rich-text",
+      "blocks": {
+        "1663023803c891e7bb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>3 tips to avoid single-use plastic in 2022<\/p><p><\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "1663023803c891e7bb-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16630238319b9e3bbc": {
+      "type": "image-with-text",
+      "blocks": {
+        "17279a6e-2fa4-484b-b875-e48603a505ba": {
+          "type": "caption",
+          "settings": {
+            "caption": "TIP #1",
+            "text_style": "subtitle",
+            "text_size": "large"
+          }
+        },
+        "1663023830cc069282-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plan ahead",
+            "heading_size": "h2"
+          }
+        },
+        "1663023830cc069282-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The key to refusing single-use plastic is making sure you have reusable and sustainable alternatives conveniently available. Just like you remember to check for your car keys and wallet before you leave the house, get in the habit of checking to make sure you have a reusable bottle, straw, and bag with you.<br\/><br\/>Don’t psych yourself out thinking you have to buy more stuff; chances are you already have what you need at home. When you get in the habit of bringing reusable items with you, you’ll significantly reduce the chance that you’ll reach for single-use plastic options out of convenience.<br\/><br\/>If you’re struggling to figure out what reusables you need, follow your normal habits for a week and hold on to all of the plastic you consume. At the end of the week, sort through it and see which types of single-use plastic you use most. Those are the swaps you’ll want to make first.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "17279a6e-2fa4-484b-b875-e48603a505ba",
+        "1663023830cc069282-0",
+        "1663023830cc069282-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4ocean-resolution-guide-Tip-1_1600x_860a2681-c630-40b6-b48c-a55b6a85e0f7.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1663023927295df932": {
+      "type": "image-with-text",
+      "blocks": {
+        "5952d26c-1f3f-4c1a-8c0f-1775c248c485": {
+          "type": "caption",
+          "settings": {
+            "caption": "TIP #2",
+            "text_style": "subtitle",
+            "text_size": "large"
+          }
+        },
+        "1663023926398e3d67-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Go without",
+            "heading_size": "h2"
+          }
+        },
+        "1663023926398e3d67-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It’s three in the afternoon and you’re really craving a snack from the office vending machine but everything is wrapped in single-use plastic. Do yourself and the ocean a solid and wait it out if you can.<br\/><br\/>By following Tip #1, you can avoid moments like this. Simply adding an extra piece of fruit to your lunch box or keeping a reusable container of trail mix at your desk can help you avoid the temptation of a late afternoon snack that, in the end, can become a dangerous snack for marine life.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "5952d26c-1f3f-4c1a-8c0f-1775c248c485",
+        "1663023926398e3d67-0",
+        "1663023926398e3d67-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4ocean-resolution-guide-Tip-2_1600x_70c326ab-2963-41e0-bcf4-91bf029d8a82.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1663024002fa0d17de": {
+      "type": "image-with-text",
+      "blocks": {
+        "40f85e94-8bd2-4f12-8218-ebfc74b51c6c": {
+          "type": "caption",
+          "settings": {
+            "caption": "TIP #3",
+            "text_style": "subtitle",
+            "text_size": "large"
+          }
+        },
+        "166302400203386773-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Maximize use",
+            "heading_size": "h2"
+          }
+        },
+        "166302400203386773-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If you find yourself in a situation where you simply can’t avoid plastic (and you will), try to choose the option that can be reused. <br\/><br\/>For instance, if you must accept a plastic grocery bag, add it to your stack of reusable bags and bring it back to the store. When it’s no longer useful for carrying things, use it to line the trash can in your bathroom or to scoop dog poop. <\/p><p><br\/>Just because something was designed to be used once doesn’t mean it has to be.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "0e674ba1-a87a-4497-9181-11583ea00904": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get More Tips",
+            "button_link": "shopify:\/\/blogs\/blog\/kick-your-plastic-habit-in-2021"
+          }
+        }
+      },
+      "block_order": [
+        "40f85e94-8bd2-4f12-8218-ebfc74b51c6c",
+        "166302400203386773-0",
+        "166302400203386773-1",
+        "0e674ba1-a87a-4497-9181-11583ea00904"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4ocean-resolution-guide-Tip-3_1600x_fd2e5a2e-8d58-4ea3-8c42-55f4408aafd8.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1663024202bfd5c100": {
+      "type": "rich-text",
+      "blocks": {
+        "1663024202c95fb8c6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Tools to help you avoid single-use plastic in 2022<\/p><p><\/p><p><\/p><p><\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "1663024202c95fb8c6-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1663024249859fc839": {
+      "type": "featured-products",
+      "blocks": {
+        "d314a0a7-cfac-40b2-930a-6b3a90e401f3": {
+          "type": "products",
+          "settings": {
+            "product_list": [
+              "mini-resolution-starter-pack",
+              "4ocean-on-the-go-pack",
+              "4ocean-x-stasher-reusable-storage-bag-bundle",
+              "4ocean-face-mask-support-frames"
+            ],
+            "show_pounds_pulled": true,
+            "enable_quick_add": true,
+            "show_yotpo": true
+          }
+        }
+      },
+      "block_order": [
+        "d314a0a7-cfac-40b2-930a-6b3a90e401f3"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 90,
+        "padding_bottom": 120
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "166302369050c1b362",
+    "1663023751b8cf4eb5",
+    "166302380374d9ad3f",
+    "16630238319b9e3bbc",
+    "1663023927295df932",
+    "1663024002fa0d17de",
+    "1663024202bfd5c100",
+    "1663024249859fc839"
   ]
 }
