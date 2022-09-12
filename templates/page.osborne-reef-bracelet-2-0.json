@@ -73,7 +73,7 @@
         "1663004492aebb5acd-1"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "heading_alignment": "title-wrapper-with-link--center",
         "image_width": "full",
@@ -81,11 +81,55 @@
         "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "none",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16630046654b7ff547": {
+      "type": "image-with-text",
+      "blocks": {
+        "166300466507b1f5c5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Digital Gift Cards",
+            "heading_size": "h1"
+          }
+        },
+        "166300466507b1f5c5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The bigger the clean ocean movement becomes, the bigger impact we can have on the ocean plastic crisis. Our digital gift cards are a great way to introduce people to our mission.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "166300466507b1f5c5-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Get Started",
+            "button_link": "shopify:\/\/products\/4ocean-gift-cards"
+          }
+        }
+      },
+      "block_order": [
+        "166300466507b1f5c5-0",
+        "166300466507b1f5c5-1",
+        "166300466507b1f5c5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Group_289_b06b4933-399b-4055-883c-58a9456fea1f.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -95,6 +139,7 @@
     "main",
     "1663004391c3a1bf43",
     "1663004437f5aec0dc",
-    "16630044926186fb17"
+    "16630044926186fb17",
+    "16630046654b7ff547"
   ]
 }
