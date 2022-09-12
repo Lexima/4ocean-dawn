@@ -6,9 +6,51 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "16630163900095d347": {
+      "type": "image-banner",
+      "blocks": {
+        "16630163908d9892b9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our handcrafted jewelry cleans the ocean and empowers women",
+            "heading_size": "h1"
+          }
+        },
+        "16630163908d9892b9-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Watch Video",
+            "button_link_1": "https:\/\/vimeo.com\/560872487\/ccdebea77f?embedded=true&source=video_title&owner=84664409",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16630163908d9892b9-0",
+        "16630163908d9892b9-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/Bali-Artisans-Homepage-slider-2400x1093_1800x_5608287e-ba4d-4793-b0cd-8952a95e2d0c.webp",
+        "image_overlay_opacity": 10,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16630163900095d347"
   ]
 }
