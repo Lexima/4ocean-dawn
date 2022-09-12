@@ -96,21 +96,21 @@
         "16630036587b04c388-0": {
           "type": "heading",
           "settings": {
-            "heading": "Pound+",
+            "heading": "Digital Gift Cards",
             "heading_size": "h1"
           }
         },
         "16630036587b04c388-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our ocean cleanup service makes it easy to fund our cleanups. Simply choose how many pounds you want to pull and how often. You’ll pay just $10 per pound.<\/p>",
+            "text": "<p>The bigger the clean ocean movement becomes, the bigger impact we can have on the ocean plastic crisis. Our digital gift cards are a great way to introduce people to our mission.<\/p>",
             "text_style": "body"
           }
         },
         "16630036587b04c388-2": {
           "type": "button",
           "settings": {
-            "button_label": "Im Interested",
+            "button_label": "Get Started",
             "button_link": "shopify:\/\/products\/pound-plus"
           }
         }
@@ -121,10 +121,10 @@
         "16630036587b04c388-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/4ocean-osborne-reef-Pound-plus_1800x_017198ee-95e8-4162-be37-e41baadc3020.webp",
+        "image": "shopify:\/\/shop_images\/Group_289_b06b4933-399b-4055-883c-58a9456fea1f.png",
         "height": "adapt",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
