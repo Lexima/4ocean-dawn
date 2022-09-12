@@ -175,9 +175,10 @@
         "58d6d31e-d3b6-4c66-ba23-c8dd045b9303": {
           "type": "slide",
           "settings": {
-            "heading": "",
+            "image": "shopify:\/\/shop_images\/WOD-LP-Module-4g_1800x_49fdb62c-19a5-4054-933a-035ae7b64380.webp",
+            "heading": "The ocean is an important means of transportation",
             "heading_size": "h2",
-            "subheading": "",
+            "subheading": "<p>About 90% of global trade is carried by sea. It’s also an important source of transportation and supports the tourism industry, which is crucial to the global economy and coastal communities in particular.<\/p>",
             "box_align": "left",
             "text_alignment": "left",
             "color_scheme": "background-2",
