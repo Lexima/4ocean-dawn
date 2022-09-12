@@ -93,11 +93,48 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1663008621e5250da3": {
+      "type": "image-with-text",
+      "blocks": {
+        "16630086217257d7ce-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Fighting for the blue heart of our planet since 1992",
+            "heading_size": "h1"
+          }
+        },
+        "16630086217257d7ce-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>World Oceans Day has been celebrated every year on June 8 since 1992. On this day, millions of people around the world come together to celebrate our one shared ocean, discuss the most pressing social and environmental issues impacting the ocean (and the people who rely on it to survive), and collaborate on crucial conservation initiatives that will protect and restore it for generations to come.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16630086217257d7ce-0",
+        "16630086217257d7ce-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/WOD-LP-Module-3_1600x_c75f2471-af63-4ec1-873d-4c73a81f13c5.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "16630072514f53d9fa",
-    "16630075035d89ff2b"
+    "16630075035d89ff2b",
+    "1663008621e5250da3"
   ]
 }
