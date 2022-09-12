@@ -37,7 +37,7 @@
         "full_width": true,
         "image": "shopify:\/\/shop_images\/Bali-Artisans-Homepage-slider-2400x1093_1800x_5608287e-ba4d-4793-b0cd-8952a95e2d0c.webp",
         "image_overlay_opacity": 10,
-        "image_height": "medium",
+        "image_height": "large",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
         "show_text_box": false,
@@ -47,10 +47,224 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "1663016471611fac60": {
+      "type": "featured-collections",
+      "blocks": {
+        "1663016471d862f76f-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bracelets",
+            "collection_name_color": "#fff"
+          }
+        },
+        "1663016471d862f76f-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "necklaces",
+            "collection_name_color": "#fff"
+          }
+        },
+        "1663016471d862f76f-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sterling-silver-jewelry",
+            "collection_name_color": "#fff"
+          }
+        }
+      },
+      "block_order": [
+        "1663016471d862f76f-0",
+        "1663016471d862f76f-1",
+        "1663016471d862f76f-2"
+      ],
+      "settings": {
+        "title": "Shop your favorites",
+        "description": "",
+        "heading_size": "h1",
+        "content_alignment": "left",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_button": false,
+        "button_label": "",
+        "button_link": "",
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "166301685790d5fac7": {
+      "type": "image-with-text",
+      "blocks": {
+        "b6efb717-066d-4926-a5e4-72a1745af548": {
+          "type": "caption",
+          "settings": {
+            "caption": "SOCIAL IMPACT",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "16630168573914f7f5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Plastic pollution has a human impact",
+            "heading_size": "h2"
+          }
+        },
+        "16630168573914f7f5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The world’s poorest and most marginalized communities are disproportionately affected by plastic pollution and climate change. As these threats continue to grow, those who rely on the health of the ocean for their livelihoods find it increasingly difficult to earn a living and often have few alternatives for steady work.<br\/><br\/>That’s why 4ocean is committed to hiring people who live in the communities we serve. The jobs we create incentivize environmental stewardship at the local level and bring new opportunities for growth, equality, education, and prosperity for our crew members, their families, and their communities.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "b6efb717-066d-4926-a5e4-72a1745af548",
+        "16630168573914f7f5-0",
+        "16630168573914f7f5-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Bali-Artisans-Module-2_1600x_176eefe6-c159-4431-82e9-9239459ffa5c.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1663017043a45c1982": {
+      "type": "image-with-text",
+      "blocks": {
+        "1663017043de17ee18-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Women have the power to transform communities",
+            "heading_size": "h2"
+          }
+        },
+        "1663017043de17ee18-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In poverty-stricken areas where job opportunities are limited, women and their daughters are more likely to maintain traditional domestic and caretaker roles while their husbands and sons travel for work. They’re also less likely to attend school and even when they do, they’re often forced to set their dreams aside to care for their families.<br\/><br\/>However, women who work invest about 90% of their income back into their children and families, which is one of the most effective ways to alleviate poverty and improve health and education outcomes globally. And that barely scratches the surface. Women’s economic empowerment provides many positive outcomes that ultimately benefit everyone.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1663017043de17ee18-0",
+        "1663017043de17ee18-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/03-4ocean-bali-WomenComprise_1600x_2aff0cc5-16ff-4ca1-a759-ee27a3403113.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1663017126e3e481bb": {
+      "type": "image-with-text",
+      "blocks": {
+        "1663017126cc861204-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Empowering more women to join the workforce",
+            "heading_size": "h2"
+          }
+        },
+        "1663017126cc861204-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our jewelry artisans create their own schedules and work directly out of their homes and village centers. Because they can manage domestic and care tasks while they work or share the responsibility with their community, more women are able to join the workforce and earn an income.<br\/><br\/>Right now, our artisanal workforce employs about 200 artisans in Bali alone and 80% of them are women. We also partner with Wakami in Guatemala to provide women in rural communities with the business and skill training as well as a reliable source of income that allows them to transform cycles of poverty into cycles of prosperity.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1663017126cc861204-0",
+        "1663017126cc861204-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/02-4ocean-bali-Empowerment_1600x_61f261c3-c2d3-4cae-8b7b-d51797bb083a.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "166301719286211170": {
+      "type": "featured-collections",
+      "blocks": {
+        "16630171927478fb71-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bali-bracelets",
+            "collection_name_color": "#fff"
+          }
+        },
+        "16630171927478fb71-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "braided-bracelet",
+            "collection_name_color": "#fff"
+          }
+        },
+        "16630171927478fb71-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "pound-pack",
+            "collection_name_color": "#fff"
+          }
+        }
+      },
+      "block_order": [
+        "16630171927478fb71-0",
+        "16630171927478fb71-1",
+        "16630171927478fb71-2"
+      ],
+      "settings": {
+        "title": "",
+        "description": "",
+        "heading_size": "h1",
+        "content_alignment": "center",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_button": false,
+        "button_label": "",
+        "button_link": "",
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "16630163900095d347"
+    "16630163900095d347",
+    "1663016471611fac60",
+    "166301685790d5fac7",
+    "1663017043a45c1982",
+    "1663017126e3e481bb",
+    "166301719286211170"
   ]
 }
