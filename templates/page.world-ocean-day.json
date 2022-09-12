@@ -129,12 +129,55 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1663010546b3e7781c": {
+      "type": "collection-features",
+      "blocks": {
+        "166301054659ccf057-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/WOD-LP-Module-4d_1800x_0853c06d-0760-4a14-866d-7a256ac5b5f8.webp",
+            "heading": "Many important medicines are made with ingredients from the ocean",
+            "heading_size": "h2",
+            "subheading": "<p>More than 10,000 compounds have been extracted from the ocean to produce medicines that help fight diseases like cancer, heart disease, arthritis, and Alzheimer’s. These compounds are also used in activities like biomedical research and diagnostic testing, which are crucial to understanding, identifying, and treating disease.<\/p>",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "166301054659ccf057-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        }
+      },
+      "block_order": [
+        "166301054659ccf057-0",
+        "166301054659ccf057-1"
+      ],
+      "settings": {
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "accessibility_info": "Collection Features Carousel",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "16630072514f53d9fa",
     "16630075035d89ff2b",
-    "1663008621e5250da3"
+    "1663008621e5250da3",
+    "1663010546b3e7781c"
   ]
 }
