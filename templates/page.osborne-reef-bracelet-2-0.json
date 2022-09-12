@@ -20,10 +20,34 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "1663004437f5aec0dc": {
+      "type": "rich-text",
+      "blocks": {
+        "16630044372beed847-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>More ways to support our mission and fund all of our cleanup operations<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "16630044372beed847-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "1663004391c3a1bf43"
+    "1663004391c3a1bf43",
+    "1663004437f5aec0dc"
   ]
 }
