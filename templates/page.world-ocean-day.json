@@ -64,10 +64,11 @@
         "1663007503a28408e7-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/Cariuma-Homepage-slider-mobile-767x1000_1800x_c395a27f-a7de-4985-9df9-1ccfa5062579.webp",
+            "title": "4ocean x Cariuma Ocean-Friendly Sneakers",
+            "text": "<p>Our clean ocean collaboration with cult-favorite sustainable sneaker brand Cariuma returns for a limited time! Every pair pulls two pounds of trash.<\/p>",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/cariuma"
           }
         }
       },
@@ -84,7 +85,7 @@
         "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "none",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
