@@ -6,9 +6,84 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "1663026014e9fda69e": {
+      "type": "image-banner",
+      "blocks": {
+        "1663026014fc5d33ef-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "2021 Limited Edition Bracelet Collection",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "1663026014fc5d33ef-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/4ocean-limited-edition-2021-bracelets-Hero-Banner-Desktop_2880x_270fd984-453c-4ff6-8568-dc446ca22961.webp",
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1663026069c6b0feb3": {
+      "type": "image-with-text",
+      "blocks": {
+        "16630260696f875fd9-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Collect them all before they disappear!",
+            "heading_size": "h2"
+          }
+        },
+        "16630260696f875fd9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every month, we introduce a limited edition bracelet to raise awareness about animals and ecosystems impacted by plastic pollution. In April this year, we also started donating $1 for each bracelet sold to an ocean-friendly organization driving positive action for our monthly cause. <\/p><p><br\/>They’re only available while supplies last and will disappear from our shop forever once the holiday season ends, so don’t miss this opportunity to complete your 2021 bracelet collection!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16630260696f875fd9-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop All",
+            "button_link": "shopify:\/\/collections\/2021-limited-edition-bracelets"
+          }
+        }
+      },
+      "block_order": [
+        "16630260696f875fd9-0",
+        "16630260696f875fd9-1",
+        "16630260696f875fd9-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4ocean-2021-limited-edition-bracelets_1600x_edd478d9-27e3-4f0e-b9f8-998b2eeac922.gif",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1663026014e9fda69e",
+    "1663026069c6b0feb3"
   ]
 }
