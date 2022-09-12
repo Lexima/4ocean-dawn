@@ -1,5 +1,34 @@
 {
   "sections": {
+    "16630156811a08bd9a": {
+      "type": "image-banner",
+      "blocks": {
+        "1663015680f9f6b4b6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Cookie Policy",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1663015680f9f6b4b6-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/cdn11.bigcommerce.com_534_4ocean-cookiepolicy-header.webp",
+        "image_overlay_opacity": 20,
+        "image_height": "medium",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -9,6 +38,7 @@
     }
   },
   "order": [
+    "16630156811a08bd9a",
     "main"
   ]
 }
