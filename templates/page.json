@@ -51,10 +51,10 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/4ocean-osborne-reef-Pound-plus_1800x_017198ee-95e8-4162-be37-e41baadc3020.webp",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "title": "Pound+",
+            "text": "<p>Our ocean cleanup service makes it easy to fund our cleanups. Simply choose how many pounds you want to pull and how often. You’ll pay just $10 per pound.<\/p>",
+            "link_label": "Im Interested",
+            "link": "shopify:\/\/products\/pound-plus"
           }
         },
         "16630035076326282a-1": {
