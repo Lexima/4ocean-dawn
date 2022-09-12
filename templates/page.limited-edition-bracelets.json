@@ -79,11 +79,117 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1663026320e44bbcff": {
+      "type": "featured-products",
+      "blocks": {
+        "ec90eac7-3764-495a-a51a-37a8326a1d62": {
+          "type": "products",
+          "settings": {
+            "product_list": [
+              "limited-edition-manatee-2-pound-pack",
+              "limited-edition-pelican-2-pound-pack",
+              "limited-edition-whale-shark-2-pound-pack",
+              "hawaiian-coral-reef-2-pound-pack",
+              "hammerhead-shark-2-pound-pack",
+              "hawksbill-sea-turtle-2-pound-pack",
+              "limited-edition-bottlenose-dolphin-2-pound-pack",
+              "limited-edition-manta-ray-2-pound-pack"
+            ],
+            "show_pounds_pulled": true,
+            "enable_quick_add": true,
+            "show_yotpo": true
+          }
+        }
+      },
+      "block_order": [
+        "ec90eac7-3764-495a-a51a-37a8326a1d62"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 90,
+        "padding_bottom": 0
+      }
+    },
+    "1663026530a98935f0": {
+      "type": "featured-products",
+      "blocks": {
+        "d147ab72-bbbf-47f8-85ec-eba0e7e2546d": {
+          "type": "products",
+          "settings": {
+            "product_list": [
+              "limited-edition-2021-earth-day-2-pound-pack",
+              "dumbo-octopus-2-pound-pack",
+              "vaquita-porpoise-2-pound-pack",
+              "stingray-2-pound-pack"
+            ],
+            "show_pounds_pulled": true,
+            "enable_quick_add": true,
+            "show_yotpo": true
+          }
+        }
+      },
+      "block_order": [
+        "d147ab72-bbbf-47f8-85ec-eba0e7e2546d"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 30,
+        "padding_bottom": 120
+      }
+    },
+    "16630266673b2a4763": {
+      "type": "image-with-text",
+      "blocks": {
+        "6015219b-6bed-4a65-9714-ab67ef31a248": {
+          "type": "caption",
+          "settings": {
+            "caption": "CLEAN OCEAN COLLECTION VOL. 4: 2021",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "16630266672bcf6dd6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pull 12 pounds of trash from the ocean with this year’s collector’s edition bracelet box set",
+            "heading_size": "h2"
+          }
+        },
+        "16630266672bcf6dd6-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/products\/clean-ocean-collection-vol-4-2021"
+          }
+        }
+      },
+      "block_order": [
+        "6015219b-6bed-4a65-9714-ab67ef31a248",
+        "16630266672bcf6dd6-0",
+        "16630266672bcf6dd6-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4ocean-Clean-ocean-collection-vol-4-Alt-1_800x_8406fcb4-ce4d-4982-ba76-2b016ca84d79.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "1663026014e9fda69e",
-    "1663026069c6b0feb3"
+    "1663026069c6b0feb3",
+    "1663026320e44bbcff",
+    "1663026530a98935f0",
+    "16630266673b2a4763"
   ]
 }
