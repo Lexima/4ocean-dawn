@@ -6,9 +6,51 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "16630072514f53d9fa": {
+      "type": "image-banner",
+      "blocks": {
+        "1663007251fc283cca-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Celebrate World Oceans Day the 4ocean way!",
+            "heading_size": "h1"
+          }
+        },
+        "1663007251fc283cca-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Watch Video",
+            "button_link_1": "https:\/\/vimeo.com\/716926185",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1663007251fc283cca-0",
+        "1663007251fc283cca-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/WOD_Hero-Module-1-LP_1800x_7aac9fe7-4a95-4227-8b0c-9f974f7d35ce.webp",
+        "image_overlay_opacity": 30,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-left",
+        "show_text_box": false,
+        "desktop_content_alignment": "left",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16630072514f53d9fa"
   ]
 }
