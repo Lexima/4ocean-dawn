@@ -509,6 +509,116 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1663028650b32221ce": {
+      "type": "rich-text",
+      "blocks": {
+        "16630286504e914eff-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Get Involved<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "43c9ead0-9f49-4c23-9a9b-fea1b533dbe6": {
+          "type": "caption",
+          "settings": {
+            "caption": "You can make a difference, too!",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "16630286504e914eff-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>To drive positive change in the commercial fishing industry, we must act as both informed consumers and citizens. Educating yourself about where your seafood comes from and voting for ocean-friendly legislation that enforces current regulations, puts more stringent requirements on the commercial fishing industry, and creates protected areas where overfished species can recover are some of the most effective ways you can make a difference.<br\/><br\/>We know that finding seafood from a proven sustainable source can be a bit tricky, so we’ve collected a few resources that can help you make informed choices about the seafood you consume.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16630286504e914eff-0",
+        "43c9ead0-9f49-4c23-9a9b-fea1b533dbe6",
+        "16630286504e914eff-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1663028731b4858a86": {
+      "type": "collection-features",
+      "blocks": {
+        "16630287318caefdd8-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4ocean-Get-Involved-1_1800x_8eafc544-d513-4a1c-9308-c01353579c99.webp",
+            "heading": "Seafood Watch",
+            "heading_size": "h2",
+            "subheading": "<p>Seafood Watch is a program run by the Monterey Bay Aquarium that helps consumers and businesses choose sustainable seafood with detailed information on how products are fished or farmed.<\/p>",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "16630287318caefdd8-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4ocean-Get-Involved-2_1800x_12ef937b-4672-4cad-9164-c7a2b038b50f.webp",
+            "heading": "FishWatch",
+            "heading_size": "h2",
+            "subheading": "<p>NOAA’s FishWatch helps consumers understand science, laws, and management in order to make informed seafood choices.<\/p>",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "81804e36-00e0-4802-9c87-b98858b6a4ae": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4ocean-Get-Involved-3_1800x_155ab577-0b6d-4b11-8581-b2bbc749f45e.webp",
+            "heading": "Certifications",
+            "heading_size": "h2",
+            "subheading": "<p>On pre-packaged foods, you can look for the labels from the Marine Stewardship Council, which sets standards for sustainable wild-caught fish and certifies fisheries that meets those standards, and the Aquaculture Stewardship Council, which does the same for fish farms.<br\/><\/p><p>Just remember that certification doesn’t necessarily mean your seafood is audited on a regular basis. Always do your own research to understand how these or any certifications are achieved and maintained.<\/p>",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "d7f5a95c-b0b0-4011-a754-1c2ac5f224ef": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4ocean-Get-Involved-4_1800x_06f63a6f-60cb-4572-a969-d0f2d6b7ab19.webp",
+            "heading": "Spread the word",
+            "heading_size": "h2",
+            "subheading": "<p>The more people that become aware of issues in the commercial fishing industry, the more we can do to drive positive change. Talk to your friends. Talk to your family. Contact your favorite restaurants and grocery stores about the products they sell. Reach out to your local representatives and demand action. Remember, we’re all in this together.<\/p>",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        }
+      },
+      "block_order": [
+        "16630287318caefdd8-0",
+        "16630287318caefdd8-1",
+        "81804e36-00e0-4802-9c87-b98858b6a4ae",
+        "d7f5a95c-b0b0-4011-a754-1c2ac5f224ef"
+      ],
+      "settings": {
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "accessibility_info": "Collection Features Carousel",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -523,6 +633,8 @@
     "16630278138a3cd240",
     "1663028136b6df85f8",
     "16630283583fc43bfa",
-    "1663028426520a8357"
+    "1663028426520a8357",
+    "1663028650b32221ce",
+    "1663028731b4858a86"
   ]
 }
