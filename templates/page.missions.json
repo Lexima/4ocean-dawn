@@ -26,6 +26,7 @@
         },
         "1663075594688b1ec1-2": {
           "type": "buy_buttons",
+          "disabled": true,
           "settings": {
             "button_label": "Shop Now - Pull a Pound"
           }
