@@ -10,6 +10,7 @@
     },
     "16630755949c3ff232": {
       "type": "pdp-atc-hero",
+      "disabled": true,
       "blocks": {
         "1663075594688b1ec1-0": {
           "type": "heading",
