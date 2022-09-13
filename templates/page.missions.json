@@ -271,7 +271,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -870,14 +870,14 @@
           "settings": {
             "heading": "Stay Connected",
             "heading_size": "h1",
-            "color": "#fff"
+            "color": "#ffffff"
           }
         },
         "166309443727e22d2f-1": {
           "type": "paragraph",
           "settings": {
             "text": "<p>Sign up for email & SMS alerts so you never miss an update about the clean ocean movement and new ways to support our mission!<\/p>",
-            "color": "#fff"
+            "color": "#ffffff"
           }
         },
         "166309443727e22d2f-2": {
