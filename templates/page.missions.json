@@ -551,6 +551,7 @@
         "0269b5c3-cb23-4491-b681-a9e01db78731": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Medhi-in-Lab.jpg",
             "title": "Research + Development",
             "text": "<p>There is no playbook for cleaning the ocean. With your support, we can research, design, develop, and invest in promising new solutions to the ocean plastic crisis.<\/p>",
             "link_label": "",
