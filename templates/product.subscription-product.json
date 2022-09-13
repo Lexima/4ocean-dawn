@@ -49,6 +49,12 @@
             "active_pill_border_color": "#0565ce"
           }
         },
+        "c9df7936-f5ac-4bab-b087-028e2344b4ef": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
@@ -77,6 +83,7 @@
         "e3fee1d5-4cc5-464d-adf2-4ccc9dbabd16",
         "price",
         "variant_picker",
+        "c9df7936-f5ac-4bab-b087-028e2344b4ef",
         "quantity_selector",
         "buy_buttons",
         "description",
