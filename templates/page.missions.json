@@ -656,6 +656,36 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1663094270fdf9ee65": {
+      "type": "rich-text",
+      "blocks": {
+        "16630942708cec94af-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>This is what the clean ocean movement is really all about<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16630942708cec94af-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We don’t clean the ocean just so people can have pretty beaches. The clean ocean movement has never been about aesthetics. <\/p><p>The clean ocean movement is about protecting and restoring the environment so this planet can sustain human life. <\/p><p>It’s about creating fair, living-wage jobs and fulfilling careers in communities where people’s livelihoods and quality of life have been impacted by plastic pollution. <\/p><p>It’s about serving our local community and doing our part to create cleaner, safer living conditions for millions of people around the world. <\/p><p>It’s about working alongside the global community to build a more sustainable future where humanity grows alongside nature and not at its expense. <\/p><p>It’s about doing our job so well that the world no longer needs 4ocean or organizations like us. When we work ourselves out of a job, we’ll know that we’ve achieved our mission. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16630942708cec94af-0",
+        "16630942708cec94af-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -675,6 +705,7 @@
     "1663093285c41ba973",
     "1663093979e30833a5",
     "1663094119818780aa",
-    "16630941595be1f1cf"
+    "16630941595be1f1cf",
+    "1663094270fdf9ee65"
   ]
 }
