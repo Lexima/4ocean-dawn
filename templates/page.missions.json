@@ -568,8 +568,8 @@
       ],
       "settings": {
         "title": "Where your money goes",
-        "heading_size": "h2",
-        "heading_alignment": "flex-start",
+        "heading_size": "h1",
+        "heading_alignment": "title-wrapper-with-link--center",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 1,
