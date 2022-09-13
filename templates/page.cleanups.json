@@ -894,11 +894,41 @@
           "settings": {
             "text": "<p>The 4ocean TrashTracker is audited quarterly by the Better Business Bureau to verify that our crews have actually recovered all of the trash we claim they have. <\/p><p>GreenCircle Certified has also observed our cleanups, audited our TrashTracker, and traced our recovered materials through our entire supply chain. After many lengthy and thorough inspections, GreenCircle has certified that:<\/p><p>4ocean Recovered Materials are collected directly from the world’s oceans, rivers, and coastlines by our full-time captains and crews<\/p><p>There is a clear chain of custody between 4ocean and all of our suppliers<\/p><p>The integrity of our materials is maintained over the course of their lifecycle<\/p>"
           }
+        }
+      },
+      "block_order": [
+        "1663100534fe9854ec-0",
+        "1663100534fe9854ec-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1663100573ce7817d6": {
+      "type": "rich-text",
+      "blocks": {
+        "1663100573f8723648-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Upgrade your supply chain with 4ocean Recovered Materials<\/strong><\/p>",
+            "heading_size": "h1"
+          }
         },
-        "1663100534fe9854ec-2": {
+        "1663100573f8723648-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Since the very beginning, it’s been our goal to develop a closed-loop manufacturing process where the materials recovered by our crews are used to develop new products that fund our cleanups and advance our mission to end the ocean plastic crisis.<\/p><p>While we use 4ocean Plastic to expand our line of consumer goods in the short term, we’re also looking for partners and large-scale projects that would utilize massive amounts of our recovered materials. The possibilities are truly endless! <\/p>"
+          }
+        },
+        "1663100573f8723648-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Learn More",
             "button_link": "",
             "button_style_secondary": false,
             "button_label_2": "",
@@ -908,9 +938,9 @@
         }
       },
       "block_order": [
-        "1663100534fe9854ec-0",
-        "1663100534fe9854ec-1",
-        "1663100534fe9854ec-2"
+        "1663100573f8723648-0",
+        "1663100573f8723648-1",
+        "1663100573f8723648-2"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -943,6 +973,7 @@
     "16630997176850a79f",
     "16630997603b969029",
     "166309983710da161b",
-    "1663100534297b182d"
+    "1663100534297b182d",
+    "1663100573ce7817d6"
   ]
 }
