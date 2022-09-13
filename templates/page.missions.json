@@ -862,6 +862,71 @@
         "padding_bottom": 28
       }
     },
+    "1663097506aa3f5cb9": {
+      "type": "signature-bracelet",
+      "blocks": {
+        "1663097506fb416299-0": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "1663097506fb416299-1": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "1663097506fb416299-2": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "1663097506fb416299-3": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "1663097506fb416299-4": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "1663097506fb416299-5": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        }
+      },
+      "block_order": [
+        "1663097506fb416299-0",
+        "1663097506fb416299-1",
+        "1663097506fb416299-2",
+        "1663097506fb416299-3",
+        "1663097506fb416299-4",
+        "1663097506fb416299-5"
+      ],
+      "settings": {
+        "pre_title": "",
+        "title": "",
+        "description": "",
+        "content_alignment": "center",
+        "product": "the-4ocean-bracelet",
+        "atc_label": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1663094437aa3d3be7": {
       "type": "newsletter-signup",
       "blocks": {
@@ -923,6 +988,7 @@
     "166309436098af9edc",
     "1663096078515d5d84",
     "1663094491dfc3a5b7",
+    "1663097506aa3f5cb9",
     "1663094437aa3d3be7"
   ]
 }
