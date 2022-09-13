@@ -428,7 +428,7 @@
         "1663089712526d7f85-0": {
           "type": "heading",
           "settings": {
-            "heading": "<p><strong>You shop. We clean.<\/strong><\/p><p><strong>It’s that simple.<\/strong><\/p>",
+            "heading": "<p><strong>You shop. We clean.<\/strong><\/p><p><strong> It’s that simple.<\/strong><\/p>",
             "heading_size": "h1"
           }
         }
@@ -452,7 +452,7 @@
         "full_width": true,
         "image": "shopify:\/\/shop_images\/Boat_Bracelet_Illustration.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "medium",
+        "image_height": "large",
         "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
