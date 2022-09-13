@@ -337,7 +337,7 @@
       ],
       "settings": {
         "image_ratio": "square",
-        "columns_desktop": 2,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
         "columns_mobile": "2",
         "padding_top": 36,
@@ -657,29 +657,6 @@
         "columns_mobile": "2",
         "padding_top": 36,
         "padding_bottom": 8
-      }
-    },
-    "16630995318b6da991": {
-      "type": "rich-text",
-      "blocks": {
-        "1663099531d9d788d6-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>What makes 4ocean cleanups different<\/strong><\/p>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "1663099531d9d788d6-0"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "accent-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "1663099677e24257a6": {
@@ -1072,7 +1049,7 @@
         "content_alignment": "center",
         "image": "shopify:\/\/shop_images\/Sig-Blue.jpg",
         "product": "the-4ocean-bracelet",
-        "atc_label": "",
+        "atc_label": "Shop Now - Pull a Pound",
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -1094,7 +1071,6 @@
     "166309944193ca0243",
     "16630994543d367642",
     "1663099516c972ca7f",
-    "16630995318b6da991",
     "1663099677e24257a6",
     "16630997176850a79f",
     "16630997603b969029",
