@@ -420,6 +420,95 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16630283583fc43bfa": {
+      "type": "image-with-text",
+      "blocks": {
+        "16630283585e078ddb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The search for solutions",
+            "heading_size": "h2"
+          }
+        },
+        "16630283585e078ddb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>If fish farming can be optimized to work in harmony with nature, we may be able to create truly sustainable sources of protein that feed billions of people without overfishing or damaging the delicate balance marine ecosystems have achieved through millennia.<br\/><br\/>For example, the nonprofit SeaLegacy has been working with small-scale ocean farms in Galicia, Spain, to share the success of multi-trophic aquaculture, a type of fish farming that works in harmony with nature by utilizing the entire water column and zero pesticides or antibiotics.<br\/><br\/>Not only does this system show promise as a sustainable source of seafood, it can also become a source of biofuel, help clean the environment, and reverse climate change by absorbing excess atmospheric carbon.<br\/><br\/>While initial experiments with multi-trophic aquaculture have been successful, how we scale these smaller operations commercially has not yet been determined.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "16630283585e078ddb-0",
+        "16630283585e078ddb-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4ocean-sustainable-fishing-Solutions_1600x_d91379f3-8715-4963-8052-8c9f3b9f182f.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1663028426520a8357": {
+      "type": "image-with-text",
+      "blocks": {
+        "fa5f10c7-678a-43bf-ace1-0e9944057ac1": {
+          "type": "caption",
+          "settings": {
+            "caption": "IMPACT",
+            "text_style": "subtitle",
+            "text_size": "medium"
+          }
+        },
+        "166302842600c2d6bf-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "What 4ocean is doing to drive positive change",
+            "heading_size": "h2"
+          }
+        },
+        "166302842600c2d6bf-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’ve seen the impacts of the commercial fishing industry firsthand. Our captains and crews have recovered thousands of nets and other types of fishing gear associated with commercial and noncommercial fisheries. They’ve also rescued animals tangled in nets and fishing lines. In fact, derelict fishing gear accounts for up to 15% of the trash recovered by our crews in Bali each week. <\/p><p>To address issues in the commercial fishing industry and drive positive change, 4ocean hires professional, full-time captains and crews from the communities we serve to clean the ocean, rivers, and coastlines seven days a week. Many of our crew members come from the fishing industry and use their knowledge and skills to harvest ocean plastic instead of fish, which helps shift the local economy away from fishing to an industry that promotes ocean conservation and restoration.<\/p><p>We’re currently looking to expand our operations into areas heavily impacted by plastic pollution associated with the commercial fishing industry. This expansion would allow us to recover higher volumes of derelict gear that’s already polluting the ocean and create new opportunities to work with local communities, businesses, and governments to champion the development of more sustainable fishing practices globally. <\/p><p><br\/>We’ve also donated over $1 million to organizations like SeaLegacy and Sea Shepherd that are driving awareness and action on this issue every day.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "166302842600c2d6bf-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "fa5f10c7-678a-43bf-ace1-0e9944057ac1",
+        "166302842600c2d6bf-0",
+        "166302842600c2d6bf-1",
+        "166302842600c2d6bf-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4ocean-sustainable-fishing-impact-1_1600x_ff766097-8e7a-488a-b24b-83c80f9f2e1e.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -432,6 +521,8 @@
     "1663027680f950eb0d",
     "16630277424a6c63a5",
     "16630278138a3cd240",
-    "1663028136b6df85f8"
+    "1663028136b6df85f8",
+    "16630283583fc43bfa",
+    "1663028426520a8357"
   ]
 }
