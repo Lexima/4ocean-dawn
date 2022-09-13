@@ -980,6 +980,48 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16631006649e90c4a5": {
+      "type": "rich-text",
+      "blocks": {
+        "1663100664ff7b4b8d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Engineered by us. Funded by you.<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1663100664ff7b4b8d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1663100664ff7b4b8d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1663100664ff7b4b8d-0",
+        "1663100664ff7b4b8d-1",
+        "1663100664ff7b4b8d-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -1005,6 +1047,7 @@
     "166309983710da161b",
     "1663100534297b182d",
     "1663100573ce7817d6",
-    "166310061987b52c3f"
+    "166310061987b52c3f",
+    "16631006649e90c4a5"
   ]
 }
