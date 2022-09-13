@@ -485,8 +485,8 @@
         "166302842600c2d6bf-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Shop Overfishing Collection",
+            "button_link": "shopify:\/\/collections\/overfishing-collection"
           }
         }
       },
