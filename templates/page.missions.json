@@ -592,6 +592,70 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "16630941595be1f1cf": {
+      "type": "multicolumn",
+      "blocks": {
+        "1663094158e5e67706-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>A legal structure for mission-focused businesses that provide a public benefit and operate sustainably, this legal status empowers 4ocean to prioritize our impact alongside profit.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1663094158e5e67706-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>The third-party nonprofit B Lab has certified that 4ocean meets the highest standards of social and environmental performance, public transparency, and legal accountability.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1663094158e5e67706-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>We donate at least 1% of our gross sales to ocean-friendly nonprofits each year through a combination of monetary, in-kind, and approved promotional support. <\/p><p><\/p><p>Since 2017, we've donated a total of almost $2 million to more than 50 organizations that have a proven track record of driving positive change for the ocean and our planet.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "b768781e-a313-43e9-b535-0e4c9c73fcb8": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Every year, we partner with SeaTrees by Sustainable Surf not just to offset our entire carbon footprint, but to create a positive environmental impact by restoring blue-carbon ecosystems like kelp and mangrove forests, coral reefs, and coastal watersheds. <\/p><p>We’ve already planted over 18,000 mangroves and restored nearly 5,000 sq. ft. of giant kelp forest!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663094158e5e67706-0",
+        "1663094158e5e67706-1",
+        "1663094158e5e67706-2",
+        "b768781e-a313-43e9-b535-0e4c9c73fcb8"
+      ],
+      "settings": {
+        "title": "Business for Good",
+        "heading_size": "h1",
+        "heading_alignment": "title-wrapper-with-link--center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -610,6 +674,7 @@
     "1663089774bb612961",
     "1663093285c41ba973",
     "1663093979e30833a5",
-    "1663094119818780aa"
+    "1663094119818780aa",
+    "16630941595be1f1cf"
   ]
 }
