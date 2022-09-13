@@ -284,48 +284,56 @@
         "166308759663661f3c-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/crew_3.jpg",
             "link": ""
           }
         },
         "166308759663661f3c-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/crew_1.jpg",
             "link": ""
           }
         },
         "166308759663661f3c-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/crew_8.jpg",
             "link": ""
           }
         },
         "166308759663661f3c-3": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/crew_7.jpg",
             "link": ""
           }
         },
         "c67ff97f-963e-43e6-b3ef-26bb2075acbb": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/crew_4.jpg",
             "link": ""
           }
         },
         "7c06bc9e-b8e9-4ef1-bfcc-a94a62551c39": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/crew_6.jpg",
             "link": ""
           }
         },
         "9e4af29d-dd7a-4e8d-b518-14d5e69345d3": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/crew_5.jpg",
             "link": ""
           }
         },
         "fb9e8cc0-7a57-4b52-9392-c5b08c718f92": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-13_at_4.39.07_PM.png",
             "link": ""
           }
         }
