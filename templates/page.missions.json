@@ -804,52 +804,62 @@
         "padding_bottom": 36
       }
     },
-    "166309448733a341a7": {
-      "type": "image-banner",
+    "1663096078515d5d84": {
+      "type": "rich-text",
       "blocks": {
-        "16630944877a27eefc-0": {
+        "1663096077ccc8e165-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "<p><strong>Pull the next pound!<\/strong><\/p>",
             "heading_size": "h1"
-          }
-        },
-        "16630944877a27eefc-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        },
-        "16630944877a27eefc-2": {
-          "type": "buttons",
-          "settings": {
-            "button_label_1": "Button label",
-            "button_link_1": "",
-            "button_style_secondary_1": false,
-            "button_label_2": "Button label",
-            "button_link_2": "",
-            "button_style_secondary_2": false
           }
         }
       },
       "block_order": [
-        "16630944877a27eefc-0",
-        "16630944877a27eefc-1",
-        "16630944877a27eefc-2"
+        "1663096077ccc8e165-0"
       ],
       "settings": {
-        "full_width": true,
-        "image_overlay_opacity": 0,
-        "image_height": "medium",
-        "adapt_height_first_image": false,
-        "desktop_content_position": "middle-center",
-        "show_text_box": true,
-        "desktop_content_alignment": "center",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
         "color_scheme": "background-1",
-        "mobile_content_alignment": "center",
-        "stack_images_on_mobile": true,
-        "show_text_below": true
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1663094491dfc3a5b7": {
+      "type": "pdp-atc-hero",
+      "blocks": {
+        "1663094491986a688e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2"
+          }
+        },
+        "1663094491986a688e-1": {
+          "type": "text",
+          "settings": {
+            "text": ""
+          }
+        },
+        "1663094491986a688e-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "button_label": "Button label"
+          }
+        }
+      },
+      "block_order": [
+        "1663094491986a688e-0",
+        "1663094491986a688e-1",
+        "1663094491986a688e-2"
+      ],
+      "settings": {
+        "product": "the-4ocean-bracelet",
+        "image": "shopify:\/\/shop_images\/Sig-Blue.jpg",
+        "padding_top": 0,
+        "padding_bottom": 28
       }
     },
     "1663094437aa3d3be7": {
@@ -911,7 +921,8 @@
     "1663094270fdf9ee65",
     "1663094331034454f9",
     "166309436098af9edc",
-    "166309448733a341a7",
+    "1663096078515d5d84",
+    "1663094491dfc3a5b7",
     "1663094437aa3d3be7"
   ]
 }
