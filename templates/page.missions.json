@@ -661,7 +661,7 @@
         "full_width": true,
         "image": "shopify:\/\/shop_images\/Boat_Bracelet_Illustration.jpg",
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "medium",
         "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
         "show_text_box": true,
