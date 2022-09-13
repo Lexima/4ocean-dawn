@@ -686,6 +686,143 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1663094331034454f9": {
+      "type": "pdp-photo-grid",
+      "blocks": {
+        "166309433178331322-0": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "166309433178331322-1": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "166309433178331322-2": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "166309433178331322-3": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1bb7f3af-83ec-4ce3-86e7-cec906834780": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "09b6eb10-0cc9-4a43-a272-2f89a7adc9ed": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "e89f65d9-f62b-48ad-87fb-523cdfd9d7fa": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "6985449d-c8da-459a-a3f8-2f66de56926a": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "166309433178331322-0",
+        "166309433178331322-1",
+        "166309433178331322-2",
+        "166309433178331322-3",
+        "1bb7f3af-83ec-4ce3-86e7-cec906834780",
+        "09b6eb10-0cc9-4a43-a272-2f89a7adc9ed",
+        "e89f65d9-f62b-48ad-87fb-523cdfd9d7fa",
+        "6985449d-c8da-459a-a3f8-2f66de56926a"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "166309436098af9edc": {
+      "type": "logo-cloud",
+      "blocks": {
+        "1663094360a2a43847-0": {
+          "type": "logo",
+          "settings": {
+          }
+        },
+        "1663094360a2a43847-1": {
+          "type": "logo",
+          "settings": {
+          }
+        },
+        "1663094360a2a43847-2": {
+          "type": "logo",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "1663094360a2a43847-0",
+        "1663094360a2a43847-1",
+        "1663094360a2a43847-2"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1663094437aa3d3be7": {
+      "type": "newsletter-signup",
+      "blocks": {
+        "166309443727e22d2f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stay Connected",
+            "heading_size": "h1",
+            "color": "#fff"
+          }
+        },
+        "166309443727e22d2f-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Sign up for email & SMS alerts so you never miss an update about the clean ocean movement and new ways to support our mission!<\/p>",
+            "color": "#fff"
+          }
+        },
+        "166309443727e22d2f-2": {
+          "type": "email_form",
+          "settings": {
+            "klaviyo_embed": "<div class=\"klaviyo-form-T29KmL\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "166309443727e22d2f-0",
+        "166309443727e22d2f-1",
+        "166309443727e22d2f-2"
+      ],
+      "settings": {
+        "bg_overlay_color": "#172c43",
+        "bg_overlay_opacity": 70,
+        "padding_top": 125,
+        "padding_bottom": 140
+      }
     }
   },
   "order": [
@@ -706,6 +843,9 @@
     "1663093979e30833a5",
     "1663094119818780aa",
     "16630941595be1f1cf",
-    "1663094270fdf9ee65"
+    "1663094270fdf9ee65",
+    "1663094331034454f9",
+    "166309436098af9edc",
+    "1663094437aa3d3be7"
   ]
 }
