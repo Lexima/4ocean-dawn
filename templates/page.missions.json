@@ -845,7 +845,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/waterproof_icon_2c2db66f-dc5e-4559-9b49-f36201006a36.png",
             "text": "",
-            "visible_mobile": true
+            "visible_mobile": false
           }
         },
         "1663097506fb416299-3": {
@@ -861,7 +861,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Bracelet_icon_07132def-55ea-4d48-acb3-b718514084d4.png",
             "text": "",
-            "visible_mobile": true
+            "visible_mobile": false
           }
         },
         "1663097506fb416299-5": {
@@ -869,7 +869,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/100_recoverd_4ocean_plastic_icon_c8014362-f1d8-47dd-b617-3f5a12f0222a.png",
             "text": "",
-            "visible_mobile": true
+            "visible_mobile": false
           }
         }
       },
