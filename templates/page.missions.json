@@ -7,9 +7,44 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "16630755949c3ff232": {
+      "type": "pdp-atc-hero",
+      "blocks": {
+        "1663075594688b1ec1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "We're on a mission to end the ocean plastic crisis",
+            "heading_size": "h2"
+          }
+        },
+        "1663075594688b1ec1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>4ocean is an ocean cleanup company dedicated to ending the ocean plastic crisis. As a Public Benefit Corporation and Certified B Corp, we harness the power of business to fund a global cleanup operation that’s responsible for recovering millions of pounds of plastic and trash from the world’s oceans, rivers, and coastlines.<\/p>"
+          }
+        },
+        "1663075594688b1ec1-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "button_label": "Shop Now - Pull a Pound"
+          }
+        }
+      },
+      "block_order": [
+        "1663075594688b1ec1-0",
+        "1663075594688b1ec1-1",
+        "1663075594688b1ec1-2"
+      ],
+      "settings": {
+        "product": "",
+        "padding_top": 0,
+        "padding_bottom": 28
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16630755949c3ff232"
   ]
 }
