@@ -90,6 +90,7 @@
       "type": "image-banner",
       "settings": {
         "full_width": true,
+        "image": "shopify:\/\/shop_images\/Bali-Plastic_1-_1.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": false,
@@ -140,27 +141,79 @@
         "show_product_banner": true
       }
     },
-    "166308507825060c19": {
-      "type": "rich-text",
+    "166309119243ee5945": {
+      "type": "multicolumn",
       "blocks": {
-        "16630850783774a794-0": {
-          "type": "heading",
+        "166309119263b42a5f-0": {
+          "type": "column",
           "settings": {
-            "heading": "<p><strong>Founded by two surfers<\/strong><\/p>",
-            "heading_size": "h1"
+            "image": "shopify:\/\/shop_images\/4ocean-get-involved_1600x_fc34b056-074a-4fa5-9fb8-50be329982d2.webp",
+            "title": "Founded by two surfers",
+            "text": "<p>Alex Schulze and Andrew Cooper were inspired to start this business after taking a surf trip to Bali, Indonesia, in 2015. While they had grown up in Florida and made their living from the ocean, Bali is where they truly began to understand the severity of the ocean plastic crisis and its impact not just on marine life, but on the coastal communities that, like them, relied on the health of the ocean to survive.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "166309119263b42a5f-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "166309119263b42a5f-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "a807475e-5d54-4bec-8492-f35fb094a9bb": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "9bf0cd7b-efe5-4160-890f-547515f535ce": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "16630850783774a794-0"
+        "166309119263b42a5f-0",
+        "166309119263b42a5f-1",
+        "166309119263b42a5f-2",
+        "a807475e-5d54-4bec-8492-f35fb094a9bb",
+        "9bf0cd7b-efe5-4160-890f-547515f535ce"
       ],
       "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "heading_alignment": "title-wrapper-with-link--center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
         "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "16630850389a1c739e": {
@@ -684,7 +737,7 @@
     "1663083633fd8da41b",
     "166308472880cd4dac",
     "16630849191f30f710",
-    "166308507825060c19",
+    "166309119243ee5945",
     "16630850389a1c739e",
     "1663085130a746b3a5",
     "16630851953a9e6a39",
