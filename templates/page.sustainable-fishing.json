@@ -225,6 +225,72 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16630277424a6c63a5": {
+      "type": "image-with-text",
+      "blocks": {
+        "166302774252fba605-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Regulating the commercial fishing industry",
+            "heading_size": "h2"
+          }
+        },
+        "166302774252fba605-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Managing sustainable fisheries is a dynamic process that requires constant and routine attention to new scientific data that can be used to guide fisheries management. Because most fisheries are in international waters, no single body has the ability to effectively enforce protective regulations and quotas. Commercial fisheries are often left to act in their own self-interest, which is rarely what’s best for the ocean.<br\/><br\/>In the United States, the National Oceanic and Atmospheric Administration (NOAA) determines what constitutes sustainably sourced seafood. Marine fisheries in the U.S. are considered sustainable because they’re scientifically monitored, regionally managed, and<a href=\"https:\/\/www.google.com\/url?q=https:\/\/www.fisheries.noaa.gov\/national\/laws-and-policies\/national-standard-guidelines&sa=D&source=editors&ust=1618257393842000&usg=AOvVaw3RIbb_u3ZAgH0bIIyZHgVy\">legally enforced under a number of requirements.<\/a>However, there is always room for improvement.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "166302774252fba605-0",
+        "166302774252fba605-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4ocean-sustainable-fishing-Regulating_1600x_eef9b93b-e8c7-4bff-ae73-6412976a9d75.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16630278138a3cd240": {
+      "type": "rich-text",
+      "blocks": {
+        "1663027813b143675b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Commercial aquaculture<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1663027813b143675b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The farming and husbandry of aquatic species in a controlled or semi-controlled environment is called aquaculture, or fish farming. Fish farms already account for more than half of the seafood consumed globally, are crucial to meeting the growing demand for seafood, and can help build wild fish stocks and reduce dependence on imports. However, there’s no denying that it’s currently an imperfect solution with drawbacks that must be addressed in order for it to be truly sustainable.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1663027813b143675b-0",
+        "1663027813b143675b-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -234,6 +300,8 @@
     "1663027288efe74749",
     "1663027361c7660a3d",
     "16630273825f184856",
-    "1663027680f950eb0d"
+    "1663027680f950eb0d",
+    "16630277424a6c63a5",
+    "16630278138a3cd240"
   ]
 }
