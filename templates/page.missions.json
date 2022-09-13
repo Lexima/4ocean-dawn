@@ -511,6 +511,7 @@
         "1663093979f7e4f35a-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/BALI-RIVER-STOKE.jpg",
             "title": "Captains + Crews",
             "text": "<p>All of our crew members are hired full time and paid fair living wages. We also cover all health insurance costs and provide additional benefits and bonus incentives.<\/p>",
             "link_label": "",
@@ -520,6 +521,7 @@
         "1663093979f7e4f35a-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/USFleet.jpg",
             "title": "Vessels + Equipment",
             "text": "<p>We own all of the recovery vessels, tools, and equipment our crews need to do their jobs safely and efficiently. As we expand, our fleet grows larger and maintenance costs rise.<\/p>",
             "link_label": "",
@@ -529,6 +531,7 @@
         "1663093979f7e4f35a-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Facility.Lumbar.72.jpg",
             "title": "Facilities + Operations",
             "text": "<p>We operate out of multiple locations and need dedicated areas where we can meet, store our equipment, and process recovered materials so they don’t reenter the environment.<\/p>",
             "link_label": "",
@@ -538,6 +541,7 @@
         "a196a0ab-bb5a-49ad-975d-42f2089e601f": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/education-and-awareness.jpg",
             "title": "Education + Awareness",
             "text": "<p>From lesson plans for educators to speaking events, we’re committed to sharing our knowledge, raising awareness, and inspiring action on behalf of our one shared ocean.<\/p>",
             "link_label": "",
