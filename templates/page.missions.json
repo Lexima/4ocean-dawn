@@ -504,6 +504,80 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1663093979e30833a5": {
+      "type": "multicolumn",
+      "blocks": {
+        "1663093979f7e4f35a-0": {
+          "type": "column",
+          "settings": {
+            "title": "Captains + Crews",
+            "text": "<p>All of our crew members are hired full time and paid fair living wages. We also cover all health insurance costs and provide additional benefits and bonus incentives.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1663093979f7e4f35a-1": {
+          "type": "column",
+          "settings": {
+            "title": "Vessels + Equipment",
+            "text": "<p>We own all of the recovery vessels, tools, and equipment our crews need to do their jobs safely and efficiently. As we expand, our fleet grows larger and maintenance costs rise.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1663093979f7e4f35a-2": {
+          "type": "column",
+          "settings": {
+            "title": "Facilities + Operations",
+            "text": "<p>We operate out of multiple locations and need dedicated areas where we can meet, store our equipment, and process recovered materials so they don’t reenter the environment.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "a196a0ab-bb5a-49ad-975d-42f2089e601f": {
+          "type": "column",
+          "settings": {
+            "title": "Education + Awareness",
+            "text": "<p>From lesson plans for educators to speaking events, we’re committed to sharing our knowledge, raising awareness, and inspiring action on behalf of our one shared ocean.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "0269b5c3-cb23-4491-b681-a9e01db78731": {
+          "type": "column",
+          "settings": {
+            "title": "Research + Development",
+            "text": "<p>There is no playbook for cleaning the ocean. With your support, we can research, design, develop, and invest in promising new solutions to the ocean plastic crisis.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663093979f7e4f35a-0",
+        "1663093979f7e4f35a-1",
+        "1663093979f7e4f35a-2",
+        "a196a0ab-bb5a-49ad-975d-42f2089e601f",
+        "0269b5c3-cb23-4491-b681-a9e01db78731"
+      ],
+      "settings": {
+        "title": "Where your money goes",
+        "heading_size": "h2",
+        "heading_alignment": "title-wrapper-with-link--center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -520,6 +594,7 @@
     "16630888010ba21a10",
     "166308971251ac80ac",
     "1663089774bb612961",
-    "1663093285c41ba973"
+    "1663093285c41ba973",
+    "1663093979e30833a5"
   ]
 }
