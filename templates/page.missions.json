@@ -136,6 +136,7 @@
     "16630849191f30f710": {
       "type": "modal-video",
       "settings": {
+        "cover_image": "shopify:\/\/shop_images\/USFleet.jpg",
         "video_url": "https:\/\/vimeo.com\/745567777\/363a14aead",
         "video_text": "Origin story",
         "show_product_banner": true
@@ -587,8 +588,8 @@
     "1663094119818780aa": {
       "type": "trash-tracker",
       "settings": {
-        "title": "",
-        "copy": "",
+        "title": "— OUR IMPACT —",
+        "copy": "<p>pounds of trash recovered from the world’s <\/p><p>oceans, rivers, and coastlines since 2017<\/p>",
         "color_scheme": "accent-1",
         "button_text": "",
         "button_link": "",
