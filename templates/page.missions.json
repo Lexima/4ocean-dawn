@@ -147,7 +147,7 @@
         "166309119263b42a5f-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4ocean-get-involved_1600x_fc34b056-074a-4fa5-9fb8-50be329982d2.webp",
+            "image": "shopify:\/\/shop_images\/A_A-with-baby-sign.jpg",
             "title": "Founded by two surfers",
             "text": "<p>Alex Schulze and Andrew Cooper were inspired to start this business after taking a surf trip to Bali, Indonesia, in 2015. While they had grown up in Florida and made their living from the ocean, Bali is where they truly began to understand the severity of the ocean plastic crisis and its impact not just on marine life, but on the coastal communities that, like them, relied on the health of the ocean to survive.<\/p>",
             "link_label": "",
@@ -157,6 +157,7 @@
         "166309119263b42a5f-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Bali-Fisherman.jpg",
             "title": "Inspired by local fishermen",
             "text": "<p>After speaking with local fishermen about the impact plastic pollution was having on their livelihoods, Alex and Andrew realized they could adopt the fishing industry’s pay-per-pound model and build a business that paid full-time captains and crews to recover plastic and other man-made trash from their local environment.<\/p>",
             "link_label": "",
