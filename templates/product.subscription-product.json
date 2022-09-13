@@ -1,0 +1,122 @@
+{
+  "sections": {
+    "1662039171b82f6aa8": {
+      "type": "sticky-product-banner",
+      "settings": {
+        "show_price": true
+      }
+    },
+    "1662480421232cbefb": {
+      "type": "breadcrumbs",
+      "settings": {
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "3f8620c4-3162-4096-8349-6936a40f20dc": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "e3fee1d5-4cc5-464d-adf2-4ccc9dbabd16": {
+          "type": "pounds_pulled",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "pills_background_color": "#ffffff",
+            "pills_text_color": "#121212",
+            "pills_border_color": "#121212",
+            "active_pill_background_color": "#0565ce",
+            "active_pill_text_color": "#ffffff",
+            "active_pill_border_color": "#0565ce"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "3081a042-0d7c-4c14-8379-fb29fd845783": {
+          "type": "icons",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "3f8620c4-3162-4096-8349-6936a40f20dc",
+        "e3fee1d5-4cc5-464d-adf2-4ccc9dbabd16",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "3081a042-0d7c-4c14-8379-fb29fd845783"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "stacked",
+        "media_size": "medium",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "btn_label": "Shop All",
+        "btn_link": "",
+        "view_all_style": "link",
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_color": true,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    }
+  },
+  "order": [
+    "1662039171b82f6aa8",
+    "1662480421232cbefb",
+    "main",
+    "product-recommendations"
+  ]
+}
