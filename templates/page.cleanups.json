@@ -355,6 +355,529 @@
         "padding_top": 36,
         "padding_bottom": 8
       }
+    },
+    "16630993545277acb2": {
+      "type": "rich-text",
+      "blocks": {
+        "166309935445386894-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>4ocean Hawaiʻi<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "166309935445386894-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Operating out of Kāneʻohe, Hawaiʻi, our rapid response crew works alongside local community members and organizations to support and expand existing cleanup efforts on the Hawaiian islands. <\/p><p>Our crews conduct daily cleanups along the shores of Oʻahu and specialize in the recovery of commercial-size ghost nets and other large debris accumulations. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "166309935445386894-0",
+        "166309935445386894-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1663099393cdf420fd": {
+      "type": "pdp-photo-grid",
+      "blocks": {
+        "1663099393b27ccc60-0": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663099393b27ccc60-1": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663099393b27ccc60-2": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663099393b27ccc60-3": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "3eef23e4-37aa-4d79-985f-0902e7fd7995": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "5e2ed92b-4d73-47c4-b522-47602fa959fb": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "b69c2911-db39-4ffa-bb97-69ff95d05f44": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "cb88ea26-b51b-4920-9109-2503686c1528": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663099393b27ccc60-0",
+        "1663099393b27ccc60-1",
+        "1663099393b27ccc60-2",
+        "1663099393b27ccc60-3",
+        "3eef23e4-37aa-4d79-985f-0902e7fd7995",
+        "5e2ed92b-4d73-47c4-b522-47602fa959fb",
+        "b69c2911-db39-4ffa-bb97-69ff95d05f44",
+        "cb88ea26-b51b-4920-9109-2503686c1528"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "16630994070d3378d2": {
+      "type": "rich-text",
+      "blocks": {
+        "1663099407a84aef93-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>4ocean Indonesia<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1663099407a84aef93-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With four locations spread across two islands, 4ocean Indonesia has significant access to the oceans, rivers, and coastlines of Bali and Java, including West Bali National Park. <\/p><p>These crews specialize in the installation and maintenance of our river boom systems, which trap plastic that would otherwise flow downriver and into the ocean.<\/p><p>We’ve already deployed two river boom systems—one in the Ijo Gading River, which is considered the island’s largest contributor to ocean plastic pollution, and another in the Samblong River, which is a small but highly polluted river in Bali’s Jembrana Regency. <\/p>"
+          }
+        },
+        "1663099407a84aef93-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1663099407a84aef93-0",
+        "1663099407a84aef93-1",
+        "1663099407a84aef93-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "166309944193ca0243": {
+      "type": "pdp-photo-grid",
+      "blocks": {
+        "1663099441082a0e8c-0": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663099441082a0e8c-1": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663099441082a0e8c-2": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663099441082a0e8c-3": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "2ff701c7-c05d-4222-9bbf-4a0a8a4e2864": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "5fbbcb45-c771-4cee-bd7e-72054013fb1f": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "df50cc47-d78a-4f62-9405-1336bcc98720": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "2a6fa986-a5cf-4318-9e2a-6edbeca0f15c": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663099441082a0e8c-0",
+        "1663099441082a0e8c-1",
+        "1663099441082a0e8c-2",
+        "1663099441082a0e8c-3",
+        "2ff701c7-c05d-4222-9bbf-4a0a8a4e2864",
+        "5fbbcb45-c771-4cee-bd7e-72054013fb1f",
+        "df50cc47-d78a-4f62-9405-1336bcc98720",
+        "2a6fa986-a5cf-4318-9e2a-6edbeca0f15c"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "16630994543d367642": {
+      "type": "rich-text",
+      "blocks": {
+        "1663099454aca88665-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>4ocean Guatemala<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1663099454aca88665-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Preventing plastic from entering the ocean is the crux of our strategy in Guatemala. Our main operational base is located in the harbor city of Puerto Barrios, which also supports two satellite locations in the small coastal villages of El Quetzalito and San Francisco del Mar.<\/p><p>While our teams do recover plastic from the open ocean, our main focus is preventing plastic from entering the ocean through the Rio Motagua, a heavily polluted river that stretches 300 miles from the remote central highlands of Guatemala to the Caribbean Sea. We also concentrate our efforts on high-impact areas along the coast, specifically in the Gulf of Honduras, where massive amounts of trash accumulates. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1663099454aca88665-0",
+        "1663099454aca88665-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1663099516c972ca7f": {
+      "type": "pdp-photo-grid",
+      "blocks": {
+        "1663099516017dcedc-0": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663099516017dcedc-1": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663099516017dcedc-2": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663099516017dcedc-3": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "4a86a3d1-0545-4172-8a32-19b3bdfa3c15": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "45fb4ef0-1281-4f28-9e8c-7ad74ff212c9": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "07067ffc-c59a-41b4-8ede-b02e63234896": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "7641bd38-18f5-4ad9-b1df-2f1bab2c2527": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663099516017dcedc-0",
+        "1663099516017dcedc-1",
+        "1663099516017dcedc-2",
+        "1663099516017dcedc-3",
+        "4a86a3d1-0545-4172-8a32-19b3bdfa3c15",
+        "45fb4ef0-1281-4f28-9e8c-7ad74ff212c9",
+        "07067ffc-c59a-41b4-8ede-b02e63234896",
+        "7641bd38-18f5-4ad9-b1df-2f1bab2c2527"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "16630995318b6da991": {
+      "type": "rich-text",
+      "blocks": {
+        "1663099531d9d788d6-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>What makes 4ocean cleanups different<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1663099531d9d788d6-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1663099677e24257a6": {
+      "type": "rich-text",
+      "blocks": {
+        "16630996770bc2c339-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>We take care of our crews<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16630996770bc2c339-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As plastic pollution and climate change continue to impact the marine environment, communities that rely on the ocean for their livelihoods are finding it increasingly difficult to earn a living and often have few alternatives for steady work. <\/p><p>4ocean has always been committed to hiring people who live in the communities we serve. All of our captains and crews are hired full time and paid fair living wages. We also cover all health insurance costs and provide additional benefits and bonus incentives. <\/p><p>The jobs we create help counteract the economic impacts of plastic pollution, incentivize environmental stewardship at the local level, and bring new opportunities for growth, equality, education, and prosperity to our crew members, their families, and their communities.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16630996770bc2c339-0",
+        "16630996770bc2c339-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16630997176850a79f": {
+      "type": "pdp-photo-grid",
+      "blocks": {
+        "1663099717e739899a-0": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663099717e739899a-1": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663099717e739899a-2": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663099717e739899a-3": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "3ac325a8-da43-4dc4-ac84-12ae6b4698b3": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "db405a33-fb01-4b1c-af10-5ace55bc3d05": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "f0b193c9-dea3-45ae-9bce-eaf86668df2d": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "a7f1e9c4-7c32-43d8-9779-03d7623d11cf": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663099717e739899a-0",
+        "1663099717e739899a-1",
+        "1663099717e739899a-2",
+        "1663099717e739899a-3",
+        "3ac325a8-da43-4dc4-ac84-12ae6b4698b3",
+        "db405a33-fb01-4b1c-af10-5ace55bc3d05",
+        "f0b193c9-dea3-45ae-9bce-eaf86668df2d",
+        "a7f1e9c4-7c32-43d8-9779-03d7623d11cf"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "16630997603b969029": {
+      "type": "rich-text",
+      "blocks": {
+        "1663099760068e2dd7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>We’re fully transparent and accountable…<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1663099760068e2dd7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our crews follow a meticulous documentation process that allows us to trace the origins and handling of each and every pound of trash we recover. All documentation is regularly audited by third parties to maintain the highest degree of transparency, accuracy, and accountability.<\/p><p>Every cleanup is photographed before, during, and after to verify the origins of our recovered materials and guarantee that our cleanups have a direct impact on the environment. We also record all information related to our cleanups, including:<\/p><p>-Date, time, and location coordinates<\/p><p>-Crew members and vessels involved<\/p><p>-Individual weight for each super sack filled by the crew<\/p><p>-Total weight of all trash recovered by the crew<\/p><p>Once these records are reviewed and authorized by the location manager, all images and accompanying data are uploaded into the 4ocean TrashTracker, a proprietary digital system that provides full insight, transparency, and traceability for all materials recovered by 4ocean crews. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1663099760068e2dd7-0",
+        "1663099760068e2dd7-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "166309983710da161b": {
+      "type": "multicolumn",
+      "blocks": {
+        "1663099837db4a77b3-0": {
+          "type": "column",
+          "settings": {
+            "title": "Before",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1663099837db4a77b3-1": {
+          "type": "column",
+          "settings": {
+            "title": "During",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1663099837db4a77b3-2": {
+          "type": "column",
+          "settings": {
+            "title": "After",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663099837db4a77b3-0",
+        "1663099837db4a77b3-1",
+        "1663099837db4a77b3-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "heading_alignment": "title-wrapper-with-link--center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -366,6 +889,17 @@
     "166309919794c9a474",
     "166309923218f739a0",
     "166309925936f97c36",
-    "1663099332f5676924"
+    "1663099332f5676924",
+    "16630993545277acb2",
+    "1663099393cdf420fd",
+    "16630994070d3378d2",
+    "166309944193ca0243",
+    "16630994543d367642",
+    "1663099516c972ca7f",
+    "16630995318b6da991",
+    "1663099677e24257a6",
+    "16630997176850a79f",
+    "16630997603b969029",
+    "166309983710da161b"
   ]
 }
