@@ -787,43 +787,6 @@
         "padding_bottom": 36
       }
     },
-    "1663094437aa3d3be7": {
-      "type": "newsletter-signup",
-      "blocks": {
-        "166309443727e22d2f-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Stay Connected",
-            "heading_size": "h1",
-            "color": "#fff"
-          }
-        },
-        "166309443727e22d2f-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Sign up for email & SMS alerts so you never miss an update about the clean ocean movement and new ways to support our mission!<\/p>",
-            "color": "#fff"
-          }
-        },
-        "166309443727e22d2f-2": {
-          "type": "email_form",
-          "settings": {
-            "klaviyo_embed": "<div class=\"klaviyo-form-T29KmL\"><\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "166309443727e22d2f-0",
-        "166309443727e22d2f-1",
-        "166309443727e22d2f-2"
-      ],
-      "settings": {
-        "bg_overlay_color": "#172c43",
-        "bg_overlay_opacity": 70,
-        "padding_top": 125,
-        "padding_bottom": 140
-      }
-    },
     "166309448733a341a7": {
       "type": "image-banner",
       "blocks": {
@@ -871,6 +834,43 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "1663094437aa3d3be7": {
+      "type": "newsletter-signup",
+      "blocks": {
+        "166309443727e22d2f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stay Connected",
+            "heading_size": "h1",
+            "color": "#fff"
+          }
+        },
+        "166309443727e22d2f-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Sign up for email & SMS alerts so you never miss an update about the clean ocean movement and new ways to support our mission!<\/p>",
+            "color": "#fff"
+          }
+        },
+        "166309443727e22d2f-2": {
+          "type": "email_form",
+          "settings": {
+            "klaviyo_embed": "<div class=\"klaviyo-form-T29KmL\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "166309443727e22d2f-0",
+        "166309443727e22d2f-1",
+        "166309443727e22d2f-2"
+      ],
+      "settings": {
+        "bg_overlay_color": "#172c43",
+        "bg_overlay_opacity": 70,
+        "padding_top": 125,
+        "padding_bottom": 140
+      }
     }
   },
   "order": [
@@ -894,7 +894,7 @@
     "1663094270fdf9ee65",
     "1663094331034454f9",
     "166309436098af9edc",
-    "1663094437aa3d3be7",
-    "166309448733a341a7"
+    "166309448733a341a7",
+    "1663094437aa3d3be7"
   ]
 }
