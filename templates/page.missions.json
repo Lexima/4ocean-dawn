@@ -561,60 +561,50 @@
         "padding_bottom": 52
       }
     },
-    "1663087945131441d3": {
+    "16630888010ba21a10": {
       "type": "multicolumn",
       "blocks": {
-        "e99dc0cc-18c5-4c3b-b142-27214e8c660a": {
+        "166308880192760602-0": {
           "type": "column",
           "settings": {
-            "title": "Educate",
-            "text": "<p>The best way to clean the ocean is by preventing plastic pollution in the first place. We make it a priority to share our knowledge and educate the global community about the causes and impacts of plastic pollution so people feel inspired to end their reliance on single-use plastics and empowered to adopt more ocean-friendly habits.<\/p>",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "166308794510887183-0": {
+        "166308880192760602-1": {
           "type": "column",
           "settings": {
-            "title": "Advocate",
-            "text": "<p>A consumer movement can help drive change, but ending the ocean plastic crisis will still require direct action from leaders in government, business, and other institutions. That’s why we’re fierce advocates for business innovation, government incentives, and cross-functional partnerships that support the creation and growth of a sustainable circular economy.<\/p>",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
           }
         },
-        "166308794510887183-1": {
+        "166308880192760602-2": {
           "type": "column",
           "settings": {
-            "title": "Innovate",
-            "text": "<p>We’re always looking for new ways to make a difference, maximize our impact, and discover new ways to use and create demand for our recovered ocean materials. From cleanup technology to recycling infrastructure to product development, we’re constantly exploring, inventing, testing, and investing in promising new solutions to the ocean plastic crisis.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "166308794510887183-2": {
-          "type": "column",
-          "settings": {
-            "title": "Recover",
-            "text": "<p>Cleanups alone won’t end the ocean plastic crisis, but they’re still necessary to mitigate its worst impacts. By recovering plastic that’s already polluting our waterways, we can help the ocean and humanity begin to heal. That’s why we’re one of the only companies in the world that directly hires full-time captains and crews to recover plastic and other man-made trash from the world’s oceans, rivers, and coastlines seven days a week.<\/p>",
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
           }
         }
       },
       "block_order": [
-        "e99dc0cc-18c5-4c3b-b142-27214e8c660a",
-        "166308794510887183-0",
-        "166308794510887183-1",
-        "166308794510887183-2"
+        "166308880192760602-0",
+        "166308880192760602-1",
+        "166308880192760602-2"
       ],
       "settings": {
         "title": "",
-        "heading_size": "h2",
+        "heading_size": "h1",
         "heading_alignment": "title-wrapper-with-link--center",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
-        "column_alignment": "center",
+        "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Button label",
         "button_link": "",
@@ -649,6 +639,6 @@
     "16630875020984ad1c",
     "16630875967fc55920",
     "166308809084a2a996",
-    "1663087945131441d3"
+    "16630888010ba21a10"
   ]
 }
