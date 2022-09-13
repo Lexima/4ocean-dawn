@@ -7,9 +7,24 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "166309828406ca6403": {
+      "type": "trash-tracker",
+      "settings": {
+        "title": "— OUR IMPACT —",
+        "copy": "<p>pounds of trash recovered from the world’s <\/p><p>oceans, rivers, and coastlines since 2017<\/p>",
+        "color_scheme": "accent-1",
+        "button_text": "",
+        "button_link": "",
+        "show_icon": true,
+        "font_size": 1,
+        "padding_top": 100,
+        "padding_bottom": 100
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "166309828406ca6403"
   ]
 }
