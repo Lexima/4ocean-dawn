@@ -104,10 +104,10 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Get 25% OFF select items using code LABORDAY25 at checkout. Ends 9\/8.",
+              "text": "FREE gift with orders $25+. Discount applied at checkout. Limit one (1) per transaction. Ends 9\/17.",
               "text_alignment": "center",
               "color_scheme": "background-2",
-              "link": "https:\/\/www.4ocean.com\/LABORDAY25"
+              "link": "https:\/\/www.4ocean.com\/free-gift-25"
             }
           }
         },
