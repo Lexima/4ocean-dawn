@@ -157,8 +157,8 @@
         "166309119263b42a5f-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Inspired by local fishermen",
+            "text": "<p>After speaking with local fishermen about the impact plastic pollution was having on their livelihoods, Alex and Andrew realized they could adopt the fishing industry’s pay-per-pound model and build a business that paid full-time captains and crews to recover plastic and other man-made trash from their local environment.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -166,8 +166,8 @@
         "166309119263b42a5f-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "4ocean is born",
+            "text": "<p>On the flight home, Alex and Andrew came up with ideas for products that would fund their cleanups. They finally settled on a bracelet because it was a wearable symbol representation of their mission that would spark conversations about plastic pollution and it would act as a physical reminder to people to make ocean-minded choices like refusing single-use plastics.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -175,17 +175,8 @@
         "a807475e-5d54-4bec-8492-f35fb094a9bb": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "9bf0cd7b-efe5-4160-890f-547515f535ce": {
-          "type": "column",
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Millions of pounds of trash later",
+            "text": "<p>Now, 4ocean manages the world’s largest ongoing ocean cleanup operation and employs hundreds of professional, full-time captains and crews who are cleaning the world’s oceans, rivers, and coastlines every single day.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -195,11 +186,10 @@
         "166309119263b42a5f-0",
         "166309119263b42a5f-1",
         "166309119263b42a5f-2",
-        "a807475e-5d54-4bec-8492-f35fb094a9bb",
-        "9bf0cd7b-efe5-4160-890f-547515f535ce"
+        "a807475e-5d54-4bec-8492-f35fb094a9bb"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "heading_alignment": "title-wrapper-with-link--center",
         "image_width": "full",
