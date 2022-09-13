@@ -348,43 +348,6 @@
         "padding_bottom": 8
       }
     },
-    "166308809084a2a996": {
-      "type": "rich-text",
-      "blocks": {
-        "bc356ca2-b870-41cd-88be-e25d2bbd5ef0": {
-          "type": "text",
-          "settings": {
-            "text": "<p>— STRATEGY —<\/p>"
-          }
-        },
-        "1663088089a0c52fb6-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>One ocean. One mission.<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "1663088089a0c52fb6-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Over 18 billion pounds of trash enters the ocean every year. This is our plan to stop it.<\/p>"
-          }
-        }
-      },
-      "block_order": [
-        "bc356ca2-b870-41cd-88be-e25d2bbd5ef0",
-        "1663088089a0c52fb6-0",
-        "1663088089a0c52fb6-1"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "16630888010ba21a10": {
       "type": "multicolumn",
       "blocks": {
@@ -436,8 +399,8 @@
         "f92fea61-3e82-4a99-88fe-7a75099d03a1"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
+        "title": "One ocean. One mission.",
+        "heading_size": "h2",
         "heading_alignment": "title-wrapper-with-link--center",
         "image_width": "third",
         "image_ratio": "adapt",
@@ -512,7 +475,6 @@
     "16630872109abe252c",
     "16630875020984ad1c",
     "16630875967fc55920",
-    "166308809084a2a996",
     "16630888010ba21a10",
     "166308971251ac80ac",
     "1663089774bb612961"
