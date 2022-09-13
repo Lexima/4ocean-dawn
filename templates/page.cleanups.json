@@ -267,7 +267,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -368,7 +368,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -438,7 +438,7 @@
       ],
       "settings": {
         "image_ratio": "square",
-        "columns_desktop": 2,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
         "columns_mobile": "2",
         "padding_top": 36,
@@ -460,28 +460,16 @@
           "settings": {
             "text": "<p>With four locations spread across two islands, 4ocean Indonesia has significant access to the oceans, rivers, and coastlines of Bali and Java, including West Bali National Park. <\/p><p>These crews specialize in the installation and maintenance of our river boom systems, which trap plastic that would otherwise flow downriver and into the ocean.<\/p><p>We’ve already deployed two river boom systems—one in the Ijo Gading River, which is considered the island’s largest contributor to ocean plastic pollution, and another in the Samblong River, which is a small but highly polluted river in Bali’s Jembrana Regency. <\/p>"
           }
-        },
-        "1663099407a84aef93-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "1663099407a84aef93-0",
-        "1663099407a84aef93-1",
-        "1663099407a84aef93-2"
+        "1663099407a84aef93-1"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -551,7 +539,7 @@
       ],
       "settings": {
         "image_ratio": "square",
-        "columns_desktop": 2,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
         "columns_mobile": "2",
         "padding_top": 36,
@@ -582,7 +570,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -652,7 +640,7 @@
       ],
       "settings": {
         "image_ratio": "square",
-        "columns_desktop": 2,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
         "columns_mobile": "2",
         "padding_top": 36,
@@ -683,7 +671,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -868,7 +856,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -916,36 +904,6 @@
         "padding_bottom": 52
       }
     },
-    "166310061987b52c3f": {
-      "type": "featured-collection",
-      "settings": {
-        "pre_title": "",
-        "title": "Made with 4ocean Plastic",
-        "heading_size": "h1",
-        "heading_align": "center",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "made-with-4ocean-materials",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "text_align": "left",
-        "show_vendor": false,
-        "show_yotpo": true,
-        "enable_quick_add": false,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "16631006649e90c4a5": {
       "type": "rich-text",
       "blocks": {
@@ -961,28 +919,16 @@
           "settings": {
             "text": "<p>Our global ocean cleanup operation is only possible thanks to the ongoing support of the clean ocean movement. <\/p><p>Individuals who want to support us can visit our shop where every product purchased funds the removal of one pound of trash from the world’s oceans, rivers, and coastlines. <\/p><p>We also offer a variety of partnership opportunities that make it easy for global corporations, small businesses, nonprofits, governments, and other organizations to get involved and make a real impact. <\/p><p>Together, we can build a more sustainable future where humanity grows alongside nature and not at its expense.<\/p>"
           }
-        },
-        "1663100664ff7b4b8d-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "1663100664ff7b4b8d-0",
-        "1663100664ff7b4b8d-1",
-        "1663100664ff7b4b8d-2"
+        "1663100664ff7b4b8d-1"
       ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -1077,7 +1023,6 @@
     "166309983710da161b",
     "1663100534297b182d",
     "1663100573ce7817d6",
-    "166310061987b52c3f",
     "16631006649e90c4a5",
     "1663100722bb3fc00d"
   ]
