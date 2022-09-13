@@ -21,10 +21,53 @@
         "padding_top": 100,
         "padding_bottom": 100
       }
+    },
+    "166309847085a78c42": {
+      "type": "rich-text",
+      "blocks": {
+        "166309847016e37ff8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>A global crisis requires a global solution<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "166309847016e37ff8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>4ocean is one of the only companies in the world that directly manages a global ocean cleanup operation and employs professional, full-time captains and crews to recover plastic and other harmful debris from the world’s oceans, rivers, and coastlines seven days a week. All of our efforts are funded primarily by our One Pound Promise and the items you purchase from our shop.<\/p>"
+          }
+        },
+        "166309847016e37ff8-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now - Pull a Pound",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "166309847016e37ff8-0",
+        "166309847016e37ff8-1",
+        "166309847016e37ff8-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "166309828406ca6403"
+    "166309828406ca6403",
+    "166309847085a78c42"
   ]
 }
