@@ -179,7 +179,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Bali-Stoke.jpg",
             "title": "Millions of pounds of trash later",
-            "text": "<p>Now, 4ocean manages the world’s largest ongoing ocean cleanup operation and employs hundreds of professional, full-time captains and crews who are cleaning the world’s oceans, rivers, and coastlines every single day.<\/p>",
+            "text": "<p>Now, 4ocean manages one of the world’s largest ongoing ocean cleanup operation and employs hundreds of professional, full-time captains and crews who are cleaning the world’s oceans, rivers, and coastlines every single day.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -197,7 +197,7 @@
         "heading_alignment": "title-wrapper-with-link--center",
         "image_width": "full",
         "image_ratio": "square",
-        "columns_desktop": 1,
+        "columns_desktop": 2,
         "column_alignment": "center",
         "background_style": "primary",
         "button_label": "Button label",
@@ -462,6 +462,48 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "1663093285c41ba973": {
+      "type": "rich-text",
+      "blocks": {
+        "1663093285f8eb3816-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>One Pound Promise<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1663093285f8eb3816-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our professional, full-time captains and crews pull one pound of trash from the world’s oceans, rivers, and coastlines for every product sold.<\/p>"
+          }
+        },
+        "1663093285f8eb3816-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now - Pull a Pound",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1663093285f8eb3816-0",
+        "1663093285f8eb3816-1",
+        "1663093285f8eb3816-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -477,6 +519,7 @@
     "16630875967fc55920",
     "16630888010ba21a10",
     "166308971251ac80ac",
-    "1663089774bb612961"
+    "1663089774bb612961",
+    "1663093285c41ba973"
   ]
 }
