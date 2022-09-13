@@ -335,6 +335,91 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1663028136b6df85f8": {
+      "type": "collection-features",
+      "blocks": {
+        "16630281368ac64979-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4ocean-sustainable-fishing-Disease-Outbreak_1800x_31dc8b7a-c84e-48b5-adeb-16d90a33a2b5.jpg",
+            "heading": "Disease outbreak",
+            "heading_size": "h2",
+            "subheading": "<p>Many fish farms are set up in an “open system,” or an enclosed area of the ocean, where infectious diseases from pathogens such as bacteria, viruses, and parasites can easily spread from cultured fish to native fish. <em>Vibrio, Aemonas,<\/em> and <em>Renibacterium <\/em>are some of the most common bacterial infections. Common viruses include <em>Birnaviridae, Rhabdoviridae, <\/em>and <em>Iridoviridae.<\/em><\/p>",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "16630281368ac64979-1": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4ocean-sustainable-fishing-Non-Invasive-Species_1800x_d1bf8558-99c0-4ee3-97cc-8dcd9f0db4b3.webp",
+            "heading": "Escape of non-native species",
+            "heading_size": "h2",
+            "subheading": "<p>Open systems also create conditions where non-native or genetically modified species enter the environment and threaten or reproduce with the native species, which can upset the local ecosystem and impact fish populations in the surrounding waters.<\/p>",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "02dbfef5-e674-4c30-a256-2dce485669bc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4ocean-sustainable-fishing-Feed-Production_1800x_be85e6a4-61f5-4a8e-af11-37cf3ebb3e04.jpg",
+            "heading": "Feed production",
+            "heading_size": "h2",
+            "subheading": "<p>Some of our favorite seafoods are also top ocean predators like tuna and salmon. These are large, carnivorous fish that require high-fat diets. Many prey species face pressure from overfishing that stems from the effort to feed and sustain these fish when farmed. Some farms use “fish meal” as an alternative; however, this combination of fish oil, wheat products, and chemicals isn’t easily digested by fish who aren’t designed to metabolize carbs. Since fish oils are used, even “fish meal” can contribute to overfishing.<\/p>",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "b6f3e821-b7a7-4142-92cc-85b51fd2d174": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4ocean-sustainable-fishing-Waste-Management_1800x_627eeee7-8bef-4f15-935a-884a6cc34162.webp",
+            "heading": "Waste management",
+            "heading_size": "h2",
+            "subheading": "<p>Densely-packed fish farms not only facilitate the spread of infectious diseases, they also create waste that gets discharged into local ecosystems where it can contaminate the surrounding environment. This is a concern even for solid, closed-wall, and fully-contained aquaculture systems.<\/p>",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "450a6db5-6592-4d3c-b6ff-3310768b19bc": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4ocean-sustainable-fishing-Efficiency_1800x_7523837a-efd6-4e7e-bd7c-ed7afd78ba99.jpg",
+            "heading": "Efficiency",
+            "heading_size": "h2",
+            "subheading": "<p>While “closed systems” may be a better alternative to existing aquaculture methods, there are barriers to implementing them successfully on a commercial scale. The high energy costs associated with the systems’ water pumps and the cost of electricity to keep them running can be barriers to operating them at a commercial scale.<\/p>",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        }
+      },
+      "block_order": [
+        "16630281368ac64979-0",
+        "16630281368ac64979-1",
+        "02dbfef5-e674-4c30-a256-2dce485669bc",
+        "b6f3e821-b7a7-4142-92cc-85b51fd2d174",
+        "450a6db5-6592-4d3c-b6ff-3310768b19bc"
+      ],
+      "settings": {
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "accessibility_info": "Collection Features Carousel",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -346,6 +431,7 @@
     "16630273825f184856",
     "1663027680f950eb0d",
     "16630277424a6c63a5",
-    "16630278138a3cd240"
+    "16630278138a3cd240",
+    "1663028136b6df85f8"
   ]
 }
