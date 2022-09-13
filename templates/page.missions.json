@@ -452,6 +452,141 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "16630875967fc55920": {
+      "type": "pdp-photo-grid",
+      "blocks": {
+        "166308759663661f3c-0": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "166308759663661f3c-1": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "166308759663661f3c-2": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "166308759663661f3c-3": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "c67ff97f-963e-43e6-b3ef-26bb2075acbb": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "7c06bc9e-b8e9-4ef1-bfcc-a94a62551c39": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "9e4af29d-dd7a-4e8d-b518-14d5e69345d3": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "fb9e8cc0-7a57-4b52-9392-c5b08c718f92": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "166308759663661f3c-0",
+        "166308759663661f3c-1",
+        "166308759663661f3c-2",
+        "166308759663661f3c-3",
+        "c67ff97f-963e-43e6-b3ef-26bb2075acbb",
+        "7c06bc9e-b8e9-4ef1-bfcc-a94a62551c39",
+        "9e4af29d-dd7a-4e8d-b518-14d5e69345d3",
+        "fb9e8cc0-7a57-4b52-9392-c5b08c718f92"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "columns_desktop": 6,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "1663087945131441d3": {
+      "type": "multicolumn",
+      "blocks": {
+        "e99dc0cc-18c5-4c3b-b142-27214e8c660a": {
+          "type": "column",
+          "settings": {
+            "title": "Educate",
+            "text": "<p>The best way to clean the ocean is by preventing plastic pollution in the first place. We make it a priority to share our knowledge and educate the global community about the causes and impacts of plastic pollution so people feel inspired to end their reliance on single-use plastics and empowered to adopt more ocean-friendly habits.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "166308794510887183-0": {
+          "type": "column",
+          "settings": {
+            "title": "Advocate",
+            "text": "<p>A consumer movement can help drive change, but ending the ocean plastic crisis will still require direct action from leaders in government, business, and other institutions. That’s why we’re fierce advocates for business innovation, government incentives, and cross-functional partnerships that support the creation and growth of a sustainable circular economy.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "166308794510887183-1": {
+          "type": "column",
+          "settings": {
+            "title": "Innovate",
+            "text": "<p>We’re always looking for new ways to make a difference, maximize our impact, and discover new ways to use and create demand for our recovered ocean materials. From cleanup technology to recycling infrastructure to product development, we’re constantly exploring, inventing, testing, and investing in promising new solutions to the ocean plastic crisis.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "166308794510887183-2": {
+          "type": "column",
+          "settings": {
+            "title": "Recover",
+            "text": "<p>Cleanups alone won’t end the ocean plastic crisis, but they’re still necessary to mitigate its worst impacts. By recovering plastic that’s already polluting our waterways, we can help the ocean and humanity begin to heal. That’s why we’re one of the only companies in the world that directly hires full-time captains and crews to recover plastic and other man-made trash from the world’s oceans, rivers, and coastlines seven days a week.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "e99dc0cc-18c5-4c3b-b142-27214e8c660a",
+        "166308794510887183-0",
+        "166308794510887183-1",
+        "166308794510887183-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "heading_alignment": "title-wrapper-with-link--center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -474,6 +609,8 @@
     "1663087090ec897ae4",
     "1663087103c859e5ee",
     "16630872109abe252c",
-    "16630875020984ad1c"
+    "16630875020984ad1c",
+    "16630875967fc55920",
+    "1663087945131441d3"
   ]
 }
