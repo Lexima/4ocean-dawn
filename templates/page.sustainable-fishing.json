@@ -56,8 +56,8 @@
         "16630271290cb04dd1-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Shop Overfishing Collection",
+            "button_link": "shopify:\/\/collections\/overfishing-collection"
           }
         }
       },
@@ -79,11 +79,161 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1663027288efe74749": {
+      "type": "rich-text",
+      "blocks": {
+        "166302728874f74919-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>How the commercial fishing industry harms marine environments<\/p>",
+            "heading_size": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "166302728874f74919-0"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1663027361c7660a3d": {
+      "type": "collection-features",
+      "blocks": {
+        "1663027361a1cb243d-0": {
+          "type": "slide",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "1663027361a1cb243d-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "",
+            "heading_size": "h2",
+            "subheading": "",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        }
+      },
+      "block_order": [
+        "1663027361a1cb243d-0",
+        "1663027361a1cb243d-1"
+      ],
+      "settings": {
+        "slider_visual": "dots",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "accessibility_info": "Collection Features Carousel",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16630273825f184856": {
+      "type": "featured-products",
+      "blocks": {
+        "7faec4dd-9ee0-4818-bd23-8ba1e7d483a0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pull pounds in honor of animals + ecosystems impacted by overfishing",
+            "heading_size": "h1"
+          }
+        },
+        "f4ebb6ba-f15d-4f88-b2d5-9c1dadfce892": {
+          "type": "copy",
+          "settings": {
+            "copy_text": ""
+          }
+        },
+        "a94d5e35-8985-4d13-809c-d4306a001147": {
+          "type": "products",
+          "settings": {
+            "product_list": [
+              "bluefin-tuna-2-pound-pack",
+              "hawksbill-sea-turtle-2-pound-pack",
+              "seahorse-bracelet",
+              "limited-edition-whale-shark-2-pound-pack",
+              "galapagos-sea-lion-2-pound-pack",
+              "shark-bracelets-2-pound-pack",
+              "sea-turtle-bracelet",
+              "coral-reef-2-pound-pack"
+            ],
+            "show_pounds_pulled": true,
+            "enable_quick_add": true,
+            "show_yotpo": true
+          }
+        }
+      },
+      "block_order": [
+        "7faec4dd-9ee0-4818-bd23-8ba1e7d483a0",
+        "f4ebb6ba-f15d-4f88-b2d5-9c1dadfce892",
+        "a94d5e35-8985-4d13-809c-d4306a001147"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 90,
+        "padding_bottom": 120
+      }
+    },
+    "1663027680f950eb0d": {
+      "type": "image-with-text",
+      "blocks": {
+        "1663027680cf5202ad-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sustainable seafood",
+            "heading_size": "h2"
+          }
+        },
+        "1663027680cf5202ad-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sustainable seafood is any seafood that is caught or farmed with minimal environmental and social impacts. Fisheries are generally considered sustainable when they target plentiful species, follow local regulations and guidelines, and rely on scientific data and ongoing population monitoring to ensure the fishery is well managed. Sustainable fishing practices may include hook-n-line, spearfishing, and any well-regulated localized fishing including some aquaculture and green ocean farming.<br\/><br\/>There’s an ongoing debate in the ocean conservation space about whether fishing can ever be truly sustainable. It would behoove us to recognize that there are ways to fish sustainably and that many indigenous cultures have sustainably fished their waters for thousands of years. Ultimately, consuming fish in and of itself isn’t the problem; exploitative and unsustainable practices in the commercial fishing industry are.<\/p>",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1663027680cf5202ad-0",
+        "1663027680cf5202ad-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4ocean-Sustainable-Seafood_1600x_93c2c568-e7a8-4c61-b409-8524845b19a4.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "166302708860c8e0b9",
-    "16630271291d9f4176"
+    "16630271291d9f4176",
+    "1663027288efe74749",
+    "1663027361c7660a3d",
+    "16630273825f184856",
+    "1663027680f950eb0d"
   ]
 }
