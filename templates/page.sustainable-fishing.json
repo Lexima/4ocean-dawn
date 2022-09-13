@@ -109,9 +109,10 @@
         "1663027361a1cb243d-0": {
           "type": "slide",
           "settings": {
-            "heading": "",
+            "image": "shopify:\/\/shop_images\/4ocean-sustainable-fishing-overfishing_1800x_7f67151e-d53f-4738-baf9-f88e74e02659.webp",
+            "heading": "Overfishing",
             "heading_size": "h2",
-            "subheading": "",
+            "subheading": "<p>Overfishing happens when more fish are harvested than is environmentally sustainable. Simply put, it means we’re pulling fish out of the water faster than they can reproduce.<\/p><p>Most of the fish we consume are predators. When their populations decline or disappear, prey species’ populations go unchecked and can grow out of proportion. Ultimately, overfishing alters the food web and changes how certain ecosystems function, which can have a devastating impact on biodiversity and the health and productivity of the ocean.<\/p><p>Without giving overfished species opportunities to reproduce and recover their populations, humanity is placing sustained pressure on many species and fishing them to the brink of extinction.<\/p>",
             "box_align": "left",
             "text_alignment": "left",
             "color_scheme": "background-2",
@@ -121,9 +122,49 @@
         "1663027361a1cb243d-1": {
           "type": "slide",
           "settings": {
-            "heading": "",
+            "image": "shopify:\/\/shop_images\/4ocean-sustainable-fishing-Technology_1800x_caf959ce-9629-4735-9781-93664f10f189.webp",
+            "heading": "Technology",
             "heading_size": "h2",
-            "subheading": "",
+            "subheading": "<p>The destructive process of overfishing has been documented as far back as 1,000 years ago when Europeans exploited local freshwater fisheries until they collapsed, which meant they started relying more on coastal fisheries.<\/p><p>Since then, fishing technology has evolved to the point where we can target species everywhere they swim rather than focusing on the migration patterns that bring them within reach.<br\/><\/p><p>Once coastal fisheries were wiped out, offshore fisheries became the new target. Now, as those fisheries become depleted, the industry is starting to fish even deeper using the same wasteful and indiscriminate practices like bottom trawling, dredging, longlining, and drift netting that are destroying offshore fisheries.<\/p>",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "9fb8bc3e-a09e-4457-b8ac-881b752dea0b": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4ocean-sustainable-fishing-bycatch_1800x_1d122df5-76f0-4c0a-a97d-ee2b944a716f.webp",
+            "heading": "Bycatch",
+            "heading_size": "h2",
+            "subheading": "<p>Bycatch is the unintentional harvest of non-target species like dolphins, sea turtles, whales, and protected fish caused by <a href=\"https:\/\/www.4ocean.com\/blogs\/blog\/6-harmful-overfishing-practices-and-types-of-gear\">nonselective fishing gear and tactics.<\/a><br\/><\/p><p>Bycatch can contribute to overfishing and slow efforts to rebuild fish stocks. It contributes to population declines and slow population recovery for vulnerable and endangered species.<\/p><p>Many types of fishing result in bycatch, including long line fishing, drift nets, gillnets, and purse seine nets, but activities like trawling, which involves dragging a trawl net across the sea floor, can be especially harmful; up to 90% of a trawl net’s total catch can be bycatch.<\/p>",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "2a00d95b-b7b5-4797-8a14-a50dc4b78e21": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4ocean-sustainable-fishing-pollution_1800x_f99cd498-ec3d-4558-838f-32f40907dfb3.webp",
+            "heading": "Pollution",
+            "heading_size": "h2",
+            "subheading": "<p>Lost and abandoned fishing gear like nets, traps, pots, ropes, and buoys account for about<a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0996\/1022\/files\/Abondaned_lost_or_otherwise_discarded_fishing_gear_Marine_Litter_Abandoned_Lost_Fishing_Gear.pdf?v=1618253937\"> 10% of all marine debris.<\/a> Once lost, derelict fishing gear becomes a significant entanglement risk that can continue to capture and kill both target and non-target species, which contributes to both overfishing and bycatch.<\/p><p>However, not all marine debris is distributed evenly across the ocean. A recent sample taken from the surface of the Great Pacific Garbage Patch found that <a href=\"https:\/\/www.nationalgeographic.org\/article\/great-pacific-garbage-patch-isnt-what-you-think\/\">fishing nets accounted for 46% of all the plastic recovered<\/a>, with other types of fishing gear like ropes, oyster spacers, eel traps, crates, and baskets accounting for the majority of the other debris recovered.<\/p>",
+            "box_align": "left",
+            "text_alignment": "left",
+            "color_scheme": "background-2",
+            "text_alignment_mobile": "left"
+          }
+        },
+        "764b33aa-bc02-4cc9-82e9-c329cd75c452": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/4ocean-sustainable-fishing-habitat_1800x_9e5bfa90-7475-4b43-b976-952016472c7f.webp",
+            "heading": "Habitat destruction",
+            "heading_size": "h2",
+            "subheading": "<p>Some fishing practices destroy habitats that provide food and shelter to a variety of marine species and can be permanently damaging to the marine ecosystem.<\/p><p><\/p><p>Dredging, like trawling, involves dragging equipment across the sea floor which can cause sediment to become suspended in the water column and decrease water quality, biomass, and the production of benthic species.<\/p><p><\/p><p>Blast fishing uses sticks of dynamite to cause explosions that stun nearby fish and cause them to float to the surface for easy harvesting. However, this type of fishing also destroys coral reefs, oyster beds, and other productive habitats and can impact many species and conservation efforts.<\/p>",
             "box_align": "left",
             "text_alignment": "left",
             "color_scheme": "background-2",
@@ -133,7 +174,10 @@
       },
       "block_order": [
         "1663027361a1cb243d-0",
-        "1663027361a1cb243d-1"
+        "1663027361a1cb243d-1",
+        "9fb8bc3e-a09e-4457-b8ac-881b752dea0b",
+        "2a00d95b-b7b5-4797-8a14-a50dc4b78e21",
+        "764b33aa-bc02-4cc9-82e9-c329cd75c452"
       ],
       "settings": {
         "slider_visual": "dots",
