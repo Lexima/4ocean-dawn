@@ -159,7 +159,7 @@
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",
-        "color_scheme": "background-1",
+        "color_scheme": "accent-1",
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
@@ -229,7 +229,7 @@
       ],
       "settings": {
         "image_ratio": "square",
-        "columns_desktop": 2,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
         "columns_mobile": "2",
         "padding_top": 36,
@@ -257,24 +257,12 @@
           "settings": {
             "text": "<p>Osborne Reef was a coral restoration project that tried to build the world’s longest artificial reef using millions of old passenger car tires. Unfortunately, the project failed and loose tires have been migrating across the seafloor since the 1970s. These tires weigh anywhere from 40 to 50 pounds and cause significant damage to vulnerable and endangered coral habitats all along the coast. <\/p><p>Our dive crew is working below the ocean’s surface to help recover these tires and protect our coral reefs. Our designated cleanup area spans 34 acres of seabed just north of the original drop site where hundreds of thousands of loose tires have migrated. Click the button below to learn more about this historic underwater cleanup and how you can support it! <\/p>"
           }
-        },
-        "16630992597eb5d26b-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Learn More",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "8a7334c7-59ea-4982-8f9a-b51ff748eefa",
         "16630992597eb5d26b-0",
-        "16630992597eb5d26b-1",
-        "16630992597eb5d26b-2"
+        "16630992597eb5d26b-1"
       ],
       "settings": {
         "desktop_content_position": "center",
@@ -788,7 +776,7 @@
       ],
       "settings": {
         "image_ratio": "square",
-        "columns_desktop": 2,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
         "columns_mobile": "2",
         "padding_top": 36,
