@@ -1022,6 +1022,72 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1663100722bb3fc00d": {
+      "type": "signature-bracelet",
+      "blocks": {
+        "166310072290ff3b8a-0": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "166310072290ff3b8a-1": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "166310072290ff3b8a-2": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "166310072290ff3b8a-3": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "166310072290ff3b8a-4": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "166310072290ff3b8a-5": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        }
+      },
+      "block_order": [
+        "166310072290ff3b8a-0",
+        "166310072290ff3b8a-1",
+        "166310072290ff3b8a-2",
+        "166310072290ff3b8a-3",
+        "166310072290ff3b8a-4",
+        "166310072290ff3b8a-5"
+      ],
+      "settings": {
+        "pre_title": "",
+        "title": "Pull the next pound!",
+        "description": "",
+        "content_alignment": "center",
+        "image": "shopify:\/\/shop_images\/Sig-Blue.jpg",
+        "product": "the-4ocean-bracelet",
+        "atc_label": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -1048,6 +1114,7 @@
     "1663100534297b182d",
     "1663100573ce7817d6",
     "166310061987b52c3f",
-    "16631006649e90c4a5"
+    "16631006649e90c4a5",
+    "1663100722bb3fc00d"
   ]
 }
