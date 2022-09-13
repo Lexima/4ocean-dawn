@@ -284,6 +284,77 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1663099332f5676924": {
+      "type": "pdp-photo-grid",
+      "blocks": {
+        "1663099332d5ec7d56-0": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663099332d5ec7d56-1": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663099332d5ec7d56-2": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663099332d5ec7d56-3": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "f51c29ec-c79a-4ac0-97e2-ce40bb69e0b1": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "22b77597-09e3-4500-a509-431defead693": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "f6cefd45-608d-43b9-916d-32b16326c17f": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "f5dbe12e-e2d0-48e8-89b3-ec5f2ea5e9eb": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663099332d5ec7d56-0",
+        "1663099332d5ec7d56-1",
+        "1663099332d5ec7d56-2",
+        "1663099332d5ec7d56-3",
+        "f51c29ec-c79a-4ac0-97e2-ce40bb69e0b1",
+        "22b77597-09e3-4500-a509-431defead693",
+        "f6cefd45-608d-43b9-916d-32b16326c17f",
+        "f5dbe12e-e2d0-48e8-89b3-ec5f2ea5e9eb"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
     }
   },
   "order": [
@@ -294,6 +365,7 @@
     "16630990742d6cda2f",
     "166309919794c9a474",
     "166309923218f739a0",
-    "166309925936f97c36"
+    "166309925936f97c36",
+    "1663099332f5676924"
   ]
 }
