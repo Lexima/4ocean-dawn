@@ -190,6 +190,71 @@
         "padding_bottom": 52
       }
     },
+    "1663151831dc30600f": {
+      "type": "signature-bracelet",
+      "blocks": {
+        "1663151831c2007b15-0": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "1663151831c2007b15-1": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "1663151831c2007b15-2": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "1663151831c2007b15-3": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "1663151831c2007b15-4": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "1663151831c2007b15-5": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        }
+      },
+      "block_order": [
+        "1663151831c2007b15-0",
+        "1663151831c2007b15-1",
+        "1663151831c2007b15-2",
+        "1663151831c2007b15-3",
+        "1663151831c2007b15-4",
+        "1663151831c2007b15-5"
+      ],
+      "settings": {
+        "pre_title": "",
+        "title": "Bracelet of the Month Subscription",
+        "description": "<p>Pull<strong> two pounds of trash<\/strong> from the ocean every month with a new, limited-edition bracelet that represents an animal or ecosystem impacted by plastic pollution.<\/p>",
+        "content_alignment": "center",
+        "product": "eagle-ray-beaded-bracelet",
+        "atc_label": "Select Your Style",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "16624760820e78f579": {
       "type": "trash-tracker",
       "settings": {
@@ -394,6 +459,7 @@
     "166247613730c29082",
     "166248010493b2ff49",
     "166247711860c1e5b4",
+    "1663151831dc30600f",
     "16624760820e78f579",
     "16624779683f75adc2",
     "1662478910f3689957",
