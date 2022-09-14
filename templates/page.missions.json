@@ -204,29 +204,28 @@
     "16630872109abe252c": {
       "type": "rich-text",
       "blocks": {
-        "1bcc2918-fc98-407f-8fc9-ee038e53c5eb": {
-          "type": "heading",
+        "f30bfe39-0777-4ed7-825d-ce15e0a39b7d": {
+          "type": "text",
           "settings": {
-            "heading": "<p><strong>\"When we first got started, we were just two surfers cleaning up our local beaches. I still can’t believe how far we’ve come in such a short time.\"<\/strong><\/p>",
-            "heading_size": "h2"
+            "text": "<p><strong>\"When we first got started, we were just two surfers cleaning up our local beaches. I still can’t believe how far we’ve come in such a short time.\"<\/strong><\/p>"
           }
         },
         "c89bb6c7-d8fd-48d0-a37e-6f9cc3083138": {
           "type": "heading",
           "settings": {
             "heading": "<p><strong>Alex Schulze <\/strong><\/p>",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "9911eacf-5727-4ff4-8bf8-2e33e4e8d02a": {
           "type": "text",
           "settings": {
-            "text": "<p><strong> CEO + Cofounder<\/strong><\/p>"
+            "text": "<p> CEO + Cofounder<\/p>"
           }
         }
       },
       "block_order": [
-        "1bcc2918-fc98-407f-8fc9-ee038e53c5eb",
+        "f30bfe39-0777-4ed7-825d-ce15e0a39b7d",
         "c89bb6c7-d8fd-48d0-a37e-6f9cc3083138",
         "9911eacf-5727-4ff4-8bf8-2e33e4e8d02a"
       ],
