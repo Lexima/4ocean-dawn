@@ -665,36 +665,56 @@
         "1663152809e28a64e6-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/UGC_2.jpg",
             "link": ""
           }
         },
         "1663152809e28a64e6-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/UGC_1_b892d833-aa10-4d3f-8479-b9b547533d40.jpg",
             "link": ""
           }
         },
         "1663152809e28a64e6-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/UGC_8.jpg",
             "link": ""
           }
         },
         "1663152809e28a64e6-3": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/UGC_6_6439f5da-bfec-4344-b24f-1ec21c4cd8d6.jpg",
             "link": ""
           }
         },
         "f78b6c30-3d48-4fda-b99d-51161e6ed852": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/UGC_10_566ccdd3-8866-4b6c-a12a-f6db44dad474.jpg",
             "link": ""
           }
         },
         "35868952-aedf-407a-a6d0-320532b50654": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/UGC_9_7b5da1f0-9e5c-40e8-b2dc-91ecc6c666f4.jpg",
+            "link": ""
+          }
+        },
+        "5b858bd3-9a8f-4953-ad49-01d7b5ebf474": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/UGC_3_8a937779-b9e0-4eb7-8d79-c8f015f7a3ab.jpg",
+            "link": ""
+          }
+        },
+        "b9622160-7e46-4cd2-ac8f-52bbc755cfe2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/UGC_5_49bd3f73-d8e9-40a7-874c-3a42563179cc.jpg",
             "link": ""
           }
         }
@@ -705,7 +725,9 @@
         "1663152809e28a64e6-2",
         "1663152809e28a64e6-3",
         "f78b6c30-3d48-4fda-b99d-51161e6ed852",
-        "35868952-aedf-407a-a6d0-320532b50654"
+        "35868952-aedf-407a-a6d0-320532b50654",
+        "5b858bd3-9a8f-4953-ad49-01d7b5ebf474",
+        "b9622160-7e46-4cd2-ac8f-52bbc755cfe2"
       ],
       "settings": {
         "image_ratio": "square",
