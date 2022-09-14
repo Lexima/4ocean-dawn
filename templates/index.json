@@ -358,7 +358,8 @@
       ],
       "settings": {
         "color_scheme": "background-1",
-        "image_align": "left",
+        "image": "shopify:\/\/shop_images\/A_A-with-baby-sign_2c3ae166-3ea3-4f73-ac75-7ba9b0e747f7.jpg",
+        "image_align": "right",
         "contain-image": false,
         "padding_top": 0,
         "padding_bottom": 0
