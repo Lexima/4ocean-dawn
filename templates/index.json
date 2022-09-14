@@ -245,59 +245,6 @@
         "padding_bottom": 36
       }
     },
-    "16624784810d3246c7": {
-      "type": "featured-products",
-      "blocks": {
-        "0ad68d72-1c6c-4864-9260-4809c526029a": {
-          "type": "eyebrow",
-          "settings": {
-            "eyebrow_text": "Trending Products"
-          }
-        },
-        "f4f043b1-3d39-457d-abbf-73e69d6c60c2": {
-          "type": "heading",
-          "settings": {
-            "heading": "Every product cleans the ocean",
-            "heading_size": "h1"
-          }
-        },
-        "8eb3cff1-e16b-4a7f-be5e-c2c875b97bdb": {
-          "type": "copy",
-          "settings": {
-            "copy_text": "<p>Each product purchased will <strong>pull one or more pounds<\/strong> of trash from the world’s oceans, rivers & coastlines.<\/p>"
-          }
-        },
-        "4dfdc3df-5cab-48ea-8ed4-4932f10fbf39": {
-          "type": "products",
-          "settings": {
-            "product_list": [
-              "eagle-ray-2-pound-pack",
-              "lava-stone-braided-bracelet-in-blue-magma",
-              "parrotfish-2-pound-pack",
-              "lava-stone-beaded-bracelet-in-signature-blue",
-              "shark-crew-stack",
-              "shark-bracelet-stack",
-              "crew-bracelet-blue",
-              "sandbar-jewelry-set"
-            ],
-            "show_pounds_pulled": false,
-            "enable_quick_add": true,
-            "show_yotpo": true
-          }
-        }
-      },
-      "block_order": [
-        "0ad68d72-1c6c-4864-9260-4809c526029a",
-        "f4f043b1-3d39-457d-abbf-73e69d6c60c2",
-        "8eb3cff1-e16b-4a7f-be5e-c2c875b97bdb",
-        "4dfdc3df-5cab-48ea-8ed4-4932f10fbf39"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "padding_top": 90,
-        "padding_bottom": 32
-      }
-    },
     "1662478910f3689957": {
       "type": "divider",
       "settings": {
@@ -449,7 +396,6 @@
     "166247711860c1e5b4",
     "16624760820e78f579",
     "16624779683f75adc2",
-    "16624784810d3246c7",
     "1662478910f3689957",
     "16624787716c817331",
     "16624802508186c384",
