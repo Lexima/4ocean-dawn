@@ -584,18 +584,17 @@
     "16631829454ec970ca": {
       "type": "rich-text",
       "blocks": {
-        "1663182944d4c72202-0": {
-          "type": "heading",
+        "c98dc528-90a4-4039-9dc7-3845b2ec32ae": {
+          "type": "text",
           "settings": {
-            "heading": "<p>\"Thank you for supporting our mission and helping us grow the clean ocean movement! We couldn’t do this without you.\"<\/p>",
-            "heading_size": "h2"
+            "text": "<p>\"Thank you for supporting our mission and helping us grow the clean ocean movement! We couldn’t do this without you.\"<\/p>"
           }
         },
         "686781c7-33d7-478c-be23-06eb646a01be": {
           "type": "heading",
           "settings": {
             "heading": "<p>Alex Schulze<\/p>",
-            "heading_size": "h1"
+            "heading_size": "h2"
           }
         },
         "fd64de32-10de-42dd-8425-5cb7a8b0a89e": {
@@ -606,7 +605,7 @@
         }
       },
       "block_order": [
-        "1663182944d4c72202-0",
+        "c98dc528-90a4-4039-9dc7-3845b2ec32ae",
         "686781c7-33d7-478c-be23-06eb646a01be",
         "fd64de32-10de-42dd-8425-5cb7a8b0a89e"
       ],
