@@ -206,6 +206,7 @@
     },
     "16624779683f75adc2": {
       "type": "call-to-action",
+      "disabled": true,
       "blocks": {
         "166247796835faabfb-0": {
           "type": "heading",
