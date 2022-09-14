@@ -592,7 +592,7 @@
         "color_scheme": "accent-1",
         "button_text": "",
         "button_link": "",
-        "show_icon": true,
+        "show_icon": false,
         "font_size": 1,
         "padding_top": 100,
         "padding_bottom": 100
