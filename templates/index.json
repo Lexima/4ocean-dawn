@@ -625,7 +625,7 @@
       "settings": {
         "bg_image": "shopify:\/\/shop_images\/Stay-Connected-background_e0e92e56-66b2-4c6c-8fe4-f12abce92531.jpg",
         "bg_overlay_color": "#172c43",
-        "bg_overlay_opacity": 80,
+        "bg_overlay_opacity": 21,
         "padding_top": 125,
         "padding_bottom": 140
       }
