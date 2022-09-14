@@ -268,12 +268,24 @@
           "settings": {
             "text": "<p>Osborne Reef was a coral restoration project that tried to build the world’s longest artificial reef using millions of old passenger car tires. Unfortunately, the project failed and loose tires have been migrating across the seafloor since the 1970s. These tires weigh anywhere from 40 to 50 pounds and cause significant damage to vulnerable and endangered coral habitats all along the coast. <\/p><p>Our dive crew is working below the ocean’s surface to help recover these tires and protect our coral reefs. Our designated cleanup area spans 34 acres of seabed just north of the original drop site where hundreds of thousands of loose tires have migrated. Click the button below to learn more about this historic underwater cleanup and how you can support it! <\/p>"
           }
+        },
+        "65387e59-2058-40ba-ac8b-da2a00752f0c": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "https:\/\/www.4ocean.com\/pages\/osborne-reef2",
+            "button_style_secondary": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "8a7334c7-59ea-4982-8f9a-b51ff748eefa",
         "16630992597eb5d26b-0",
-        "16630992597eb5d26b-1"
+        "16630992597eb5d26b-1",
+        "65387e59-2058-40ba-ac8b-da2a00752f0c"
       ],
       "settings": {
         "desktop_content_position": "center",
