@@ -991,22 +991,24 @@
         "166310072290ff3b8a-0": {
           "type": "icon",
           "settings": {
-            "image": "shopify:\/\/shop_images\/40-logo_4d97ae74-fd11-4b90-aee6-44ca5bead679.png",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/100_recoverd_4ocean_plastic_icon_a0b44c57-1533-43d2-b822-76c377f4d331.png",
+            "text": "100% 4ocean Plastic cord",
             "visible_mobile": true
           }
         },
         "166310072290ff3b8a-1": {
           "type": "icon",
           "settings": {
-            "text": "",
+            "image": "shopify:\/\/shop_images\/40-logo_4d97ae74-fd11-4b90-aee6-44ca5bead679.png",
+            "text": "Unisex, waterproof, adjustable",
             "visible_mobile": true
           }
         },
         "166310072290ff3b8a-2": {
           "type": "icon",
           "settings": {
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Bali_Icon_eea59984-7d45-471c-9fb9-fc3a480ab082.png",
+            "text": "Handcrafted by local artisans on the tropical island of Bali",
             "visible_mobile": true
           }
         },
