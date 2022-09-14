@@ -8,6 +8,49 @@
         "padding_bottom": 0
       }
     },
+    "1663163084f85912a3": {
+      "type": "rich-text",
+      "blocks": {
+        "166316308404ff769e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Bracelet of the Month Subscriptions<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "166316308404ff769e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Get a new, limited-edition awareness bracelet that represents an animal or ecosystem impacted by plastic pollution each month. <\/p>"
+          }
+        },
+        "166316308404ff769e-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "166316308404ff769e-0",
+        "166316308404ff769e-1",
+        "166316308404ff769e-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "16631625902b432627": {
       "type": "multicolumn",
       "blocks": {
@@ -46,7 +89,7 @@
       ],
       "settings": {
         "title": "Membership Perks",
-        "heading_size": "h1",
+        "heading_size": "h2",
         "heading_alignment": "title-wrapper-with-link--center",
         "image_width": "full",
         "image_ratio": "adapt",
@@ -244,6 +287,7 @@
   },
   "order": [
     "main",
+    "1663163084f85912a3",
     "16631625902b432627",
     "1663160276d268f8cb",
     "1663160074f7bdce74",
