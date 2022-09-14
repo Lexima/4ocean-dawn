@@ -27,13 +27,13 @@
         "1662476137d13190af-2": {
           "type": "copy",
           "settings": {
-            "copy": "<p><strong>Every purchase pulls one pound<\/strong> or more of trash and plastic from the world’s oceans, rivers and coastlines.<\/p>"
+            "copy": "<p>Pull your first pound of trash from the world’s oceans, rivers, and coastlines with our Signature Beaded Bracelet, now made with 100% 4ocean Plastic cord.<br\/><\/p>"
           }
         },
         "1662476137d13190af-3": {
           "type": "button",
           "settings": {
-            "text": "Shop now & pull the next pound",
+            "text": "Buy a Bracelet — Pull a Pound",
             "link": "shopify:\/\/collections\/shop-all"
           }
         }
