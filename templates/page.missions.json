@@ -819,19 +819,27 @@
     "1663097506aa3f5cb9": {
       "type": "signature-bracelet",
       "blocks": {
+        "1663097506fb416299-5": {
+          "type": "icon",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/100_recoverd_4ocean_plastic_icon_c8014362-f1d8-47dd-b617-3f5a12f0222a.png",
+            "text": "100% 4ocean Plastic cord",
+            "visible_mobile": false
+          }
+        },
         "1663097506fb416299-0": {
           "type": "icon",
           "settings": {
             "image": "shopify:\/\/shop_images\/40-logo.png",
-            "text": "",
+            "text": "Unisex, waterproof, adjustable",
             "visible_mobile": true
           }
         },
-        "1663097506fb416299-1": {
+        "1663097506fb416299-3": {
           "type": "icon",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Glass-beads-icon.png",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Bali_Icon_1a0f97e4-6354-41e4-95af-a5713dd00f48.png",
+            "text": "Handcrafted by local artisans on the tropical island of Bali",
             "visible_mobile": true
           }
         },
@@ -839,15 +847,15 @@
           "type": "icon",
           "settings": {
             "image": "shopify:\/\/shop_images\/waterproof_icon_2c2db66f-dc5e-4559-9b49-f36201006a36.png",
-            "text": "",
-            "visible_mobile": false
+            "text": "Adjustable, waterproof, unisex",
+            "visible_mobile": true
           }
         },
-        "1663097506fb416299-3": {
+        "1663097506fb416299-1": {
           "type": "icon",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bali_Icon_1a0f97e4-6354-41e4-95af-a5713dd00f48.png",
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Glass-beads-icon.png",
+            "text": "95% post-consumer recycled glass beads",
             "visible_mobile": true
           }
         },
@@ -855,26 +863,18 @@
           "type": "icon",
           "settings": {
             "image": "shopify:\/\/shop_images\/Bracelet_icon_07132def-55ea-4d48-acb3-b718514084d4.png",
-            "text": "",
-            "visible_mobile": false
-          }
-        },
-        "1663097506fb416299-5": {
-          "type": "icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/100_recoverd_4ocean_plastic_icon_c8014362-f1d8-47dd-b617-3f5a12f0222a.png",
-            "text": "",
+            "text": "Instantly identifies you as a member of the clean ocean movement",
             "visible_mobile": false
           }
         }
       },
       "block_order": [
+        "1663097506fb416299-5",
         "1663097506fb416299-0",
-        "1663097506fb416299-1",
-        "1663097506fb416299-2",
         "1663097506fb416299-3",
-        "1663097506fb416299-4",
-        "1663097506fb416299-5"
+        "1663097506fb416299-2",
+        "1663097506fb416299-1",
+        "1663097506fb416299-4"
       ],
       "settings": {
         "pre_title": "",
@@ -919,7 +919,7 @@
         "166309443727e22d2f-2"
       ],
       "settings": {
-        "bg_image": "shopify:\/\/shop_images\/image_77.jpg",
+        "bg_image": "shopify:\/\/shop_images\/Stay-Connected-background.jpg",
         "bg_overlay_color": "#172c43",
         "bg_overlay_opacity": 70,
         "padding_top": 125,
