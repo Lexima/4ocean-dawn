@@ -118,20 +118,6 @@
         "padding_bottom": 36
       }
     },
-    "16624760820e78f579": {
-      "type": "trash-tracker",
-      "settings": {
-        "title": "OUR GLOBAL IMPACT",
-        "copy": "<p>pounds of trash have been pulled from the world’s oceans, rivers, and coastlines since January 2017<\/p>",
-        "color_scheme": "accent-2",
-        "button_text": "Shop now & pull the next pound",
-        "button_link": "shopify:\/\/collections\/shop-all",
-        "show_icon": false,
-        "font_size": 1,
-        "padding_top": 20,
-        "padding_bottom": 20
-      }
-    },
     "166247711860c1e5b4": {
       "type": "signature-bracelet",
       "blocks": {
@@ -193,15 +179,29 @@
         "1662477118c59e1986-5"
       ],
       "settings": {
-        "pre_title": "It started with one bracelet, one pound.",
-        "title": "4ocean SignatureBeaded Bracelet",
-        "description": "<p>By purchasing this bracelet you will <strong>pull one pound<\/strong> of trash from the world’s oceans, rivers & coastlines.<\/p>",
+        "pre_title": "",
+        "title": "4ocean's Signature Beaded Bracelet",
+        "description": "<p>By purchasing this bracelet you will <strong>remove one pound<\/strong> of trash from the world’s oceans, rivers & coastlines.<\/p>",
         "content_alignment": "center",
         "image": "shopify:\/\/shop_images\/Sig-Blue.jpg",
-        "product": "",
-        "atc_label": "",
+        "product": "the-4ocean-bracelet",
+        "atc_label": "Add to Cart",
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "16624760820e78f579": {
+      "type": "trash-tracker",
+      "settings": {
+        "title": "OUR GLOBAL IMPACT",
+        "copy": "<p>pounds of trash have been pulled from the world’s oceans, rivers, and coastlines since January 2017<\/p>",
+        "color_scheme": "accent-2",
+        "button_text": "Shop now & pull the next pound",
+        "button_link": "shopify:\/\/collections\/shop-all",
+        "show_icon": false,
+        "font_size": 1,
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "16624779683f75adc2": {
@@ -445,8 +445,8 @@
     "166263842607ac0839",
     "166247613730c29082",
     "166248010493b2ff49",
-    "16624760820e78f579",
     "166247711860c1e5b4",
+    "16624760820e78f579",
     "16624779683f75adc2",
     "16624784810d3246c7",
     "1662478910f3689957",
