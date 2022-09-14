@@ -1017,13 +1017,14 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/waterproof_icon_7e0f93b1-4515-45c2-bbf3-f5d55b73f572.png",
             "text": "Adjustable, waterproof, unisex",
-            "visible_mobile": true
+            "visible_mobile": false
           }
         },
         "166310072290ff3b8a-4": {
           "type": "icon",
           "settings": {
-            "text": "",
+            "image": "shopify:\/\/shop_images\/Glass-beads-icon_ca7b73a2-ea0f-4b29-a713-c6284e67b854.png",
+            "text": "95% post-consumer recycled glass beads",
             "visible_mobile": true
           }
         },
