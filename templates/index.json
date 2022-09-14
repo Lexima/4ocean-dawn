@@ -473,6 +473,7 @@
     },
     "16624802508186c384": {
       "type": "divider",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "padding_top": 28,
@@ -523,6 +524,18 @@
         "columns_mobile": "1",
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "166315371309f4c308": {
+      "type": "special-interest",
+      "settings": {
+        "eyebrow": "",
+        "title": "",
+        "description": "",
+        "quote": "<p>Thank you for supporting our mission and helping us grow the clean ocean movement! We couldn’t do this without you.<\/p>",
+        "author": "<b>Alex Schulze<b> <br> CEO+Co-Founder <br>4Ocean<\/b><\/b>",
+        "padding_top": 0,
+        "padding_bottom": 4
       }
     },
     "1662478942ab413a2d": {
@@ -635,6 +648,7 @@
     "16624787716c817331",
     "16624802508186c384",
     "16624798747aaa7218",
+    "166315371309f4c308",
     "1662478942ab413a2d",
     "16631528090c935125"
   ]
