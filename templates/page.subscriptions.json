@@ -7,9 +7,80 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "1663156015118bb613": {
+      "type": "featured-products",
+      "blocks": {
+        "303c478a-9533-4f93-91f3-a8403c72c943": {
+          "type": "button",
+          "settings": {
+            "button_text": "View more",
+            "button_url": ""
+          }
+        },
+        "22ab08e4-e636-4a45-a88b-833ee6b1a6d2": {
+          "type": "products",
+          "settings": {
+            "product_list": [
+
+            ],
+            "show_pounds_pulled": false,
+            "enable_quick_add": true,
+            "show_yotpo": true
+          }
+        }
+      },
+      "block_order": [
+        "303c478a-9533-4f93-91f3-a8403c72c943",
+        "22ab08e4-e636-4a45-a88b-833ee6b1a6d2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 90,
+        "padding_bottom": 120
+      }
+    },
+    "166315625460ca2ef3": {
+      "type": "newsletter-signup",
+      "blocks": {
+        "166315625421c661da-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stay Connected",
+            "heading_size": "h1",
+            "color": "#fff"
+          }
+        },
+        "166315625421c661da-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Sign up for email & SMS alerts so you never miss an update about the clean ocean movement and new ways to support our mission!<\/p>",
+            "color": "#fff"
+          }
+        },
+        "166315625421c661da-2": {
+          "type": "email_form",
+          "settings": {
+            "klaviyo_embed": "<div class=\"klaviyo-form-T29KmL\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "166315625421c661da-0",
+        "166315625421c661da-1",
+        "166315625421c661da-2"
+      ],
+      "settings": {
+        "bg_overlay_color": "#172c43",
+        "bg_overlay_opacity": 70,
+        "padding_top": 125,
+        "padding_bottom": 140
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1663156015118bb613",
+    "166315625460ca2ef3"
   ]
 }
