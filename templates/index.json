@@ -731,11 +731,11 @@
       ],
       "settings": {
         "image_ratio": "square",
-        "columns_desktop": 2,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
         "columns_mobile": "2",
         "padding_top": 36,
-        "padding_bottom": 8
+        "padding_bottom": 0
       }
     }
   },
