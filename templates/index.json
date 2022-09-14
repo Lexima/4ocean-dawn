@@ -587,7 +587,7 @@
         "c98dc528-90a4-4039-9dc7-3845b2ec32ae": {
           "type": "text",
           "settings": {
-            "text": "<p>\"Thank you for supporting our mission and helping us grow the clean ocean movement! We couldn’t do this without you.\"<\/p>"
+            "text": "<p><strong>\"Thank you for supporting our mission and helping us grow the clean ocean movement! We couldn’t do this without you.\"<\/strong><\/p>"
           }
         },
         "686781c7-33d7-478c-be23-06eb646a01be": {
@@ -600,7 +600,7 @@
         "fd64de32-10de-42dd-8425-5cb7a8b0a89e": {
           "type": "text",
           "settings": {
-            "text": "<p><strong>CEO + Cofounder<\/strong><\/p>"
+            "text": "<p>CEO + Cofounder<\/p>"
           }
         }
       },
