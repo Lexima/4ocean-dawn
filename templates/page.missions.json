@@ -856,7 +856,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Glass-beads-icon.png",
             "text": "95% post-consumer recycled glass beads",
-            "visible_mobile": true
+            "visible_mobile": false
           }
         },
         "1663097506fb416299-4": {
