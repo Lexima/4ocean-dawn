@@ -133,29 +133,6 @@
         "padding_bottom": 52
       }
     },
-    "1663104128a24db20f": {
-      "type": "video",
-      "settings": {
-        "heading": "",
-        "heading_size": "h1",
-        "cover_image": "shopify:\/\/shop_images\/BALI-RIVER-STOKE.jpg",
-        "video_url": "https:\/\/vimeo.com\/745567777\/363a14aead",
-        "description": "",
-        "full_width": false,
-        "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "16630849191f30f710": {
-      "type": "modal-video",
-      "settings": {
-        "cover_image": "shopify:\/\/shop_images\/USFleet.jpg",
-        "video_url": "https:\/\/vimeo.com\/745567777\/363a14aead",
-        "video_text": "",
-        "show_product_banner": true
-      }
-    },
     "166309119243ee5945": {
       "type": "multicolumn",
       "blocks": {
@@ -955,8 +932,6 @@
     "1663081726f86ef036",
     "1663083633fd8da41b",
     "166308472880cd4dac",
-    "1663104128a24db20f",
-    "16630849191f30f710",
     "166309119243ee5945",
     "16630872109abe252c",
     "16630875020984ad1c",
