@@ -835,6 +835,7 @@
         "1663099837db4a77b3-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Before.jpg",
             "title": "Before",
             "text": "",
             "link_label": "",
@@ -844,6 +845,7 @@
         "1663099837db4a77b3-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/During.jpg",
             "title": "During",
             "text": "",
             "link_label": "",
@@ -853,6 +855,7 @@
         "1663099837db4a77b3-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/after.jpg",
             "title": "After",
             "text": "",
             "link_label": "",
@@ -870,9 +873,9 @@
         "heading_size": "h1",
         "heading_alignment": "title-wrapper-with-link--center",
         "image_width": "full",
-        "image_ratio": "adapt",
+        "image_ratio": "square",
         "columns_desktop": 3,
-        "column_alignment": "left",
+        "column_alignment": "center",
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
