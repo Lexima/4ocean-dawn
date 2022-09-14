@@ -325,6 +325,7 @@
     },
     "16624760820e78f579": {
       "type": "trash-tracker",
+      "disabled": true,
       "settings": {
         "title": "OUR GLOBAL IMPACT",
         "copy": "<p>pounds of trash have been pulled from the world’s oceans, rivers, and coastlines since January 2017<\/p>",
