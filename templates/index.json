@@ -580,16 +580,42 @@
         "show_text_below": true
       }
     },
-    "166315371309f4c308": {
-      "type": "special-interest",
+    "16631829454ec970ca": {
+      "type": "rich-text",
+      "blocks": {
+        "1663182944d4c72202-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>\"Thank you for supporting our mission and helping us grow the clean ocean movement! We couldn’t do this without you.\"<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "686781c7-33d7-478c-be23-06eb646a01be": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Alex Schulze<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "fd64de32-10de-42dd-8425-5cb7a8b0a89e": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>CEO + Cofounder<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1663182944d4c72202-0",
+        "686781c7-33d7-478c-be23-06eb646a01be",
+        "fd64de32-10de-42dd-8425-5cb7a8b0a89e"
+      ],
       "settings": {
-        "eyebrow": "",
-        "title": "",
-        "description": "",
-        "quote": "<p>Thank you for supporting our mission and helping us grow the clean ocean movement! We couldn’t do this without you.<\/p>",
-        "author": "<b>Alex Schulze<b> <br> CEO+Co-Founder <br>4Ocean<\/b><\/b>",
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
         "padding_top": 0,
-        "padding_bottom": 4
+        "padding_bottom": 0
       }
     },
     "1662478942ab413a2d": {
@@ -703,7 +729,7 @@
     "16624802508186c384",
     "16624798747aaa7218",
     "1663181038de6f3267",
-    "166315371309f4c308",
+    "16631829454ec970ca",
     "1662478942ab413a2d",
     "16631528090c935125"
   ]
