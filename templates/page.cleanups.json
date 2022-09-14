@@ -171,48 +171,56 @@
         "16630992320d21d43c-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Florida-Cleanups_1.jpg",
             "link": ""
           }
         },
         "16630992320d21d43c-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Florida-Cleanups_7.jpg",
             "link": ""
           }
         },
         "16630992320d21d43c-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Florida-Cleanups_2.jpg",
             "link": ""
           }
         },
         "16630992320d21d43c-3": {
           "type": "image",
           "settings": {
-            "link": ""
-          }
-        },
-        "6f9a38e6-86f5-4c21-801f-688b538dd9c8": {
-          "type": "image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "f4d965b3-7285-4c56-8ec5-b2432aa320e4": {
-          "type": "image",
-          "settings": {
-            "link": ""
-          }
-        },
-        "ade54c7a-04ca-468d-b560-8be19dd44c14": {
-          "type": "image",
-          "settings": {
+            "image": "shopify:\/\/shop_images\/Florida-Cleanups_4.jpg",
             "link": ""
           }
         },
         "705e29e6-fc3e-4f9a-ad7b-2e80087006c4": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Florida-Cleanups_6.jpg",
+            "link": ""
+          }
+        },
+        "6f9a38e6-86f5-4c21-801f-688b538dd9c8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Florida-Cleanups_5.jpg",
+            "link": ""
+          }
+        },
+        "f4d965b3-7285-4c56-8ec5-b2432aa320e4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Florida-Cleanups_3.jpg",
+            "link": ""
+          }
+        },
+        "ade54c7a-04ca-468d-b560-8be19dd44c14": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Florida-Cleanups_8.jpg",
             "link": ""
           }
         }
@@ -222,10 +230,10 @@
         "16630992320d21d43c-1",
         "16630992320d21d43c-2",
         "16630992320d21d43c-3",
+        "705e29e6-fc3e-4f9a-ad7b-2e80087006c4",
         "6f9a38e6-86f5-4c21-801f-688b538dd9c8",
         "f4d965b3-7285-4c56-8ec5-b2432aa320e4",
-        "ade54c7a-04ca-468d-b560-8be19dd44c14",
-        "705e29e6-fc3e-4f9a-ad7b-2e80087006c4"
+        "ade54c7a-04ca-468d-b560-8be19dd44c14"
       ],
       "settings": {
         "image_ratio": "square",
