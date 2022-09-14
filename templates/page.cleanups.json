@@ -68,7 +68,7 @@
       "type": "image-banner",
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Copy_of_MAP.jpg",
+        "image": "shopify:\/\/shop_images\/Copy-of-MAP.jpg",
         "image_overlay_opacity": 0,
         "image_height": "medium",
         "adapt_height_first_image": true,
@@ -87,6 +87,7 @@
         "1663099074466efc92-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/12.png",
             "title": "locations",
             "text": "",
             "link_label": "",
@@ -96,6 +97,7 @@
         "1663099074466efc92-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/185.png",
             "title": "crew members",
             "text": "",
             "link_label": "",
@@ -105,6 +107,7 @@
         "1663099074466efc92-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/17.png",
             "title": "vessels",
             "text": "",
             "link_label": "",
@@ -121,7 +124,7 @@
         "title": "",
         "heading_size": "h1",
         "heading_alignment": "title-wrapper-with-link--center",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
