@@ -124,7 +124,7 @@
         "title": "",
         "heading_size": "h1",
         "heading_alignment": "title-wrapper-with-link--center",
-        "image_width": "third",
+        "image_width": "half",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "center",
@@ -505,13 +505,6 @@
     "166309944193ca0243": {
       "type": "pdp-photo-grid",
       "blocks": {
-        "1663099441082a0e8c-3": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Bali-Cleanups-9.jpg",
-            "link": ""
-          }
-        },
         "1663099441082a0e8c-0": {
           "type": "image",
           "settings": {
@@ -540,6 +533,13 @@
             "link": ""
           }
         },
+        "1663099441082a0e8c-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bali-Cleanups-9.jpg",
+            "link": ""
+          }
+        },
         "2ff701c7-c05d-4222-9bbf-4a0a8a4e2864": {
           "type": "image",
           "settings": {
@@ -563,11 +563,11 @@
         }
       },
       "block_order": [
-        "1663099441082a0e8c-3",
         "1663099441082a0e8c-0",
         "1663099441082a0e8c-1",
         "1663099441082a0e8c-2",
         "df50cc47-d78a-4f62-9405-1336bcc98720",
+        "1663099441082a0e8c-3",
         "2ff701c7-c05d-4222-9bbf-4a0a8a4e2864",
         "5fbbcb45-c771-4cee-bd7e-72054013fb1f",
         "2a6fa986-a5cf-4318-9e2a-6edbeca0f15c"
