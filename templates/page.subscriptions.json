@@ -8,6 +8,60 @@
         "padding_bottom": 0
       }
     },
+    "16631625902b432627": {
+      "type": "multicolumn",
+      "blocks": {
+        "16631625907c0d2399-0": {
+          "type": "column",
+          "settings": {
+            "title": "Double Your Impact",
+            "text": "<p>Pull not one but TWO pounds of trash from the world’s oceans, rivers, and coastlines with each bracelet you receive through your Bracelet of the Month Subscription.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16631625907c0d2399-1": {
+          "type": "column",
+          "settings": {
+            "title": "Advanced Shipping",
+            "text": "<p>New bracelets ship two weeks before they’re available online so you’ll always be the first to wear them. If you’re in the contiguous U.S., shipping is FREE!<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16631625907c0d2399-2": {
+          "type": "column",
+          "settings": {
+            "title": "Exclusive Discounts",
+            "text": "<p>Prepay for 3, 6, or 12 months to get 5%, 10% or 15% OFF your order. Plus, get 10% OFF select products when you add them to upcoming subscription orders.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16631625907c0d2399-0",
+        "16631625907c0d2399-1",
+        "16631625907c0d2399-2"
+      ],
+      "settings": {
+        "title": "Membership Perks",
+        "heading_size": "h1",
+        "heading_alignment": "title-wrapper-with-link--center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1663160276d268f8cb": {
       "type": "featured-products",
       "blocks": {
@@ -190,6 +244,7 @@
   },
   "order": [
     "main",
+    "16631625902b432627",
     "1663160276d268f8cb",
     "1663160074f7bdce74",
     "1663156320d03f36f5",
