@@ -358,8 +358,7 @@
       ],
       "settings": {
         "color_scheme": "background-1",
-        "image": "shopify:\/\/shop_images\/A_A-with-baby-sign_2c3ae166-3ea3-4f73-ac75-7ba9b0e747f7.jpg",
-        "image_align": "right",
+        "image_align": "left",
         "contain-image": false,
         "padding_top": 0,
         "padding_bottom": 0
@@ -529,6 +528,58 @@
         "padding_bottom": 36
       }
     },
+    "1663181038de6f3267": {
+      "type": "image-banner",
+      "blocks": {
+        "16631810387fce636c-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "16631810387fce636c-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "16631810387fce636c-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16631810387fce636c-0",
+        "16631810387fce636c-1",
+        "16631810387fce636c-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/A_A-with-baby-sign_2c3ae166-3ea3-4f73-ac75-7ba9b0e747f7.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "166315371309f4c308": {
       "type": "special-interest",
       "settings": {
@@ -651,6 +702,7 @@
     "16624787716c817331",
     "16624802508186c384",
     "16624798747aaa7218",
+    "1663181038de6f3267",
     "166315371309f4c308",
     "1662478942ab413a2d",
     "16631528090c935125"
