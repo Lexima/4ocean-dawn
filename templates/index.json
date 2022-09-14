@@ -322,7 +322,21 @@
         "product": "pound-plus",
         "atc_label": "Add to Cart",
         "padding_top": 40,
-        "padding_bottom": 0
+        "padding_bottom": 24
+      }
+    },
+    "16624760820e78f579": {
+      "type": "trash-tracker",
+      "settings": {
+        "title": "OUR GLOBAL IMPACT",
+        "copy": "<p>pounds of trash have been pulled from the world’s oceans, rivers, and coastlines since January 2017<\/p>",
+        "color_scheme": "accent-2",
+        "button_text": "Shop now & pull the next pound",
+        "button_link": "shopify:\/\/collections\/shop-all",
+        "show_icon": false,
+        "font_size": 1,
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "16631834710c2432a4": {
@@ -365,20 +379,6 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
-      }
-    },
-    "16624760820e78f579": {
-      "type": "trash-tracker",
-      "settings": {
-        "title": "OUR GLOBAL IMPACT",
-        "copy": "<p>pounds of trash have been pulled from the world’s oceans, rivers, and coastlines since January 2017<\/p>",
-        "color_scheme": "accent-2",
-        "button_text": "Shop now & pull the next pound",
-        "button_link": "shopify:\/\/collections\/shop-all",
-        "show_icon": false,
-        "font_size": 1,
-        "padding_top": 20,
-        "padding_bottom": 20
       }
     },
     "16624779683f75adc2": {
@@ -724,8 +724,8 @@
     "166247711860c1e5b4",
     "1663151831dc30600f",
     "1663152674f7f77fb3",
-    "16631834710c2432a4",
     "16624760820e78f579",
+    "16631834710c2432a4",
     "16624779683f75adc2",
     "1662478910f3689957",
     "16624787716c817331",
