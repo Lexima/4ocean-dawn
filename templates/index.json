@@ -258,6 +258,71 @@
         "padding_bottom": 52
       }
     },
+    "1663152674f7f77fb3": {
+      "type": "signature-bracelet",
+      "blocks": {
+        "1663152673791558c1-0": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "1663152673791558c1-1": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "1663152673791558c1-2": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "1663152673791558c1-3": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "1663152673791558c1-4": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "1663152673791558c1-5": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        }
+      },
+      "block_order": [
+        "1663152673791558c1-0",
+        "1663152673791558c1-1",
+        "1663152673791558c1-2",
+        "1663152673791558c1-3",
+        "1663152673791558c1-4",
+        "1663152673791558c1-5"
+      ],
+      "settings": {
+        "pre_title": "— POUND+ —",
+        "title": "Maximize Your Impact",
+        "description": "<p>Pull extra pounds. Just $10 each.<\/p>",
+        "content_alignment": "center",
+        "product": "pound-plus",
+        "atc_label": "Add to Cart",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "16624760820e78f579": {
       "type": "trash-tracker",
       "settings": {
@@ -463,6 +528,7 @@
     "166248010493b2ff49",
     "166247711860c1e5b4",
     "1663151831dc30600f",
+    "1663152674f7f77fb3",
     "16624760820e78f579",
     "16624779683f75adc2",
     "1662478910f3689957",
