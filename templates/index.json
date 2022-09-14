@@ -92,6 +92,7 @@
         },
         "9d19973f-90ad-4dde-a95d-2925e16563c8": {
           "type": "logo",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Mask_group-5_7eb3c879-c002-47d2-b8d3-4cdbeafdf2c5.png"
           }
