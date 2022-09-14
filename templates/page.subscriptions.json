@@ -8,36 +8,69 @@
         "padding_bottom": 0
       }
     },
-    "1663156015118bb613": {
-      "type": "featured-products",
+    "1663160074f7bdce74": {
+      "type": "signature-bracelet",
       "blocks": {
-        "303c478a-9533-4f93-91f3-a8403c72c943": {
-          "type": "button",
+        "16631600746dd093da-0": {
+          "type": "icon",
           "settings": {
-            "button_text": "View more",
-            "button_url": ""
+            "text": "",
+            "visible_mobile": true
           }
         },
-        "22ab08e4-e636-4a45-a88b-833ee6b1a6d2": {
-          "type": "products",
+        "16631600746dd093da-1": {
+          "type": "icon",
           "settings": {
-            "product_list": [
-
-            ],
-            "show_pounds_pulled": false,
-            "enable_quick_add": true,
-            "show_yotpo": true
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "16631600746dd093da-2": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "16631600746dd093da-3": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "16631600746dd093da-4": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "16631600746dd093da-5": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
           }
         }
       },
       "block_order": [
-        "303c478a-9533-4f93-91f3-a8403c72c943",
-        "22ab08e4-e636-4a45-a88b-833ee6b1a6d2"
+        "16631600746dd093da-0",
+        "16631600746dd093da-1",
+        "16631600746dd093da-2",
+        "16631600746dd093da-3",
+        "16631600746dd093da-4",
+        "16631600746dd093da-5"
       ],
       "settings": {
-        "color_scheme": "background-1",
-        "padding_top": 90,
-        "padding_bottom": 120
+        "pre_title": "",
+        "title": "Get Started: Pick How Many Pounds You'll Pull",
+        "description": "<p>Please note that Pound+ can also be used as a one-time service, so you’ll need to select the monthly option when subscribing.<\/p>",
+        "content_alignment": "center",
+        "product": "pound-plus-subscription",
+        "atc_label": "Add to Cart",
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "1663156320d03f36f5": {
@@ -91,14 +124,14 @@
           "settings": {
             "heading": "Stay Connected",
             "heading_size": "h1",
-            "color": "#fff"
+            "color": "#ffffff"
           }
         },
         "166315625421c661da-1": {
           "type": "paragraph",
           "settings": {
             "text": "<p>Sign up for email & SMS alerts so you never miss an update about the clean ocean movement and new ways to support our mission!<\/p>",
-            "color": "#fff"
+            "color": "#ffffff"
           }
         },
         "166315625421c661da-2": {
@@ -123,7 +156,7 @@
   },
   "order": [
     "main",
-    "1663156015118bb613",
+    "1663160074f7bdce74",
     "1663156320d03f36f5",
     "166315625460ca2ef3"
   ]
