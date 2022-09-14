@@ -781,26 +781,31 @@
         "1663094360a2a43847-0": {
           "type": "logo",
           "settings": {
+            "image": "shopify:\/\/shop_images\/US-Polo-Logo.jpg"
           }
         },
         "1663094360a2a43847-1": {
           "type": "logo",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Corona-Logo.jpg"
           }
         },
         "1663094360a2a43847-2": {
           "type": "logo",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Poralu-Marine-logo.jpg"
           }
         },
         "7f2a2b27-c813-4667-85e4-34e0652470d3": {
           "type": "logo",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Guy_Harvey_Logo.jpg"
           }
         },
         "779b5dc2-09f0-4fa9-b482-a4f743c1ba28": {
           "type": "logo",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Mount-Gay-Logo.jpg"
           }
         }
       },
