@@ -1,0 +1,446 @@
+
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto+Mono:wght@500&display=swap");[data-section-type=product] .product-details-container form{width:100%}[data-section-type=product] .product-details-container .product-detail-form-footer .flex{display:flex}[data-section-type=product] .product-details-container .product-detail-form-footer .justify-between{justify-content:space-between}[data-section-type=product] .product-details-container .product-detail-form-footer .items-center{align-items:center}[data-section-type=product] .product-details-container .product-detail-form-footer .w-full{width:100%}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options.subscription .product-options__option.onetime,[data-section-type=product] .product-details-container .product-detail-form-footer .product-options.subscription .product-options__option.subscription input[type=radio].purchase-type{display:none}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option{padding:1rem;border:1px solid #f5f5f5;border-radius:3px;margin-bottom:1rem}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option .product-options__label,[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option .product-options__price{font-weight:400;line-height:130%;letter-spacing:-.01em;color:#00263e;font-size:14px}@media (min-width:996px){[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option .product-options__label,[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option .product-options__price{font-size:15px;line-height:150%}}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option .product-options__price span.original{display:block;font-weight:400;line-height:120%;letter-spacing:-.02em;text-decoration-line:line-through;color:#444;font-family:aktiv-grotesk;font-size:14px;margin:unset}@media (min-width:996px){[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option .product-options__price span.original{font-family:aktiv-grotesk,sans-serif;font-size:15px}}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.selected{border:1px solid #00263e;box-shadow:0 4px 12px rgba(0,0,0,.06)}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.selected .product-options__label,[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.selected .product-options__price{font-weight:700;font-size:15px;line-height:130%;letter-spacing:-.01em;color:#00263e}@media (min-width:996px){[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.selected .product-options__label,[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.selected .product-options__price{font-weight:600}}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option input{width:1rem;height:auto;margin:0 .875rem 0 0}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option input[type=radio].purchase-type{display:grid;place-content:center;appearance:none;border:.15em solid #00263e;border-radius:50%;min-width:26px;width:26px;height:26px;color:#00263e;cursor:pointer}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option input[type=radio].purchase-type:before{content:"";width:18px;height:18px;border-radius:50%;background-color:#00263e;transform:scale(0);transition:transform .12s ease-in-out}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option input[type=radio].purchase-type:checked:before{transform:scale(1)}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.subscription .subscription-options{transition:all .2s ease-in-out;display:block;height:auto;max-height:0;visibility:hidden;opacity:0;margin-top:1rem}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.subscription .subscription-options.show{max-height:96rem;visibility:visible;opacity:1}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.subscription .subscription-options>div{margin-bottom:1rem}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.subscription .subscription-options span{margin:0;display:flex;justify-content:flex-end;align-items:center;flex-grow:1;font-weight:400;font-size:12px;line-height:150%;letter-spacing:-.01em;color:#444}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.subscription .subscription-options span img{margin-right:6px;max-width:26px}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.subscription .subscription-options label{font-weight:700;font-size:15px;line-height:150%;letter-spacing:-.01em;color:#00263e}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.subscription .subscription-options .custom-select{border:1px solid #000;border-radius:3px;position:relative;font-family:Arial}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.subscription .subscription-options .custom-select select{display:none}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.subscription .subscription-options .info{font-family:aktiv-grotesk,sans-serif;font-weight:400;font-size:12px;line-height:150%;letter-spacing:-.01em;color:#444}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.subscription .subscription-options .select-selected{display:flex;align-items:center;background-color:#fff}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.subscription .subscription-options .select-selected:after{position:absolute;content:"";top:18px;right:10px;width:0;height:0;border:6px solid transparent;border-color:#000 transparent transparent}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.subscription .subscription-options .select-selected.select-arrow-active:after{border-color:transparent transparent #000;top:12px}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.subscription .subscription-options .select-selected img{margin-right:14px;max-width:15px;max-height:15px}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.subscription .subscription-options .select-items div,[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.subscription .subscription-options .select-selected{color:#000;padding:8px 16px;border:1px solid transparent;border-color:transparent transparent rgba(0,0,0,.1);cursor:pointer}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.subscription .subscription-options .select-items{position:absolute;background-color:#fff;border:1px solid #000;top:100%;left:0;right:0;z-index:1}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.subscription .subscription-options .select-hide{display:none}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.subscription .subscription-options .same-as-selected,[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__option.subscription .subscription-options .select-items div:hover{background-color:rgba(0,0,0,.1)}[data-section-type=product] .product-details-container .product-detail-form-footer .product-options__label{width:calc(90% - 1rem)}
+    </style>
+  
+
+
+{% assign type = product.type | downcase %}
+{% assign enableWidget = false %}
+{% assign braidedSubscriptionOnly = false %}
+{% assign beadedSubscriptionOnly = false %}
+{% assign comboSubscriptionOnly = false %}
+{% assign subscriptionOnly = false %}
+{% if type == 'subscription' and product.tags contains 'Braided' %}{% assign braidedSubscriptionOnly = true %}{% assign subscriptionOnly = true %}{% endif %}
+{% if type == 'subscription' and product.tags contains 'Beaded' %}{% assign beadedSubscriptionOnly = true %}{% assign subscriptionOnly = true %}{% endif %}
+{% if type == 'subscription' and product.tags contains 'Pound pack' %}{% assign comboSubscriptionOnly = true %}{% assign subscriptionOnly = true %}{% endif %}
+
+{% if type contains 'beaded' or beadedSubscriptionOnly %}
+  {% assign enableWidget = true %}
+  {% assign ocSubscription = section.settings.beaded_oc_subscription %}
+  {% assign Pp3moSubscription = section.settings.beaded_3mo_prepaid %}
+  {% assign Pp6moSubscription = section.settings.beaded_6mo_prepaid %}
+  {% assign Pp12moSubscription = section.settings.beaded_12mo_prepaid %}
+{% elsif type contains 'braided' or braidedSubscriptionOnly %}
+  {% assign enableWidget = true %}
+  {% assign ocSubscription = section.settings.braided_oc_subscription %}
+  {% assign Pp3moSubscription = section.settings.braided_3mo_prepaid %}
+  {% assign Pp6moSubscription = section.settings.braided_6mo_prepaid %}
+  {% assign Pp12moSubscription = section.settings.braided_12mo_prepaid %}
+{% elsif type contains 'pound pack' or comboSubscriptionOnly %}
+  {% assign enableWidget = true %}
+  {% assign ocSubscription = section.settings.combo_oc_subscription %}
+  {% assign Pp3moSubscription = section.settings.combo_3mo_prepaid %}
+  {% assign Pp6moSubscription = secion.settings.combo_6mo_prepaid %}
+  {% assign Pp12moSubscription = section.settings.combo_12mo_prepaid %}
+{% endif %}
+
+{% if enableWidget %}
+  {{ 'subscriptions.css' | asset_url | stylesheet_tag }}
+  {{ 'tooltip.css' | asset_url | stylesheet_tag }}
+
+  {% assign baseSubscription = all_products[ocSubscription] %}
+  {% assign baseSellingPlanAllocation = baseSubscription.selected_or_first_available_variant.selling_plan_allocations | first %}
+  {% assign baseSellingPlanId = baseSellingPlanAllocation.selling_plan.id %}
+  {% comment %} {% assign baseSubscriptionJson = baseSubscription | json %} {% endcomment %}
+  {% assign baseSubscriptionPrice = baseSubscription.price %}
+
+  {% assign Pp3moSubscription = all_products[Pp3moSubscription] %}
+  {% assign Pp3moSellingPlanAllocation = Pp3moSubscription.selected_or_first_available_variant.selling_plan_allocations | first %}
+  {% assign Pp3moSellingPlanId = Pp3moSellingPlanAllocation.selling_plan.id %}
+  {% comment %} {% assign Pp3moSubscriptionJson = Pp3moSubscription | json %} {% endcomment %}
+  {% assign Pp3moSubscriptionPrice = Pp3moSubscription.price | divided_by: 3 %}
+  {% assign ratio = Pp3moSubscriptionPrice | times: 1.0 | divided_by: baseSubscriptionPrice %}
+  {% assign Pp3moSubscriptionPercOff = 1 | minus: ratio | times: 100 %}
+
+  {% assign Pp6moSubscription = all_products[Pp6moSubscription] %}
+  {% assign Pp6moSellingPlanAllocation = Pp6moSubscription.selected_or_first_available_variant.selling_plan_allocations | first %}
+  {% assign Pp6moSellingPlanId = Pp6moSellingPlanAllocation.selling_plan.id %}
+  {% comment %} {% assign Pp6moSubscriptionJson = Pp6moSubscription | json %} {% endcomment %}
+  {% assign Pp6moSubscriptionPrice = Pp6moSubscription.price | divided_by: 6 %}
+  {% assign ratio = Pp6moSubscriptionPrice | times: 1.0 | divided_by: baseSubscriptionPrice %}
+  {% assign Pp6moSubscriptionPercOff = 1 | minus: ratio | times: 100 %}
+
+  {% assign Pp12moSubscription = all_products[Pp12moSubscription] %}
+  {% assign Pp12moSellingPlanAllocation = Pp12moSubscription.selected_or_first_available_variant.selling_plan_allocations | first %}
+  {% assign Pp12moSellingPlanId = Pp12moSellingPlanAllocation.selling_plan.id %}
+  {% comment %} {% assign Pp12moSubscriptionJson = Pp12moSubscription | json %} {% endcomment %}
+  {% assign Pp12moSubscriptionPrice = Pp12moSubscription.price | divided_by: 12 %}
+  {% assign ratio = Pp12moSubscriptionPrice | times: 1.0 | divided_by: baseSubscriptionPrice %}
+  {% assign Pp12moSubscriptionPercOff = 1 | minus: ratio | times: 100 %}
+  
+  <div class="product-options {{ type | handleize }}">
+    <div class="product-options__option onetime">
+      <label for="onetime" class="flex justify-between items-center">
+        <div class="flex items-center">
+          <input class="purchase-type" type="radio" name="option_type" id="onetime" value="onetime" onclick="selectSubscriptionType(this);" checked />
+          <div class="product-options__label">One-Time Purchase</div>
+        </div>
+        <div class="product-options__price">${{ current_variant.price | money_without_currency }}</div>
+      </label>
+    </div>
+    <div class="product-options__option subscription">
+      <label for="subscription">
+        <div class="flex justify-between items-center">
+          <div class="flex items-center">
+            <input class="purchase-type" type="radio" name="option_type" id="subscription" value="subscription" onclick="selectSubscriptionType(this);" />
+            <div class="product-options__label">Buy Bracelet & Join the {{ type | remove: 'bracelet' | strip | capitalize }} Bracelet Clean Ocean Club <span id="subscription-perc-off">(Save {{ Pp12moSubscriptionPercOff | round }}%)</span></div>
+            <div class="tooltip top">
+              <img src="{{ "icon-info.svg" | asset_url }}" />
+              <div class="tooltip-text">
+                <div>
+                  <div class="header">
+                    <div class="header__title">
+                      <div class="super-title">Clean Ocean Club</div>
+                      <div class="title">What You'll Get</div>
+                    </div>
+                    <img class="logo" src="{{ "clean-ocean-club.png" | asset_url }}" />
+                  </div>
+                  <ul class="contents">
+                    <li>1 Exclusive bracelet every month ($20+ value!)</li>
+                    <li>5-15% additional savings</li>
+                    <li>10-40 lbs of reduced ocean waste</li>
+                    <li>Early access to new products</li>
+                    <li>Hassle-free cancel anytime</li>
+                    <li>FREE Continental US Shipping</li>
+                  </ul>
+                  <div class="footer">
+                    Visit our <a href="https://4oceanhelp-center.gorgias.help/en-US">FAQ</a> page to learn more.
+                  </div>
+                </div>
+                <div class="image-container">
+                  <img src="{{ "tooltip-arrow-down.svg" | asset_url }}" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="product-options__price">
+            <span class="original">${{ baseSubscriptionPrice | money_without_currency }}</span><span class="subscription-price">${{ Pp12moSubscriptionPrice | money_without_currency }}/mo</span>
+          </div>
+        </div>
+        <div class="subscription-options">
+          <div class="flex justify-around items-center">
+            <label>Pick Your Clean Ocean Club Plan:</label>
+            <span><img src="{{ "icon-free-shipping-truck.svg" | asset_url }}" /> Free Shipping</span>
+          </div>
+          <div class="custom-select" onmouseleave="closeAllSelect();">
+            <select name="subscription_id">
+              <option data-product-id="{{ baseSubscription.id }}" data-price="{{ baseSubscriptionPrice | money_without_currency }}" data-full-price="{{ baseSubscriptionPrice | money_without_currency }}" data-interval="1" data-selling-plan-id="{{ baseSellingPlanId }}" value="{{ baseSubscription.selected_or_first_available_variant.id }}">Monthly for ${{ baseSubscriptionPrice | money_without_currency }}/mo</option>
+              <option data-product-id="{{ Pp3moSubscription.id }}" data-perc-off="{{ Pp3moSubscriptionPercOff | round }}" data-price="{{ Pp3moSubscriptionPrice | money_without_currency }}" data-full-price="{{ Pp3moSubscription.price | money_without_currency }}" data-interval="3" data-selling-plan-id="{{ Pp3moSellingPlanId }}" value="{{ Pp3moSubscription.selected_or_first_available_variant.id }}">3 Months for ${{ Pp3moSubscriptionPrice | money_without_currency }}/mo ({{ Pp3moSubscriptionPercOff | round }}% Off)</option>
+              <option data-product-id="{{ Pp6moSubscription.id }}" data-perc-off="{{ Pp6moSubscriptionPercOff | round }}" data-price="{{ Pp6moSubscriptionPrice | money_without_currency }}" data-full-price="{{ Pp6moSubscription.price | money_without_currency }}" data-interval="6" data-selling-plan-id="{{ Pp6moSellingPlanId }}" value="{{ Pp6moSubscription.selected_or_first_available_variant.id }}">6 Months for ${{ Pp6moSubscriptionPrice | money_without_currency }}/mo ({{ Pp6moSubscriptionPercOff | round }}% Off)</option>
+              <option data-product-id="{{ Pp12moSubscription.id }}" data-perc-off="{{ Pp12moSubscriptionPercOff | round }}" data-price="{{ Pp12moSubscriptionPrice | money_without_currency }}" data-full-price="{{ Pp12moSubscription.price | money_without_currency }}" data-interval="12" data-selling-plan-id="{{ Pp12moSellingPlanId }}" value="{{ Pp12moSubscription.selected_or_first_available_variant.id }}">12 Months for ${{ Pp12moSubscriptionPrice | money_without_currency }}/mo ({{ Pp12moSubscriptionPercOff | round }}% Off) <strong>Best Value</strong></option>
+            </select>
+          </div>
+          <input type="hidden" name="selling_plan_id" value="" />
+          <input type="hidden" name="subscription_payment_amount" value="" />
+          <input type="hidden" name="subscription_charge_date" value="" />
+          {% if subscriptionOnly %}
+          <input type="hidden" name="subscription_only" value="true" />
+          <input type="hidden" name="subscription_only_interval" value="" />
+          {% endif %}
+          <ul class="info">
+            <li id="subscription-payment-amount" style="display:none;"><small></small></li>
+            {% comment %}<li id="subscription-charge-date"><small>{{ type | remove: 'bracelet' | strip | capitalize }} Bracelet ships on the 15th of the month.</small></li>{% endcomment %}
+            <li id="subscription-charge-date"><small>The current bracelet of the month ships today and your Clean Ocean Club Subscription will ship on the next 15th of the month</small></li>
+          </ul>
+        </div>
+      </label>
+    </div>
+  </div>
+  {% endif %}
+
+
+  {% javascript %}
+
+  const subsObj = {
+    sellingPlanInput: document.querySelector('[name="selling_plan_id"]'),
+    subscriptionPaymentAmountInput: document.querySelector('[name="subscription_payment_amount"]'),
+    subscriptionChargeDateInput: document.querySelector('[name="subscription_charge_date"]'),
+    subscriptionOnlyIntervalInput: document.querySelector('[name="subscription_only_interval"]'),
+    percOffEl: document.getElementById('subscription-perc-off'),
+    priceEl: document.getElementsByClassName('subscription-price'),
+    originalEl: document.getElementsByClassName('original'),
+    basePrice: "{{ baseSubscriptionPrice | money_without_currency }}",
+    paymentAmountEl: document.getElementById('subscription-payment-amount'),
+    chargeDateEl: document.getElementById('subscription-charge-date'),
+    customSelectInit: false
+  };
+
+  const setSubscription = (option) => {
+    subsObj.sellingPlanInput.value = option?.dataset['sellingPlanId'];
+
+    if (option?.dataset['percOff']) {
+      subsObj.percOffEl.innerHTML = `(Save ${option.dataset['percOff']}%)`;
+    } else {
+      subsObj.percOffEl.innerHTML = "";
+    }
+
+    if (option?.dataset['price']) Array.from(subsObj.priceEl).forEach(el => el.innerHTML = `$${option.dataset['price']}/mo`);
+
+    if (option?.dataset['price'] && option?.dataset['price'] !== subsObj.basePrice) {
+      Array.from(subsObj.originalEl).forEach(el => el.innerHTML = `$${subsObj.basePrice}`);
+    } else {
+      Array.from(subsObj.originalEl).forEach(el => el.innerHTML = "");
+    }
+
+    if (option?.dataset['fullPrice'] && option?.dataset['interval']) {
+      subsObj.paymentAmountEl.innerHTML = `<small>Billed as $${option?.dataset['fullPrice']} every ${parseInt(option?.dataset['interval']) > 1 ? option?.dataset['interval'] : ''} month${parseInt(option?.dataset['interval']) > 1 ? 's' : ''}.</small>`;
+      subsObj.subscriptionPaymentAmountInput.value = subsObj.paymentAmountEl.innerText;
+      subsObj.paymentAmountEl.style.display = 'list-item';
+      subsObj.subscriptionChargeDateInput.value = subsObj.chargeDateEl.textContent;
+      {% if subscriptionOnly %}
+      subsObj.subscriptionOnlyIntervalInput.value = option?.dataset['interval'];
+      {% endif %}
+    } else {
+      subsObj.paymentAmountEl.style.display = 'none';
+    }
+  };
+
+  const updateSelection = (selectedItemChildren, selectedIndex) => {
+    Array.from(selectedItemChildren).forEach((child) => {
+      if (child.innerHTML.startsWith("✓ ")) {
+        child.innerHTML = child.innerHTML.replace("✓ ", "");
+      }
+    });
+
+    markOptionAsSelected(selectedItemChildren, selectedIndex);
+  }
+
+  const markOptionAsSelected = (selectedItemChildren, index = 0) => {
+    const innerHTMLContents = selectedItemChildren[index].innerHTML;
+
+    if (!innerHTMLContents.startsWith("✓ ")) {
+      selectedItemChildren[index].innerHTML = `&#10003; ${selectedItemChildren[index].innerHTML}`;
+    }
+  }
+
+  const selectSubscriptionType = (option) => {
+    Array.from(document.querySelectorAll('.product-options__option'))?.forEach(option => option.classList.remove('selected'));
+    option?.closest('.product-options__option')?.classList?.add('selected');
+
+    if (option.value === 'subscription') {
+      if (!subsObj.customSelectInit) {
+        const options = document.getElementsByName("subscription_id")?.item(0)?.options,
+              lastSubscriptionOption = options[options.length - 1];
+        
+        lastSubscriptionOption.selected = true;
+        initCustomSelect();
+        const selectItemChildren = document.querySelector(".select-items").children;
+
+        markOptionAsSelected(selectItemChildren, options.length - 1);
+        setSubscription(lastSubscriptionOption);
+      }
+      document.querySelector('.subscription-options')?.classList?.add('show');
+    } else {
+      document.querySelector('.subscription-options')?.classList?.remove('show');
+    }
+  }
+
+  /* CUSTOM SELECT */
+  const initCustomSelect = () => {
+    var x, i, j, l, ll, selElmnt, a, b, c;
+    x = document.getElementsByClassName("custom-select");
+    l = x.length;
+    for (i = 0; i < l; i++) {
+      selElmnt = x[i].getElementsByTagName("select")[0];
+      ll = selElmnt.length;
+      a = document.createElement("DIV");
+      a.setAttribute("class", "select-selected");
+      a.innerHTML = `<img src="{{ "icon-subscription-arrows.svg" | asset_url }}" /> ${selElmnt.options[selElmnt.selectedIndex].innerHTML}`;
+      x[i].appendChild(a);
+      b = document.createElement("DIV");
+      b.setAttribute("class", "select-items select-hide");
+
+      for (j = 0; j < ll; j++) {
+        c = document.createElement("DIV");
+        c.innerHTML = `${selElmnt.options[j].innerHTML}`;
+        c.addEventListener("click", function(e) {
+            var y, i, k, s, h, sl, yl;
+            s = this.parentNode.parentNode.getElementsByTagName("select")[0];
+            sl = s.length;
+            h = this.parentNode.previousSibling;
+            for (i = 0; i < sl; i++) {
+              if (s.options[i].innerHTML == this.innerHTML) {
+                s.selectedIndex = i;
+                h.innerHTML = `<img src="{{ "icon-subscription-arrows.svg" | asset_url }}" /> ${this.innerHTML}`;
+                y = this.parentNode.getElementsByClassName("same-as-selected");
+                yl = y.length;
+                for (k = 0; k < yl; k++) {
+                  y[k].removeAttribute("class");
+                }
+                this.setAttribute("class", "same-as-selected");
+
+                const selectItemChildren = document.querySelector(".select-items").children;
+
+                updateSelection(selectItemChildren, i);
+                
+                setSubscription(s.options[i]);
+                break;
+              }
+            }
+            h.click();
+        });
+        b.appendChild(c);
+      }
+      x[i].appendChild(b);
+      a.addEventListener("click", function(e) {
+        e.stopPropagation();
+        closeAllSelect(this);
+        this.nextSibling.classList.toggle("select-hide");
+        this.classList.toggle("select-arrow-active");
+      });
+    }
+
+    subsObj.customSelectInit = true;
+  }
+
+  const closeAllSelect = (elmnt) => {
+    var x, y, i, xl, yl, arrNo = [];
+    x = document.getElementsByClassName("select-items");
+    y = document.getElementsByClassName("select-selected");
+    xl = x.length;
+    yl = y.length;
+    for (i = 0; i < yl; i++) {
+      if (elmnt == y[i]) {
+        arrNo.push(i)
+      } else {
+        y[i].classList.remove("select-arrow-active");
+      }
+    }
+    for (i = 0; i < xl; i++) {
+      if (arrNo.indexOf(i)) {
+        x[i].classList.add("select-hide");
+      }
+    }
+  }
+
+  // NOTE: set default selection
+  let defaultOption = null;
+  {% if subscriptionOnly %}
+    defaultOption = document.querySelector("#subscription[name='option_type']");
+    defaultOption.checked = true;
+    document.querySelector("div.product-options__option.subscription")?.classList?.add('selected');
+    document.querySelector(".subscription-options")?.classList?.add('show');
+    selectSubscriptionType(defaultOption);
+  {% else %}
+    defaultOption = document.querySelector("#onetime[name='option_type']");
+    defaultOption.checked = true;
+    document.querySelector("div.product-options__option.onetime")?.classList?.add('selected');
+  {% endif %}
+
+  // Subscription widget tooltip
+  var tooltipVisible = false;
+
+  $(".tooltip.top").click(function(event) {
+    if (tooltipVisible) {
+      $(".tooltip > .tooltip-text").css("display", "none");
+    } else {
+      $(".tooltip > .tooltip-text").css("display", "block");
+    }
+
+    tooltipVisible = !tooltipVisible;
+  });
+  {% endjavascript %}
+
+
+
+
+{% schema %}
+{
+"name": "Subscription selector",
+"settings": [
+
+{
+"type": "header",
+"content": "Braided Subscriptions",
+"info": "Select Braided Subscription products"
+},
+{
+"type": "product",
+"id": "braided_oc_subscription",
+"label": "Clean Ocean Club Subscription"
+},
+{
+"type": "product",
+"id": "braided_3mo_prepaid",
+"label": "3 Month Clean Ocean Club Pre-Paid"
+},
+{
+"type": "product",
+"id": "braided_6mo_prepaid",
+"label": "6 Month Clean Ocean Club Pre-Paid"
+},
+{
+"type": "product",
+"id": "braided_12mo_prepaid",
+"label": "12 Month Clean Ocean Club Pre-Paid"
+},
+{
+"type": "header",
+"content": "Beaded Subscriptions",
+"info": "Select Beaded Subscription products"
+},
+{
+"type": "product",
+"id": "beaded_oc_subscription",
+"label": "Clean Ocean Club Subscription"
+},
+{
+"type": "product",
+"id": "beaded_3mo_prepaid",
+"label": "3 Month Clean Ocean Club Pre-Paid"
+},
+{
+"type": "product",
+"id": "beaded_6mo_prepaid",
+"label": "6 Month Clean Ocean Club Pre-Paid"
+},
+{
+"type": "product",
+"id": "beaded_12mo_prepaid",
+"label": "12 Month Clean Ocean Club Pre-Paid"
+},
+{
+    "type": "header",
+    "content": "Combo Subscriptions",
+    "info": "Select Combo Subscription products"
+    },
+{
+    "type": "product",
+    "id": "combo_oc_subscription",
+    "label": "Clean Ocean Club Subscription"
+  },
+  {
+    "type": "product",
+    "id": "combo_3mo_prepaid",
+    "label": "3 Month Clean Ocean Club Pre-Paid"
+  },
+  {
+    "type": "product",
+    "id": "combo_6mo_prepaid",
+    "label": "6 Month Clean Ocean Club Pre-Paid"
+  },
+  {
+    "type": "product",
+    "id": "combo_12mo_prepaid",
+    "label": "12 Month Clean Ocean Club Pre-Paid"
+  },
+  {
+    "type": "header",
+    "content": "Pound+ Subscription",
+    "info": "Select Pound+ Subscription products"
+    },
+  {
+    "type": "product",
+    "id": "pound_plus",
+    "label": "Pound+ Subscription"
+  }
+],
+"presets": [
+{
+    "name": "Subscription selector"
+
+}
+    ]
+}
+{% endschema %}
