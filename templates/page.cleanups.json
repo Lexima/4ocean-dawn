@@ -1025,14 +1025,15 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Glass-beads-icon_ca7b73a2-ea0f-4b29-a713-c6284e67b854.png",
             "text": "95% post-consumer recycled glass beads",
-            "visible_mobile": true
+            "visible_mobile": false
           }
         },
         "166310072290ff3b8a-5": {
           "type": "icon",
           "settings": {
-            "text": "",
-            "visible_mobile": true
+            "image": "shopify:\/\/shop_images\/Bracelet_icon_2d03432d-07bc-4d2b-9af0-8ba065f5a75c.png",
+            "text": "Instantly identifies you as a member of the clean ocean movement",
+            "visible_mobile": false
           }
         }
       },
