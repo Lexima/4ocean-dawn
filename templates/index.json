@@ -147,29 +147,26 @@
         },
         "1662477118c59e1986-3": {
           "type": "icon",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-06_at_11.16.12_AM.png",
             "text": "Adjustable, waterproof, unisex",
-            "visible_mobile": true
+            "visible_mobile": false
           }
         },
         "1662477118c59e1986-4": {
           "type": "icon",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-06_at_11.16.01_AM.png",
             "text": "95% post-consumer recycled glass beads",
-            "visible_mobile": true
+            "visible_mobile": false
           }
         },
         "1662477118c59e1986-5": {
           "type": "icon",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-06_at_11.16.17_AM.png",
             "text": "Instantly identifies you as a member of the clean ocean movement",
-            "visible_mobile": true
+            "visible_mobile": false
           }
         }
       },
