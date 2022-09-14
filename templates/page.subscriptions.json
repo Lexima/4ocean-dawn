@@ -187,8 +187,8 @@
         "1663163394586c9d1e-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Affordable",
+            "text": "<p>Pull up to 1,000 pounds of trash from the world’s oceans, rivers, and coastlines each month and pay just $10 per pound.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -196,8 +196,8 @@
         "1663163394586c9d1e-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Impact Only",
+            "text": "<p>Pound+ is a service so you don’t have to purchase any products to pull pounds. Think of it like hiring a landscaper to tend your lawn except our crews clean the ocean for you.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -205,8 +205,8 @@
         "1663163394586c9d1e-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "Digital Certificate",
+            "text": "<p>Receive a digital certificate that verifies your monthly impact. Hang it up or share it on social media as a way to share our mission and inspire others to get involved.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -218,15 +218,15 @@
         "1663163394586c9d1e-2"
       ],
       "settings": {
-        "title": "Multicolumn",
-        "heading_size": "h1",
+        "title": "Membership Perks",
+        "heading_size": "h2",
         "heading_alignment": "title-wrapper-with-link--center",
         "image_width": "full",
         "image_ratio": "adapt",
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
