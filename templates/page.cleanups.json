@@ -505,6 +505,13 @@
     "166309944193ca0243": {
       "type": "pdp-photo-grid",
       "blocks": {
+        "1663099441082a0e8c-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bali-Cleanups-9.jpg",
+            "link": ""
+          }
+        },
         "1663099441082a0e8c-0": {
           "type": "image",
           "settings": {
@@ -522,14 +529,14 @@
         "1663099441082a0e8c-2": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bali-Cleanups-7.jpg",
+            "image": "shopify:\/\/shop_images\/Bali-Cleanups-10.jpg",
             "link": ""
           }
         },
-        "1663099441082a0e8c-3": {
+        "df50cc47-d78a-4f62-9405-1336bcc98720": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bali-Cleanups-4.jpg",
+            "image": "shopify:\/\/shop_images\/Bali-Cleanups-11.jpg",
             "link": ""
           }
         },
@@ -547,13 +554,6 @@
             "link": ""
           }
         },
-        "df50cc47-d78a-4f62-9405-1336bcc98720": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Bali-Cleanups-2.jpg",
-            "link": ""
-          }
-        },
         "2a6fa986-a5cf-4318-9e2a-6edbeca0f15c": {
           "type": "image",
           "settings": {
@@ -563,13 +563,13 @@
         }
       },
       "block_order": [
+        "1663099441082a0e8c-3",
         "1663099441082a0e8c-0",
         "1663099441082a0e8c-1",
         "1663099441082a0e8c-2",
-        "1663099441082a0e8c-3",
+        "df50cc47-d78a-4f62-9405-1336bcc98720",
         "2ff701c7-c05d-4222-9bbf-4a0a8a4e2864",
         "5fbbcb45-c771-4cee-bd7e-72054013fb1f",
-        "df50cc47-d78a-4f62-9405-1336bcc98720",
         "2a6fa986-a5cf-4318-9e2a-6edbeca0f15c"
       ],
       "settings": {
@@ -614,17 +614,17 @@
     "1663099516c972ca7f": {
       "type": "pdp-photo-grid",
       "blocks": {
-        "1663099516017dcedc-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Guatemala-Cleanups-3.jpg",
-            "link": ""
-          }
-        },
         "1663099516017dcedc-1": {
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/Guatemala-Cleanups-5.jpg",
+            "link": ""
+          }
+        },
+        "1663099516017dcedc-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Guatemala-Cleanups-3.jpg",
             "link": ""
           }
         },
@@ -672,8 +672,8 @@
         }
       },
       "block_order": [
-        "1663099516017dcedc-0",
         "1663099516017dcedc-1",
+        "1663099516017dcedc-0",
         "1663099516017dcedc-2",
         "1663099516017dcedc-3",
         "4a86a3d1-0545-4172-8a32-19b3bdfa3c15",
