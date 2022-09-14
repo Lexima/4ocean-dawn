@@ -12,6 +12,7 @@
       "blocks": {
         "1662476137d13190af-0": {
           "type": "eyebrow",
+          "disabled": true,
           "settings": {
             "eyebrow": "<p>~16 billion pounds of plastic enters the ocean each year.<\/p>"
           }
@@ -19,8 +20,8 @@
         "1662476137d13190af-1": {
           "type": "heading",
           "settings": {
-            "heading": "We’re on a mission to stop this.",
-            "heading_size": "h0"
+            "heading": "Join the clean ocean movement",
+            "heading_size": "h1"
           }
         },
         "1662476137d13190af-2": {
