@@ -11,6 +11,13 @@
     "1663160276d268f8cb": {
       "type": "featured-products",
       "blocks": {
+        "0395b2bb-7a0e-466d-a5ae-5a42b3acfc2d": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get Started: Select Your Style",
+            "heading_size": "h1"
+          }
+        },
         "c9d485d6-da05-409d-91fa-9f37cc04203a": {
           "type": "products",
           "settings": {
@@ -26,6 +33,7 @@
         }
       },
       "block_order": [
+        "0395b2bb-7a0e-466d-a5ae-5a42b3acfc2d",
         "c9d485d6-da05-409d-91fa-9f37cc04203a"
       ],
       "settings": {
