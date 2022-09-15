@@ -80,6 +80,25 @@
       padding-top: 0.5rem;
     }
   }
+
+  .pounds-pulled__header {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 1rem;
+    color: #0565CE;
+  }
+
+  .pounds-pulled__header trash-count {
+    font-weight: bold;
+  }
+
+  @media screen and (min-width: 750px) {
+    .pounds-pulled__header {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    }
+  }
 </style>
 
 {%- style -%}
@@ -297,6 +316,16 @@
             <span class="h2">{{ shop.name }}</span>
           {%- endif -%}
         </a>
+        {%- if section.settings.show_pounds_pulled -%}
+        <script src="{{ 'component-trash-tracker.js' | asset_url }}" defer="defer"></script>
+        <div class="pounds-pulled__header {% if section.settings.pounds_pulled_desktop %} medium-hide large-up-hide {% endif %}">
+          <span>
+        <trash-count></trash-count>
+           {{section.settings.pounds_pulled_text}}
+        </span>
+      </div>
+      {%- endif -%}
+
     {%- if request.page_type == 'index' -%}
       </h1>
     {%- endif -%}
@@ -777,6 +806,30 @@
     "id": "collab_image_desktop",
     "label": "Upload collaboration image for desktop (optional)"
   },
+    {
+      "type": "header",
+      "content": "Pounds pulled"
+    },
+   {
+    "type": "checkbox",
+    "id": "show_pounds_pulled",
+    "label": "Show pounds pulled below logo",
+    "default": true,
+    "info": "Check this to display the latest data on pounds pulled below the logo"
+   },
+   {
+    "type": "checkbox",
+    "id": "pounds_pulled_desktop",
+    "label": "Hide pounds pulled below logo on desktop",
+    "default": true
+   },
+   {
+    "type": "text",
+    "id": "pounds_pulled_text",
+    "label": "Pounds pulled copy",
+    "info": "Text to show after pounds pulled number",
+    "default": "pounds pulled"
+   },
     {
       "type": "header",
       "content": "t:sections.all.spacing"
