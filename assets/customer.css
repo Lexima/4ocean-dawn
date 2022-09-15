@@ -32,6 +32,10 @@
   margin-bottom: 4rem;
 }
 
+.customer .customer__links {
+  padding-left: 0rem;
+}
+
 .customer ul a {
   display: inline;
 }
