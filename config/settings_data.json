@@ -95,7 +95,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
-    "currency_code_enabled": true,
+    "currency_code_enabled": false,
     "cart_type": "drawer",
     "braided_oc_subscription": "clean-ocean-club-braided-bracelet-subscription",
     "braided_3mo_prepaid": "clean-ocean-club-braided-bracelet-3-months-prepaid-subscription",
@@ -141,6 +141,9 @@
           "menu_type_desktop": "dropdown",
           "enable_sticky_header": true,
           "collab_url": "",
+          "show_pounds_pulled": true,
+          "pounds_pulled_desktop": true,
+          "pounds_pulled_text": "pounds pulled",
           "margin_bottom": 0,
           "padding_top": 20,
           "padding_bottom": 8
