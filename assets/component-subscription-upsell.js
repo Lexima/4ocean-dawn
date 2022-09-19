@@ -16,7 +16,7 @@ class SubscriptionUpsell extends HTMLElement {
       const dataset = event.target.options[event.target.selectedIndex].dataset;
 
       this.updateDisplayedValues(dataset);
-      this.updateSellingPlans();
+      this.updateSellingPlans.bind(this);
 
     });
 
