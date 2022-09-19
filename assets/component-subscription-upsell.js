@@ -31,7 +31,7 @@ class SubscriptionUpsell extends HTMLElement {
     })
 
     this.addSellingPlans();
-
+    
   }
 
   checkRadio(evt) {
@@ -168,7 +168,6 @@ class SubscriptionUpsell extends HTMLElement {
     const select = this.querySelector("[name='subscriptionUpsellOptions']");
 
     const selectedOption = select.options[select.selectedIndex].dataset;
-    console.log(selectedOption);
 
     this.updateDisplayedValues(selectedOption);
 

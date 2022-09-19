@@ -65,3 +65,7 @@ subscription-upsell select {
 .subscription-upsell__price {
   padding-left: 2rem;
 }
+
+.subscription-upsell__option h3 {
+  text-transform: capitalize;
+}

@@ -58,10 +58,10 @@
 
     <div class="subscription-upsell__group subscription">
     <input type="radio" id="subscription" name="subscriptionUpsellRadio" {% if subscriptionOnly %} data-type="subscriptionOnly" checked{% endif %} />
-      <div class="subscription-upsell__option">
+    <div class="subscription-upsell__option">
         <div>
-        <h3>Subscribe and save <span></span></h3>
-        <div class="selectGroup hide">
+        <h3>Buy Bracelet & Join the {{type}} Clean Ocean Club <span></span></h3>
+        <div class="selectGroup {% unless subscriptionOnly %}hide{% endunless %}">
         <select name="subscriptionUpsellOptions" >
           {% render 'subscription-upsell-options', product: baseSubscription, interval: 1 %}
           {% render 'subscription-upsell-options', product: Pp3moSubscription, interval: 3, baseSubscription: baseSubscription %}
