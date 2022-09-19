@@ -31,7 +31,7 @@ class SubscriptionUpsell extends HTMLElement {
     })
 
     this.addSellingPlans();
-    
+
   }
 
   checkRadio(evt) {
@@ -69,12 +69,11 @@ class SubscriptionUpsell extends HTMLElement {
 
 
     if (subscriptionOnly) {
-      const input = document.createElement('input');
-      input.setAttribute('type', 'hidden');
-      input.setAttribute('name', 'selling_plan');
-      input.setAttribute('value', selectedOption.sellingPlanId);
-
       addToCartForms.forEach((el) => {
+        const input = document.createElement('input');
+        input.setAttribute('type', 'hidden');
+        input.setAttribute('name', 'selling_plan');
+        input.setAttribute('value', selectedOption.sellingPlanId);
         el.appendChild(input);
 
         const productId = el.querySelector("[name='id']");
@@ -99,9 +98,6 @@ class SubscriptionUpsell extends HTMLElement {
 
         const sellingPlan = el.querySelector("[name='selling_plan']");
         sellingPlan.value = selectedOption.sellingPlanId;
-
-
-
       })
 
 
