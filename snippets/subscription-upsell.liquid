@@ -1,0 +1,90 @@
+{% assign type = product.type | downcase %}
+{% assign enableWidget = false %}
+{% assign braidedSubscriptionOnly = false %}
+{% assign beadedSubscriptionOnly = false %}
+{% assign comboSubscriptionOnly = false %}
+{% assign subscriptionOnly = false %}
+{% if type == 'subscription' and product.tags contains 'Braided' %}{% assign braidedSubscriptionOnly = true %}{% assign subscriptionOnly = true %}{% endif %}
+{% if type == 'subscription' and product.tags contains 'Beaded' %}{% assign beadedSubscriptionOnly = true %}{% assign subscriptionOnly = true %}{% endif %}
+{% if type == 'subscription' and product.tags contains 'Pound pack' %}{% assign comboSubscriptionOnly = true %}{% assign subscriptionOnly = true %}{% endif %}
+
+{% if type contains 'beaded' or beadedSubscriptionOnly %}
+  {% assign enableWidget = true %}
+  {% assign ocSubscription = settings.beaded_oc_subscription %}
+  {% assign Pp3moSubscription = settings.beaded_3mo_prepaid %}
+  {% assign Pp6moSubscription = settings.beaded_6mo_prepaid %}
+  {% assign Pp12moSubscription = settings.beaded_12mo_prepaid %}
+{% elsif type contains 'braided' or braidedSubscriptionOnly %}
+  {% assign enableWidget = true %}
+  {% assign ocSubscription = settings.braided_oc_subscription %}
+  {% assign Pp3moSubscription = settings.braided_3mo_prepaid %}
+  {% assign Pp6moSubscription = settings.braided_6mo_prepaid %}
+  {% assign Pp12moSubscription = settings.braided_12mo_prepaid %}
+{% elsif type contains 'pound pack' or comboSubscriptionOnly %}
+  {% assign enableWidget = true %}
+  {% assign ocSubscription = settings.combo_oc_subscription %}
+  {% assign Pp3moSubscription = settings.combo_3mo_prepaid %}
+  {% assign Pp6moSubscription = settings.combo_6mo_prepaid %}
+  {% assign Pp12moSubscription = settings.combo_12mo_prepaid %}
+{% endif %}
+
+{% if enableWidget %}
+    {{ 'component-subscription-upsell.css' | asset_url | stylesheet_tag }}
+    <script src="{{ 'component-subscription-upsell.js' | asset_url }}" defer="defer"></script>
+
+
+  {% assign baseSubscription = all_products[ocSubscription] %}
+  {% assign Pp3moSubscription = all_products[Pp3moSubscription] %}
+  {% assign Pp6moSubscription = all_products[Pp6moSubscription] %}
+  {% assign Pp12moSubscription = all_products[Pp12moSubscription] %}
+
+
+
+
+<subscription-upsell>
+<form>
+  <fieldset>
+    {% unless subscriptionOnly %}
+    <div class="subscription-upsell__group">
+      <input type="radio" id="onetime" name="subscriptionUpsellRadio" data-type="onetime" checked />
+      <div class="subscription-upsell__option">
+        <h3>One-Time Purchase </h3>
+        <div class="subscription-upsell__price">
+        {% render 'price' %}
+      </div>
+    </div>
+    </div>
+    {% endunless %}
+
+    <div class="subscription-upsell__group subscription">
+    <input type="radio" id="subscription" name="subscriptionUpsellRadio" {% if subscriptionOnly %} data-type="subscriptionOnly" checked{% endif %} />
+      <div class="subscription-upsell__option">
+        <div>
+        <h3>Subscribe and save <span></span></h3>
+        <div class="selectGroup hide">
+        <select name="subscriptionUpsellOptions" >
+          {% render 'subscription-upsell-options', product: baseSubscription, interval: 1 %}
+          {% render 'subscription-upsell-options', product: Pp3moSubscription, interval: 3, baseSubscription: baseSubscription %}
+          {% render 'subscription-upsell-options', product: Pp6moSubscription, interval: 6, baseSubscription: baseSubscription %}
+          {% render 'subscription-upsell-options', selected: true, product: Pp12moSubscription, interval: 12, baseSubscription: baseSubscription %}
+        </select>
+        <ul>
+          <li class="billingTerms"></li>
+          <li>The current bracelet of the month ships today and your Clean Ocean Club Subscription will ship on the next 15th of the month</li>
+        </ul>
+      </div>
+        </div>
+        <div class="subscription-upsell__price">
+            <p class="subscription-upsell__full-price">
+                
+            </p>
+            <p class="subscription-upsell__discounted-price">
+                
+            </p>
+        </div>
+      </div>
+    </div>
+  </fieldset>
+</form>
+</subscription-upsell>
+{% endif %}

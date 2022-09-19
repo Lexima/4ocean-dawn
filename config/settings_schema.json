@@ -1194,5 +1194,90 @@
         "info": "t:settings_schema.cart.settings.cart_drawer.collection.info"
       }
     ]
+  },
+  {
+    "name": "Braided Subscriptions",
+    "settings": [
+      {
+        "type": "product",
+        "id": "braided_oc_subscription",
+        "label": "Clean Ocean Club Subscription"
+      },
+      {
+        "type": "product",
+        "id": "braided_3mo_prepaid",
+        "label": "3 Month Clean Ocean Club Pre-Paid"
+      },
+      {
+        "type": "product",
+        "id": "braided_6mo_prepaid",
+        "label": "6 Month Clean Ocean Club Pre-Paid"
+      },
+      {
+        "type": "product",
+        "id": "braided_12mo_prepaid",
+        "label": "12 Month Clean Ocean Club Pre-Paid"
+      }
+    ]
+  },
+  {
+    "name": "Beaded Subscriptions",
+    "settings": [
+      {
+        "type": "product",
+        "id": "beaded_oc_subscription",
+        "label": "Clean Ocean Club Subscription"
+      },
+      {
+        "type": "product",
+        "id": "beaded_3mo_prepaid",
+        "label": "3 Month Clean Ocean Club Pre-Paid"
+      },
+      {
+        "type": "product",
+        "id": "beaded_6mo_prepaid",
+        "label": "6 Month Clean Ocean Club Pre-Paid"
+      },
+      {
+        "type": "product",
+        "id": "beaded_12mo_prepaid",
+        "label": "12 Month Clean Ocean Club Pre-Paid"
+      }
+    ]
+  },
+  {
+    "name": "Combo Subscriptions",
+    "settings": [
+      {
+        "type": "product",
+        "id": "combo_oc_subscription",
+        "label": "Clean Ocean Club Subscription"
+      },
+      {
+        "type": "product",
+        "id": "combo_3mo_prepaid",
+        "label": "3 Month Clean Ocean Club Pre-Paid"
+      },
+      {
+        "type": "product",
+        "id": "combo_6mo_prepaid",
+        "label": "6 Month Clean Ocean Club Pre-Paid"
+      },
+      {
+        "type": "product",
+        "id": "combo_12mo_prepaid",
+        "label": "12 Month Clean Ocean Club Pre-Paid"
+      }
+    ]
+  },
+  {
+    "name": "Pound+ Subscription",
+    "settings": [
+      {
+        "type": "product",
+        "id": "pound_plus",
+        "label": "Pound+ Subscription"
+      }
+    ]
   }
 ]

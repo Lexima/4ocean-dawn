@@ -2961,3 +2961,7 @@ details-disclosure > details {
 .yotpro-widget--hide-count .yotpo-sr-bottom-line-right-panel {
   display: none;
 }
+
+.cart-item__details dl {
+  display: none;
+}

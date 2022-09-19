@@ -1,0 +1,35 @@
+{% liquid
+    assign id = product.selected_or_first_available_variant.id
+    assign monthlyPrice = product.price  | divided_by: interval
+    assign monthlyPriceDisplay = monthlyPrice  | money | remove: ".00"
+    assign sellingPlan = product.selected_or_first_available_selling_plan_allocation.selling_plan.id
+    if baseSubscription
+        assign baseSubscriptionPrice = baseSubscription.price
+        assign ratio = monthlyPrice | times: 1.0 | divided_by: baseSubscriptionPrice
+        assign discount = 1 | minus: ratio | times: 100
+
+    endif
+ %}
+
+
+<option 
+    data-product-id="{{ id }}" 
+    {% if baseSubscription %}
+        data-discount="{{discount}}"
+        data-full-price="{{ baseSubscriptionPrice | money_without_currency }}" 
+    {% endif %}
+    data-price="{{ monthlyPrice | money_without_currency }}" 
+    data-interval="{{interval}}" 
+    data-selling-plan-id="{{ sellingPlan }}"  
+    value="{{ id }}"
+    {% if selected %}
+        selected
+    {% endif %}
+    >
+    {% unless interval == 1 %}
+        {{interval}}
+    {% endunless %}
+    {{ interval | pluralize: 'Monthly', 'Months' }} for {{ monthlyPriceDisplay }}/mo {% if discount %} ({{ discount | round }}% Off) {% endif %}
+</option>
+
+
