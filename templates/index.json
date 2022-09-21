@@ -906,74 +906,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "16637950071f9c3a85": {
-      "type": "rich-text",
-      "blocks": {
-        "1663795006c8693e4c-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>The 4ocean Beaded Bracelet<\/p>",
-            "heading_size": "h1"
-          }
-        }
-      },
-      "block_order": [
-        "1663795006c8693e4c-0"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
-    "1663794899b1aaafe9": {
-      "type": "image-with-text",
-      "blocks": {
-        "4b086e44-3166-4c23-8958-3469512eb61a": {
-          "type": "caption",
-          "settings": {
-            "caption": "$20",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "large"
-          }
-        },
-        "16637948996ee79094-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>By purchasing this bracelet you will remove one pound of trash from the world’s oceans, rivers & coastlines.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "16637948996ee79094-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Buy it now & pull 1 pound",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "4b086e44-3166-4c23-8958-3469512eb61a",
-        "16637948996ee79094-1",
-        "16637948996ee79094-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Sig-Blue.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 0,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -995,8 +927,6 @@
     "1663181038de6f3267",
     "16631829454ec970ca",
     "1662478942ab413a2d",
-    "16631528090c935125",
-    "16637950071f9c3a85",
-    "1663794899b1aaafe9"
+    "16631528090c935125"
   ]
 }
