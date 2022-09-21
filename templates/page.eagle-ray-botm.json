@@ -26,14 +26,14 @@
         "16637878765c503bf6-2": {
           "type": "copy",
           "settings": {
-            "copy": "<p>Copy<\/p>"
+            "copy": "<p> <\/p>"
           }
         },
         "16637878765c503bf6-3": {
           "type": "button",
           "settings": {
             "text": "Shop Now",
-            "link": ""
+            "link": "https:\/\/www.4ocean.com\/products\/eagle-ray-beaded-bracelet?variant=41925619876033"
           }
         }
       },
