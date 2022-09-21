@@ -110,6 +110,7 @@
     "combo_6mo_prepaid": "clean-ocean-club-beaded-braided-6-months-prepaid-subscription-combo",
     "combo_12mo_prepaid": "clean-ocean-club-beaded-braided-12-months-prepaid-subscription-combo",
     "pound_plus": "pound-plus-subscription",
+    "checkout_logo_image": "shopify:\/\/shop_images\/ocean-logo.webp",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
