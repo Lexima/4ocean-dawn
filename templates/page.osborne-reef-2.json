@@ -84,6 +84,13 @@
           "settings": {
           }
         },
+        "7d0394a6-e4df-4854-a9d3-bff089fd988d": {
+          "type": "text",
+          "settings": {
+            "text": "By purchasing this bracelet, you will fund the historic Osborne Reef Tire Cleanup and help protect our coral reefs.",
+            "text_style": "body"
+          }
+        },
         "16637874068761d082-1": {
           "type": "price",
           "settings": {
@@ -101,6 +108,7 @@
         "16637874068761d082-0",
         "95e08bb4-393c-43a0-b77f-9f273737df99",
         "83e941cf-5811-43bf-b6a6-8e567c5316e3",
+        "7d0394a6-e4df-4854-a9d3-bff089fd988d",
         "16637874068761d082-1",
         "16637874068761d082-2"
       ],
