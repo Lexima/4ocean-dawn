@@ -228,7 +228,28 @@
         "7834bc5d-544e-4127-aa35-94eb9566d2b6": {
           "type": "text",
           "settings": {
-            "text": "By purchasing this bracelet you will remove one pound of trash from the world’s oceans, rivers & coastlines.",
+            "text": "By purchasing this bracelet you will remove one pound of trash from the world’s oceans, rivers & coastlines.100%  4ocean Plastic cord",
+            "text_style": "body"
+          }
+        },
+        "d05becb5-6ba7-41f1-9fed-5f13155554b1": {
+          "type": "text",
+          "settings": {
+            "text": "- 100%  4ocean Plastic cord",
+            "text_style": "body"
+          }
+        },
+        "c48be0e8-9a2c-46b2-9441-2c75eadc0675": {
+          "type": "text",
+          "settings": {
+            "text": "- Unisex, waterproof, adjustable",
+            "text_style": "body"
+          }
+        },
+        "e08d37f6-d0bc-4d8e-a9d1-70049a6e8cf1": {
+          "type": "text",
+          "settings": {
+            "text": "- Handcrafted by local artisans on the tropical island of Bali",
             "text_style": "body"
           }
         },
@@ -246,6 +267,9 @@
         "a64178d7-d7b0-4bbf-87cb-8266c08bd5d8",
         "d1d425fd-8404-42ed-a8dd-6f80fdba3555",
         "7834bc5d-544e-4127-aa35-94eb9566d2b6",
+        "d05becb5-6ba7-41f1-9fed-5f13155554b1",
+        "c48be0e8-9a2c-46b2-9441-2c75eadc0675",
+        "e08d37f6-d0bc-4d8e-a9d1-70049a6e8cf1",
         "16637944464500edf6-2"
       ],
       "settings": {
