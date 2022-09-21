@@ -114,7 +114,7 @@
         "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 3,
-        "show_text_below": true,
+        "show_text_below": false,
         "accessibility_info": ""
       }
     },
