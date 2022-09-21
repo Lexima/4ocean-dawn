@@ -12,6 +12,7 @@
       "blocks": {
         "16637878765c503bf6-0": {
           "type": "eyebrow",
+          "disabled": true,
           "settings": {
             "eyebrow": "<p>Eyebrow<\/p>"
           }
@@ -47,45 +48,7 @@
         "desktop_content_alignment": "center",
         "overlay_opacity": 20,
         "video_url": "",
-        "video_image": "shopify:\/\/shop_images\/Eagle-Ray-Module_7_b378fb0d-b32d-440c-bab8-6b69a9b71c27.jpg"
-      }
-    },
-    "166378947176158545": {
-      "type": "featured-product",
-      "blocks": {
-        "1663789471b9090675-0": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "1663789471b9090675-1": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "1663789471b9090675-2": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "pounds_pulled": true
-          }
-        }
-      },
-      "block_order": [
-        "1663789471b9090675-0",
-        "1663789471b9090675-1",
-        "1663789471b9090675-2"
-      ],
-      "settings": {
-        "product": "eagle-ray-beaded-bracelet",
-        "color_scheme": "background-1",
-        "secondary_background": false,
-        "alignment": "align-left",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "image": "shopify:\/\/shop_images\/Eagle-Ray-Hero-Module-LP_9bea3293-7b03-4d47-9057-2a9c1f79cf94.jpg"
       }
     },
     "16637895025d9f8778": {
@@ -158,7 +121,6 @@
   "order": [
     "main",
     "1663787876e477e72f",
-    "166378947176158545",
     "16637895025d9f8778"
   ]
 }
