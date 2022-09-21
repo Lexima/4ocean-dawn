@@ -369,65 +369,6 @@
         "padding_bottom": 32
       }
     },
-    "16637918647fb807b8": {
-      "type": "featured-product",
-      "blocks": {
-        "16637918640cce4fad-0": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "7f99f8e5-38a9-427e-9679-fb4e4041845c": {
-          "type": "yotpo_rating",
-          "settings": {
-            "yotpo_review_count": true
-          }
-        },
-        "21342e89-9de3-4b40-9549-6c82129c681b": {
-          "type": "rating",
-          "settings": {
-          }
-        },
-        "16637918640cce4fad-1": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "eeca7460-a88d-4425-8dff-45541b6c8174": {
-          "type": "text",
-          "settings": {
-            "text": "Pull two pounds of trash from the ocean every month with a new, limited-edition bracelet that represents an animal or ecosystem impacted by plastic pollution.",
-            "text_style": "body"
-          }
-        },
-        "16637918640cce4fad-2": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "pounds_pulled": true
-          }
-        }
-      },
-      "block_order": [
-        "16637918640cce4fad-0",
-        "7f99f8e5-38a9-427e-9679-fb4e4041845c",
-        "21342e89-9de3-4b40-9549-6c82129c681b",
-        "16637918640cce4fad-1",
-        "eeca7460-a88d-4425-8dff-45541b6c8174",
-        "16637918640cce4fad-2"
-      ],
-      "settings": {
-        "product": "eagle-ray-beaded-bracelet",
-        "color_scheme": "background-1",
-        "secondary_background": false,
-        "alignment": "align-left",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1663152674f7f77fb3": {
       "type": "signature-bracelet",
       "blocks": {
@@ -915,7 +856,6 @@
     "166247711860c1e5b4",
     "166248010493b2ff49",
     "1663151831dc30600f",
-    "16637918647fb807b8",
     "1663152674f7f77fb3",
     "16624760820e78f579",
     "16631834710c2432a4",
