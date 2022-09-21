@@ -200,51 +200,6 @@
         "padding_bottom": 36
       }
     },
-    "166247613730c29082": {
-      "type": "hero",
-      "disabled": true,
-      "blocks": {
-        "1662476137d13190af-0": {
-          "type": "eyebrow",
-          "disabled": true,
-          "settings": {
-            "eyebrow": "<p>~16 billion pounds of plastic enters the ocean each year.<\/p>"
-          }
-        },
-        "1662476137d13190af-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Join the clean ocean movement",
-            "heading_size": "h1"
-          }
-        },
-        "1662476137d13190af-2": {
-          "type": "copy",
-          "settings": {
-            "copy": "<p>Pull your first pound of trash from the ocean with our Signature Beaded Bracelet.<\/p>"
-          }
-        },
-        "1662476137d13190af-3": {
-          "type": "button",
-          "settings": {
-            "text": "Buy a Bracelet — Pull a Pound",
-            "link": "shopify:\/\/collections\/shop-all"
-          }
-        }
-      },
-      "block_order": [
-        "1662476137d13190af-0",
-        "1662476137d13190af-1",
-        "1662476137d13190af-2",
-        "1662476137d13190af-3"
-      ],
-      "settings": {
-        "desktop_content_alignment": "center",
-        "overlay_opacity": 70,
-        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3294abf3d3fb40adbdfc2036f9d8caae.mp4",
-        "video_image": "shopify:\/\/shop_images\/Screenshot_2022-07-26_at_16.03.21.png"
-      }
-    },
     "1663794446b397a248": {
       "type": "featured-product",
       "blocks": {
@@ -302,6 +257,51 @@
         "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "166247613730c29082": {
+      "type": "hero",
+      "disabled": true,
+      "blocks": {
+        "1662476137d13190af-0": {
+          "type": "eyebrow",
+          "disabled": true,
+          "settings": {
+            "eyebrow": "<p>~16 billion pounds of plastic enters the ocean each year.<\/p>"
+          }
+        },
+        "1662476137d13190af-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Join the clean ocean movement",
+            "heading_size": "h1"
+          }
+        },
+        "1662476137d13190af-2": {
+          "type": "copy",
+          "settings": {
+            "copy": "<p>Pull your first pound of trash from the ocean with our Signature Beaded Bracelet.<\/p>"
+          }
+        },
+        "1662476137d13190af-3": {
+          "type": "button",
+          "settings": {
+            "text": "Buy a Bracelet — Pull a Pound",
+            "link": "shopify:\/\/collections\/shop-all"
+          }
+        }
+      },
+      "block_order": [
+        "1662476137d13190af-0",
+        "1662476137d13190af-1",
+        "1662476137d13190af-2",
+        "1662476137d13190af-3"
+      ],
+      "settings": {
+        "desktop_content_alignment": "center",
+        "overlay_opacity": 70,
+        "video_url": "https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/3294abf3d3fb40adbdfc2036f9d8caae.mp4",
+        "video_image": "shopify:\/\/shop_images\/Screenshot_2022-07-26_at_16.03.21.png"
       }
     },
     "166247711860c1e5b4": {
@@ -913,8 +913,8 @@
     "1663779992260fd87c",
     "16624760820e78f579",
     "166248010493b2ff49",
-    "166247613730c29082",
     "1663794446b397a248",
+    "166247613730c29082",
     "166247711860c1e5b4",
     "1663151831dc30600f",
     "1663152674f7f77fb3",
