@@ -100,24 +100,28 @@
         "1663783507fda43e4f-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Oz-Reef-Images-Historical-700x700_3.jpg",
             "link": ""
           }
         },
         "1663783507fda43e4f-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Oz-Reef-Images-Historical-700x700_1.jpg",
             "link": ""
           }
         },
         "1663783507fda43e4f-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Oz-Reef-Images-Historical-700x700_2.jpg",
             "link": ""
           }
         },
         "1663783507fda43e4f-3": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Oz-Reef-Images-Historical-700x700_4.jpg",
             "link": ""
           }
         }
@@ -527,14 +531,14 @@
           "settings": {
             "heading": "Stay Connected",
             "heading_size": "h1",
-            "color": "#fff"
+            "color": "#ffffff"
           }
         },
         "166378389130e2c6ed-1": {
           "type": "paragraph",
           "settings": {
             "text": "<p>Sign up for email & SMS alerts so you never miss an update about the clean ocean movement and new ways to support our mission!<\/p>",
-            "color": "#fff"
+            "color": "#ffffff"
           }
         },
         "166378389130e2c6ed-2": {
