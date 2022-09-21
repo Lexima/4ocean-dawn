@@ -123,7 +123,7 @@
         "1663792906ef7c861b-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Eagle-Ray-Module_4_b40750a0-346a-4b45-bb1f-8c367b4e61ee.jpg",
+            "image": "shopify:\/\/shop_images\/Eagle-Ray-Module_3_085a73ca-83db-43fe-b474-60eda677316b.jpg",
             "title": "",
             "text": "<p>There are about two dozen species of eagle ray swimming in our oceans. Often associated with coral reefs, they sometimes enter protected bays to feed or mate. Eagle rays are generally identified by their long, triangular pectoral fins and whip-like tails. Unlike other rays, they flap their fins to propel themselves through the water. While they’re not known to be aggressive, eagle rays will defend themselves from threats using the venomous barbs found at the base of their tails.<\/p>",
             "link_label": "",
@@ -133,7 +133,7 @@
         "1663792906ef7c861b-1": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Eagle-Ray-Module_5_db5431c5-70df-4b45-ba06-0b4c648ed298.jpg",
+            "image": "shopify:\/\/shop_images\/Eagle-Ray-Module_4_b40750a0-346a-4b45-bb1f-8c367b4e61ee.jpg",
             "title": "",
             "text": "<p>Thanks to movies like <em>Finding Nemo, <\/em>spotted eagle rays are perhaps the most famous species of eagle ray, though their enormous size and dramatic coloring are enough to grab anyone’s attention. <\/p><p>These fish can have a wingspan of up to 11 feet and reach lengths of over 16 feet when you include the tail. The only ray bigger than the spotted eagle ray is the manta ray. <\/p><p>Extremely powerful, eagle rays can launch themselves out of the water and momentarily soar above the ocean’s surface in a spectacular display of strength and beauty. <\/p><p>Every spotted eagle ray has a unique pattern that can be used to identify them, just like fingerprints are used to identify different humans.<\/p>",
             "link_label": "",
@@ -143,7 +143,7 @@
         "1663792906ef7c861b-2": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/image_1600x_2c486d47-1a1e-4449-bb70-924dd4b01517.webp",
+            "image": "shopify:\/\/shop_images\/Eagle-Ray-Module_5_db5431c5-70df-4b45-ba06-0b4c648ed298.jpg",
             "title": "",
             "text": "<p>Eagle rays have electrosensory pores on their rostrum, or snout, that helps detect prey hidden beneath the sea floor. Clams, oysters, octopus, squid, crabs, shimp, urchins, and even some bony fish are caught in the rays’ dental plates, which grind them up like a mortar and pestle.<\/p><p>Spotted eagle rays are naturally rare and have low reproductive rates. Their elusive nature also makes them tricky to study in the wild, so there’s still a lot to learn about their social behavior and life history.<\/p>",
             "link_label": "",
@@ -153,8 +153,9 @@
         "1fa749dd-641c-4fe4-8dad-6a39ac2ac3c1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/image_1600x_2c486d47-1a1e-4449-bb70-924dd4b01517.webp",
+            "title": "",
+            "text": "<p>Spotted eagle rays are not yet endangered, but they are considered a near-threatened species by the IUCN because their populations are declining globally. <\/p><p>While eagle rays are often captured accidentally as bycatch, they are targeted in some areas for use in nutritional supplements and alternative medicines. They’re also a popular specimen in public aquariums.<\/p><p>Additional threats include noise, chemical, and physical pollution as well as habitat degradation, decreased food availability due to overfishing and acidification, and climate change.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -183,12 +184,57 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16637956994bf261d8": {
+      "type": "image-with-text",
+      "blocks": {
+        "16637956991f90260d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Get ‘em while you can",
+            "heading_size": "h1"
+          }
+        },
+        "16637956991f90260d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All of our limited edition awareness bracelets are produced in small batches to prevent waste. Once they sell out they’ll be gone forever, so add our Eagle Ray Bracelets to your collection while you can!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16637956991f90260d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16637956991f90260d-0",
+        "16637956991f90260d-1",
+        "16637956991f90260d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Eagle-Ray-Module_7_b378fb0d-b32d-440c-bab8-6b69a9b71c27.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "1663787876e477e72f",
     "16637895025d9f8778",
-    "1663792906ad50687d"
+    "1663792906ad50687d",
+    "16637956994bf261d8"
   ]
 }
