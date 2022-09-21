@@ -245,10 +245,10 @@
       ],
       "settings": {
         "full_width": true,
-        "image": "shopify:\/\/shop_images\/Eagle_Ray_Module-8_Mobile_32c5e442-c8d2-4248-9896-f73e15e0dd92.jpg",
+        "image": "shopify:\/\/shop_images\/Eagle_Ray_Module-8_b4147437-b0b8-4daf-bfe5-997bee1d23db.jpg",
         "image_overlay_opacity": 0,
         "image_height": "small",
-        "adapt_height_first_image": false,
+        "adapt_height_first_image": true,
         "desktop_content_position": "middle-center",
         "show_text_box": false,
         "desktop_content_alignment": "center",
