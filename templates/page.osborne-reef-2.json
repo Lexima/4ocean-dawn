@@ -82,23 +82,11 @@
           "settings": {
             "text": "<p>Our crews are diving to new depths to clean the ocean and protect our coral reefs from millions of tires that were sunk into the ocean over 50 years as part of a coral restoration project. This historic underwater cleanup is funded through the sale of the Osborne Reef Bracelet that’s made with rubber from the tires we recover.<\/p>"
           }
-        },
-        "16637832966306f4c4-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Buy the Bracelet - Fund the Cleanup",
-            "button_link": "https:\/\/www.4ocean.com\/products\/the-osborne-reef-bracelet",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
         }
       },
       "block_order": [
         "16637832966306f4c4-0",
-        "16637832966306f4c4-1",
-        "16637832966306f4c4-2"
+        "16637832966306f4c4-1"
       ],
       "settings": {
         "desktop_content_position": "center",
