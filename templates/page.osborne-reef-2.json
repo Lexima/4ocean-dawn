@@ -1,5 +1,64 @@
 {
   "sections": {
+    "166378740632d731f6": {
+      "type": "featured-product",
+      "blocks": {
+        "16637874068761d082-0": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "95e08bb4-393c-43a0-b77f-9f273737df99": {
+          "type": "yotpo_rating",
+          "settings": {
+            "yotpo_review_count": true
+          }
+        },
+        "83e941cf-5811-43bf-b6a6-8e567c5316e3": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "7d0394a6-e4df-4854-a9d3-bff089fd988d": {
+          "type": "text",
+          "settings": {
+            "text": "By purchasing this bracelet, you will fund the historic Osborne Reef Tire Cleanup and help protect our coral reefs.",
+            "text_style": "body"
+          }
+        },
+        "16637874068761d082-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16637874068761d082-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "pounds_pulled": true
+          }
+        }
+      },
+      "block_order": [
+        "16637874068761d082-0",
+        "95e08bb4-393c-43a0-b77f-9f273737df99",
+        "83e941cf-5811-43bf-b6a6-8e567c5316e3",
+        "7d0394a6-e4df-4854-a9d3-bff089fd988d",
+        "16637874068761d082-1",
+        "16637874068761d082-2"
+      ],
+      "settings": {
+        "product": "the-osborne-reef-bracelet",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "alignment": "align-left",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
       "disabled": true,
@@ -60,65 +119,6 @@
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "166378740632d731f6": {
-      "type": "featured-product",
-      "blocks": {
-        "16637874068761d082-0": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "95e08bb4-393c-43a0-b77f-9f273737df99": {
-          "type": "yotpo_rating",
-          "settings": {
-            "yotpo_review_count": true
-          }
-        },
-        "83e941cf-5811-43bf-b6a6-8e567c5316e3": {
-          "type": "rating",
-          "settings": {
-          }
-        },
-        "7d0394a6-e4df-4854-a9d3-bff089fd988d": {
-          "type": "text",
-          "settings": {
-            "text": "By purchasing this bracelet, you will fund the historic Osborne Reef Tire Cleanup and help protect our coral reefs.",
-            "text_style": "body"
-          }
-        },
-        "16637874068761d082-1": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "16637874068761d082-2": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "pounds_pulled": true
-          }
-        }
-      },
-      "block_order": [
-        "16637874068761d082-0",
-        "95e08bb4-393c-43a0-b77f-9f273737df99",
-        "83e941cf-5811-43bf-b6a6-8e567c5316e3",
-        "7d0394a6-e4df-4854-a9d3-bff089fd988d",
-        "16637874068761d082-1",
-        "16637874068761d082-2"
-      ],
-      "settings": {
-        "product": "the-osborne-reef-bracelet",
-        "color_scheme": "background-1",
-        "secondary_background": false,
-        "alignment": "align-left",
-        "hide_variants": false,
-        "enable_video_looping": false,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -638,10 +638,10 @@
     }
   },
   "order": [
+    "166378740632d731f6",
     "main",
     "16637832960cb38fc0",
     "16637833390f52c0b4",
-    "166378740632d731f6",
     "16637834754a43738d",
     "1663783507b34a1f07",
     "1663783538612b33ca",
