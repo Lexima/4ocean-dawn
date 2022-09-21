@@ -62,11 +62,555 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16637834754a43738d": {
+      "type": "rich-text",
+      "blocks": {
+        "1663783474ce62ad25-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>The hope-filled history of Osborne Reef<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1663783474ce62ad25-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Let’s set the scene: It’s the 1960s and tire recycling is in its infancy. America’s waste tires are crowding landfills, piling up in illegal dump sites, and polluting the environment. <\/p><p>Scrap tire stockpiles are prone to catastrophic fires that contribute to air and water quality issues that were already prevalent at the time. They’re also attracting vermin and mosquitos that threaten nearby communities with disease.<\/p><p>Fast forward to the 1970s when an ambitious nonprofit group founded by fishermen suggested using the old car tires to expand an artificial reef located off the east coast of Florida. <\/p><p>The prevailing theory was that the tire reef would encourage new coral growth that would, in turn, improve local biodiversity and attract more game fish to Florida’s waters, all of which would benefit the local economy. The idea garnered widespread public support and was ultimately endorsed by state and local governments as well as the U.S. Army Corps of Engineers.<\/p><p>The substrate of the new artificial reef was made with over two million tires that were bundled together with steel clips and nylon straps. With lots of public fanfare and the support of over 100 privately owned vessels, thousands of these tire bundles were sunk into the ocean and Osborne Reef was born.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1663783474ce62ad25-0",
+        "1663783474ce62ad25-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1663783507b34a1f07": {
+      "type": "pdp-photo-grid",
+      "blocks": {
+        "1663783507fda43e4f-0": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663783507fda43e4f-1": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663783507fda43e4f-2": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663783507fda43e4f-3": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663783507fda43e4f-0",
+        "1663783507fda43e4f-1",
+        "1663783507fda43e4f-2",
+        "1663783507fda43e4f-3"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "1663783538612b33ca": {
+      "type": "rich-text",
+      "blocks": {
+        "1663783538d194f38a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>A good idea goes wrong<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1663783538d194f38a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The Osborne Reef was supposed to be the longest artificial coral reef in the world; however, this well-intentioned environmental restoration project ultimately failed.<\/p><p> <\/p><p>Over time, saltwater corroded the restraints that held the tires together. Free from their bonds, these tires began migrating vast distances across the bottom of the ocean. <\/p><p>Now, ocean currents, waves, and storms turn loose tires into projectiles that cause irreparable damage to coral reefs and other marine ecosystems that are already threatened by pollution, coastal development, overfishing, climate change, and severe weather events. <\/p><p>Coral reef systems are specialized habitats that provide food, shelter, and breeding grounds for countless marine plants and animals, some of which are endangered. <\/p><p>They also protect coastal communities from extreme weather, shoreline erosion, and coastal flooding while contributing hundreds of millions of dollars to our local economies.<\/p><p>To put it simply: We can’t afford to let these tires continue damaging our coral reefs.<\/p>"
+          }
+        },
+        "1663783538d194f38a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy the Bracelet - Fund the Cleanup",
+            "button_link": "https:\/\/www.4ocean.com\/products\/the-osborne-reef-bracelet",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1663783538d194f38a-0",
+        "1663783538d194f38a-1",
+        "1663783538d194f38a-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1663783581c31d6c33": {
+      "type": "pdp-photo-grid",
+      "blocks": {
+        "1663783581c6f9e56e-0": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663783581c6f9e56e-1": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663783581c6f9e56e-2": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663783581c6f9e56e-3": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663783581c6f9e56e-0",
+        "1663783581c6f9e56e-1",
+        "1663783581c6f9e56e-2",
+        "1663783581c6f9e56e-3"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "16637836064c87d6d7": {
+      "type": "rich-text",
+      "blocks": {
+        "1663783606317ede42-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Cleanups have been especially difficult<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1663783606317ede42-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Recovering tires from the Osborne Reef and surrounding areas is a slow, arduous, expensive, and resource-intensive process. And 4ocean isn’t the first company to try. Even the military has gotten involved. <\/p><p>Despite their enormous (and in some cases, continued) progress, the difficult nature of the work combined with extra challenges like budget cuts, limited resources, and poor weather conditions mean there are still hundreds of thousands of tires left behind. <\/p><p>To complicate matters even further, loose tires have already migrated vast distances away from the original drop site and the debris field continues to expand every day. In fact, some Osborne Reef tires have been found as far away as North Carolina!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1663783606317ede42-0",
+        "1663783606317ede42-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16637836984491f3a2": {
+      "type": "pdp-photo-grid",
+      "blocks": {
+        "1663783698b5b0ef53-0": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663783698b5b0ef53-1": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663783698b5b0ef53-2": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663783698b5b0ef53-3": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663783698b5b0ef53-0",
+        "1663783698b5b0ef53-1",
+        "1663783698b5b0ef53-2",
+        "1663783698b5b0ef53-3"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "1663783707cdbf790d": {
+      "type": "rich-text",
+      "blocks": {
+        "1663783707add3f9f8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>4ocean joins the Osborne Reef Tire Cleanup<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1663783707add3f9f8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Osborne Reef is right in our backyard, so as soon as we learned about the damage these tires were causing to our reefs, we knew we had to get involved. <\/p><p>As much as we would have liked to, we couldn’t just dive down to Osborne Reef and start recovering tires. We had to get permission first.<\/p><p>After months of research, relationship building, and a lengthy permitting process, 4ocean was finally granted the licenses and permits required to dive the reef and recover these tires.<\/p><p>Now, our designated cleanup area spans 34 acres of seabed just north of the original drop site where hundreds of thousands of loose tires have migrated. <\/p><p>Our crews continue to survey the area, document tire distribution,  and recover as many tires as quickly and efficiently as possible.<\/p>"
+          }
+        },
+        "1663783707add3f9f8-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy the Bracelet - Fund the Cleanup",
+            "button_link": "https:\/\/www.4ocean.com\/products\/the-osborne-reef-bracelet",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1663783707add3f9f8-0",
+        "1663783707add3f9f8-1",
+        "1663783707add3f9f8-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1663783806b36b27e5": {
+      "type": "pdp-photo-grid",
+      "blocks": {
+        "1663783805c21edcd0-0": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663783805c21edcd0-1": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663783805c21edcd0-2": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1663783805c21edcd0-3": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663783805c21edcd0-0",
+        "1663783805c21edcd0-1",
+        "1663783805c21edcd0-2",
+        "1663783805c21edcd0-3"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "1663783814dbeaa6fe": {
+      "type": "rich-text",
+      "blocks": {
+        "16637838146e10903f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>What happens to the tires 4ocean recovers from Osborne Reef<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16637838146e10903f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>A portion of the tires we recover from our designated cleanup area are shredded and used in the product of the Osborne Reef Bracelet that funds these cleanups.<\/p><p>However, many of the tires we recover are in such poor condition that they’re difficult to recycle using the equipment we currently own. For now, our crews transport those tires to the Solid Waste Authority in West Palm Beach, Florida. <\/p><p>One of the most advanced, efficient, and low-emission waste management facilities in the United States, the Solid Waste Authority processes our tires and converts them into energy that powers thousands of homes and businesses in our local community.<\/p><p>However, our ultimate goal is to partner with organizations that can help us recycle these scrap tires on a massive scale so we can use more of this material to create new products that fund this historic cleanup operation and advance our mission to end the ocean plastic crisis.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16637838146e10903f-0",
+        "16637838146e10903f-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1663783851aaa7f73d": {
+      "type": "pdp-photo-grid",
+      "blocks": {
+        "16637838519f814de3-0": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "16637838519f814de3-1": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "16637838519f814de3-2": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "16637838519f814de3-3": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16637838519f814de3-0",
+        "16637838519f814de3-1",
+        "16637838519f814de3-2",
+        "16637838519f814de3-3"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "1663783872f9ebbfc5": {
+      "type": "featured-product",
+      "blocks": {
+        "1663783872f32fc286-0": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "1663783872f32fc286-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1663783872f32fc286-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "pounds_pulled": true
+          }
+        }
+      },
+      "block_order": [
+        "1663783872f32fc286-0",
+        "1663783872f32fc286-1",
+        "1663783872f32fc286-2"
+      ],
+      "settings": {
+        "product": "the-osborne-reef-bracelet",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "alignment": "align-left",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1663783891ff4493a1": {
+      "type": "newsletter-signup",
+      "blocks": {
+        "166378389130e2c6ed-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stay Connected",
+            "heading_size": "h1",
+            "color": "#fff"
+          }
+        },
+        "166378389130e2c6ed-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Sign up for email & SMS alerts so you never miss an update about the clean ocean movement and new ways to support our mission!<\/p>",
+            "color": "#fff"
+          }
+        },
+        "166378389130e2c6ed-2": {
+          "type": "email_form",
+          "settings": {
+            "klaviyo_embed": "<div class=\"klaviyo-form-T29KmL\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "166378389130e2c6ed-0",
+        "166378389130e2c6ed-1",
+        "166378389130e2c6ed-2"
+      ],
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/Module-9-Clean_Ocean_Club_66c54cd8-0ee8-4913-a09a-8f1547da19bf.jpg",
+        "bg_overlay_color": "#172c43",
+        "bg_overlay_opacity": 70,
+        "padding_top": 125,
+        "padding_bottom": 140
+      }
+    },
+    "1663783986e4e4e2bb": {
+      "type": "signature-bracelet",
+      "blocks": {
+        "16637839861367081b-0": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "16637839861367081b-1": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "16637839861367081b-2": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "16637839861367081b-3": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "16637839861367081b-4": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "16637839861367081b-5": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        }
+      },
+      "block_order": [
+        "16637839861367081b-0",
+        "16637839861367081b-1",
+        "16637839861367081b-2",
+        "16637839861367081b-3",
+        "16637839861367081b-4",
+        "16637839861367081b-5"
+      ],
+      "settings": {
+        "pre_title": "",
+        "title": "Let’s get these tires out of the ocean!",
+        "description": "<p>By purchasing this bracelet, you will fund the historic Osborne Reef Tire Cleanup and help protect our coral reefs.<\/p>",
+        "content_alignment": "center",
+        "image": "shopify:\/\/shop_images\/4ocean-the-Osborne-reef-bracelet_1000x_99d476ce-04b1-43aa-b577-91bf3c224862.webp",
+        "product": "the-osborne-reef-bracelet",
+        "atc_label": "Buy the Bracelet - Fund the Cleanup",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "16637832960cb38fc0",
-    "16637833390f52c0b4"
+    "16637833390f52c0b4",
+    "16637834754a43738d",
+    "1663783507b34a1f07",
+    "1663783538612b33ca",
+    "1663783581c31d6c33",
+    "16637836064c87d6d7",
+    "16637836984491f3a2",
+    "1663783707cdbf790d",
+    "1663783806b36b27e5",
+    "1663783814dbeaa6fe",
+    "1663783851aaa7f73d",
+    "1663783872f9ebbfc5",
+    "1663783891ff4493a1",
+    "1663783986e4e4e2bb"
   ]
 }
