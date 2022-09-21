@@ -6,9 +6,53 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "1663787876e477e72f": {
+      "type": "hero",
+      "blocks": {
+        "16637878765c503bf6-0": {
+          "type": "eyebrow",
+          "settings": {
+            "eyebrow": "<p>Eyebrow<\/p>"
+          }
+        },
+        "16637878765c503bf6-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Eagle Ray Awareness  Bracelets",
+            "heading_size": "h1"
+          }
+        },
+        "16637878765c503bf6-2": {
+          "type": "copy",
+          "settings": {
+            "copy": "<p>Copy<\/p>"
+          }
+        },
+        "16637878765c503bf6-3": {
+          "type": "button",
+          "settings": {
+            "text": "Shop Now",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16637878765c503bf6-0",
+        "16637878765c503bf6-1",
+        "16637878765c503bf6-2",
+        "16637878765c503bf6-3"
+      ],
+      "settings": {
+        "desktop_content_alignment": "center",
+        "overlay_opacity": 20,
+        "video_url": "",
+        "video_image": "shopify:\/\/shop_images\/Eagle-Ray-Module_7_b378fb0d-b32d-440c-bab8-6b69a9b71c27.jpg"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1663787876e477e72f"
   ]
 }
