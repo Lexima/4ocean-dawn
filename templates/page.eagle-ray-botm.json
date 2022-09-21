@@ -229,6 +229,35 @@
         "padding_bottom": 36
       }
     },
+    "166379621590ab4ad7": {
+      "type": "image-banner",
+      "blocks": {
+        "1663796215f1f5d4b4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Discover more ways to make a difference",
+            "heading_size": "h1"
+          }
+        }
+      },
+      "block_order": [
+        "1663796215f1f5d4b4-0"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/Eagle_Ray_Module-8_Mobile_32c5e442-c8d2-4248-9896-f73e15e0dd92.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "1663795803a0fd3cfa": {
       "type": "multicolumn",
       "blocks": {
@@ -282,6 +311,7 @@
     "16637895025d9f8778",
     "1663792906ad50687d",
     "16637956994bf261d8",
+    "166379621590ab4ad7",
     "1663795803a0fd3cfa"
   ]
 }
