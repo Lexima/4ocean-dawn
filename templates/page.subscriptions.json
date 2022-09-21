@@ -266,18 +266,6 @@
     },
     "1663796914115e359c": {
       "type": "image-banner",
-      "blocks": {
-        "1663796914a06effbd-1": {
-          "type": "text",
-          "settings": {
-            "text": "Give customers details about the banner image(s) or content on the template.",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "1663796914a06effbd-1"
-      ],
       "settings": {
         "full_width": false,
         "image": "shopify:\/\/shop_images\/Cert-of-Ocean-Plastic-Recovery.jpg",
@@ -299,6 +287,7 @@
       "blocks": {
         "1663767015d46b7b86-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "",
             "heading_size": "h1"
