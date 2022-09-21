@@ -20,7 +20,7 @@
             "button_label": "Learn More",
             "link": "https:\/\/www.4ocean.com\/pages\/25-million",
             "button_style_secondary": false,
-            "box_align": "middle-center",
+            "box_align": "bottom-left",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 20,
