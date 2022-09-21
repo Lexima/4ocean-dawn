@@ -428,12 +428,14 @@
         "52574f1c-5fa1-4ce4-8e70-6a4d5431dc11": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/UGC_9_75fdeb70-a28a-4f4d-92ec-448095b39587.jpg",
             "link": ""
           }
         },
         "9bd3e6b6-231a-496c-98bb-8ffcfef75c19": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/UGC_1_1.jpg",
             "link": ""
           }
         }
