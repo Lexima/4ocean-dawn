@@ -268,10 +268,17 @@
             "heading": "<p>\"Small acts add up. We may have recovered <\/p><p>25 million pounds of trash from the ocean, but <\/p><p><strong>we got here just one pound at a time.\"<\/strong><\/p>",
             "heading_size": "h2"
           }
+        },
+        "beb06ba7-b0c6-46b4-8ef2-5f80a7cc882e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Alex Schulze<\/p><p>Co-Founder + CEO<\/p>"
+          }
         }
       },
       "block_order": [
-        "16637743396279ad0d-0"
+        "16637743396279ad0d-0",
+        "beb06ba7-b0c6-46b4-8ef2-5f80a7cc882e"
       ],
       "settings": {
         "desktop_content_position": "center",
