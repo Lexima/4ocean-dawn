@@ -257,6 +257,147 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "1663774339f1db8167": {
+      "type": "rich-text",
+      "blocks": {
+        "16637743396279ad0d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>\"Small acts add up. We may have recovered <\/p><p>25 million pounds of trash from the ocean, but <\/p><p><strong>we got here just one pound at a time.\"<\/strong><\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "16637743396279ad0d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Small acts add up. We may have recovered 25 million pounds of trash from the ocean, but <strong>we got here just one pound at a time.<\/strong><\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "16637743396279ad0d-0",
+        "16637743396279ad0d-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16637745684a861c92": {
+      "type": "rich-text",
+      "blocks": {
+        "1663774568a9c5c0f0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Get Involved<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1663774568a9c5c0f0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>There are many ways to support the clean ocean movement and advance our mission to end the ocean plastic crisis. These are the most impactful! <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1663774568a9c5c0f0-0",
+        "1663774568a9c5c0f0-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1663774619de5d02b4": {
+      "type": "multicolumn",
+      "blocks": {
+        "166377461947fa833c-0": {
+          "type": "column",
+          "settings": {
+            "title": "Partnerships",
+            "text": "<p>Perfect for businesses, nonprofits, global brands, and governments<\/p>",
+            "link_label": "Explore Your Options",
+            "link": "https:\/\/www.4oceanpartnerships.com\/"
+          }
+        },
+        "166377461947fa833c-2": {
+          "type": "column",
+          "settings": {
+            "title": "Clean Ocean Club",
+            "text": "<p>Our monthly subscriptions <\/p><p>are ideal for individuals<\/p>",
+            "link_label": "Explore Your Options",
+            "link": "shopify:\/\/pages\/4ocean-25-million-pounds-giveaway"
+          }
+        }
+      },
+      "block_order": [
+        "166377461947fa833c-0",
+        "166377461947fa833c-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "heading_alignment": "title-wrapper-with-link--center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 36
+      }
+    },
+    "16637747588e1f57dd": {
+      "type": "newsletter-signup",
+      "blocks": {
+        "1663774758536eaab0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stay Connected",
+            "heading_size": "h1",
+            "color": "#fff"
+          }
+        },
+        "1663774758536eaab0-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Sign up for email & SMS alerts so you never miss an update about the clean ocean movement and new ways to support our mission!<\/p>",
+            "color": "#fff"
+          }
+        },
+        "1663774758536eaab0-2": {
+          "type": "email_form",
+          "settings": {
+            "klaviyo_embed": "<div class=\"klaviyo-form-T29KmL\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "1663774758536eaab0-0",
+        "1663774758536eaab0-1",
+        "1663774758536eaab0-2"
+      ],
+      "settings": {
+        "bg_overlay_color": "#172c43",
+        "bg_overlay_opacity": 70,
+        "padding_top": 125,
+        "padding_bottom": 140
+      }
     }
   },
   "order": [
@@ -266,6 +407,10 @@
     "16637730702806bd09",
     "16637731157124468b",
     "1663773202718c1805",
-    "1663773242fdd86131"
+    "1663773242fdd86131",
+    "1663774339f1db8167",
+    "16637745684a861c92",
+    "1663774619de5d02b4",
+    "16637747588e1f57dd"
   ]
 }
