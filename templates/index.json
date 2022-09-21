@@ -109,13 +109,13 @@
         "0a123744-d51e-45de-8d53-a3e5ca6e9053"
       ],
       "settings": {
-        "layout": "grid",
+        "layout": "full_bleed",
         "slide_height": "adapt_image",
-        "slider_visual": "counter",
+        "slider_visual": "dots",
         "auto_rotate": true,
         "change_slides_speed": 3,
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "show_text_below": false,
+        "accessibility_info": ""
       }
     },
     "166247613730c29082": {
