@@ -108,7 +108,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop Now + Pull Pounds",
-            "button_link": "",
+            "button_link": "https:\/\/www.4ocean.com\/collections\/shop-all",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -268,17 +268,10 @@
             "heading": "<p>\"Small acts add up. We may have recovered <\/p><p>25 million pounds of trash from the ocean, but <\/p><p><strong>we got here just one pound at a time.\"<\/strong><\/p>",
             "heading_size": "h2"
           }
-        },
-        "16637743396279ad0d-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Small acts add up. We may have recovered 25 million pounds of trash from the ocean, but <strong>we got here just one pound at a time.<\/strong><\/p>"
-          }
         }
       },
       "block_order": [
-        "16637743396279ad0d-0",
-        "16637743396279ad0d-1"
+        "16637743396279ad0d-0"
       ],
       "settings": {
         "desktop_content_position": "center",
