@@ -73,6 +73,17 @@
             "heading_size": "h1"
           }
         },
+        "95e08bb4-393c-43a0-b77f-9f273737df99": {
+          "type": "yotpo_rating",
+          "settings": {
+            "yotpo_review_count": true
+          }
+        },
+        "83e941cf-5811-43bf-b6a6-8e567c5316e3": {
+          "type": "rating",
+          "settings": {
+          }
+        },
         "16637874068761d082-1": {
           "type": "price",
           "settings": {
@@ -88,6 +99,8 @@
       },
       "block_order": [
         "16637874068761d082-0",
+        "95e08bb4-393c-43a0-b77f-9f273737df99",
+        "83e941cf-5811-43bf-b6a6-8e567c5316e3",
         "16637874068761d082-1",
         "16637874068761d082-2"
       ],
