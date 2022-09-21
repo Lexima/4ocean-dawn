@@ -228,6 +228,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1663795803a0fd3cfa": {
+      "type": "multicolumn",
+      "blocks": {
+        "16637958030ea4ae2f-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Eagle_Ray_Module-9-Pound_Plus_2fd37e15-57f3-488a-b05e-bbfea551e8d8.jpg",
+            "title": "Pound+",
+            "text": "<p>Pull extra pounds with every purchase! Simply choose how many pounds of trash you want to pull, how often you want to pull them, and pay just $10 per pound with our ocean cleanup service.<\/p>",
+            "link_label": "Maximize Your Impact",
+            "link": ""
+          }
+        },
+        "16637958030ea4ae2f-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16637958030ea4ae2f-0",
+        "16637958030ea4ae2f-1"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "heading_alignment": "title-wrapper-with-link--center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -235,6 +280,7 @@
     "1663787876e477e72f",
     "16637895025d9f8778",
     "1663792906ad50687d",
-    "16637956994bf261d8"
+    "16637956994bf261d8",
+    "1663795803a0fd3cfa"
   ]
 }
