@@ -328,78 +328,6 @@
         "video_image": "shopify:\/\/shop_images\/Screenshot_2022-07-26_at_16.03.21.png"
       }
     },
-    "166247711860c1e5b4": {
-      "type": "signature-bracelet",
-      "blocks": {
-        "1662477118c59e1986-0": {
-          "type": "icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-06_at_11.15.12_AM.png",
-            "text": "100%  4ocean Plastic cord",
-            "visible_mobile": true
-          }
-        },
-        "1662477118c59e1986-2": {
-          "type": "icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-06_at_11.15.51_AM.png",
-            "text": "Unisex, waterproof, adjustable",
-            "visible_mobile": true
-          }
-        },
-        "1662477118c59e1986-1": {
-          "type": "icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-06_at_11.16.07_AM.png",
-            "text": "Handcrafted by local artisans on the tropical island of Bali",
-            "visible_mobile": true
-          }
-        },
-        "1662477118c59e1986-3": {
-          "type": "icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-06_at_11.16.12_AM.png",
-            "text": "Adjustable, waterproof, unisex",
-            "visible_mobile": false
-          }
-        },
-        "1662477118c59e1986-4": {
-          "type": "icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-06_at_11.16.01_AM.png",
-            "text": "95% post-consumer recycled glass beads",
-            "visible_mobile": false
-          }
-        },
-        "1662477118c59e1986-5": {
-          "type": "icon",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-06_at_11.16.17_AM.png",
-            "text": "Instantly identifies you as a member of the clean ocean movement",
-            "visible_mobile": false
-          }
-        }
-      },
-      "block_order": [
-        "1662477118c59e1986-0",
-        "1662477118c59e1986-2",
-        "1662477118c59e1986-1",
-        "1662477118c59e1986-3",
-        "1662477118c59e1986-4",
-        "1662477118c59e1986-5"
-      ],
-      "settings": {
-        "pre_title": "",
-        "title": "4ocean's Signature Beaded Bracelet",
-        "description": "<p>By purchasing this bracelet you will <strong>remove one pound<\/strong> of trash from the world’s oceans, rivers & coastlines.<\/p>",
-        "content_alignment": "center",
-        "image": "shopify:\/\/shop_images\/Sig-Blue.jpg",
-        "product": "the-4ocean-bracelet",
-        "atc_label": "Add to Cart",
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "1663151831dc30600f": {
       "type": "signature-bracelet",
       "blocks": {
@@ -939,7 +867,6 @@
     "166248010493b2ff49",
     "1663794446b397a248",
     "166247613730c29082",
-    "166247711860c1e5b4",
     "1663151831dc30600f",
     "1663152674f7f77fb3",
     "16631834710c2432a4",
