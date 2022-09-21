@@ -6,9 +6,185 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "166377300782eef033": {
+      "type": "rich-text",
+      "blocks": {
+        "1663773007c39273cb-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>A new world record!<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1663773007c39273cb-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Thanks to you, we just pulled our <\/p><p><strong>25 MILLIONTH POUND<\/strong> of trash from the world’s oceans, rivers, and coastlines.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1663773007c39273cb-0",
+        "1663773007c39273cb-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1663773030c07d6a0a": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16637730702806bd09": {
+      "type": "logo-cloud",
+      "blocks": {
+        "166377307052d05165-0": {
+          "type": "logo",
+          "settings": {
+          }
+        },
+        "166377307052d05165-1": {
+          "type": "logo",
+          "settings": {
+          }
+        },
+        "166377307052d05165-2": {
+          "type": "logo",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "166377307052d05165-0",
+        "166377307052d05165-1",
+        "166377307052d05165-2"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16637731157124468b": {
+      "type": "rich-text",
+      "blocks": {
+        "265c7976-7310-4c4a-923d-e66a000e80ba": {
+          "type": "caption",
+          "settings": {
+            "caption": "TODAY ONLY",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "1663773114e6577223-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Celebrate 25M with <\/strong><\/p><p><strong>25% OFF sitewide!<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1663773114e6577223-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em>Ends 11:59PM HST. Excludes gift cards.<\/em><\/p>"
+          }
+        },
+        "1663773114e6577223-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now + Pull Pounds",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "265c7976-7310-4c4a-923d-e66a000e80ba",
+        "1663773114e6577223-0",
+        "1663773114e6577223-1",
+        "1663773114e6577223-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1663773202718c1805": {
+      "type": "image-banner",
+      "blocks": {
+        "16637732028f05e108-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "16637732028f05e108-1": {
+          "type": "text",
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "16637732028f05e108-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16637732028f05e108-0",
+        "16637732028f05e108-1",
+        "16637732028f05e108-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "166377300782eef033",
+    "1663773030c07d6a0a",
+    "16637730702806bd09",
+    "16637731157124468b",
+    "1663773202718c1805"
   ]
 }
