@@ -104,57 +104,6 @@
         "padding_bottom": 36
       }
     },
-    "16637731157124468b": {
-      "type": "rich-text",
-      "blocks": {
-        "265c7976-7310-4c4a-923d-e66a000e80ba": {
-          "type": "caption",
-          "settings": {
-            "caption": "TODAY ONLY",
-            "text_style": "caption-with-letter-spacing",
-            "text_size": "medium"
-          }
-        },
-        "1663773114e6577223-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>Celebrate 25M with <\/strong><\/p><p><strong>25% OFF sitewide!<\/strong><\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "1663773114e6577223-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>Ends 11:59PM HST. Excludes gift cards.<\/em><\/p>"
-          }
-        },
-        "1663773114e6577223-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Shop Now + Pull Pounds",
-            "button_link": "https:\/\/www.4ocean.com\/collections\/shop-all",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "265c7976-7310-4c4a-923d-e66a000e80ba",
-        "1663773114e6577223-0",
-        "1663773114e6577223-1",
-        "1663773114e6577223-2"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "accent-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "1663773202718c1805": {
       "type": "image-banner",
       "settings": {
@@ -402,14 +351,14 @@
           "settings": {
             "heading": "Stay Connected",
             "heading_size": "h1",
-            "color": "#fff"
+            "color": "#ffffff"
           }
         },
         "1663774758536eaab0-1": {
           "type": "paragraph",
           "settings": {
             "text": "<p>Sign up for email & SMS alerts so you never miss an update about the clean ocean movement and new ways to support our mission!<\/p>",
-            "color": "#fff"
+            "color": "#ffffff"
           }
         },
         "1663774758536eaab0-2": {
@@ -438,7 +387,6 @@
     "166377300782eef033",
     "1663773030c07d6a0a",
     "16637730702806bd09",
-    "16637731157124468b",
     "1663773202718c1805",
     "1663773242fdd86131",
     "1663774339f1db8167",
