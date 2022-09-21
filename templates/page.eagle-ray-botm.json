@@ -117,42 +117,6 @@
         "padding_bottom": 52
       }
     },
-    "166379140543369ed5": {
-      "type": "image-with-text",
-      "blocks": {
-        "166379140529515825-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Eagle Rays: Naturally Rare and Getting Rarer",
-            "heading_size": "h1"
-          }
-        },
-        "166379140529515825-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>There are about two dozen species of eagle ray swimming in our oceans. Often associated with coral reefs, they sometimes enter protected bays to feed or mate. Eagle rays are generally identified by their long, triangular pectoral fins and whip-like tails. Unlike other rays, they flap their fins to propel themselves through the water. While they’re not known to be aggressive, eagle rays will defend themselves from threats using the venomous barbs found at the base of their tails.<\/p>",
-            "text_style": "body"
-          }
-        }
-      },
-      "block_order": [
-        "166379140529515825-0",
-        "166379140529515825-1"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Eagle-Ray-Module_3_085a73ca-83db-43fe-b474-60eda677316b.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1663792906ad50687d": {
       "type": "multicolumn",
       "blocks": {
@@ -215,7 +179,6 @@
     "main",
     "1663787876e477e72f",
     "16637895025d9f8778",
-    "166379140543369ed5",
     "1663792906ad50687d"
   ]
 }
