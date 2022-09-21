@@ -8,90 +8,6 @@
         "padding_bottom": 0
       }
     },
-    "1663127049854699d6": {
-      "type": "hero",
-      "blocks": {
-        "166312704977168776-0": {
-          "type": "eyebrow",
-          "settings": {
-            "eyebrow": "<p>Eyebrow<\/p>"
-          }
-        },
-        "166312704977168776-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Heading",
-            "heading_size": "h1"
-          }
-        },
-        "166312704977168776-2": {
-          "type": "copy",
-          "settings": {
-            "copy": "<p>Copy<\/p>"
-          }
-        },
-        "166312704977168776-3": {
-          "type": "button",
-          "settings": {
-            "text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "166312704977168776-0",
-        "166312704977168776-1",
-        "166312704977168776-2",
-        "166312704977168776-3"
-      ],
-      "settings": {
-        "desktop_content_alignment": "center",
-        "overlay_opacity": 20,
-        "video_url": ""
-      }
-    },
-    "1663127081c2a0dd07": {
-      "type": "rich-text",
-      "blocks": {
-        "16631270814aca2a5a-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p>Talk about your brand<\/p>",
-            "heading_size": "h1"
-          }
-        },
-        "16631270814aca2a5a-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "16631270814aca2a5a-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "16631270814aca2a5a-0",
-        "16631270814aca2a5a-1",
-        "16631270814aca2a5a-2"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "166312709375abf1f0": {
       "type": "collection-features",
       "blocks": {
@@ -548,8 +464,6 @@
   },
   "order": [
     "main",
-    "1663127049854699d6",
-    "1663127081c2a0dd07",
     "166312709375abf1f0",
     "16631271580c871bd2",
     "1663127198bf6cc783",
