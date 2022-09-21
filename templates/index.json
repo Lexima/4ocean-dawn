@@ -857,6 +857,24 @@
             "heading_size": "h1"
           }
         },
+        "a64178d7-d7b0-4bbf-87cb-8266c08bd5d8": {
+          "type": "yotpo_rating",
+          "settings": {
+            "yotpo_review_count": true
+          }
+        },
+        "d1d425fd-8404-42ed-a8dd-6f80fdba3555": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "7834bc5d-544e-4127-aa35-94eb9566d2b6": {
+          "type": "text",
+          "settings": {
+            "text": "Text block",
+            "text_style": "body"
+          }
+        },
         "16637944464500edf6-1": {
           "type": "price",
           "settings": {
@@ -868,25 +886,15 @@
             "show_dynamic_checkout": false,
             "pounds_pulled": true
           }
-        },
-        "d1d425fd-8404-42ed-a8dd-6f80fdba3555": {
-          "type": "rating",
-          "settings": {
-          }
-        },
-        "a64178d7-d7b0-4bbf-87cb-8266c08bd5d8": {
-          "type": "yotpo_rating",
-          "settings": {
-            "yotpo_review_count": true
-          }
         }
       },
       "block_order": [
         "16637944464500edf6-0",
-        "16637944464500edf6-1",
-        "16637944464500edf6-2",
+        "a64178d7-d7b0-4bbf-87cb-8266c08bd5d8",
         "d1d425fd-8404-42ed-a8dd-6f80fdba3555",
-        "a64178d7-d7b0-4bbf-87cb-8266c08bd5d8"
+        "7834bc5d-544e-4127-aa35-94eb9566d2b6",
+        "16637944464500edf6-1",
+        "16637944464500edf6-2"
       ],
       "settings": {
         "product": "the-4ocean-bracelet",
