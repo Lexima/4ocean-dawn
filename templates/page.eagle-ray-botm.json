@@ -149,12 +149,22 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "1fa749dd-641c-4fe4-8dad-6a39ac2ac3c1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "1663792906ef7c861b-0",
         "1663792906ef7c861b-1",
-        "1663792906ef7c861b-2"
+        "1663792906ef7c861b-2",
+        "1fa749dd-641c-4fe4-8dad-6a39ac2ac3c1"
       ],
       "settings": {
         "title": "Eagle Rays: Naturally Rare and Getting Rarer",
