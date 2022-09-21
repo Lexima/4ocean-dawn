@@ -264,61 +264,33 @@
         "padding_bottom": 36
       }
     },
-    "1663778937bdd53d7a": {
-      "type": "multicolumn",
+    "1663796914115e359c": {
+      "type": "image-banner",
       "blocks": {
-        "166377893715712534-0": {
-          "type": "column",
+        "1663796914a06effbd-1": {
+          "type": "text",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Cert-of-Ocean-Plastic-Recovery.jpg",
-            "title": "",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "166377893715712534-1": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "166377893715712534-2": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "166377893715712534-0",
-        "166377893715712534-1",
-        "166377893715712534-2"
+        "1663796914a06effbd-1"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "heading_alignment": "title-wrapper-with-link--center",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-2",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "full_width": false,
+        "image": "shopify:\/\/shop_images\/Cert-of-Ocean-Plastic-Recovery.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": true,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "16637670158ab7b8dc": {
@@ -563,7 +535,7 @@
     "1663160276d268f8cb",
     "166316343643f40c17",
     "16631633950fb83178",
-    "1663778937bdd53d7a",
+    "1663796914115e359c",
     "16637670158ab7b8dc",
     "1663160074f7bdce74",
     "1663156320d03f36f5",
