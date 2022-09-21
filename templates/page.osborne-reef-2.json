@@ -490,44 +490,6 @@
         "padding_bottom": 36
       }
     },
-    "1663783891ff4493a1": {
-      "type": "newsletter-signup",
-      "blocks": {
-        "166378389130e2c6ed-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Stay Connected",
-            "heading_size": "h1",
-            "color": "#fff"
-          }
-        },
-        "166378389130e2c6ed-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Sign up for email & SMS alerts so you never miss an update about the clean ocean movement and new ways to support our mission!<\/p>",
-            "color": "#fff"
-          }
-        },
-        "166378389130e2c6ed-2": {
-          "type": "email_form",
-          "settings": {
-            "klaviyo_embed": "<div class=\"klaviyo-form-T29KmL\"><\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "166378389130e2c6ed-0",
-        "166378389130e2c6ed-1",
-        "166378389130e2c6ed-2"
-      ],
-      "settings": {
-        "bg_image": "shopify:\/\/shop_images\/Module-9-Clean_Ocean_Club_66c54cd8-0ee8-4913-a09a-8f1547da19bf.jpg",
-        "bg_overlay_color": "#172c43",
-        "bg_overlay_opacity": 70,
-        "padding_top": 125,
-        "padding_bottom": 140
-      }
-    },
     "1663783986e4e4e2bb": {
       "type": "signature-bracelet",
       "blocks": {
@@ -593,6 +555,44 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1663783891ff4493a1": {
+      "type": "newsletter-signup",
+      "blocks": {
+        "166378389130e2c6ed-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Stay Connected",
+            "heading_size": "h1",
+            "color": "#fff"
+          }
+        },
+        "166378389130e2c6ed-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Sign up for email & SMS alerts so you never miss an update about the clean ocean movement and new ways to support our mission!<\/p>",
+            "color": "#fff"
+          }
+        },
+        "166378389130e2c6ed-2": {
+          "type": "email_form",
+          "settings": {
+            "klaviyo_embed": "<div class=\"klaviyo-form-T29KmL\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "166378389130e2c6ed-0",
+        "166378389130e2c6ed-1",
+        "166378389130e2c6ed-2"
+      ],
+      "settings": {
+        "bg_image": "shopify:\/\/shop_images\/Module-9-Clean_Ocean_Club_66c54cd8-0ee8-4913-a09a-8f1547da19bf.jpg",
+        "bg_overlay_color": "#172c43",
+        "bg_overlay_opacity": 70,
+        "padding_top": 125,
+        "padding_bottom": 140
+      }
     }
   },
   "order": [
@@ -610,7 +610,7 @@
     "1663783814dbeaa6fe",
     "1663783851aaa7f73d",
     "1663783872f9ebbfc5",
-    "1663783891ff4493a1",
-    "1663783986e4e4e2bb"
+    "1663783986e4e4e2bb",
+    "1663783891ff4493a1"
   ]
 }
