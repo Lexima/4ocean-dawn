@@ -96,6 +96,7 @@
         "16631625907c0d2399-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Advanced-shipping.jpg",
             "title": "Advanced Shipping",
             "text": "<p>New bracelets ship two weeks before they’re available online so you’ll always be the first to wear them. If you’re in the contiguous U.S., shipping is FREE!<\/p>",
             "link_label": "",
@@ -105,6 +106,7 @@
         "16631625907c0d2399-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Exclusive-Discounts.jpg",
             "title": "Exclusive Discounts",
             "text": "<p>Get 10% OFF select products when you add them to upcoming subscription orders, plus early access to new products and sales.<\/p>",
             "link_label": "",
@@ -217,6 +219,7 @@
         "1663163394586c9d1e-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Affordable.jpg",
             "title": "Affordable",
             "text": "<p>Pull up to 1,000 pounds of trash from the world’s oceans, rivers, and coastlines each month and pay just $10 per pound.<\/p>",
             "link_label": "",
@@ -235,6 +238,7 @@
         "1663163394586c9d1e-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Digital-Certificate.jpg",
             "title": "Digital Certificate",
             "text": "<p>Receive a digital certificate that verifies your monthly impact. Hang it up or share it on social media as a way to share our mission and inspire others to get involved.<\/p>",
             "link_label": "",
