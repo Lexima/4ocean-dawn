@@ -153,65 +153,15 @@
         "166377324287ff54e5-1": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/25-Mill-Hero-Module-LP_Fact-1_9c5d57e4-4d34-4ddc-a2d6-d9a9887619b4.jpg",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "7046ba6d-b6c9-4c4d-9e31-ddc4ffbf9d10": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "71d90bc3-a318-473a-9a46-bcb5e46693ff": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "background-1",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "fd6c12df-7e27-40df-bee4-7fe024de5e8f": {
-          "type": "slide",
-          "settings": {
-            "heading": "Image slide",
-            "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
-            "link": "",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
@@ -221,14 +171,69 @@
         "fad703a5-a5e7-4604-9370-a834b4d14b9a": {
           "type": "slide",
           "settings": {
-            "heading": "Image slide",
+            "image": "shopify:\/\/shop_images\/25-Mill-Hero-Module-LP_Fact-2_fa2a17a0-2b8d-4c7b-bee4-30670db40a27.jpg",
+            "heading": "",
             "heading_size": "h1",
-            "subheading": "Tell your brand's story through images",
-            "button_label": "Button label",
+            "subheading": "",
+            "button_label": "",
             "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
-            "show_text_box": true,
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "4c8f8f0c-34fe-4b61-abae-7978382661ed": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/25-Mill-Hero-Module-LP_Fact-3_f261d1a6-4b30-42e7-a9fc-7a4a3b98c83e.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "6f898c2b-a571-477b-ada6-814e36b40a9c": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/25-Mill-Hero-Module-LP_Fact-4_fe3c3288-f33e-4b0c-871e-344166a59eca.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "59f8a381-94c4-4b46-a505-05536d37a940": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/25-Mill-Hero-Module-LP_Fact-5_bd5a8103-d744-4f98-bdd1-abf5a73a4bf6.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 0,
             "color_scheme": "background-1",
@@ -238,10 +243,10 @@
       },
       "block_order": [
         "166377324287ff54e5-1",
-        "7046ba6d-b6c9-4c4d-9e31-ddc4ffbf9d10",
-        "71d90bc3-a318-473a-9a46-bcb5e46693ff",
-        "fd6c12df-7e27-40df-bee4-7fe024de5e8f",
-        "fad703a5-a5e7-4604-9370-a834b4d14b9a"
+        "fad703a5-a5e7-4604-9370-a834b4d14b9a",
+        "4c8f8f0c-34fe-4b61-abae-7978382661ed",
+        "6f898c2b-a571-477b-ada6-814e36b40a9c",
+        "59f8a381-94c4-4b46-a505-05536d37a940"
       ],
       "settings": {
         "layout": "full_bleed",
