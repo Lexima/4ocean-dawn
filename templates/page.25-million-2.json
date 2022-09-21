@@ -42,8 +42,8 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
-        "cover_image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-15_at_10.53.45_AM.png",
-        "video_url": "https:\/\/vimeo.com\/749330671",
+        "cover_image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-21_at_12.07.36_PM.png",
+        "video_url": "https:\/\/vimeo.com\/750552363",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
@@ -57,23 +57,47 @@
         "166377307052d05165-0": {
           "type": "logo",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-4_a82d9f41-4e8f-4d2f-94e6-192ef9030be5.png"
           }
         },
         "166377307052d05165-1": {
           "type": "logo",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-6_da8f236b-b7fd-4d5e-9b85-7ab21b120765.png"
           }
         },
         "166377307052d05165-2": {
           "type": "logo",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-1_ea2102ff-7a86-4781-8593-a8a87906df65.png"
+          }
+        },
+        "18920d7f-a875-485f-a7de-d3df1465c5c2": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_copy_2_b53f321a-159f-4275-a780-7fe1ac6a894d.png"
+          }
+        },
+        "156aa7cc-cbe4-47a8-afe5-74489bc4bb5e": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-2_8121a26d-7ded-43c3-b5a5-88f547ff4741.png"
+          }
+        },
+        "882ab52a-2af8-4f4d-b155-25013b6ce32d": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group_copy_a1bee240-9d21-46d2-8307-c60b3a0b6814.png"
           }
         }
       },
       "block_order": [
         "166377307052d05165-0",
         "166377307052d05165-1",
-        "166377307052d05165-2"
+        "166377307052d05165-2",
+        "18920d7f-a875-485f-a7de-d3df1465c5c2",
+        "156aa7cc-cbe4-47a8-afe5-74489bc4bb5e",
+        "882ab52a-2af8-4f4d-b155-25013b6ce32d"
       ],
       "settings": {
         "padding_top": 36,
