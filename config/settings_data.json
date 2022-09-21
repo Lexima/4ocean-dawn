@@ -117,10 +117,10 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "FREE gift with orders $25+. Discount applied at checkout. Limit one (1) per transaction. Ends 9\/17.",
+              "text": "MYSTERY SALE: Add products to cart to reveal exciting savings at checkout! Ends 9\/24.",
               "text_alignment": "center",
               "color_scheme": "background-2",
-              "link": "https:\/\/www.4ocean.com\/free-gift-25"
+              "link": "https:\/\/www.4ocean.com\/MYSTERY"
             }
           }
         },
