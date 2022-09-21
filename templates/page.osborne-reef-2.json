@@ -28,7 +28,7 @@
           "type": "button",
           "settings": {
             "button_label": "Buy the Bracelet - Fund the Cleanup",
-            "button_link": "",
+            "button_link": "https:\/\/www.4ocean.com\/products\/the-osborne-reef-bracelet",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
@@ -53,7 +53,7 @@
     "16637833390f52c0b4": {
       "type": "video",
       "settings": {
-        "heading": "Video",
+        "heading": "",
         "heading_size": "h1",
         "video_url": "https:\/\/vimeo.com\/642094294",
         "description": "",
