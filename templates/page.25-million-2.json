@@ -48,7 +48,7 @@
         "full_width": false,
         "color_scheme": "background-1",
         "padding_top": 8,
-        "padding_bottom": 36
+        "padding_bottom": 8
       }
     },
     "16637730702806bd09": {
@@ -60,16 +60,16 @@
             "image": "shopify:\/\/shop_images\/Mask_group-4_a82d9f41-4e8f-4d2f-94e6-192ef9030be5.png"
           }
         },
-        "166377307052d05165-1": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Mask_group-6_da8f236b-b7fd-4d5e-9b85-7ab21b120765.png"
-          }
-        },
         "166377307052d05165-2": {
           "type": "logo",
           "settings": {
             "image": "shopify:\/\/shop_images\/Mask_group-1_ea2102ff-7a86-4781-8593-a8a87906df65.png"
+          }
+        },
+        "166377307052d05165-1": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mask_group-6_da8f236b-b7fd-4d5e-9b85-7ab21b120765.png"
           }
         },
         "18920d7f-a875-485f-a7de-d3df1465c5c2": {
@@ -93,8 +93,8 @@
       },
       "block_order": [
         "166377307052d05165-0",
-        "166377307052d05165-1",
         "166377307052d05165-2",
+        "166377307052d05165-1",
         "18920d7f-a875-485f-a7de-d3df1465c5c2",
         "156aa7cc-cbe4-47a8-afe5-74489bc4bb5e",
         "882ab52a-2af8-4f4d-b155-25013b6ce32d"
@@ -279,7 +279,7 @@
         "slider_visual": "counter",
         "auto_rotate": false,
         "change_slides_speed": 5,
-        "show_text_below": true,
+        "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
       }
     },
