@@ -125,7 +125,7 @@
         "copy": "<p>pounds of trash have been pulled from the world’s oceans, rivers, and coastlines since January 2017<\/p>",
         "color_scheme": "accent-2",
         "button_text": "Shop now & pull the next pound",
-        "button_link": "shopify:\/\/collections",
+        "button_link": "shopify:\/\/products\/the-4ocean-bracelet",
         "show_icon": false,
         "font_size": 1,
         "padding_top": 20,
@@ -377,7 +377,7 @@
         "description": "<p>Pull<strong> two pounds of trash<\/strong> from the ocean every month with a new, limited-edition bracelet that represents an animal or ecosystem impacted by plastic pollution.<\/p>",
         "content_alignment": "center",
         "image": "shopify:\/\/shop_images\/HempBagonWhite-with-circle_Cropped.jpg",
-        "product": "eagle-ray-beaded-bracelet",
+        "product": "clean-ocean-club-beaded-braided-12-months-prepaid-subscription-combo",
         "atc_label": "Select Your Style",
         "padding_top": 40,
         "padding_bottom": 32
@@ -438,9 +438,9 @@
         "1663152673791558c1-5"
       ],
       "settings": {
-        "pre_title": "",
-        "title": "Pull Pounds Directly from the Ocean",
-        "description": "<p>Support our cleanups and pull pounds of trash from the ocean without receiving a physical product.<\/p>",
+        "pre_title": "— POUND+ —",
+        "title": "Maximize Your Impact",
+        "description": "<p>Pull extra pounds. Just $10 each.<\/p>",
         "content_alignment": "center",
         "image": "shopify:\/\/shop_images\/Classic-scoop.jpg",
         "product": "pound-plus",
@@ -847,6 +847,57 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1663794446b397a248": {
+      "type": "featured-product",
+      "blocks": {
+        "16637944464500edf6-0": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "16637944464500edf6-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "16637944464500edf6-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "pounds_pulled": true
+          }
+        },
+        "d1d425fd-8404-42ed-a8dd-6f80fdba3555": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "a64178d7-d7b0-4bbf-87cb-8266c08bd5d8": {
+          "type": "yotpo_rating",
+          "settings": {
+            "yotpo_review_count": true
+          }
+        }
+      },
+      "block_order": [
+        "16637944464500edf6-0",
+        "16637944464500edf6-1",
+        "16637944464500edf6-2",
+        "d1d425fd-8404-42ed-a8dd-6f80fdba3555",
+        "a64178d7-d7b0-4bbf-87cb-8266c08bd5d8"
+      ],
+      "settings": {
+        "product": "the-4ocean-bracelet",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "alignment": "align-left",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -867,6 +918,7 @@
     "1663181038de6f3267",
     "16631829454ec970ca",
     "1662478942ab413a2d",
-    "16631528090c935125"
+    "16631528090c935125",
+    "1663794446b397a248"
   ]
 }
