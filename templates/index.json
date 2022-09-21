@@ -30,8 +30,8 @@
         },
         "1663779992f92a6c14-1": {
           "type": "slide",
-          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/Both-Beach-Chairs-Homepage-slider-2400x1093_ccf0c89e-0d63-4f29-97b1-47919c0c6be7.jpg",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -48,8 +48,8 @@
         },
         "225dacec-bcc5-4214-bcde-fe55c422b83f": {
           "type": "slide",
-          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/Lava-Homepage-slider-2400x1093_e00c563f-655c-4313-b089-9ceb8af97948.jpg",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -66,8 +66,8 @@
         },
         "7c93d820-fec6-4769-8227-6d697bdab84e": {
           "type": "slide",
-          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/Dune-Jewelry-Homepage-slider-2400x1093_B_79a95c53-05a5-4526-b036-92a57c472146.jpg",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -84,8 +84,8 @@
         },
         "0a123744-d51e-45de-8d53-a3e5ca6e9053": {
           "type": "slide",
-          "disabled": true,
           "settings": {
+            "image": "shopify:\/\/shop_images\/Shark_Ocean-Stack-Homepage-slider-2400x1093_f2a894d2-14e5-4fd8-a05c-c07a2a30e791.jpg",
             "heading": "Image slide",
             "heading_size": "h1",
             "subheading": "Tell your brand's story through images",
@@ -109,11 +109,11 @@
         "0a123744-d51e-45de-8d53-a3e5ca6e9053"
       ],
       "settings": {
-        "layout": "full_bleed",
+        "layout": "grid",
         "slide_height": "adapt_image",
         "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
+        "auto_rotate": true,
+        "change_slides_speed": 3,
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
