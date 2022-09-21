@@ -126,11 +126,23 @@
           "settings": {
             "text": "<p>Let’s set the scene: It’s the 1960s and tire recycling is in its infancy. America’s waste tires are crowding landfills, piling up in illegal dump sites, and polluting the environment. <\/p><p>Scrap tire stockpiles are prone to catastrophic fires that contribute to air and water quality issues that were already prevalent at the time. They’re also attracting vermin and mosquitos that threaten nearby communities with disease.<\/p><p>Fast forward to the 1970s when an ambitious nonprofit group founded by fishermen suggested using the old car tires to expand an artificial reef located off the east coast of Florida. <\/p><p>The prevailing theory was that the tire reef would encourage new coral growth that would, in turn, improve local biodiversity and attract more game fish to Florida’s waters, all of which would benefit the local economy. The idea garnered widespread public support and was ultimately endorsed by state and local governments as well as the U.S. Army Corps of Engineers.<\/p><p>The substrate of the new artificial reef was made with over two million tires that were bundled together with steel clips and nylon straps. With lots of public fanfare and the support of over 100 privately owned vessels, thousands of these tire bundles were sunk into the ocean and Osborne Reef was born.<\/p>"
           }
+        },
+        "dd0ac513-95fa-466d-a1c1-440e2c942804": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy the Bracelet - Fund the Cleanup",
+            "button_link": "https:\/\/www.4ocean.com\/products\/the-osborne-reef-bracelet",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
         }
       },
       "block_order": [
         "1663783474ce62ad25-0",
-        "1663783474ce62ad25-1"
+        "1663783474ce62ad25-1",
+        "dd0ac513-95fa-466d-a1c1-440e2c942804"
       ],
       "settings": {
         "desktop_content_position": "center",
