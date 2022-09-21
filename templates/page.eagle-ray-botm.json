@@ -49,10 +49,116 @@
         "video_url": "",
         "video_image": "shopify:\/\/shop_images\/Eagle-Ray-Module_7_b378fb0d-b32d-440c-bab8-6b69a9b71c27.jpg"
       }
+    },
+    "166378947176158545": {
+      "type": "featured-product",
+      "blocks": {
+        "1663789471b9090675-0": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "1663789471b9090675-1": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1663789471b9090675-2": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "pounds_pulled": true
+          }
+        }
+      },
+      "block_order": [
+        "1663789471b9090675-0",
+        "1663789471b9090675-1",
+        "1663789471b9090675-2"
+      ],
+      "settings": {
+        "product": "eagle-ray-beaded-bracelet",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "alignment": "align-left",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16637895025d9f8778": {
+      "type": "signature-bracelet",
+      "blocks": {
+        "16637895026abc2d5c-0": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "16637895026abc2d5c-1": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "16637895026abc2d5c-2": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "16637895026abc2d5c-3": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "16637895026abc2d5c-4": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        },
+        "16637895026abc2d5c-5": {
+          "type": "icon",
+          "settings": {
+            "text": "",
+            "visible_mobile": true
+          }
+        }
+      },
+      "block_order": [
+        "16637895026abc2d5c-0",
+        "16637895026abc2d5c-1",
+        "16637895026abc2d5c-2",
+        "16637895026abc2d5c-3",
+        "16637895026abc2d5c-4",
+        "16637895026abc2d5c-5"
+      ],
+      "settings": {
+        "pre_title": "",
+        "title": "Beaded? Or braided? How will you pull your pound?",
+        "description": "",
+        "content_alignment": "center",
+        "image": "shopify:\/\/shop_images\/Eagle-Ray-Module_2_e8f93c16-b5fd-424e-83cc-0fdf6f9108d5.gif",
+        "product": "eagle-ray-beaded-bracelet",
+        "atc_label": "Shop Now",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
-    "1663787876e477e72f"
+    "1663787876e477e72f",
+    "166378947176158545",
+    "16637895025d9f8778"
   ]
 }
