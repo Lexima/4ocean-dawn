@@ -7,9 +7,66 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "16637832960cb38fc0": {
+      "type": "rich-text",
+      "blocks": {
+        "16637832966306f4c4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Osborne Reef Tire Cleanup<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16637832966306f4c4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our crews are diving to new depths to clean the ocean and protect our coral reefs from millions of tires that were sunk into the ocean over 50 years as part of a coral restoration project. This historic underwater cleanup is funded through the sale of the Osborne Reef Bracelet that’s made with rubber from the tires we recover.<\/p>"
+          }
+        },
+        "16637832966306f4c4-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy the Bracelet - Fund the Cleanup",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16637832966306f4c4-0",
+        "16637832966306f4c4-1",
+        "16637832966306f4c4-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16637833390f52c0b4": {
+      "type": "video",
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "video_url": "https:\/\/vimeo.com\/642094294",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16637832960cb38fc0",
+    "16637833390f52c0b4"
   ]
 }
