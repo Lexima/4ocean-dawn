@@ -55,6 +55,7 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/Screen_Shot_2022-09-21_at_2.24.34_PM.png",
         "video_url": "https:\/\/vimeo.com\/642094294",
         "description": "",
         "full_width": false,
@@ -452,44 +453,6 @@
         "padding_bottom": 8
       }
     },
-    "1663783872f9ebbfc5": {
-      "type": "featured-product",
-      "blocks": {
-        "1663783872f32fc286-0": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "1663783872f32fc286-1": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "1663783872f32fc286-2": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "pounds_pulled": true
-          }
-        }
-      },
-      "block_order": [
-        "1663783872f32fc286-0",
-        "1663783872f32fc286-1",
-        "1663783872f32fc286-2"
-      ],
-      "settings": {
-        "product": "the-osborne-reef-bracelet",
-        "color_scheme": "background-1",
-        "secondary_background": false,
-        "alignment": "align-left",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "1663783986e4e4e2bb": {
       "type": "signature-bracelet",
       "blocks": {
@@ -609,7 +572,6 @@
     "1663783806b36b27e5",
     "1663783814dbeaa6fe",
     "1663783851aaa7f73d",
-    "1663783872f9ebbfc5",
     "1663783986e4e4e2bb",
     "1663783891ff4493a1"
   ]
