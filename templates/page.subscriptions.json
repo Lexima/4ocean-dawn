@@ -386,22 +386,52 @@
         "1663156320f5ae69b7-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/UGC_3_8a937779-b9e0-4eb7-8d79-c8f015f7a3ab.jpg",
             "link": ""
           }
         },
         "1663156320f5ae69b7-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/UGC_5_1.jpg",
             "link": ""
           }
         },
         "1663156320f5ae69b7-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/UGC_6_82a6ccf4-7e8d-49f0-82e3-8b9f5eaf6ebe.jpg",
             "link": ""
           }
         },
         "1663156320f5ae69b7-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/UGC_7_e438ca53-b587-4632-84eb-c9fd9c20081a.jpg",
+            "link": ""
+          }
+        },
+        "e9741ff1-5006-4576-b2a0-40ca90bbe9f7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/UGC_11_616f01bf-b8c7-4667-9529-3b58d8b2a1e4.jpg",
+            "link": ""
+          }
+        },
+        "5ae39ae7-8db8-4413-93a5-71469291606d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/UGC_10_e212df78-ee48-49f9-901c-54e2ca574e65.jpg",
+            "link": ""
+          }
+        },
+        "52574f1c-5fa1-4ce4-8e70-6a4d5431dc11": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "9bd3e6b6-231a-496c-98bb-8ffcfef75c19": {
           "type": "image",
           "settings": {
             "link": ""
@@ -412,11 +442,15 @@
         "1663156320f5ae69b7-0",
         "1663156320f5ae69b7-1",
         "1663156320f5ae69b7-2",
-        "1663156320f5ae69b7-3"
+        "1663156320f5ae69b7-3",
+        "e9741ff1-5006-4576-b2a0-40ca90bbe9f7",
+        "5ae39ae7-8db8-4413-93a5-71469291606d",
+        "52574f1c-5fa1-4ce4-8e70-6a4d5431dc11",
+        "9bd3e6b6-231a-496c-98bb-8ffcfef75c19"
       ],
       "settings": {
         "image_ratio": "square",
-        "columns_desktop": 2,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
         "columns_mobile": "2",
         "padding_top": 36,
