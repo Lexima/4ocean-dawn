@@ -88,6 +88,7 @@
         },
         "f41f1d61-211f-47a6-ab85-0bf3596bc736": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": ""
           }
