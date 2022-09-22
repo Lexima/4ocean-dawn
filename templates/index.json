@@ -12,31 +12,29 @@
       "blocks": {
         "1663779992f92a6c14-0": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Mission-Homepage-slider-2400x1093_f71896f0-c676-4f4c-855a-6b5555031f3f.jpg",
             "heading": "One ocean.    One mission.",
             "heading_size": "h1",
-            "subheading": "",
+            "subheading": "We’re on a mission to end the ocean plastic crisis and we want you to join us!",
             "button_label": "Explore Our Mission",
             "link": "https:\/\/www.4ocean.com\/pages\/mission",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 20,
+            "image_overlay_opacity": 30,
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
         },
         "1663779992f92a6c14-1": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Sig-Blue-Homepage-slider-2400x1093_ee28eae2-f764-4e38-8f68-187e7ff22b16.jpg",
             "heading": "Join the clean ocean movement",
             "heading_size": "h1",
-            "subheading": "",
+            "subheading": "Pull your first pound of trash from the ocean with the 4ocean Signature Bracelet.",
             "button_label": "Buy a Bracelet — Pull a Pound",
             "link": "shopify:\/\/products\/the-4ocean-bracelet",
             "button_style_secondary": false,
@@ -50,12 +48,11 @@
         },
         "225dacec-bcc5-4214-bcde-fe55c422b83f": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Dune-BCA-Homepage-slider-2400x1093_ff81de1b-6826-4328-98fe-d3fad01f158a.jpg",
             "heading": "4ocean x Dune Breast Cancer Awareness Bracelet",
             "heading_size": "h1",
-            "subheading": "",
+            "subheading": "Pull two pounds and support critical breast cancer research, innovation, and care.",
             "button_label": "Shop Now — Pull Two Pounds",
             "link": "https:\/\/www.4ocean.com\/products\/dune-jewelry-x-4ocean-heart-beaded-bracelet-florida",
             "button_style_secondary": false,
@@ -69,7 +66,6 @@
         },
         "7c93d820-fec6-4769-8227-6d697bdab84e": {
           "type": "slide",
-          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Shark_Ocean-Stack-Homepage-slider-2400x1093_f85798f9-cc71-4328-beb3-2d0c89b1864a.jpg",
             "heading": "Mix + Match Bracelet Stacks",
