@@ -330,6 +330,7 @@
     },
     "1663151831dc30600f": {
       "type": "signature-bracelet",
+      "disabled": true,
       "blocks": {
         "1663151831c2007b15-0": {
           "type": "icon",
@@ -396,13 +397,12 @@
     },
     "16638054560008a8fb": {
       "type": "call-to-action",
-      "disabled": true,
       "blocks": {
         "1663805456279dba4a-0": {
           "type": "heading",
           "settings": {
             "heading": "Bracelet of the Month Subscription",
-            "heading_size": "h2"
+            "heading_size": "h1"
           }
         },
         "1663805456279dba4a-1": {
@@ -416,7 +416,7 @@
           "type": "button",
           "settings": {
             "button_label": "Select Your Style",
-            "button_link": "https:\/\/www.4ocean.com\/pages\/subscriptions",
+            "button_link": "https:\/\/www.4ocean.com\/products\/clean-ocean-club-beaded-bracelet-subscription",
             "button_style_secondary": false
           }
         }
