@@ -96,7 +96,7 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "currency_code_enabled": false,
-    "cart_type": "drawer",
+    "cart_type": "notification",
     "braided_oc_subscription": "clean-ocean-club-braided-bracelet-subscription",
     "braided_3mo_prepaid": "clean-ocean-club-braided-bracelet-3-months-prepaid-subscription",
     "braided_6mo_prepaid": "clean-ocean-club-braided-bracelet-6-months-prepaid-subscription",
