@@ -37,34 +37,22 @@
     "16638464840f12a9f0": {
       "type": "collection-list",
       "blocks": {
-        "3ccaed62-c817-4e3e-bdea-0ee66d0453da": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "signature-bracelet"
-          }
-        },
-        "357b3183-a694-4e2b-b17a-b5c1d6a7c4b0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "osborne-reef-bracelet"
-          }
-        },
         "166384648429d8ea51-0": {
           "type": "featured_collection",
           "settings": {
             "collection": "bracelet-collections"
           }
         },
-        "166384648429d8ea51-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "osborne-reef"
-          }
-        },
         "166384648429d8ea51-1": {
           "type": "featured_collection",
           "settings": {
             "collection": "subscription"
+          }
+        },
+        "3f9ef230-e33c-444b-9048-28d00417cdb2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "beach-gear"
           }
         },
         "1000f563-2d0c-458e-b04b-3c1beeed4b9e": {
@@ -85,14 +73,9 @@
             "collection": "cleanup-gear"
           }
         },
-        "3f9ef230-e33c-444b-9048-28d00417cdb2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "beach-gear"
-          }
-        },
         "53880f45-ac4b-40a9-ab72-6edbf1c3b238": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "sterling-silver-jewelry"
           }
@@ -103,20 +86,31 @@
           "settings": {
             "collection": "cariuma"
           }
+        },
+        "7ee69d78-93a7-420b-ac51-e382ce4f5a84": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "clearance"
+          }
+        },
+        "f41f1d61-211f-47a6-ab85-0bf3596bc736": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
         }
       },
       "block_order": [
-        "3ccaed62-c817-4e3e-bdea-0ee66d0453da",
-        "357b3183-a694-4e2b-b17a-b5c1d6a7c4b0",
         "166384648429d8ea51-0",
-        "166384648429d8ea51-2",
         "166384648429d8ea51-1",
+        "3f9ef230-e33c-444b-9048-28d00417cdb2",
         "1000f563-2d0c-458e-b04b-3c1beeed4b9e",
         "a7594e5e-cf88-412c-b7fb-d5f39230e9f8",
         "6298f565-bd27-49c3-ac5b-37562d68f47f",
-        "3f9ef230-e33c-444b-9048-28d00417cdb2",
         "53880f45-ac4b-40a9-ab72-6edbf1c3b238",
-        "e7bf3815-2393-453a-8a46-2147f4e65e35"
+        "e7bf3815-2393-453a-8a46-2147f4e65e35",
+        "7ee69d78-93a7-420b-ac51-e382ce4f5a84",
+        "f41f1d61-211f-47a6-ab85-0bf3596bc736"
       ],
       "settings": {
         "title": "Shop All",
