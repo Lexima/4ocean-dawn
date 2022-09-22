@@ -257,6 +257,49 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "166383584749dafcd4": {
+      "type": "image-with-text",
+      "blocks": {
+        "1663835847e5a9132b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why we say “no thanks” to fast fashion",
+            "heading_size": "h2"
+          }
+        },
+        "1663835847e5a9132b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>More than 24 billion pairs of shoes are produced every year, primarily under exploitative conditions. Sneaker production has become the largest and fastest-growing segment of this industry. It’s also exceptionally carbon intensive. In fact, sneaker production is responsible for about 1.4% of all global greenhouse gas emissions. (For comparison, air travel is responsible for around 2.5% of all emissions.) <br\/><br\/><br\/><br\/>The majority of sneakers on the market today are made from petroleum-derived plastics and plastic-like materials that produce alarming amounts of carbon dioxide and contribute to climate change. Not only are most sneakers made using virgin plastic, they’re made using a combination of different plastics that are stitched and glued together in very complicated ways, which makes them extremely difficult to recycle. <br\/><br\/><br\/><br\/>4ocean is teaming up with Cariuma to stand up to the unsustainable culture of the fast fashion industry with sustainable, comfortable, and timeless sneaker designs that drive positive action for our one shared ocean. Order a pair today to pull two pounds of trash from the ocean and show the world what it means to be part of the clean ocean movement.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1663835847e5a9132b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/cariuma"
+          }
+        }
+      },
+      "block_order": [
+        "1663835847e5a9132b-0",
+        "1663835847e5a9132b-1",
+        "1663835847e5a9132b-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -266,6 +309,7 @@
     "166383558394e4c676",
     "1663835711ef338a87",
     "166383574111e54e88",
-    "1663835785ae709aad"
+    "1663835785ae709aad",
+    "166383584749dafcd4"
   ]
 }
