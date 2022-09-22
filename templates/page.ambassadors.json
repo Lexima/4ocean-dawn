@@ -9,6 +9,7 @@
     },
     "1663836425327ebff3": {
       "type": "hero",
+      "disabled": true,
       "blocks": {
         "16638364255e4474ce-0": {
           "type": "eyebrow",
