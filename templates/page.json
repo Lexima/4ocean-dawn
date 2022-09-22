@@ -41,10 +41,65 @@
         "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "1663835391ad9766be": {
+      "type": "multicolumn",
+      "blocks": {
+        "1663835391a663cba5-0": {
+          "type": "column",
+          "settings": {
+            "title": "4ocean x Cariuma OCA Low Top Sneakers in 4ocean Blue",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "Buy Now",
+            "link": "shopify:\/\/collections\/cariuma-blue"
+          }
+        },
+        "1663835391a663cba5-1": {
+          "type": "column",
+          "settings": {
+            "title": "4ocean x Cariuma OCA Low Top Sneakers in Charcoal Grey",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "Buy Now",
+            "link": "shopify:\/\/collections\/cariuma-grey"
+          }
+        },
+        "1663835391a663cba5-2": {
+          "type": "column",
+          "settings": {
+            "title": "4ocean x Cariuma OCA Low Top Sneakers in Off White",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "Buy Now",
+            "link": "shopify:\/\/collections\/cariuma-white"
+          }
+        }
+      },
+      "block_order": [
+        "1663835391a663cba5-0",
+        "1663835391a663cba5-1",
+        "1663835391a663cba5-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "heading_alignment": "title-wrapper-with-link--center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "16638352722942c621"
+    "16638352722942c621",
+    "1663835391ad9766be"
   ]
 }
