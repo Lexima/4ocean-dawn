@@ -345,6 +345,46 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "166383610489572f0d": {
+      "type": "call-to-action",
+      "blocks": {
+        "1663836104767cf2e2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mens & Womens Sneakers",
+            "heading_size": "h2"
+          }
+        },
+        "1663836104767cf2e2-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "text-body"
+          }
+        },
+        "1663836104767cf2e2-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/cariuma",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1663836104767cf2e2-0",
+        "1663836104767cf2e2-1",
+        "1663836104767cf2e2-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "image": "shopify:\/\/shop_images\/Cariuma.-Module-2_women_1800x_8fff2e90-9214-4a75-a547-5d08d0337686.jpg",
+        "image_align": "left",
+        "contain-image": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -356,6 +396,7 @@
     "166383574111e54e88",
     "1663835785ae709aad",
     "166383584749dafcd4",
-    "1663835973fa9b6788"
+    "1663835973fa9b6788",
+    "166383610489572f0d"
   ]
 }
