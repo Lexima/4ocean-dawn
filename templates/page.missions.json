@@ -418,6 +418,7 @@
     },
     "166308971251ac80ac": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1663089712526d7f85-1": {
           "type": "text",
@@ -448,6 +449,7 @@
     },
     "1663089774bb612961": {
       "type": "image-banner",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "image": "shopify:\/\/shop_images\/Boat_Bracelet_Illustration_26afe57a-a16b-45f8-980b-24b602f6ef8d.jpg",
