@@ -42,6 +42,51 @@
         "accessibility_info": "Slideshow about our brand"
       }
     },
+    "1663834081608f1d8b": {
+      "type": "image-with-text",
+      "blocks": {
+        "16638340817be25bd2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "A clean ocean collaboration",
+            "heading_size": "h2"
+          }
+        },
+        "16638340817be25bd2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dune Jewelry & Co. is teaming up with 4ocean to help keep our oceans clean! Together with Dune’s experienced artisans, we’ve designed a collection of fine sterling silver jewelry that funds our global ocean cleanup operation and transforms recovered ocean plastic into wearable keepsakes and heirlooms that you and your family will treasure forever.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16638340817be25bd2-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16638340817be25bd2-0",
+        "16638340817be25bd2-1",
+        "16638340817be25bd2-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Dune-Jewelry-Module-2_e73710fd-3a36-4ce2-a5e4-0ef5528c723c.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "16638337991cdd668d": {
       "type": "multicolumn",
       "blocks": {
@@ -103,6 +148,7 @@
   "order": [
     "main",
     "166383358038031cea",
+    "1663834081608f1d8b",
     "16638337991cdd668d"
   ]
 }
