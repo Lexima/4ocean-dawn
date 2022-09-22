@@ -920,12 +920,26 @@
             "show_dynamic_checkout": false,
             "pounds_pulled": true
           }
+        },
+        "5c23772e-92be-452c-9510-41743b18ee00": {
+          "type": "yotpo_rating",
+          "settings": {
+            "yotpo_review_count": true
+          }
+        },
+        "f68d7a45-248f-4002-a775-39d9678b0912": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
         }
       },
       "block_order": [
         "1663806305523c3641-0",
         "1663806305523c3641-1",
-        "1663806305523c3641-2"
+        "1663806305523c3641-2",
+        "5c23772e-92be-452c-9510-41743b18ee00",
+        "f68d7a45-248f-4002-a775-39d9678b0912"
       ],
       "settings": {
         "product": "clean-ocean-club",
