@@ -41,10 +41,68 @@
         "show_text_below": false,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "16638337991cdd668d": {
+      "type": "multicolumn",
+      "blocks": {
+        "1663833799f62d748b-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dune-Jewelry-Module-3-Rings_800x_ea549e92-29bb-4fe0-8d26-10e4e92c733f.jpg",
+            "title": "Boho Stack Rings",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/dune-rings"
+          }
+        },
+        "1663833799f62d748b-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dune-Jewelry-Module-3-Bracelets_800x_43980b5b-bd54-4ee0-98c0-41d986fbdfee.jpg",
+            "title": "Rope Cuff Bracelets",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/dune-bracelets"
+          }
+        },
+        "1663833799f62d748b-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dune-Jewelry-Module-3-Necklaces_800x_de5b08c7-0cff-4551-b60f-d5f2b9b5cd4d.jpg",
+            "title": "Wave Necklaces",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/collections\/dune-necklaces"
+          }
+        }
+      },
+      "block_order": [
+        "1663833799f62d748b-0",
+        "1663833799f62d748b-1",
+        "1663833799f62d748b-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "heading_alignment": "title-wrapper-with-link--center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
-    "166383358038031cea"
+    "166383358038031cea",
+    "16638337991cdd668d"
   ]
 }
