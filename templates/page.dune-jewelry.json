@@ -444,6 +444,51 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1663834900d59ca7f3": {
+      "type": "image-with-text",
+      "blocks": {
+        "166383490084ad4e54-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "About Dune Jewelry & Co",
+            "heading_size": "h1"
+          }
+        },
+        "166383490084ad4e54-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Dune Jewelry & Co is a woman-owned small business founded in 2010 by kitchen table entrepreneur Holly Daniels Christensen, a wife and a mom of two young daughters. Ten years ago, Holly began making handmade jewelry using local beach sand from Cape Cod and gave it out to friends and family as gifts. She quickly discovered everyone had a special place that resonated with them personally and, at that moment, Dune Jewelry was born!<br\/><br\/>Now, Dune Jewelry captures your most cherished travel memories and unforgettable experiences by creating fine experiential jewelry with sand and natural elements from around the world. All of Dune Jewelry’s patented designs are exclusively handmade in the USA.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "166383490084ad4e54-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "166383490084ad4e54-0",
+        "166383490084ad4e54-1",
+        "166383490084ad4e54-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Dune-Jewelry-Module-18_1600x_aaab94f7-13f2-434f-bc23-9a4a55a54cc8.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -456,6 +501,7 @@
     "16638344129e8009be",
     "16638346865b0cc3fa",
     "16638346949c11897d",
-    "1663834699c7adc361"
+    "1663834699c7adc361",
+    "1663834900d59ca7f3"
   ]
 }
