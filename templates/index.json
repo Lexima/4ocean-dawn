@@ -903,6 +903,13 @@
     "166380997612836f56": {
       "type": "featured-products",
       "blocks": {
+        "a177a470-9cf2-4095-b6bf-93210e648ec5": {
+          "type": "heading",
+          "settings": {
+            "heading": "The 4ocean Bracelet",
+            "heading_size": "h1"
+          }
+        },
         "62eaec55-487e-4f27-b59f-90fb961b3c23": {
           "type": "copy",
           "settings": {
@@ -913,7 +920,7 @@
           "type": "products",
           "settings": {
             "product_list": [
-              "balck-capped-petrel-beaded-bracelet"
+              "the-4ocean-bracelet"
             ],
             "show_pounds_pulled": false,
             "enable_quick_add": true,
@@ -922,6 +929,7 @@
         }
       },
       "block_order": [
+        "a177a470-9cf2-4095-b6bf-93210e648ec5",
         "62eaec55-487e-4f27-b59f-90fb961b3c23",
         "86cda4b5-3290-4af5-85f2-f11a29d547ca"
       ],
