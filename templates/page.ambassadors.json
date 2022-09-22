@@ -144,10 +144,11 @@
         "1663836917f13a775a-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
+            "image": "shopify:\/\/shop_images\/Start-Earning-module_800x_ba425e2b-faa5-4702-87a0-a92c4d0534b0.jpg",
+            "title": "Start Earning",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "link_label": "Start Earning",
+            "link": "https:\/\/ambassadors.4ocean.com\/affiliate\/login"
           }
         },
         "1663836917f13a775a-2": {
