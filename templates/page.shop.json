@@ -10,6 +10,7 @@
     },
     "1663846807c2acc96d": {
       "type": "featured-products",
+      "disabled": true,
       "blocks": {
         "2d07df77-8d66-4d1c-b229-f8f1036abb6a": {
           "type": "products",
@@ -36,6 +37,18 @@
     "16638464840f12a9f0": {
       "type": "collection-list",
       "blocks": {
+        "3ccaed62-c817-4e3e-bdea-0ee66d0453da": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "signature-bracelet"
+          }
+        },
+        "357b3183-a694-4e2b-b17a-b5c1d6a7c4b0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "osborne-reef-bracelet"
+          }
+        },
         "166384648429d8ea51-0": {
           "type": "featured_collection",
           "settings": {
@@ -93,6 +106,8 @@
         }
       },
       "block_order": [
+        "3ccaed62-c817-4e3e-bdea-0ee66d0453da",
+        "357b3183-a694-4e2b-b17a-b5c1d6a7c4b0",
         "166384648429d8ea51-0",
         "166384648429d8ea51-2",
         "166384648429d8ea51-1",
