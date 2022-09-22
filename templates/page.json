@@ -9,6 +9,7 @@
     },
     "16638352722942c621": {
       "type": "slideshow",
+      "disabled": true,
       "blocks": {
         "166383527289c0199a-0": {
           "type": "slide",
@@ -44,6 +45,7 @@
     },
     "1663835391ad9766be": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "1663835391a663cba5-0": {
           "type": "column",
@@ -101,6 +103,7 @@
     },
     "166383558394e4c676": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "166383558363915c83-0": {
           "type": "heading",
@@ -208,9 +211,11 @@
     },
     "1663835785ae709aad": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16638357850985a442-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<p>\"<\/p>",
             "heading_size": "h1"
@@ -260,6 +265,7 @@
     },
     "166383584749dafcd4": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1663835847e5a9132b-0": {
           "type": "heading",
@@ -304,6 +310,7 @@
     },
     "1663835973fa9b6788": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1663835973d36a7004-0": {
           "type": "heading",
@@ -348,6 +355,7 @@
     },
     "166383610489572f0d": {
       "type": "call-to-action",
+      "disabled": true,
       "blocks": {
         "1663836104767cf2e2-0": {
           "type": "heading",
