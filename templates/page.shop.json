@@ -73,13 +73,6 @@
             "collection": "cleanup-gear"
           }
         },
-        "53880f45-ac4b-40a9-ab72-6edbf1c3b238": {
-          "type": "featured_collection",
-          "disabled": true,
-          "settings": {
-            "collection": "sterling-silver-jewelry"
-          }
-        },
         "e7bf3815-2393-453a-8a46-2147f4e65e35": {
           "type": "featured_collection",
           "disabled": true,
@@ -107,7 +100,6 @@
         "1000f563-2d0c-458e-b04b-3c1beeed4b9e",
         "a7594e5e-cf88-412c-b7fb-d5f39230e9f8",
         "6298f565-bd27-49c3-ac5b-37562d68f47f",
-        "53880f45-ac4b-40a9-ab72-6edbf1c3b238",
         "e7bf3815-2393-453a-8a46-2147f4e65e35",
         "7ee69d78-93a7-420b-ac51-e382ce4f5a84",
         "f41f1d61-211f-47a6-ab85-0bf3596bc736"
