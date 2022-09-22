@@ -12,6 +12,7 @@
       "blocks": {
         "1663779992f92a6c14-0": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Mission-Homepage-slider-2400x1093_f71896f0-c676-4f4c-855a-6b5555031f3f.jpg",
             "heading": "One ocean.    One mission.",
@@ -30,6 +31,7 @@
         },
         "1663779992f92a6c14-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Sig-Blue-Homepage-slider-2400x1093_ee28eae2-f764-4e38-8f68-187e7ff22b16.jpg",
             "heading": "Join the clean ocean movement",
@@ -48,14 +50,13 @@
         },
         "225dacec-bcc5-4214-bcde-fe55c422b83f": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Lava-Homepage-slider-2400x1093_e00c563f-655c-4313-b089-9ceb8af97948.jpg",
-            "heading": "Lava Stone Jewelry Collection",
+            "image": "shopify:\/\/shop_images\/Dune-BCA-Homepage-slider-2400x1093_ff81de1b-6826-4328-98fe-d3fad01f158a.jpg",
+            "heading": "4ocean x Dune Breast Cancer Awareness Bracelet",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "Shop Now — Pull a Pound",
-            "link": "https:\/\/www.4ocean.com\/collections\/lava-collection",
+            "button_label": "Shop Now — Pull Two Pounds",
+            "link": "https:\/\/www.4ocean.com\/products\/dune-jewelry-x-4ocean-heart-beaded-bracelet-florida",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
