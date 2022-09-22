@@ -1,0 +1,410 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "16638352722942c621": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "166383527289c0199a-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cariuma-Homepage-slider-2400x1093_1800x_e4c64fe3-e326-44eb-b8f0-fe9695c7547c.jpg",
+            "heading": "4ocean x Cariuma",
+            "heading_size": "h1",
+            "subheading": "Ocean-friendly, made-to-order sneakers",
+            "button_label": "Shop All",
+            "link": "shopify:\/\/collections\/cariuma",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 20,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "166383527289c0199a-0"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "1663835391ad9766be": {
+      "type": "multicolumn",
+      "disabled": true,
+      "blocks": {
+        "1663835391a663cba5-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cariuma-PDP-Blue_730x620_2_800x_1.webp",
+            "title": "4ocean x Cariuma OCA Low Top Sneakers in 4ocean Blue",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "Buy Now",
+            "link": "shopify:\/\/collections\/cariuma-blue"
+          }
+        },
+        "1663835391a663cba5-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cariuma-PDP-Grey_730x620_2_800x_a6d8c995-88e7-4624-8b44-744b59c86b8c.webp",
+            "title": "4ocean x Cariuma OCA Low Top Sneakers in Charcoal Grey",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "Buy Now",
+            "link": "shopify:\/\/collections\/cariuma-grey"
+          }
+        },
+        "1663835391a663cba5-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cariuma-PDP-White_730x620_2_800x_bb628c85-1c0f-4547-897a-a9388023323a.webp",
+            "title": "4ocean x Cariuma OCA Low Top Sneakers in Off White",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "Buy Now",
+            "link": "shopify:\/\/collections\/cariuma-white"
+          }
+        }
+      },
+      "block_order": [
+        "1663835391a663cba5-0",
+        "1663835391a663cba5-1",
+        "1663835391a663cba5-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "heading_alignment": "title-wrapper-with-link--center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "166383558394e4c676": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "166383558363915c83-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "A clean ocean collaboration",
+            "heading_size": "h1"
+          }
+        },
+        "166383558363915c83-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>4ocean is celebrating World Oceans Day 2022 by reintroducing our partnership with cult-favorite sustainable sneaker brand Cariuma. We first came together in 2021 to create something that would start conversations, raise awareness about plastic pollution, and empower the global community to make more sustainable and ocean-friendly choices every day.<br\/><\/p>",
+            "text_style": "body"
+          }
+        },
+        "166383558363915c83-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/cariuma"
+          }
+        }
+      },
+      "block_order": [
+        "166383558363915c83-0",
+        "166383558363915c83-1",
+        "166383558363915c83-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Cariuma.-Module-3_1600x_4039b0ba-0a11-40f7-9d67-a2da3b90862c.webp",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1663835711ef338a87": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "16638357108d64a4c1-0": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "16638357108d64a4c1-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16638357108d64a4c1-0",
+        "16638357108d64a4c1-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "166383574111e54e88": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1663835785ae709aad": {
+      "type": "rich-text",
+      "disabled": true,
+      "blocks": {
+        "16638357850985a442-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>\"<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16638357850985a442-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>We don’t believe in passing trends, fast fashion’s short attention span, or following the status quo. That’s why we design timeless sneaker silhouettes that are built to endure.<\/strong><\/p>"
+          }
+        },
+        "16638357850985a442-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "17bccb24-9674-4451-bc66-459a546a4422": {
+          "type": "caption",
+          "settings": {
+            "caption": "Cariuma",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "16638357850985a442-0",
+        "16638357850985a442-1",
+        "16638357850985a442-2",
+        "17bccb24-9674-4451-bc66-459a546a4422"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "166383584749dafcd4": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1663835847e5a9132b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Why we say “no thanks” to fast fashion",
+            "heading_size": "h2"
+          }
+        },
+        "1663835847e5a9132b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>More than 24 billion pairs of shoes are produced every year, primarily under exploitative conditions. Sneaker production has become the largest and fastest-growing segment of this industry. It’s also exceptionally carbon intensive. In fact, sneaker production is responsible for about 1.4% of all global greenhouse gas emissions. (For comparison, air travel is responsible for around 2.5% of all emissions.) <br\/><br\/>The majority of sneakers on the market today are made from petroleum-derived plastics and plastic-like materials that produce alarming amounts of carbon dioxide and contribute to climate change. Not only are most sneakers made using virgin plastic, they’re made using a combination of different plastics that are stitched and glued together in very complicated ways, which makes them extremely difficult to recycle. <br\/><br\/>4ocean is teaming up with Cariuma to stand up to the unsustainable culture of the fast fashion industry with sustainable, comfortable, and timeless sneaker designs that drive positive action for our one shared ocean. Order a pair today to pull two pounds of trash from the ocean and show the world what it means to be part of the clean ocean movement.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1663835847e5a9132b-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/cariuma"
+          }
+        }
+      },
+      "block_order": [
+        "1663835847e5a9132b-0",
+        "1663835847e5a9132b-1",
+        "1663835847e5a9132b-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Cariuma.-Module-8_1600x_5e3b7b6e-95f1-4853-bc4b-57e2e123cff3.webp",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1663835973fa9b6788": {
+      "type": "image-with-text",
+      "disabled": true,
+      "blocks": {
+        "1663835973d36a7004-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Cariuma Story: Good things take time",
+            "heading_size": "h2"
+          }
+        },
+        "1663835973d36a7004-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>After working together for a few years and bonding over their mutual love of boardsports (skateboarding, surfing & snowboarding) & their home country Brazil, co-founders Fernando Porto and David Python decided to join forces to start Cariuma. With a shared idea to build a company that would better serve people and the planet, they left their corporate footwear roles to join forces and start the sustainable sneaker company Cariuma.<br\/><br\/>They knew the industry-standard “cool-classic” sneakers were really uncomfortable and that big corporations weren’t socially responsible and didn’t really care about sustainability in an active way. David and Fernando also felt they had a duty to take a stance against the wasteful practices inherent in fast fashion, which meant it was vital for Cariuma to reinvent the sneaker game.<br\/><br\/>Being better for people and the planet has always been their first priority. From innovative designs to responsibly curated materials to shipping and everything in between, every stage of their sneaker-making process is imbued with this eco-conscious spirit. <br\/><br\/>Cariuma is now a cult favorite sustainable shoe brand that produces good-looking, crazy-comfy, and consciously-made sneakers that are designed to evolve with you and your sense of style.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1663835973d36a7004-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/cariuma"
+          }
+        }
+      },
+      "block_order": [
+        "1663835973d36a7004-0",
+        "1663835973d36a7004-1",
+        "1663835973d36a7004-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Cariuma.-Module-9_1600x_09ca875c-ad2f-4732-8957-72ee5c9626f2.webp",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "166383610489572f0d": {
+      "type": "call-to-action",
+      "disabled": true,
+      "blocks": {
+        "1663836104767cf2e2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Mens & Womens Sneakers",
+            "heading_size": "h2"
+          }
+        },
+        "1663836104767cf2e2-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "text-body"
+          }
+        },
+        "1663836104767cf2e2-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/cariuma",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1663836104767cf2e2-0",
+        "1663836104767cf2e2-1",
+        "1663836104767cf2e2-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "image": "shopify:\/\/shop_images\/Cariuma.-Module-2_women_1800x_8fff2e90-9214-4a75-a547-5d08d0337686.jpg",
+        "image_align": "left",
+        "contain-image": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16638352722942c621",
+    "1663835391ad9766be",
+    "166383558394e4c676",
+    "1663835711ef338a87",
+    "166383574111e54e88",
+    "1663835785ae709aad",
+    "166383584749dafcd4",
+    "1663835973fa9b6788",
+    "166383610489572f0d"
+  ]
+}
