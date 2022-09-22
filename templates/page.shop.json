@@ -8,31 +8,6 @@
         "padding_bottom": 0
       }
     },
-    "1663846807c2acc96d": {
-      "type": "featured-products",
-      "blocks": {
-        "2d07df77-8d66-4d1c-b229-f8f1036abb6a": {
-          "type": "products",
-          "settings": {
-            "product_list": [
-              "the-4ocean-bracelet",
-              "the-osborne-reef-bracelet"
-            ],
-            "show_pounds_pulled": false,
-            "enable_quick_add": true,
-            "show_yotpo": true
-          }
-        }
-      },
-      "block_order": [
-        "2d07df77-8d66-4d1c-b229-f8f1036abb6a"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "padding_top": 90,
-        "padding_bottom": 120
-      }
-    },
     "16638464840f12a9f0": {
       "type": "collection-list",
       "blocks": {
@@ -63,25 +38,25 @@
         "a7594e5e-cf88-412c-b7fb-d5f39230e9f8": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "apparel"
           }
         },
         "6298f565-bd27-49c3-ac5b-37562d68f47f": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "cleanup-gear"
           }
         },
         "3f9ef230-e33c-444b-9048-28d00417cdb2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "beach-gear"
           }
         },
         "53880f45-ac4b-40a9-ab72-6edbf1c3b238": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "bracelets-jewelry"
           }
         }
       },
@@ -106,6 +81,31 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "1663846807c2acc96d": {
+      "type": "featured-products",
+      "blocks": {
+        "2d07df77-8d66-4d1c-b229-f8f1036abb6a": {
+          "type": "products",
+          "settings": {
+            "product_list": [
+              "the-4ocean-bracelet",
+              "the-osborne-reef-bracelet"
+            ],
+            "show_pounds_pulled": false,
+            "enable_quick_add": true,
+            "show_yotpo": true
+          }
+        }
+      },
+      "block_order": [
+        "2d07df77-8d66-4d1c-b229-f8f1036abb6a"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 90,
+        "padding_bottom": 120
       }
     },
     "166384647740db6c65": {
@@ -158,8 +158,8 @@
   },
   "order": [
     "main",
-    "1663846807c2acc96d",
     "16638464840f12a9f0",
+    "1663846807c2acc96d",
     "166384647740db6c65"
   ]
 }
