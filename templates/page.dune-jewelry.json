@@ -277,6 +277,171 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16638346865b0cc3fa": {
+      "type": "multicolumn",
+      "blocks": {
+        "166383468629af4f15-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dune-Jewelry-Module-9_Ring_800x_2271cd42-579a-48bd-a081-f8b6575047ef.jpg",
+            "title": "Hawaii Boho Stack Ring",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/products\/4ocean-x-dune-hawaii-boho-stack-ring"
+          }
+        },
+        "166383468629af4f15-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dune-Jewelry-Module-9_Bracelet_800x_7c85e8b7-ddcc-403b-a998-362dc2383c30.jpg",
+            "title": "Hawai'i Rope Cuff Bracelet",
+            "text": "",
+            "link_label": "Buy Now",
+            "link": "shopify:\/\/products\/4ocean-x-dune-hawaii-rope-cuff-bracelet"
+          }
+        },
+        "166383468629af4f15-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dune-Jewelry-Module-9_Necklace_800x_5daaae29-5c5b-423c-ba6c-a9864eaa7b80.jpg",
+            "title": "Hawai'i Wave Necklace",
+            "text": "",
+            "link_label": "Buy Now",
+            "link": "shopify:\/\/products\/4ocean-x-dune-hawaii-wave-necklace"
+          }
+        }
+      },
+      "block_order": [
+        "166383468629af4f15-0",
+        "166383468629af4f15-1",
+        "166383468629af4f15-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "heading_alignment": "title-wrapper-with-link--center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16638346949c11897d": {
+      "type": "multicolumn",
+      "blocks": {
+        "16638346938eb64f6a-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16638346938eb64f6a-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "16638346938eb64f6a-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16638346938eb64f6a-0",
+        "16638346938eb64f6a-1",
+        "16638346938eb64f6a-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "heading_alignment": "title-wrapper-with-link--center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1663834699c7adc361": {
+      "type": "multicolumn",
+      "blocks": {
+        "1663834698580319f0-0": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1663834698580319f0-1": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1663834698580319f0-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663834698580319f0-0",
+        "1663834698580319f0-1",
+        "1663834698580319f0-2"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "heading_alignment": "title-wrapper-with-link--center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -286,6 +451,9 @@
     "16638337991cdd668d",
     "166383426912f73c23",
     "166383437794bdfad6",
-    "16638344129e8009be"
+    "16638344129e8009be",
+    "16638346865b0cc3fa",
+    "16638346949c11897d",
+    "1663834699c7adc361"
   ]
 }
