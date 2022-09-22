@@ -388,10 +388,51 @@
         "description": "<p>Pull<strong> two pounds of trash<\/strong> from the ocean every month with a new, limited-edition bracelet that represents an animal or ecosystem impacted by plastic pollution.<\/p>",
         "content_alignment": "center",
         "image": "shopify:\/\/shop_images\/HempBagonWhite-with-circle_Cropped.jpg",
-        "product": "clean-ocean-club-braided-bracelet-subscription",
+        "product": "clean-ocean-club-beaded-braided-3-months-prepaid-subscription-combo",
         "atc_label": "Select Your Style",
         "padding_top": 40,
         "padding_bottom": 32
+      }
+    },
+    "16638054560008a8fb": {
+      "type": "call-to-action",
+      "disabled": true,
+      "blocks": {
+        "1663805456279dba4a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Bracelet of the Month Subscription",
+            "heading_size": "h2"
+          }
+        },
+        "1663805456279dba4a-1": {
+          "type": "text",
+          "settings": {
+            "text": "Pull two pounds of trash from the ocean every month with a new, limited-edition bracelet that represents an animal or ecosystem impacted by plastic pollution.",
+            "text_style": "text-body"
+          }
+        },
+        "1663805456279dba4a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Select Your Style",
+            "button_link": "https:\/\/www.4ocean.com\/pages\/subscriptions",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1663805456279dba4a-0",
+        "1663805456279dba4a-1",
+        "1663805456279dba4a-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "image": "shopify:\/\/shop_images\/HempBagonWhite-with-circle_Cropped_10e3af00-0316-48ee-ac24-d98e7b611fb2.jpg",
+        "image_align": "left",
+        "contain-image": true,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "1663152674f7f77fb3": {
@@ -868,6 +909,7 @@
     "1663794446b397a248",
     "166247613730c29082",
     "1663151831dc30600f",
+    "16638054560008a8fb",
     "1663152674f7f77fb3",
     "16631834710c2432a4",
     "16624779683f75adc2",
