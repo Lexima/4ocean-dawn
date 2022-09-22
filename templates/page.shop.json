@@ -17,16 +17,16 @@
             "collection": "bracelet-collections"
           }
         },
-        "166384648429d8ea51-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "subscription"
-          }
-        },
         "166384648429d8ea51-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "osborne-reef"
+          }
+        },
+        "166384648429d8ea51-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "subscription"
           }
         },
         "1000f563-2d0c-458e-b04b-3c1beeed4b9e": {
@@ -58,17 +58,25 @@
           "settings": {
             "collection": "sterling-silver-jewelry"
           }
+        },
+        "e7bf3815-2393-453a-8a46-2147f4e65e35": {
+          "type": "featured_collection",
+          "disabled": true,
+          "settings": {
+            "collection": "cariuma"
+          }
         }
       },
       "block_order": [
         "166384648429d8ea51-0",
-        "166384648429d8ea51-1",
         "166384648429d8ea51-2",
+        "166384648429d8ea51-1",
         "1000f563-2d0c-458e-b04b-3c1beeed4b9e",
         "a7594e5e-cf88-412c-b7fb-d5f39230e9f8",
         "6298f565-bd27-49c3-ac5b-37562d68f47f",
         "3f9ef230-e33c-444b-9048-28d00417cdb2",
-        "53880f45-ac4b-40a9-ab72-6edbf1c3b238"
+        "53880f45-ac4b-40a9-ab72-6edbf1c3b238",
+        "e7bf3815-2393-453a-8a46-2147f4e65e35"
       ],
       "settings": {
         "title": "Shop All",
