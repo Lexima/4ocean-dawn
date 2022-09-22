@@ -188,6 +188,95 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "166383437794bdfad6": {
+      "type": "image-with-text",
+      "blocks": {
+        "16638343774a0d2763-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Dune Sandbank™",
+            "heading_size": "h2"
+          }
+        },
+        "16638343774a0d2763-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As one of the world’s largest collections of sand and earth elements, Dune’s Sandbank features natural materials like sea shells, clay, soil, sand, stones, and flower petals from over 5,000 iconic and memorable locations around the world.<br\/><br\/>All elements in the Dune Sandbank are collected ethically by people just like you! Since 2010, Dune’s customers and community members have sent in sand and earth elements from their vacations, travels, weddings, honeymoons, and more to capture their personal experiences.<br\/><br\/>There are often extra elements leftover once their custom pieces are created. In fact, a single cup of any element can be used to make over 1,000 designs. To ensure no materials go to waste, Dune authenticates all unused elements before adding them to the Sandbank so others can add them to their own custom designs.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16638343774a0d2763-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16638343774a0d2763-0",
+        "16638343774a0d2763-1",
+        "16638343774a0d2763-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Dune-Jewelry-Module-5_1600x_07ce4852-9d02-4afd-9920-7b670e73ca29.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16638344129e8009be": {
+      "type": "image-with-text",
+      "blocks": {
+        "1663834412a5cc1989-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Hawai'i shells sourced with extra care",
+            "heading_size": "h2"
+          }
+        },
+        "1663834412a5cc1989-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>One thing you’ll never find in Dune’s Sandbank is sand from Hawai'i. As a response to erosion caused by the massive dredging that occurs to build luxury resorts, Hawai'i passed a law in 2013 that makes it illegal to remove sand of any kind from the islands, even the sand stuck to your feet. While empty shells and shell fragments are still legal to take off the island, opihi limpet shells are important to Hawaiian culture and can only be harvested under certain conditions.<br\/><br\/>All of the opihi shells used in our jewelry were ethically harvested by a native Hawaiian who shared a single meal’s worth of shells with Dune after serving this delicacy to her family from her home on Oahu. Even that small amount will keep Dune’s sandbank stocked with opihi shells for years to come, which makes it possible to craft beautiful jewelry that captures the essence of the islands without causing cultural or ecological harm.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1663834412a5cc1989-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663834412a5cc1989-0",
+        "1663834412a5cc1989-1",
+        "1663834412a5cc1989-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Dune-Jewelry-Module-NEW_SHELLS_1600x_8de7f4b7-600b-4b5c-8b3a-0cd6c95fa503.webp",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -195,6 +284,8 @@
     "166383358038031cea",
     "1663834081608f1d8b",
     "16638337991cdd668d",
-    "166383426912f73c23"
+    "166383426912f73c23",
+    "166383437794bdfad6",
+    "16638344129e8009be"
   ]
 }
