@@ -6,9 +6,45 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "16638352722942c621": {
+      "type": "slideshow",
+      "blocks": {
+        "166383527289c0199a-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cariuma-Homepage-slider-2400x1093_1800x_e4c64fe3-e326-44eb-b8f0-fe9695c7547c.jpg",
+            "heading": "4ocean x Cariuma",
+            "heading_size": "h1",
+            "subheading": "Ocean-friendly, made-to-order sneakers",
+            "button_label": "Shop All",
+            "link": "shopify:\/\/collections\/cariuma",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 20,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "166383527289c0199a-0"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": false,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16638352722942c621"
   ]
 }
