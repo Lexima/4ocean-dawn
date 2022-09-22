@@ -4,7 +4,7 @@
       "type": "collection-header",
       "settings": {
         "image_overlay_opacity": 0,
-        "image_height": "small",
+        "image_height": "medium",
         "adapt_height_first_image": false,
         "eyebrow": "",
         "title": "",
