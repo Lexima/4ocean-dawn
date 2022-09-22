@@ -8,6 +8,31 @@
         "padding_bottom": 0
       }
     },
+    "1663846807c2acc96d": {
+      "type": "featured-products",
+      "blocks": {
+        "2d07df77-8d66-4d1c-b229-f8f1036abb6a": {
+          "type": "products",
+          "settings": {
+            "product_list": [
+              "the-4ocean-bracelet",
+              "the-osborne-reef-bracelet"
+            ],
+            "show_pounds_pulled": false,
+            "enable_quick_add": true,
+            "show_yotpo": true
+          }
+        }
+      },
+      "block_order": [
+        "2d07df77-8d66-4d1c-b229-f8f1036abb6a"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 90,
+        "padding_bottom": 120
+      }
+    },
     "16638464840f12a9f0": {
       "type": "collection-list",
       "blocks": {
@@ -82,38 +107,13 @@
         "title": "Shop All",
         "heading_size": "h1",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "1663846807c2acc96d": {
-      "type": "featured-products",
-      "blocks": {
-        "2d07df77-8d66-4d1c-b229-f8f1036abb6a": {
-          "type": "products",
-          "settings": {
-            "product_list": [
-              "the-4ocean-bracelet",
-              "the-osborne-reef-bracelet"
-            ],
-            "show_pounds_pulled": false,
-            "enable_quick_add": true,
-            "show_yotpo": true
-          }
-        }
-      },
-      "block_order": [
-        "2d07df77-8d66-4d1c-b229-f8f1036abb6a"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "padding_top": 90,
-        "padding_bottom": 120
       }
     },
     "166384647740db6c65": {
@@ -124,21 +124,21 @@
           "type": "featured_collection",
           "settings": {
             "collection": "bracelet-collections",
-            "collection_name_color": "#fff"
+            "collection_name_color": "#ffffff"
           }
         },
         "1663846477370c9bda-1": {
           "type": "featured_collection",
           "settings": {
             "collection": "",
-            "collection_name_color": "#fff"
+            "collection_name_color": "#ffffff"
           }
         },
         "1663846477370c9bda-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "",
-            "collection_name_color": "#fff"
+            "collection_name_color": "#ffffff"
           }
         }
       },
@@ -166,8 +166,8 @@
   },
   "order": [
     "main",
-    "16638464840f12a9f0",
     "1663846807c2acc96d",
+    "16638464840f12a9f0",
     "166384647740db6c65"
   ]
 }
