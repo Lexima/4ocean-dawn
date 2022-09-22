@@ -200,6 +200,45 @@
         "padding_bottom": 36
       }
     },
+    "166380997612836f56": {
+      "type": "featured-products",
+      "blocks": {
+        "a177a470-9cf2-4095-b6bf-93210e648ec5": {
+          "type": "heading",
+          "settings": {
+            "heading": "The 4ocean Bracelet",
+            "heading_size": "h1"
+          }
+        },
+        "62eaec55-487e-4f27-b59f-90fb961b3c23": {
+          "type": "copy",
+          "settings": {
+            "copy_text": "<p><strong>By purchasing this bracelet you will remove one pound of trash from the ocean, rivers and coastlines<\/strong><\/p>"
+          }
+        },
+        "86cda4b5-3290-4af5-85f2-f11a29d547ca": {
+          "type": "products",
+          "settings": {
+            "product_list": [
+              "the-4ocean-bracelet"
+            ],
+            "show_pounds_pulled": false,
+            "enable_quick_add": true,
+            "show_yotpo": true
+          }
+        }
+      },
+      "block_order": [
+        "a177a470-9cf2-4095-b6bf-93210e648ec5",
+        "62eaec55-487e-4f27-b59f-90fb961b3c23",
+        "86cda4b5-3290-4af5-85f2-f11a29d547ca"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 20,
+        "padding_bottom": 120
+      }
+    },
     "1663794446b397a248": {
       "type": "featured-product",
       "blocks": {
@@ -899,45 +938,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "166380997612836f56": {
-      "type": "featured-products",
-      "blocks": {
-        "a177a470-9cf2-4095-b6bf-93210e648ec5": {
-          "type": "heading",
-          "settings": {
-            "heading": "The 4ocean Bracelet",
-            "heading_size": "h1"
-          }
-        },
-        "62eaec55-487e-4f27-b59f-90fb961b3c23": {
-          "type": "copy",
-          "settings": {
-            "copy_text": "<p><strong>By purchasing this bracelet you will remove one pound of trash from the ocean, rivers and coastlines<\/strong><\/p>"
-          }
-        },
-        "86cda4b5-3290-4af5-85f2-f11a29d547ca": {
-          "type": "products",
-          "settings": {
-            "product_list": [
-              "the-4ocean-bracelet"
-            ],
-            "show_pounds_pulled": false,
-            "enable_quick_add": true,
-            "show_yotpo": true
-          }
-        }
-      },
-      "block_order": [
-        "a177a470-9cf2-4095-b6bf-93210e648ec5",
-        "62eaec55-487e-4f27-b59f-90fb961b3c23",
-        "86cda4b5-3290-4af5-85f2-f11a29d547ca"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "padding_top": 20,
-        "padding_bottom": 120
-      }
     }
   },
   "order": [
@@ -945,6 +945,7 @@
     "1663779992260fd87c",
     "16624760820e78f579",
     "166248010493b2ff49",
+    "166380997612836f56",
     "1663794446b397a248",
     "166247613730c29082",
     "1663151831dc30600f",
@@ -959,7 +960,6 @@
     "1663181038de6f3267",
     "16631829454ec970ca",
     "1662478942ab413a2d",
-    "16631528090c935125",
-    "166380997612836f56"
+    "16631528090c935125"
   ]
 }
