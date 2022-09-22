@@ -13,12 +13,12 @@
         "1663779992f92a6c14-0": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/25-million-Homepage-slider-2400x1093.jpg",
-            "heading": "Celebrate a new world record!",
+            "image": "shopify:\/\/shop_images\/Mission-Homepage-slider-2400x1093_f71896f0-c676-4f4c-855a-6b5555031f3f.jpg",
+            "heading": "One ocean.    One Mission.",
             "heading_size": "h1",
             "subheading": "",
-            "button_label": "Learn More",
-            "link": "https:\/\/www.4ocean.com\/pages\/25-million",
+            "button_label": "Explore Our Mission",
+            "link": "https:\/\/www.4ocean.com\/pages\/mission",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -30,13 +30,14 @@
         },
         "1663779992f92a6c14-1": {
           "type": "slide",
+          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Both-Beach-Chairs-Homepage-slider-2400x1093_ccf0c89e-0d63-4f29-97b1-47919c0c6be7.jpg",
+            "image": "shopify:\/\/shop_images\/Dune-BCA-Homepage-slider-2400x1093.jpg",
             "heading": "Still the best seat  on the beach",
             "heading_size": "h1",
             "subheading": "",
             "button_label": "Shop Now — Pull a Pound",
-            "link": "https:\/\/www.4ocean.com\/collections\/chairs",
+            "link": "",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
@@ -48,6 +49,7 @@
         },
         "225dacec-bcc5-4214-bcde-fe55c422b83f": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Lava-Homepage-slider-2400x1093_e00c563f-655c-4313-b089-9ceb8af97948.jpg",
             "heading": "Lava Stone Jewelry Collection",
@@ -66,6 +68,7 @@
         },
         "7c93d820-fec6-4769-8227-6d697bdab84e": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Dune-Jewelry-Homepage-slider-2400x1093_B_79a95c53-05a5-4526-b036-92a57c472146.jpg",
             "heading": "4ocean x Dune",
@@ -84,6 +87,7 @@
         },
         "0a123744-d51e-45de-8d53-a3e5ca6e9053": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Shark_Ocean-Stack-Homepage-slider-2400x1093_f2a894d2-14e5-4fd8-a05c-c07a2a30e791.jpg",
             "heading": "Mix + Match  Bracelet Stacks",
