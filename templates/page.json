@@ -142,12 +142,130 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1663835711ef338a87": {
+      "type": "slideshow",
+      "disabled": true,
+      "blocks": {
+        "16638357108d64a4c1-0": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "16638357108d64a4c1-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "16638357108d64a4c1-0",
+        "16638357108d64a4c1-1"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
+    },
+    "166383574111e54e88": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "custom_liquid": "",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1663835785ae709aad": {
+      "type": "rich-text",
+      "blocks": {
+        "16638357850985a442-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>\"<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16638357850985a442-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>We don’t believe in passing trends, fast fashion’s short attention span, or following the status quo. That’s why we design timeless sneaker silhouettes that are built to endure.<\/strong><\/p>"
+          }
+        },
+        "16638357850985a442-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        },
+        "17bccb24-9674-4451-bc66-459a546a4422": {
+          "type": "caption",
+          "settings": {
+            "caption": "Cariuma",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        }
+      },
+      "block_order": [
+        "16638357850985a442-0",
+        "16638357850985a442-1",
+        "16638357850985a442-2",
+        "17bccb24-9674-4451-bc66-459a546a4422"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
     "16638352722942c621",
     "1663835391ad9766be",
-    "166383558394e4c676"
+    "166383558394e4c676",
+    "1663835711ef338a87",
+    "166383574111e54e88",
+    "1663835785ae709aad"
   ]
 }
