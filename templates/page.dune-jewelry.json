@@ -318,7 +318,7 @@
         "166383468629af4f15-2"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "heading_alignment": "title-wrapper-with-link--center",
         "image_width": "full",
@@ -326,7 +326,7 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
@@ -337,6 +337,7 @@
     },
     "16638346949c11897d": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "16638346938eb64f6a-0": {
           "type": "column",
@@ -391,6 +392,7 @@
     },
     "1663834699c7adc361": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "1663834698580319f0-0": {
           "type": "column",
