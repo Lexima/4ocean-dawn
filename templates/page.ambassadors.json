@@ -6,9 +6,90 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "1663836425327ebff3": {
+      "type": "hero",
+      "blocks": {
+        "16638364255e4474ce-0": {
+          "type": "eyebrow",
+          "settings": {
+            "eyebrow": "<p>Eyebrow<\/p>"
+          }
+        },
+        "16638364255e4474ce-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Heading",
+            "heading_size": "h1"
+          }
+        },
+        "16638364255e4474ce-3": {
+          "type": "button",
+          "settings": {
+            "text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16638364255e4474ce-0",
+        "16638364255e4474ce-1",
+        "16638364255e4474ce-3"
+      ],
+      "settings": {
+        "desktop_content_alignment": "center",
+        "overlay_opacity": 20,
+        "video_url": ""
+      }
+    },
+    "166383658391258f50": {
+      "type": "image-with-text",
+      "blocks": {
+        "1663836583e6286dde-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "What it means to be a 4ocean Brand Ambassador",
+            "heading_size": "h2"
+          }
+        },
+        "1663836583e6286dde-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>4ocean’s Brand Ambassador Program is for people with a passion for the ocean. Our ambassadors represent the clean ocean movement and help us advance our mission to end the ocean plastic crisis by raising awareness about plastic pollution, teaching their followers how to reduce their plastic footprint and live a more ocean-minded lifestyle.<br\/><br\/>As a 4ocean Brand Ambassador, you’ll introduce new audiences to 4ocean products and our One Pound Promise. You’ll earn cash commission and exclusive rewards every time someone purchases a 4ocean product with your sales link. The more sales you generate, the more rewards you earn. Keep scrolling for details!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1663836583e6286dde-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Apply Now",
+            "button_link": "https:\/\/ambassadors.4ocean.com\/"
+          }
+        }
+      },
+      "block_order": [
+        "1663836583e6286dde-0",
+        "1663836583e6286dde-1",
+        "1663836583e6286dde-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4ocean-brand-ambassador-About_1600x_c69451db-2528-463e-b0e9-a0a720d56e58.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1663836425327ebff3",
+    "166383658391258f50"
   ]
 }
