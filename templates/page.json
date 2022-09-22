@@ -98,11 +98,56 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "166383558394e4c676": {
+      "type": "image-with-text",
+      "blocks": {
+        "166383558363915c83-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "A clean ocean collaboration",
+            "heading_size": "h1"
+          }
+        },
+        "166383558363915c83-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>4ocean is celebrating World Oceans Day 2022 by reintroducing our partnership with cult-favorite sustainable sneaker brand Cariuma. We first came together in 2021 to create something that would start conversations, raise awareness about plastic pollution, and empower the global community to make more sustainable and ocean-friendly choices every day.<br\/><\/p>",
+            "text_style": "body"
+          }
+        },
+        "166383558363915c83-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now",
+            "button_link": "shopify:\/\/collections\/cariuma"
+          }
+        }
+      },
+      "block_order": [
+        "166383558363915c83-0",
+        "166383558363915c83-1",
+        "166383558363915c83-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Cariuma.-Module-3_1600x_4039b0ba-0a11-40f7-9d67-a2da3b90862c.webp",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "16638352722942c621",
-    "1663835391ad9766be"
+    "1663835391ad9766be",
+    "166383558394e4c676"
   ]
 }
