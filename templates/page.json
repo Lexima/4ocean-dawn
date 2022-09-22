@@ -301,6 +301,49 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1663835973fa9b6788": {
+      "type": "image-with-text",
+      "blocks": {
+        "1663835973d36a7004-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The Cariuma Story: Good things take time",
+            "heading_size": "h2"
+          }
+        },
+        "1663835973d36a7004-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>After working together for a few years and bonding over their mutual love of boardsports (skateboarding, surfing & snowboarding) & their home country Brazil, co-founders Fernando Porto and David Python decided to join forces to start Cariuma. With a shared idea to build a company that would better serve people and the planet, they left their corporate footwear roles to join forces and start the sustainable sneaker company Cariuma.<br\/><br\/>They knew the industry-standard “cool-classic” sneakers were really uncomfortable and that big corporations weren’t socially responsible and didn’t really care about sustainability in an active way. David and Fernando also felt they had a duty to take a stance against the wasteful practices inherent in fast fashion, which meant it was vital for Cariuma to reinvent the sneaker game.<br\/><br\/>Being better for people and the planet has always been their first priority. From innovative designs to responsibly curated materials to shipping and everything in between, every stage of their sneaker-making process is imbued with this eco-conscious spirit. <br\/><br\/>Cariuma is now a cult favorite sustainable shoe brand that produces good-looking, crazy-comfy, and consciously-made sneakers that are designed to evolve with you and your sense of style.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1663835973d36a7004-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663835973d36a7004-0",
+        "1663835973d36a7004-1",
+        "1663835973d36a7004-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -311,6 +354,7 @@
     "1663835711ef338a87",
     "166383574111e54e88",
     "1663835785ae709aad",
-    "166383584749dafcd4"
+    "166383584749dafcd4",
+    "1663835973fa9b6788"
   ]
 }
