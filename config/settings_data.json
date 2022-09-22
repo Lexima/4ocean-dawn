@@ -169,12 +169,14 @@
           },
           "f15161f6-4eaf-475b-8a54-8d3663b7c80a": {
             "type": "social_icons",
+            "disabled": true,
             "settings": {
               "heading": "FOLLOW + SHARE"
             }
           },
           "671dcf98-5362-4e60-b1bf-eb5e32e44f4d": {
             "type": "svg_icon",
+            "disabled": true,
             "settings": {
               "icon": "https:\/\/cdn.shopify.com\/s\/files\/1\/0996\/1022\/files\/Three_logos.svg?v=1662553235"
             }
@@ -193,7 +195,7 @@
           "color_scheme": "accent-2",
           "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
-          "show_social": false,
+          "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
           "payment_enable": false,
