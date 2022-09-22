@@ -50,6 +50,7 @@
         },
         "225dacec-bcc5-4214-bcde-fe55c422b83f": {
           "type": "slide",
+          "disabled": true,
           "settings": {
             "image": "shopify:\/\/shop_images\/Dune-BCA-Homepage-slider-2400x1093_ff81de1b-6826-4328-98fe-d3fad01f158a.jpg",
             "heading": "4ocean x Dune Breast Cancer Awareness Bracelet",
@@ -68,19 +69,18 @@
         },
         "7c93d820-fec6-4769-8227-6d697bdab84e": {
           "type": "slide",
-          "disabled": true,
           "settings": {
-            "image": "shopify:\/\/shop_images\/Dune-Jewelry-Homepage-slider-2400x1093_B_79a95c53-05a5-4526-b036-92a57c472146.jpg",
-            "heading": "4ocean x Dune",
+            "image": "shopify:\/\/shop_images\/Shark_Ocean-Stack-Homepage-slider-2400x1093_f85798f9-cc71-4328-beb3-2d0c89b1864a.jpg",
+            "heading": "Mix + Match Bracelet Stacks",
             "heading_size": "h1",
-            "subheading": "",
+            "subheading": "Pre-styled for maximum impact, these styles can’t be found anywhere else",
             "button_label": "Shop the Collection",
             "link": "https:\/\/www.4ocean.com\/pages\/dune-jewelry",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
-            "image_overlay_opacity": 20,
+            "image_overlay_opacity": 30,
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
