@@ -899,58 +899,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "1663806305211db21f": {
-      "type": "featured-product",
-      "blocks": {
-        "1663806305523c3641-0": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "1663806305523c3641-1": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "1663806305523c3641-2": {
-          "type": "buy_buttons",
-          "settings": {
-            "show_dynamic_checkout": false,
-            "pounds_pulled": true
-          }
-        },
-        "5c23772e-92be-452c-9510-41743b18ee00": {
-          "type": "yotpo_rating",
-          "settings": {
-            "yotpo_review_count": true
-          }
-        },
-        "f68d7a45-248f-4002-a775-39d9678b0912": {
-          "type": "variant_picker",
-          "settings": {
-            "picker_type": "button"
-          }
-        }
-      },
-      "block_order": [
-        "1663806305523c3641-0",
-        "1663806305523c3641-1",
-        "1663806305523c3641-2",
-        "5c23772e-92be-452c-9510-41743b18ee00",
-        "f68d7a45-248f-4002-a775-39d9678b0912"
-      ],
-      "settings": {
-        "product": "clean-ocean-club",
-        "color_scheme": "background-1",
-        "secondary_background": false,
-        "alignment": "align-left",
-        "hide_variants": false,
-        "enable_video_looping": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -972,7 +920,6 @@
     "1663181038de6f3267",
     "16631829454ec970ca",
     "1662478942ab413a2d",
-    "16631528090c935125",
-    "1663806305211db21f"
+    "16631528090c935125"
   ]
 }
