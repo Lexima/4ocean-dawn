@@ -135,11 +135,56 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "Button label",
+        "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "166383426912f73c23": {
+      "type": "image-with-text",
+      "blocks": {
+        "1663834269e1c54643-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "From the earth, for the earth",
+            "heading_size": "h2"
+          }
+        },
+        "1663834269e1c54643-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Every piece of jewelry is handcrafted in Dune’s Boston, Massachusetts, studio using hypoallergenic .925 sterling silver, hand-picked and ethically-sourced earth elements from Dune’s Sandbank, and certified 4ocean Plastic recovered by our crews in Florida, Indonesia, and Hawai'i.<br\/><br\/>Pull up to 10 pounds of trash from the world’s oceans, rivers, and coastlines with each piece you purchase from the 4ocean x Dune Collection. Your purchase ships directly from Dune and comes with their Lifetime Warranty and Happiness Guarantee.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1663834269e1c54643-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1663834269e1c54643-0",
+        "1663834269e1c54643-1",
+        "1663834269e1c54643-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Dune-Jewelry-Module-4_e901d866-cced-4abb-b34b-4d29eef0fe08.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -149,6 +194,7 @@
     "main",
     "166383358038031cea",
     "1663834081608f1d8b",
-    "16638337991cdd668d"
+    "16638337991cdd668d",
+    "166383426912f73c23"
   ]
 }
