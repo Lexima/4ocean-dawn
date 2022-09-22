@@ -333,9 +333,10 @@
         "1663835973d36a7004-2"
       ],
       "settings": {
-        "height": "adapt",
+        "image": "shopify:\/\/shop_images\/Cariuma.-Module-9_1600x_09ca875c-ad2f-4732-8957-72ee5c9626f2.webp",
+        "height": "small",
         "desktop_image_width": "medium",
-        "layout": "image_first",
+        "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
