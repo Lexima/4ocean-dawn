@@ -134,10 +134,11 @@
         "1663836917f13a775a-0": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
+            "image": "shopify:\/\/shop_images\/4ocean-ambassadors-1_800x_98143379-f05a-4d92-bcf9-9699c76f56fe.webp",
+            "title": "Apply to Join",
+            "text": "<p>Fill out an application so we can get to know you and understand your passion for the ocean a little bit better.<\/p>",
+            "link_label": "Apply to Join",
+            "link": "https:\/\/ambassadors.4ocean.com\/"
           }
         },
         "1663836917f13a775a-1": {
