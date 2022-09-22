@@ -85,11 +85,53 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16638366731eb19aea": {
+      "type": "call-to-action",
+      "blocks": {
+        "1663836672d381dbc0-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Subscribe to a cleaner ocean.",
+            "heading_size": "h1"
+          }
+        },
+        "1663836672d381dbc0-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Double your impact and enjoy exclusive perks like early access and advanced shipping when you join our monthly bracelet subscription.",
+            "text_style": "text-body"
+          }
+        },
+        "1663836672d381dbc0-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Login",
+            "button_link": "https:\/\/ambassadors.4ocean.com\/affiliate\/login",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1663836672d381dbc0-0",
+        "1663836672d381dbc0-1",
+        "1663836672d381dbc0-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "image_align": "left",
+        "contain-image": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "1663836425327ebff3",
-    "166383658391258f50"
+    "166383658391258f50",
+    "16638366731eb19aea"
   ]
 }
