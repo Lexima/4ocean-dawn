@@ -691,6 +691,50 @@
         "padding_bottom": 36
       }
     },
+    "16639374697f1a29e8": {
+      "type": "image-with-text",
+      "blocks": {
+        "1663937469e1fad48e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Partner With Us",
+            "heading_size": "h1"
+          }
+        },
+        "1663937469e1fad48e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It’s never been easier for businesses, brands, nonprofits, and governments to get involved in the clean ocean movement.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1663937469e1fad48e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Explore Opportunities",
+            "button_link": "https:\/\/www.4oceanpartnerships.com\/"
+          }
+        }
+      },
+      "block_order": [
+        "1663937469e1fad48e-0",
+        "1663937469e1fad48e-1",
+        "1663937469e1fad48e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Partnerships.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "166393669111a7c344": {
       "type": "hero",
       "disabled": true,
@@ -942,50 +986,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "16639374697f1a29e8": {
-      "type": "image-with-text",
-      "blocks": {
-        "1663937469e1fad48e-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "Partner With Us",
-            "heading_size": "h1"
-          }
-        },
-        "1663937469e1fad48e-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>It’s never been easier for businesses, brands, nonprofits, and governments to get involved in the clean ocean movement.<\/p>",
-            "text_style": "body"
-          }
-        },
-        "1663937469e1fad48e-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Explore Opportunities",
-            "button_link": "https:\/\/www.4oceanpartnerships.com\/"
-          }
-        }
-      },
-      "block_order": [
-        "1663937469e1fad48e-0",
-        "1663937469e1fad48e-1",
-        "1663937469e1fad48e-2"
-      ],
-      "settings": {
-        "image": "shopify:\/\/shop_images\/Partnerships.jpg",
-        "height": "adapt",
-        "desktop_image_width": "medium",
-        "layout": "image_first",
-        "desktop_content_position": "top",
-        "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
-        "color_scheme": "background-1",
-        "mobile_content_alignment": "left",
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
     }
   },
   "order": [
@@ -1004,11 +1004,11 @@
     "16624787716c817331",
     "16624802508186c384",
     "16624798747aaa7218",
+    "16639374697f1a29e8",
     "166393669111a7c344",
     "1663181038de6f3267",
     "16631829454ec970ca",
     "1662478942ab413a2d",
-    "16631528090c935125",
-    "16639374697f1a29e8"
+    "16631528090c935125"
   ]
 }
