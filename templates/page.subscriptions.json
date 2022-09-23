@@ -336,6 +336,7 @@
     },
     "1663160074f7bdce74": {
       "type": "signature-bracelet",
+      "disabled": true,
       "blocks": {
         "16631600746dd093da-0": {
           "type": "icon",
@@ -395,6 +396,48 @@
         "content_alignment": "center",
         "product": "pound-plus-subscription",
         "atc_label": "Add to Cart",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16639592763e1092fc": {
+      "type": "rich-text",
+      "blocks": {
+        "16639592754c68d57a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Get Started: Pick How Many Pounds You'll Pull<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16639592754c68d57a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Please note that Pound+ can also be used as a one-time service, so you’ll need to select the monthly option when subscribing.<\/p>"
+          }
+        },
+        "16639592754c68d57a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Add to Cart",
+            "button_link": "https:\/\/www.4ocean.com\/products\/pound-plus-subscription",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16639592754c68d57a-0",
+        "16639592754c68d57a-1",
+        "16639592754c68d57a-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -528,6 +571,7 @@
     "1663796914115e359c",
     "16637670158ab7b8dc",
     "1663160074f7bdce74",
+    "16639592763e1092fc",
     "1663156320d03f36f5",
     "166315625460ca2ef3"
   ]
