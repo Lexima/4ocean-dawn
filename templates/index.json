@@ -693,6 +693,7 @@
     },
     "16639374697f1a29e8": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "1663937469e1fad48e-0": {
           "type": "heading",
@@ -778,6 +779,55 @@
         "overlay_opacity": 50,
         "video_url": "",
         "image": "shopify:\/\/shop_images\/Partnerships.jpg"
+      }
+    },
+    "16639377129841d74a": {
+      "type": "image-banner",
+      "blocks": {
+        "1663937712dd2fdfb7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Partner With Us",
+            "heading_size": "h1"
+          }
+        },
+        "1663937712dd2fdfb7-1": {
+          "type": "text",
+          "settings": {
+            "text": "It’s never been easier for businesses, brands, nonprofits, and governments to get involved in the clean ocean movement.",
+            "text_style": "body"
+          }
+        },
+        "1663937712dd2fdfb7-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Explore Opportunities",
+            "button_link_1": "https:\/\/www.4oceanpartnerships.com\/",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1663937712dd2fdfb7-0",
+        "1663937712dd2fdfb7-1",
+        "1663937712dd2fdfb7-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/Partnerships.jpg",
+        "image_overlay_opacity": 40,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": false,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     },
     "1663181038de6f3267": {
@@ -1006,6 +1056,7 @@
     "16624798747aaa7218",
     "16639374697f1a29e8",
     "166393669111a7c344",
+    "16639377129841d74a",
     "1663181038de6f3267",
     "16631829454ec970ca",
     "1662478942ab413a2d",
