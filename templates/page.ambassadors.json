@@ -7,6 +7,20 @@
         "padding_bottom": 0
       }
     },
+    "1663949370e9a9b60b": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "Video",
+        "heading_size": "h1",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1663836425327ebff3": {
       "type": "hero",
       "disabled": true,
@@ -146,8 +160,8 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Start-Earning-module_800x_ba425e2b-faa5-4702-87a0-a92c4d0534b0.jpg",
             "title": "Start Earning",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "Start Earning",
+            "text": "<p>Share your unique ambassador link with everyone you know to earn cash commission and access free goodies.<\/p>",
+            "link_label": "LOG IN",
             "link": "https:\/\/ambassadors.4ocean.com\/affiliate\/login"
           }
         },
@@ -187,6 +201,7 @@
   },
   "order": [
     "main",
+    "1663949370e9a9b60b",
     "1663836425327ebff3",
     "166383658391258f50",
     "16638366731eb19aea",
