@@ -88,7 +88,7 @@
       ],
       "settings": {
         "image": "shopify:\/\/shop_images\/4ocean-brand-ambassador-About_1600x_c69451db-2528-463e-b0e9-a0a720d56e58.webp",
-        "height": "small",
+        "height": "adapt",
         "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "top",
@@ -102,6 +102,7 @@
     },
     "16638366731eb19aea": {
       "type": "call-to-action",
+      "disabled": true,
       "blocks": {
         "1663836672d381dbc0-0": {
           "type": "heading",
