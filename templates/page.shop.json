@@ -80,6 +80,12 @@
             "collection": "cariuma"
           }
         },
+        "08dab12e-9601-4786-8761-99194d174c3b": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sterling-silver-jewelry"
+          }
+        },
         "7ee69d78-93a7-420b-ac51-e382ce4f5a84": {
           "type": "featured_collection",
           "settings": {
@@ -102,6 +108,7 @@
         "a7594e5e-cf88-412c-b7fb-d5f39230e9f8",
         "6298f565-bd27-49c3-ac5b-37562d68f47f",
         "e7bf3815-2393-453a-8a46-2147f4e65e35",
+        "08dab12e-9601-4786-8761-99194d174c3b",
         "7ee69d78-93a7-420b-ac51-e382ce4f5a84",
         "f41f1d61-211f-47a6-ab85-0bf3596bc736"
       ],
