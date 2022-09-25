@@ -117,6 +117,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "MYSTERY SALE: Add products to cart to reveal exciting savings at checkout! Ends 9\/24.",
               "text_alignment": "center",
