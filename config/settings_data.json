@@ -92,7 +92,7 @@
     "social_snapchat_link": "",
     "social_youtube_link": "https:\/\/www.youtube.com\/channel\/UCCT_-OGW5IiUuuHwmuyUPYQ",
     "social_vimeo_link": "https:\/\/vimeo.com\/4ocean",
-    "predictive_search_enabled": true,
+    "predictive_search_enabled": false,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "currency_code_enabled": false,
