@@ -601,6 +601,50 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "16643824393504b9bb": {
+      "type": "image-with-text",
+      "blocks": {
+        "1664382439047042f8-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Ocean Sunfish Awareness Bracelets",
+            "heading_size": "h1"
+          }
+        },
+        "1664382439047042f8-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>By purchasing this limited edition bracelet, you will <strong>pull one pound of trash<\/strong> from the world’s oceans, rivers, and coastlines.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "1664382439047042f8-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now — Pull a Pound",
+            "button_link": "https:\/\/www.4ocean.com\/products\/ocean-sunfish-mola-mola-beaded-bracelet?variant=42027726602433"
+          }
+        }
+      },
+      "block_order": [
+        "1664382439047042f8-0",
+        "1664382439047042f8-1",
+        "1664382439047042f8-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Ocean-Sunfish-2lb-PDP-1000x100_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -617,6 +661,7 @@
     "166438229166162674",
     "1664382324d9c46fd5",
     "16643823500b587e64",
-    "16643823765691a91a"
+    "16643823765691a91a",
+    "16643824393504b9bb"
   ]
 }
