@@ -117,12 +117,11 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "MYSTERY SALE: Add products to cart to reveal exciting savings at checkout! Ends 9\/24.",
+              "text": "FREE gift with any purchase. Discount applied at checkout. Limit one (1) per transaction. Ends 10\/2.",
               "text_alignment": "center",
-              "color_scheme": "background-2",
-              "link": "https:\/\/www.4ocean.com\/MYSTERY"
+              "color_scheme": "accent-1",
+              "link": "https:\/\/www.4ocean.com\/FREEJELLYFISH1"
             }
           }
         },
