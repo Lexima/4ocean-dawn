@@ -141,6 +141,53 @@
         "padding_bottom": 52
       }
     },
+    "166438827742c7d645": {
+      "type": "pdp-photo-grid",
+      "blocks": {
+        "16643882765b59bab3-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ocean-Sunfish-Photo-Grid-700x700_1.jpg",
+            "link": ""
+          }
+        },
+        "16643882765b59bab3-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ocean-Sunfish-Photo-Grid-700x700_2.jpg",
+            "link": ""
+          }
+        },
+        "16643882765b59bab3-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ocean-Sunfish-Photo-Grid-700x700_3.jpg",
+            "link": ""
+          }
+        },
+        "16643882765b59bab3-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ocean-Sunfish-Photo-Grid-700x700_4.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16643882765b59bab3-0",
+        "16643882765b59bab3-1",
+        "16643882765b59bab3-2",
+        "16643882765b59bab3-3"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -183,6 +230,7 @@
     "1662480421232cbefb",
     "main",
     "166438814060296cb0",
+    "166438827742c7d645",
     "product-recommendations",
     "1663078154b4cc1ca6"
   ]
