@@ -1,0 +1,86 @@
+{% for block in section.blocks %}
+  <div {{ block.shopify_attributes }}>
+    <div class="robin-pro" id="{{ block.settings.gallery_id }}"></div>
+  </div>
+{% endfor %}
+
+
+{% schema %}
+  {
+    "name": "Robin PRO Image Gallery",
+    "blocks": [
+      {
+        "type": "gallery",
+        "name": "Gallery",
+        "settings": [
+          {
+            "label": "Gallery",
+            "type": "select",
+            "id": "gallery_id",
+            "options": [
+{
+  "value": "8bb648b3-9820-4ad3-b7b7-55b0633c5eac",
+  "label": "Florida Cleanups"
+},
+{
+  "value": "ba112b94-01f8-4e42-850d-989eea829e12",
+  "label": "Guatemala Cleanups"
+},
+{
+  "value": "6b207254-a5b3-4fe7-b33c-8fe13d67b509",
+  "label": "UGC"
+},
+{
+  "value": "20b8d601-9bab-4b82-b80c-83020466eeca",
+  "label": "Crew"
+},
+{
+  "value": "cc67617e-808c-4443-a99e-328d71f7ecf7",
+  "label": "Bali"
+},
+{
+  "value": "b2773635-5067-41b5-8b11-e2872fbc5f43",
+  "label": "Hawaii"
+},
+{
+  "value": "8cfe6522-4bbe-444d-b9e9-7122320a0749",
+  "label": "Osborne"
+},
+{
+  "value": "399c992f-a21f-4c5b-83d8-8b0b84c78c92",
+  "label": "UGC"
+},
+{
+  "value": "59d39ac3-07d2-4a2f-a67f-3632fd82bbb2",
+  "label": "Missions"
+},
+{
+  "value": "f62be3ed-a83c-435f-aedb-ab802cd21575",
+  "label": "Ambassador"
+},
+{
+  "value": "4fdd797b-aa9d-4fda-8959-70a65b02fbcc",
+  "label": "20 Million Pounds"
+},
+{
+  "value": "b2aa170e-63b4-42e0-9fcd-7da72979214b",
+  "label": "Osborne Reef Cleanup"
+},
+{
+  "value": "76d238a4-59b5-43f8-a131-457cb4d65f0d",
+  "label": "Cleanup Operations"
+}
+            ]
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "Robin PRO Image Gallery",
+        "category": "Robin PRO Image Gallery App",
+        "settings": {}
+      }
+    ]
+  }
+{% endschema %}
