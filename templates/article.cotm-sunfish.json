@@ -401,6 +401,50 @@
         "padding_bottom": 0
       }
     },
+    "1664383688e87c96e8": {
+      "type": "rich-text",
+      "blocks": {
+        "1664383688267bdfb9-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1664383688267bdfb9-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Despite the teeth plates that give molas their bird-like appearance, they can’t actually chew anything. Instead, molas will suck jellies in and out of their mouths until they’re reduced to smaller, more manageable chunks of jelly. (Perhaps you or a child you know has done something similar while eating Jell-o? Or is that just us?) <\/p><p>Because jellies are mostly made up of water, they’re low in calories and nutrients so ocean sunfish must gobble up hundreds and hundreds of them every day to stay fed and healthy. Their ability to consume lots of jellyfish also makes them a very important part of the marine food web. <\/p>"
+          }
+        },
+        "1664383688267bdfb9-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1664383688267bdfb9-0",
+        "1664383688267bdfb9-1",
+        "1664383688267bdfb9-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1664383294c395bd13": {
       "type": "pdp-photo-grid",
       "blocks": {
@@ -446,6 +490,50 @@
         "columns_mobile": "2",
         "padding_top": 0,
         "padding_bottom": 0
+      }
+    },
+    "16643837156ed8b436": {
+      "type": "rich-text",
+      "blocks": {
+        "16643837156e914d61-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16643837156e914d61-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Without animals like ocean sunfish and leatherback sea turtles to keep them in check, jellyfish populations would explode and they’d start eating up all the plankton, which are a staple of the marine food chain that many other animals rely on to survive. In extreme cases, jellyfish overpopulation can actually cause the wholesale collapse of an entire ecosystem.<\/p><p>Ocean sunfish are thought to be naturally rare and their conservation status is currently rated “vulnerable” by the International Union for the Conservation of Nature and Natural Resources (IUCN). <\/p><p>While ocean sunfish have some predators, their large size and tough skin makes them difficult prey. Unfortunately, their greatest threats are man-made. <\/p>"
+          }
+        },
+        "16643837156e914d61-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16643837156e914d61-0",
+        "16643837156e914d61-1",
+        "16643837156e914d61-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "166438329961e66742": {
@@ -506,7 +594,9 @@
     "1664383282e4d52de4",
     "1664383665af097565",
     "16643832871ce84148",
+    "1664383688e87c96e8",
     "1664383294c395bd13",
+    "16643837156ed8b436",
     "166438329961e66742"
   ]
 }
