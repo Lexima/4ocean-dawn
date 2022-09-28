@@ -441,6 +441,10 @@
 
                 {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
                   <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
+                  {% if product.type == 'Subscription' %}
+                    {% assign sellingPlanAllocation = product.selected_or_first_available_variant.selling_plan_allocations | first %}
+                    <input type="hidden" name="selling_plan" value="{{ sellingPlanAllocation.selling_plan.id }}" />
+                  {% endif %}
                   <div class="product-form__buttons">
                     <button
                       type="submit"
