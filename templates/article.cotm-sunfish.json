@@ -575,7 +575,7 @@
         "166438329891e3fd5b-3"
       ],
       "settings": {
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "columns_desktop": 2,
         "color_scheme": "background-1",
         "columns_mobile": "2",
