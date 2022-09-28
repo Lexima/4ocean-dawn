@@ -180,12 +180,12 @@
         "16643882765b59bab3-3"
       ],
       "settings": {
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "columns_desktop": 2,
         "color_scheme": "background-1",
         "columns_mobile": "2",
-        "padding_top": 36,
-        "padding_bottom": 8
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "product-recommendations": {
