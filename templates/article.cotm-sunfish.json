@@ -129,6 +129,49 @@
         "padding_bottom": 0
       }
     },
+    "16643835885562a4bf": {
+      "type": "rich-text",
+      "blocks": {
+        "1664383588026a990f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Don’t worry, that fish isn’t injured…it’s just your average <\/strong><em><strong>Mola mola<\/strong><\/em><strong>—the world’s largest bony fish!<\/strong><\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "1664383588026a990f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ocean sunfish aren’t the little sunnies you caught at the lake when you were a kid (seriously, no relation). Growing up to 10 feet long, 14 feet tall (including the fins), and weighing nearly 5,000 pounds, the ocean sunfish (scientific name <em>Mola mola<\/em>) is an absolute unit of a fish that can be found in tropical and temperate oceans all around the globe. <\/p><p>A cross between a rock and a pancake, the mola has a truncated tail fin, or clavus, which is a scalloped fringe of muscle along its backside that acts like a rudder. They use their top and bottom fins to swim and pretty much flop back and forth to get where they’re going. Not the most elegant or speedy method of transport, but it certainly gets the job done; molas have been observed cruising at a top speed of two miles per hour.<\/p><p>Molas are usually white or silvery-grey and have thick, rough, rubbery skin that protects them from predators like sea lions, large sharks, and orcas. They can be seen floating at the surface for long periods of time and remain so still that people sometimes mistake them for a dead or injured animal. <\/p>"
+          }
+        },
+        "1664383588026a990f-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1664383588026a990f-0",
+        "1664383588026a990f-1",
+        "1664383588026a990f-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1664383277d88c5240": {
       "type": "pdp-photo-grid",
       "blocks": {
@@ -369,6 +412,7 @@
     "main",
     "1664383222f2097b77",
     "16643832736824a214",
+    "16643835885562a4bf",
     "1664383277d88c5240",
     "1664383282e4d52de4",
     "16643832871ce84148",
