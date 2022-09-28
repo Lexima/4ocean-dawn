@@ -582,6 +582,50 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "1664383766ace3734c": {
+      "type": "rich-text",
+      "blocks": {
+        "1664383766ff2876ea-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1664383766ff2876ea-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Ocean sunfish are prone to entanglement in fishing gear as well as bycatch, a phenomenon in the fishing industry where animals are accidentally caught in fishing gear intended to catch other species. <\/p><p>Drift gillnets are a particular hazard because molas spend so much time at the ocean’s surface. While gillnets don’t kill molas right away, they can cut into their skin, scrape off their protective mucus, and flood their gills with air. <\/p><p>It’s not uncommon for molas to mistake plastic bags for jellyfish and eat them. And the funny way molas eat jellies makes them especially prone to choking on plastic debris. If they do manage to suck it all down without choking, plastic bags and other debris can clog their stomachs and cause them to starve. <\/p><p>Help raise awareness about the impact of plastic pollution and the importance of protecting molas with our limited edition Ocean Sunfish Awareness Bracelet. Made from the plastic you see our crews recovering every day, your purchase funds our global cleanups and helps advance our mission to end  the ocean plastic crisis. <\/p>"
+          }
+        },
+        "1664383766ff2876ea-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1664383766ff2876ea-0",
+        "1664383766ff2876ea-1",
+        "1664383766ff2876ea-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
@@ -597,6 +641,7 @@
     "1664383688e87c96e8",
     "1664383294c395bd13",
     "16643837156ed8b436",
-    "166438329961e66742"
+    "166438329961e66742",
+    "1664383766ace3734c"
   ]
 }
