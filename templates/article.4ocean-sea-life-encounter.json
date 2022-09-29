@@ -180,7 +180,7 @@
         "cover_image": "shopify:\/\/shop_images\/Sea-Rescue-Blog-Image-2.jpg",
         "video_url": "https:\/\/vimeo.com\/755216984",
         "description": "",
-        "full_width": false,
+        "full_width": true,
         "color_scheme": "background-1",
         "padding_top": 20,
         "padding_bottom": 20
@@ -228,6 +228,122 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "16644807016b2e0aeb": {
+      "type": "video",
+      "settings": {
+        "heading": "4ocean Bali crews rescue an entangled bottlenose dolphin",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/Sea-Rescue-Blog-Image-3.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "16644807380a766d37": {
+      "type": "rich-text",
+      "blocks": {
+        "166448073847c05ccd-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "166448073847c05ccd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It was a routine cleanup mission for Vessel Unit 4 when the crew spotted a floating patch of debris in the Pebuahan Ocean on Tuesday. As they taxied closer, cleanup gear at the ready, they noticed something alarming: a bottlenose dolphin was entangled in the debris. We caught up with Alex, Co-Found and CEO, to get his thoughts about this incredible rescue:<\/p>"
+          }
+        },
+        "166448073847c05ccd-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "166448073847c05ccd-0",
+        "166448073847c05ccd-1",
+        "166448073847c05ccd-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "16644807674289b084": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/Sea-Rescue-Blog-Image-4.jpg",
+        "video_url": "https:\/\/vimeo.com\/717694725?embedded=true&source=vimeo_logo&owner=84664409",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "1664480825a401960e": {
+      "type": "rich-text",
+      "blocks": {
+        "16644808250187170e-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16644808250187170e-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16644808250187170e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop our limited edition Bottlenose Dolphin Awareness Bracelets →",
+            "button_link": "https:\/\/www.4ocean.com\/products\/limited-edition-bottlenose-dolphin-beaded-bracelet?variant=38201761693889",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16644808250187170e-0",
+        "16644808250187170e-1",
+        "16644808250187170e-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
@@ -236,6 +352,10 @@
     "1664480379fdff5215",
     "1664480426af11df7e",
     "1664480464225795f4",
-    "1664480500d88fcab5"
+    "1664480500d88fcab5",
+    "16644807016b2e0aeb",
+    "16644807380a766d37",
+    "16644807674289b084",
+    "1664480825a401960e"
   ]
 }
