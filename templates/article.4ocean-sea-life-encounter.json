@@ -185,6 +185,49 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "1664480500d88fcab5": {
+      "type": "rich-text",
+      "blocks": {
+        "166448050072c775a0-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "166448050072c775a0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Shout out to the Florida crew who saved some baby leatherback sea turtles back in July! They noticed the little hatchlings while cleaning debris in Florida’s Intracoastal Waterway and, after getting approval from the appropriate authorities, they released them into the open ocean. Stay safe little ones! <\/p>"
+          }
+        },
+        "166448050072c775a0-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop our limited edition Leatherback Sea Turtle Awareness Bracelet →",
+            "button_link": "https:\/\/www.4ocean.com\/collections\/bracelets\/products\/leatherback-sea-turtle-braided-bracelet?variant=32006154682426",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "166448050072c775a0-0",
+        "166448050072c775a0-1",
+        "166448050072c775a0-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
@@ -192,6 +235,7 @@
     "166447921394f66531",
     "1664480379fdff5215",
     "1664480426af11df7e",
-    "1664480464225795f4"
+    "1664480464225795f4",
+    "1664480500d88fcab5"
   ]
 }
