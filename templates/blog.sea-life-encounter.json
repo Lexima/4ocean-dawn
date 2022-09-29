@@ -200,8 +200,8 @@
         "content_alignment": "center",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "16644771510946f3b2": {
@@ -209,6 +209,7 @@
       "settings": {
         "heading": "4ocean Bali crews rescue an entangled bottlenose dolphin",
         "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/Sea-Rescue-Blog-Image-3.jpg",
         "video_url": "https:\/\/vimeo.com\/480513950\/be923b55f6?embedded=true&source=vimeo_logo&owner=84664409",
         "description": "",
         "full_width": true,
