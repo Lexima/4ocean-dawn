@@ -368,6 +368,19 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "16644774063322f6b1": {
+      "type": "video",
+      "settings": {
+        "heading": "Entangled seabird rescued by 4ocean Bali crews",
+        "heading_size": "h1",
+        "video_url": "https:\/\/vimeo.com\/505307424?embedded=true&source=vimeo_logo&owner=84664409",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -382,6 +395,7 @@
     "1664477206a5f149f9",
     "16644772614f01a79d",
     "16644772850ca6bc74",
-    "166447732388cdcac7"
+    "166447732388cdcac7",
+    "16644774063322f6b1"
   ]
 }
