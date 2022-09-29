@@ -344,6 +344,63 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "166448086176d251c1": {
+      "type": "video",
+      "settings": {
+        "heading": "4ocean crews release baby sea turtles with Gumbo Limbo Nature Center",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/Sea-Rescue-Blog-Image-5.jpg",
+        "video_url": "https:\/\/vimeo.com\/515447161\/f4a16f43fa?embedded=true&source=vimeo_logo&owner=84664409",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "16644808926e0fae8d": {
+      "type": "rich-text",
+      "blocks": {
+        "16644808926ecd3392-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16644808926ecd3392-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When our friends at Gumbo Limbo Nature Center rescued several baby sea turtles that had ingested microplastic, they weren’t doing so well. But after careful nursing and rehabilitation at the center, the hatchlings were ready to return home! Gumbo Limbo asked if 4ocean could lend a hand, so we sent a boat and a camera crew to capture the footage you see here.<\/p>"
+          }
+        },
+        "16644808926ecd3392-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop our Sea Turtle Awareness Bracelets →",
+            "button_link": "https:\/\/www.4ocean.com\/products\/sea-turtle-bracelet",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16644808926ecd3392-0",
+        "16644808926ecd3392-1",
+        "16644808926ecd3392-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -356,6 +413,8 @@
     "16644807016b2e0aeb",
     "16644807380a766d37",
     "16644807674289b084",
-    "1664480825a401960e"
+    "1664480825a401960e",
+    "166448086176d251c1",
+    "16644808926e0fae8d"
   ]
 }
