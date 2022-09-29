@@ -198,6 +198,76 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "16644771510946f3b2": {
+      "type": "video",
+      "settings": {
+        "heading": "4ocean Bali crews rescue an entangled bottlenose dolphin",
+        "heading_size": "h2",
+        "video_url": "https:\/\/vimeo.com\/480513950\/be923b55f6?embedded=true&source=vimeo_logo&owner=84664409",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16644771736cb9bd4a": {
+      "type": "rich-text",
+      "blocks": {
+        "16644771735d219022-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16644771735d219022-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It was a routine cleanup mission for Vessel Unit 4 when the crew spotted a floating patch of debris in the Pebuahan Ocean on Tuesday. As they taxied closer, cleanup gear at the ready, they noticed something alarming: a bottlenose dolphin was entangled in the debris. We caught up with Alex, Co-Found and CEO, to get his thoughts about this incredible rescue:<\/p>"
+          }
+        },
+        "16644771735d219022-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16644771735d219022-0",
+        "16644771735d219022-1",
+        "16644771735d219022-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1664477206a5f149f9": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "video_url": "https:\/\/vimeo.com\/717694725?embedded=true&source=vimeo_logo&owner=84664409",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -206,6 +276,9 @@
     "1664476896885fa993",
     "1664476910f4d265c0",
     "1664476216960ae478",
-    "16644770048201b0fc"
+    "16644770048201b0fc",
+    "16644771510946f3b2",
+    "16644771736cb9bd4a",
+    "1664477206a5f149f9"
   ]
 }
