@@ -534,6 +534,50 @@
         "padding_bottom": 52
       }
     },
+    "1664484280b1242933": {
+      "type": "rich-text",
+      "blocks": {
+        "166448428099a39632-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Entangled seabird rescued by 4ocean Bali crews<\/strong><\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "166448428099a39632-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "166448428099a39632-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "166448428099a39632-0",
+        "166448428099a39632-1",
+        "166448428099a39632-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "16644809523b400b57": {
       "type": "video",
       "settings": {
@@ -708,6 +752,7 @@
     "1664484199c7e55413",
     "166448086176d251c1",
     "16644808926e0fae8d",
+    "1664484280b1242933",
     "16644809523b400b57",
     "1664481013e798a200",
     "1664481082f76f3016",
