@@ -424,6 +424,19 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "1664477486c4a5278f": {
+      "type": "video",
+      "settings": {
+        "heading": "4ocean Bali crews encounter a whale shark in heavily polluted waters",
+        "heading_size": "h1",
+        "video_url": "https:\/\/vimeo.com\/486133292\/ad61856d0e?embedded=true&source=vimeo_logo&owner=84664409",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -440,6 +453,7 @@
     "16644772850ca6bc74",
     "166447732388cdcac7",
     "16644774063322f6b1",
-    "166447742945b5032e"
+    "166447742945b5032e",
+    "1664477486c4a5278f"
   ]
 }
