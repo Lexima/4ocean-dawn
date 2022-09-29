@@ -437,6 +437,49 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16644775069eb25ce7": {
+      "type": "rich-text",
+      "blocks": {
+        "16644775060eca5359-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16644775060eca5359-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>With a global population that was reduced by half in just 75 years, whale sharks have become an endangered species. Plastic pollution and overfishing are some of the biggest threats they face. Our crews in Bali recently encountered one of these gentle giants swimming through seas heavily polluted by plastic, a reminder of our mission and the urgent need for action.<\/p>"
+          }
+        },
+        "16644775060eca5359-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop our limited edition Whale Shark Awareness Bracelet →",
+            "button_link": "https:\/\/www.4ocean.com\/products\/whale-shark-bracelet?variant=37591841603777",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16644775060eca5359-0",
+        "16644775060eca5359-1",
+        "16644775060eca5359-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -454,6 +497,7 @@
     "166447732388cdcac7",
     "16644774063322f6b1",
     "166447742945b5032e",
-    "1664477486c4a5278f"
+    "1664477486c4a5278f",
+    "16644775069eb25ce7"
   ]
 }
