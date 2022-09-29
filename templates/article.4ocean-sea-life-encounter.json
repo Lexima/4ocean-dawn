@@ -128,11 +128,70 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "1664480426af11df7e": {
+      "type": "rich-text",
+      "blocks": {
+        "16644804262ae3535a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>From baby sea turtles to whale sharks, our crews have helped save marine life all around the world<\/strong><\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "16644804262ae3535a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>4ocean was founded on the belief that business can be a force for good and that the single actions of individual people, collectively, have the power to change the world. Because of you, our crews are on the water and cleaning the ocean seven days a week. And sometimes, that puts them in a unique position to help marine life impacted by plastic pollution.<\/p>"
+          }
+        },
+        "16644804262ae3535a-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16644804262ae3535a-0",
+        "16644804262ae3535a-1",
+        "16644804262ae3535a-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "1664480464225795f4": {
+      "type": "video",
+      "settings": {
+        "heading": "4ocean Florida crew rescues baby leatherback sea turtles",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/Sea-Rescue-Blog-Image-2.jpg",
+        "video_url": "https:\/\/vimeo.com\/755216984",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
     "main",
     "166447921394f66531",
-    "1664480379fdff5215"
+    "1664480379fdff5215",
+    "1664480426af11df7e",
+    "1664480464225795f4"
   ]
 }
