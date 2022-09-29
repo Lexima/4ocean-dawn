@@ -381,6 +381,49 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "166447742945b5032e": {
+      "type": "rich-text",
+      "blocks": {
+        "1664477429c05ffd0e-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1664477429c05ffd0e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In January 2021, one of our Bali river crews found an entangled seabird during a normal cleanup of the Ijo Gading River. The bird had about two pounds of fishing line wrapped around its leg and one of its wings. Our crew cut the line and checked for injuries (which amounted to some torn feathers) before releasing it back into the mangrove forest where it lives.<\/p>"
+          }
+        },
+        "1664477429c05ffd0e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop our limited edition Seabird Awareness Bracelet →",
+            "button_link": "https:\/\/www.4ocean.com\/products\/seabird-bracelet?variant=37594538213569",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1664477429c05ffd0e-0",
+        "1664477429c05ffd0e-1",
+        "1664477429c05ffd0e-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -396,6 +439,7 @@
     "16644772614f01a79d",
     "16644772850ca6bc74",
     "166447732388cdcac7",
-    "16644774063322f6b1"
+    "16644774063322f6b1",
+    "166447742945b5032e"
   ]
 }
