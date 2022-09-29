@@ -275,6 +275,7 @@
     },
     "166448440251ce5b9e": {
       "type": "divider",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "padding_top": 28,
@@ -443,6 +444,7 @@
     },
     "16644843926de8782c": {
       "type": "divider",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "padding_top": 28,
@@ -552,6 +554,7 @@
     },
     "16644843986dc3e446": {
       "type": "divider",
+      "disabled": true,
       "settings": {
         "full_width": false,
         "padding_top": 28,
