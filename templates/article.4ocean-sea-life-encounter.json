@@ -401,6 +401,63 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "16644809523b400b57": {
+      "type": "video",
+      "settings": {
+        "heading": "Entangled seabird rescued by 4ocean Bali crews",
+        "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/Sea-Rescue-Blog-Image-6.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
+    "1664481013e798a200": {
+      "type": "rich-text",
+      "blocks": {
+        "1664481013117721d3-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1664481013117721d3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In January 2021, one of our Bali river crews found an entangled seabird during a normal cleanup of the Ijo Gading River. The bird had about two pounds of fishing line wrapped around its leg and one of its wings. Our crew cut the line and checked for injuries (which amounted to some torn feathers) before releasing it back into the mangrove forest where it lives.<\/p>"
+          }
+        },
+        "1664481013117721d3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop our limited edition Seabird Awareness Bracelet →",
+            "button_link": "https:\/\/www.4ocean.com\/products\/seabird-bracelet?variant=37594538213569",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1664481013117721d3-0",
+        "1664481013117721d3-1",
+        "1664481013117721d3-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
     }
   },
   "order": [
@@ -415,6 +472,8 @@
     "16644807674289b084",
     "1664480825a401960e",
     "166448086176d251c1",
-    "16644808926e0fae8d"
+    "16644808926e0fae8d",
+    "16644809523b400b57",
+    "1664481013e798a200"
   ]
 }
