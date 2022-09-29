@@ -635,6 +635,50 @@
         "padding_bottom": 52
       }
     },
+    "16644843279494821e": {
+      "type": "rich-text",
+      "blocks": {
+        "1664484327e100a6dc-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>4ocean Bali crews encounter a whale shark in heavily polluted waters<\/strong><\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "1664484327e100a6dc-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1664484327e100a6dc-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1664484327e100a6dc-0",
+        "1664484327e100a6dc-1",
+        "1664484327e100a6dc-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "1664481082f76f3016": {
       "type": "video",
       "settings": {
@@ -755,6 +799,7 @@
     "1664484280b1242933",
     "16644809523b400b57",
     "1664481013e798a200",
+    "16644843279494821e",
     "1664481082f76f3016",
     "1664481120dd6e027b",
     "1664481180cb955278"
