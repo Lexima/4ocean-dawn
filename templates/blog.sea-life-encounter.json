@@ -206,7 +206,7 @@
         "heading_size": "h2",
         "video_url": "https:\/\/vimeo.com\/480513950\/be923b55f6?embedded=true&source=vimeo_logo&owner=84664409",
         "description": "",
-        "full_width": false,
+        "full_width": true,
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
@@ -268,6 +268,63 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "16644772614f01a79d": {
+      "type": "rich-text",
+      "blocks": {
+        "16644772609a67c82a-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16644772609a67c82a-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16644772609a67c82a-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop our limited edition Bottlenose Dolphin Awareness Bracelets →",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16644772609a67c82a-0",
+        "16644772609a67c82a-1",
+        "16644772609a67c82a-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16644772850ca6bc74": {
+      "type": "video",
+      "settings": {
+        "heading": "4ocean crews release baby sea turtles with Gumbo Limbo Nature Center",
+        "heading_size": "h2",
+        "video_url": "https:\/\/vimeo.com\/515447161\/f4a16f43fa?embedded=true&source=vimeo_logo&owner=84664409",
+        "description": "",
+        "full_width": true,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -279,6 +336,8 @@
     "16644770048201b0fc",
     "16644771510946f3b2",
     "16644771736cb9bd4a",
-    "1664477206a5f149f9"
+    "1664477206a5f149f9",
+    "16644772614f01a79d",
+    "16644772850ca6bc74"
   ]
 }
