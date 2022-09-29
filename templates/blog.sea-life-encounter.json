@@ -152,12 +152,13 @@
       "settings": {
         "heading": "4ocean Florida crew rescues baby leatherback sea turtles",
         "heading_size": "h2",
+        "cover_image": "shopify:\/\/shop_images\/Sea-Rescue-Blog-Image-2.jpg",
         "video_url": "https:\/\/vimeo.com\/755216984",
         "description": "",
         "full_width": true,
         "color_scheme": "background-1",
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "16644770048201b0fc": {
