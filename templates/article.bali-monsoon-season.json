@@ -491,6 +491,52 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "16645525651f39ada2": {
+      "type": "image-with-text",
+      "blocks": {
+        "16645525659e60e0b1-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "16645525659e60e0b1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our river boom systems are serviced daily to clear away debris and prevent flooding. <\/p><p>Booms are also inspected to ensure the equipment’s intact and properly secured so trash flowing downriver is captured before it can enter the ocean.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16645525659e60e0b1-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16645525659e60e0b1-0",
+        "16645525659e60e0b1-1",
+        "16645525659e60e0b1-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/stoked_crew_image.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -504,6 +550,7 @@
     "1664552020c74351cf",
     "166455210585620ebe",
     "16645521442184d81b",
-    "16645525106795c67e"
+    "16645525106795c67e",
+    "16645525651f39ada2"
   ]
 }
