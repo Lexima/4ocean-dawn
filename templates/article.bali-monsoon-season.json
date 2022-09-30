@@ -134,6 +134,49 @@
         "show_text_below": true
       }
     },
+    "166455955866587614": {
+      "type": "rich-text",
+      "blocks": {
+        "16645595579f79d057-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Every year, beaches in Bali and Java are flooded with plastic during monsoon season—here’s how our crews prepare!<\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "16645595579f79d057-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hello everybody! I’m Tony, the Director of Cleanups here at 4ocean.<\/p>"
+          }
+        },
+        "16645595579f79d057-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16645595579f79d057-0",
+        "16645595579f79d057-1",
+        "16645595579f79d057-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1664551167e113e8da": {
       "type": "pdp-photo-grid",
       "blocks": {
@@ -1060,6 +1103,7 @@
     "main",
     "16645509249716fe18",
     "1664557615027bb9c6",
+    "166455955866587614",
     "1664551167e113e8da",
     "16645513686536fe28",
     "1664551409c06120cd",
