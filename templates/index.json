@@ -10,6 +10,24 @@
     "1663779992260fd87c": {
       "type": "slideshow",
       "blocks": {
+        "7c93d820-fec6-4769-8227-6d697bdab84e": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ocean-Sunfish-Homepage-slider-2400x1093.jpg",
+            "heading": "Bracelet of the Month",
+            "heading_size": "h1",
+            "subheading": "Pull a pound with this month's limited edition Ocean Sunfish Awareness Bracelet.",
+            "button_label": "Shop Now — Pull a Pound",
+            "link": "https:\/\/www.4ocean.com\/collections\/shark-ocean-stack",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 30,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "1663779992f92a6c14-0": {
           "type": "slide",
           "settings": {
@@ -64,24 +82,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "7c93d820-fec6-4769-8227-6d697bdab84e": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Shark_Ocean-Stack-Homepage-slider-2400x1093_f85798f9-cc71-4328-beb3-2d0c89b1864a.jpg",
-            "heading": "Mix + Match Bracelet Stacks",
-            "heading_size": "h1",
-            "subheading": "Pre-styled for maximum impact, these styles can’t be found anywhere else",
-            "button_label": "Shop Now — Pull a Pound",
-            "link": "https:\/\/www.4ocean.com\/collections\/shark-ocean-stack",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 30,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "0a123744-d51e-45de-8d53-a3e5ca6e9053": {
           "type": "slide",
           "settings": {
@@ -102,10 +102,10 @@
         }
       },
       "block_order": [
+        "7c93d820-fec6-4769-8227-6d697bdab84e",
         "1663779992f92a6c14-0",
         "1663779992f92a6c14-1",
         "225dacec-bcc5-4214-bcde-fe55c422b83f",
-        "7c93d820-fec6-4769-8227-6d697bdab84e",
         "0a123744-d51e-45de-8d53-a3e5ca6e9053"
       ],
       "settings": {
