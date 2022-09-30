@@ -264,6 +264,52 @@
         "padding_bottom": 52
       }
     },
+    "166455493946a8eaa0": {
+      "type": "image-with-text",
+      "blocks": {
+        "166455493903e8fe9d-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "166455493903e8fe9d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Rivers across the islands swell with water and act like superhighways that carry inland debris to the ocean. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "166455493903e8fe9d-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "166455493903e8fe9d-0",
+        "166455493903e8fe9d-1",
+        "166455493903e8fe9d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Untitled-1_e9fef93d-e5f3-4bc0-b6c5-7442d3431d4e.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "166455194444282dde": {
       "type": "image-with-text",
       "blocks": {
@@ -965,6 +1011,7 @@
     "16645513686536fe28",
     "1664551409c06120cd",
     "1664551446c20d73ea",
+    "166455493946a8eaa0",
     "166455194444282dde",
     "1664552020c74351cf",
     "166455210585620ebe",
