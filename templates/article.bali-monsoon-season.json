@@ -822,6 +822,52 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "16645541689974c6f8": {
+      "type": "image-with-text",
+      "blocks": {
+        "166455416830410e8e-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "166455416830410e8e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>And that’s what you make possible every time you shop 4ocean.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "166455416830410e8e-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "166455416830410e8e-0",
+        "166455416830410e8e-1",
+        "166455416830410e8e-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/crew_members_mentioned_in_action.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -842,6 +888,7 @@
     "1664552834e1292e6f",
     "1664552967c4a2a5d1",
     "1664553117f3d5887f",
-    "1664553324792fd727"
+    "1664553324792fd727",
+    "16645541689974c6f8"
   ]
 }
