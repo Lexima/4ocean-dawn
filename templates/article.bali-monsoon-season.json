@@ -748,8 +748,9 @@
         "166455311700ade4da-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Bismo.png",
+            "title": "Bismo",
+            "text": "<p>Mewdewi Captain<\/p>",
             "link_label": "",
             "link": ""
           }
