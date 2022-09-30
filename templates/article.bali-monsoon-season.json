@@ -675,6 +675,52 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1664552967c4a2a5d1": {
+      "type": "image-with-text",
+      "blocks": {
+        "16645529678d858f66-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "16645529678d858f66-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Some of these incredible rescues were caught on camera and you can <a href=\"https:\/\/www.4ocean.com\/blogs\/blog\/4ocean-sea-life-encounters-rescues-and-releases\" title=\"https:\/\/www.4ocean.com\/blogs\/blog\/4ocean-sea-life-encounters-rescues-and-releases\"><span style=\"text-decoration:underline\">watch them all here<\/span><\/a>! <\/p><p>Every single day, our crews go above and beyond to clean the ocean and protect and restore their local environment. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "16645529678d858f66-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "16645529678d858f66-0",
+        "16645529678d858f66-1",
+        "16645529678d858f66-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/animal_rescue.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -692,6 +738,7 @@
     "16645525651f39ada2",
     "1664552665292aa1ea",
     "16645527321b768023",
-    "1664552834e1292e6f"
+    "1664552834e1292e6f",
+    "1664552967c4a2a5d1"
   ]
 }
