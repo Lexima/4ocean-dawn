@@ -721,6 +721,62 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1664553117f3d5887f": {
+      "type": "multicolumn",
+      "blocks": {
+        "166455311700ade4da-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Andi.png",
+            "title": "Andi",
+            "text": "<p>Director of Operations<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "166455311700ade4da-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mohamed.png",
+            "title": "Mohamed",
+            "text": "<p>Operations Manager<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "166455311700ade4da-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "166455311700ade4da-0",
+        "166455311700ade4da-1",
+        "166455311700ade4da-2"
+      ],
+      "settings": {
+        "title": "There are a few members of the Bali crew who have been with 4ocean since the very beginning:",
+        "heading_size": "h2",
+        "heading_alignment": "title-wrapper-with-link--center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -739,6 +795,7 @@
     "1664552665292aa1ea",
     "16645527321b768023",
     "1664552834e1292e6f",
-    "1664552967c4a2a5d1"
+    "1664552967c4a2a5d1",
+    "1664553117f3d5887f"
   ]
 }
