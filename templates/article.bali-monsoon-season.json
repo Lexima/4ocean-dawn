@@ -37,9 +37,54 @@
       ],
       "settings": {
       }
+    },
+    "16645509249716fe18": {
+      "type": "rich-text",
+      "blocks": {
+        "16645509241759d36a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>From Hurricane Ian to Bali Monsoon Season<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "16645509241759d36a-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16645509241759d36a-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16645509241759d36a-0",
+        "16645509241759d36a-1",
+        "16645509241759d36a-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16645509249716fe18"
   ]
 }
