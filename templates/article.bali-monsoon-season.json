@@ -447,6 +447,50 @@
         "padding_top": 36,
         "padding_bottom": 8
       }
+    },
+    "16645525106795c67e": {
+      "type": "rich-text",
+      "blocks": {
+        "1664552510b2ccfe69-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "1664552510b2ccfe69-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>But no matter what surprises the rainy season brings, our crews are always prepared and ready to make an impact.<\/p>"
+          }
+        },
+        "1664552510b2ccfe69-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "1664552510b2ccfe69-0",
+        "1664552510b2ccfe69-1",
+        "1664552510b2ccfe69-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -459,6 +503,7 @@
     "166455194444282dde",
     "1664552020c74351cf",
     "166455210585620ebe",
-    "16645521442184d81b"
+    "16645521442184d81b",
+    "16645525106795c67e"
   ]
 }
