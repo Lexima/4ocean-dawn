@@ -400,6 +400,51 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "16645521442184d81b": {
+      "type": "pdp-photo-grid",
+      "blocks": {
+        "1664552144a6721ef0-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/funny_finds_1.png",
+            "link": ""
+          }
+        },
+        "1664552144a6721ef0-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/funny_finds_2.png",
+            "link": ""
+          }
+        },
+        "1664552144a6721ef0-2": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "1664552144a6721ef0-3": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1664552144a6721ef0-0",
+        "1664552144a6721ef0-1",
+        "1664552144a6721ef0-2",
+        "1664552144a6721ef0-3"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
     }
   },
   "order": [
@@ -411,6 +456,7 @@
     "1664551446c20d73ea",
     "166455194444282dde",
     "1664552020c74351cf",
-    "166455210585620ebe"
+    "166455210585620ebe",
+    "16645521442184d81b"
   ]
 }
