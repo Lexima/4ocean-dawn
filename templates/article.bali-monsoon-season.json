@@ -421,12 +421,14 @@
         "1664552144a6721ef0-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/funny_finds_3.png",
             "link": ""
           }
         },
         "1664552144a6721ef0-3": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/funny_finds_4.png",
             "link": ""
           }
         }
@@ -438,7 +440,7 @@
         "1664552144a6721ef0-3"
       ],
       "settings": {
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "columns_desktop": 2,
         "color_scheme": "background-1",
         "columns_mobile": "2",
