@@ -82,6 +82,58 @@
         "padding_bottom": 52
       }
     },
+    "1664557615027bb9c6": {
+      "type": "image-banner",
+      "blocks": {
+        "16645576155376a044-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "16645576155376a044-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "16645576155376a044-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16645576155376a044-0",
+        "16645576155376a044-1",
+        "16645576155376a044-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "image": "shopify:\/\/shop_images\/Bali_Monsoon_Hero_1.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "1664551167e113e8da": {
       "type": "pdp-photo-grid",
       "blocks": {
@@ -1007,6 +1059,7 @@
   "order": [
     "main",
     "16645509249716fe18",
+    "1664557615027bb9c6",
     "1664551167e113e8da",
     "16645513686536fe28",
     "1664551409c06120cd",
