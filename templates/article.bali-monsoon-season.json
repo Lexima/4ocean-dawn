@@ -537,6 +537,52 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1664552665292aa1ea": {
+      "type": "image-with-text",
+      "blocks": {
+        "166455266560634e7a-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image with text",
+            "heading_size": "h1"
+          }
+        },
+        "166455266560634e7a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>When we encounter unusually large debris accumulations, additional crew members are brought in to help collect, sort, and process it all.<\/p><p>And when the need arises, our sorting crews don’t hesitate to get out in the field with our cleanup crews to help recover debris! <\/p>",
+            "text_style": "body"
+          }
+        },
+        "166455266560634e7a-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "166455266560634e7a-0",
+        "166455266560634e7a-1",
+        "166455266560634e7a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/full_river_boom_system.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -551,6 +597,7 @@
     "166455210585620ebe",
     "16645521442184d81b",
     "16645525106795c67e",
-    "16645525651f39ada2"
+    "16645525651f39ada2",
+    "1664552665292aa1ea"
   ]
 }
