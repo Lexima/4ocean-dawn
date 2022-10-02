@@ -107,6 +107,7 @@
   height: 100%;
   align-items: center;
   flex-direction: column;
+  text-align: center;
 }
 
 .card__media-overlay__content .button--secondary {
