@@ -134,6 +134,15 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "1664805886b83e7045": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script type=\"text\/javascript\">\nvar _learnq = _learnq || [];\n  var classname = document.getElementsByClassName(\"product-form__submit\");\nvar addToCart = function() {\n_learnq.push(['track', 'Added to Cart', item]);\n}; for (var i = 0; i < classname.length; i++) {\nclassname[i].addEventListener('click', addToCart, false);\n}\n<\/script>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -141,6 +150,7 @@
     "1662480421232cbefb",
     "main",
     "product-recommendations",
-    "1663078154b4cc1ca6"
+    "1663078154b4cc1ca6",
+    "1664805886b83e7045"
   ]
 }
