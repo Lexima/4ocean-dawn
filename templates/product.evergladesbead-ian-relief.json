@@ -32,6 +32,13 @@
           "settings": {
           }
         },
+        "68ec8494-4a75-4938-98a8-f372a273651f": {
+          "type": "text",
+          "settings": {
+            "text": "Text block",
+            "text_style": "uppercase"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -80,6 +87,7 @@
         "title",
         "3f8620c4-3162-4096-8349-6936a40f20dc",
         "e3fee1d5-4cc5-464d-adf2-4ccc9dbabd16",
+        "68ec8494-4a75-4938-98a8-f372a273651f",
         "price",
         "variant_picker",
         "79722eb2-d29a-4c6d-8fa1-948e3ae1ec2f",
