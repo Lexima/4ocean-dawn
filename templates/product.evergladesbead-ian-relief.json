@@ -256,15 +256,14 @@
     },
     "1266788c-9a2b-4583-8bac-2553af15b475": {
       "type": "featured-products",
-      "disabled": true,
       "blocks": {
         "7c4b7dd3-e97e-49b7-b173-e4d58269d29d": {
           "type": "products",
           "settings": {
             "product_list": [
-              "4ocean-braided-anklet",
-              "albatross-bracelet",
-              "beluga-whale-bracelet"
+              "the-4ocean-bracelet",
+              "the-osborne-reef-bracelet",
+              "ocean-sunfish-mola-mola-beaded-bracelet"
             ],
             "show_pounds_pulled": false,
             "enable_quick_add": true,
