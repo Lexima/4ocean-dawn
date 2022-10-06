@@ -154,12 +154,27 @@
             "button_link_2": "",
             "button_style_secondary_2": false
           }
+        },
+        "2968b16c-52d4-4f70-a631-f126381b5805": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Wondering why 4ocean didn’t send our own crews?<\/strong><\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "9fd96d15-dd6d-4f43-b4e6-33d83bbf1a14": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It’s simple: 4ocean is based on the southeast coast of Florida, so sending our crews would eat up precious resources that are desperately needed by the local community and disaster relief organizations already operating there (e.g., hotels, food, gas, docking space, etc.)<\/p><p>Instead of playing heroes for the sake of publicity, we decided to ask our local contacts what would help them most in their time of need. And, together, we decided that we would make the greatest impact by supporting local crews like Captains For Clean Water who are part of this community and just need the funding to keep up the hard work they’re already doing.<\/p>"
+          }
         }
       },
       "block_order": [
         "template--15965547987137__d24629a7-8cd3-400a-9a37-546df4568964-1665078985735dd4f3-0",
         "template--15965547987137__d24629a7-8cd3-400a-9a37-546df4568964-1665078985735dd4f3-1",
-        "template--15965547987137__d24629a7-8cd3-400a-9a37-546df4568964-1665078985735dd4f3-2"
+        "template--15965547987137__d24629a7-8cd3-400a-9a37-546df4568964-1665078985735dd4f3-2",
+        "2968b16c-52d4-4f70-a631-f126381b5805",
+        "9fd96d15-dd6d-4f43-b4e6-33d83bbf1a14"
       ],
       "settings": {
         "desktop_content_position": "center",
