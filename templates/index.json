@@ -13,17 +13,35 @@
         "7c93d820-fec6-4769-8227-6d697bdab84e": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Ocean-Sunfish-Homepage-slider-2400x1093.jpg",
-            "heading": "Bracelet of the Month",
+            "image": "shopify:\/\/shop_images\/HP-Slider-Hurrican-Ian-Relief-2400x1093.jpg",
+            "heading": "Hurricane Ian  Emergency Disaster Relief",
             "heading_size": "h1",
-            "subheading": "Pull a pound with this month's limited edition Ocean Sunfish Awareness Bracelet.",
-            "button_label": "Shop Now — Pull a Pound",
-            "link": "shopify:\/\/products\/ocean-sunfish-mola-mola-beaded-bracelet",
+            "subheading": "We’re donating 100% of the net proceeds from our Everglades Awareness Bracelet to help people impacted by Hurricane Ian.",
+            "button_label": "Shop Now — Help a Neighbor",
+            "link": "https:\/\/www.4ocean.com\/products\/everglades-bracelet",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
             "text_alignment": "center",
             "image_overlay_opacity": 30,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "225dacec-bcc5-4214-bcde-fe55c422b83f": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dune-BCA-Homepage-slider-2400x1093_ff81de1b-6826-4328-98fe-d3fad01f158a.jpg",
+            "heading": "4ocean x Dune Breast Cancer Awareness Bracelet",
+            "heading_size": "h1",
+            "subheading": "Pull two pounds and support critical breast cancer research, innovation, and care.",
+            "button_label": "Shop Now — Pull Two Pounds",
+            "link": "https:\/\/www.4ocean.com\/products\/dune-jewelry-x-4ocean-heart-beaded-bracelet-florida",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 20,
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
@@ -64,24 +82,6 @@
             "text_alignment_mobile": "center"
           }
         },
-        "225dacec-bcc5-4214-bcde-fe55c422b83f": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Dune-BCA-Homepage-slider-2400x1093_ff81de1b-6826-4328-98fe-d3fad01f158a.jpg",
-            "heading": "4ocean x Dune Breast Cancer Awareness Bracelet",
-            "heading_size": "h1",
-            "subheading": "Pull two pounds and support critical breast cancer research, innovation, and care.",
-            "button_label": "Shop Now — Pull Two Pounds",
-            "link": "https:\/\/www.4ocean.com\/products\/dune-jewelry-x-4ocean-heart-beaded-bracelet-florida",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 20,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "0a123744-d51e-45de-8d53-a3e5ca6e9053": {
           "type": "slide",
           "settings": {
@@ -103,9 +103,9 @@
       },
       "block_order": [
         "7c93d820-fec6-4769-8227-6d697bdab84e",
+        "225dacec-bcc5-4214-bcde-fe55c422b83f",
         "1663779992f92a6c14-0",
         "1663779992f92a6c14-1",
-        "225dacec-bcc5-4214-bcde-fe55c422b83f",
         "0a123744-d51e-45de-8d53-a3e5ca6e9053"
       ],
       "settings": {
