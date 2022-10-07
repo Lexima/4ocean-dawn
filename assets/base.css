@@ -713,6 +713,10 @@ details > * {
   text-decoration-thickness: 0.2rem;
 }
 
+.icon-cart {
+  width: 5rem;
+}
+
 .icon-arrow {
   width: 1.5rem;
 }
