@@ -63,6 +63,7 @@
         },
         "166302494670928926-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": ""
@@ -284,14 +285,14 @@
           "settings": {
             "heading": "Stay Connected",
             "heading_size": "h1",
-            "color": "#fff"
+            "color": "#ffffff"
           }
         },
         "1663025293a511d4e6-1": {
           "type": "paragraph",
           "settings": {
             "text": "<p>Sign up for email & SMS alerts so you never miss an update about the clean ocean movement and new ways to support our mission!<\/p>",
-            "color": "#fff"
+            "color": "#ffffff"
           }
         },
         "1663025293a511d4e6-2": {
