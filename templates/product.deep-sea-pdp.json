@@ -99,6 +99,49 @@
         "padding_bottom": 12
       }
     },
+    "15c928e6-c265-4dc5-a7bf-dbb652056091": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15969445019841__15c928e6-c265-4dc5-a7bf-dbb652056091-1665169860a4f5de96-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Deep Sea Collection<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15969445019841__15c928e6-c265-4dc5-a7bf-dbb652056091-1665169860a4f5de96-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The deep ocean is still one of the most remote and mysterious places on Earth. In all of human history, only 23 people have descended to Challenger Deep in the Mariana Trench which, at 36,201 feet below sea level, is the deepest part of the ocean known to man. <\/p><p>Every journey to the deep has revealed dozens of new and rarely seen marine species—and reminded us how little we know about our true impact on the marine environment. Our plastic waste has already been found in the Mariana trench at a depth of 36,000 feet.<\/p>"
+          }
+        },
+        "template--15969445019841__15c928e6-c265-4dc5-a7bf-dbb652056091-1665169860a4f5de96-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15969445019841__15c928e6-c265-4dc5-a7bf-dbb652056091-1665169860a4f5de96-0",
+        "template--15969445019841__15c928e6-c265-4dc5-a7bf-dbb652056091-1665169860a4f5de96-1",
+        "template--15969445019841__15c928e6-c265-4dc5-a7bf-dbb652056091-1665169860a4f5de96-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "product-recommendations": {
       "type": "product-recommendations",
       "disabled": true,
@@ -149,6 +192,7 @@
     "1662039171b82f6aa8",
     "1662480421232cbefb",
     "main",
+    "15c928e6-c265-4dc5-a7bf-dbb652056091",
     "product-recommendations",
     "1663078154b4cc1ca6",
     "1664805886b83e7045"
