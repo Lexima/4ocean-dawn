@@ -101,6 +101,7 @@
     },
     "660cef90-9afd-4432-9747-3c8dfbec7a20": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
