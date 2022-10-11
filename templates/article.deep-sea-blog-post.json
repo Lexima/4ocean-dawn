@@ -895,11 +895,11 @@
       "settings": {
         "image": "shopify:\/\/shop_images\/Deep-Sea-Blog-Image_10_f2fd7ec9-6abf-4729-bea1-2c9ae0ee1bf6.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "content_layout": "overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 36,
