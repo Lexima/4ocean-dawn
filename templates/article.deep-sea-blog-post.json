@@ -514,8 +514,9 @@
     "5e3d87b5-217f-4555-925a-87598fbab5b5": {
       "type": "video",
       "settings": {
-        "heading": "Deepwater wonderland",
+        "heading": "",
         "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/Deep-Sea-Blog-Animal-Screenshots_3.jpg",
         "video_url": "https:\/\/vimeo.com\/759198260",
         "description": "",
         "full_width": false,
