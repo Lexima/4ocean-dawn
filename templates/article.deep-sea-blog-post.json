@@ -855,7 +855,7 @@
         "template--15981434405057__b012d619-043c-48ea-aa40-f213bcc97566-166551002004b437e7-2": {
           "type": "button",
           "settings": {
-            "button_label": "Shop the Collection — Pull a Pound",
+            "button_label": "Pull a Pound",
             "button_link": "shopify:\/\/collections\/deep-sea-collection"
           }
         }
