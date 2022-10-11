@@ -776,6 +776,50 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "77dda19c-7e1b-4908-8fd8-d1223b022d57": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15981434405057__77dda19c-7e1b-4908-8fd8-d1223b022d57-1665509644d398068c-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15981434405057__77dda19c-7e1b-4908-8fd8-d1223b022d57-1665509644d398068c-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>But even in this alien world where humans almost never go, human trash can still be found.<\/p>"
+          }
+        },
+        "template--15981434405057__77dda19c-7e1b-4908-8fd8-d1223b022d57-1665509644d398068c-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15981434405057__77dda19c-7e1b-4908-8fd8-d1223b022d57-1665509644d398068c-0",
+        "template--15981434405057__77dda19c-7e1b-4908-8fd8-d1223b022d57-1665509644d398068c-1",
+        "template--15981434405057__77dda19c-7e1b-4908-8fd8-d1223b022d57-1665509644d398068c-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -799,6 +843,7 @@
     "660d21f9-a0ba-4b18-bf99-7b554a1b7148",
     "f48a42a2-a77c-443e-9d5d-22aba5cdce96",
     "19856a4e-374d-45c1-bfcb-415844f866e2",
-    "fb173b1b-41b1-46f8-b7f0-16f6b7aa9c99"
+    "fb173b1b-41b1-46f8-b7f0-16f6b7aa9c99",
+    "77dda19c-7e1b-4908-8fd8-d1223b022d57"
   ]
 }
