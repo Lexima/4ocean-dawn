@@ -819,6 +819,7 @@
       "blocks": {
         "template--15981434405057__b52f3eff-5160-4218-8455-62f7ed99f65e-1665509891ea4957ab-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Image with text",
             "heading_size": "h1"
@@ -827,7 +828,7 @@
         "template--15981434405057__b52f3eff-5160-4218-8455-62f7ed99f65e-1665509891ea4957ab-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>In 2018, a team of researchers collected samples of water and sediment from the Mariana Trench from depths of about 8,000 feet to just over 36,000 feet. Analysis of the data revealed the highest levels of plastic pollution ever found in the open ocean. Further analysis showed that concentrations of microplastic increased with depth. <\/p><p>Most of the microplastics found were a few millimeters long, likely from synthetic clothing, fishing gear, and the breakdown of other plastic waste. <\/p><p>Polyester was the most common type of plastic found in sediment samples while PET (or polyethylene terephthalate) was most frequent in water samples.<\/p>",
             "text_style": "body"
           }
         },
@@ -852,7 +853,7 @@
         "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
-        "content_layout": "no-overlap",
+        "content_layout": "overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 36,
