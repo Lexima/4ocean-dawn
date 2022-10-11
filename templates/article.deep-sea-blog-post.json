@@ -1,10 +1,55 @@
 {
   "sections": {
+    "26c8c5cb-524c-448f-9f73-bbf9533e5dee": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15981434405057__26c8c5cb-524c-448f-9f73-bbf9533e5dee-16655191101557845f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Pollution in the Deep Sea (And Boy, Do We Mean DEEP Sea)<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15981434405057__26c8c5cb-524c-448f-9f73-bbf9533e5dee-16655191101557845f-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--15981434405057__26c8c5cb-524c-448f-9f73-bbf9533e5dee-16655191101557845f-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15981434405057__26c8c5cb-524c-448f-9f73-bbf9533e5dee-16655191101557845f-0",
+        "template--15981434405057__26c8c5cb-524c-448f-9f73-bbf9533e5dee-16655191101557845f-1",
+        "template--15981434405057__26c8c5cb-524c-448f-9f73-bbf9533e5dee-16655191101557845f-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "ab924d5d-086a-49b1-97c1-92bd34c54993": {
       "type": "image-with-text",
       "blocks": {
         "template--15981434405057__ab924d5d-086a-49b1-97c1-92bd34c54993-1665512039c40eff41-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "Pollution in the Deep Sea (And Boy, Do We Mean DEEP Sea)",
             "heading_size": "h2"
@@ -881,6 +926,7 @@
     }
   },
   "order": [
+    "26c8c5cb-524c-448f-9f73-bbf9533e5dee",
     "ab924d5d-086a-49b1-97c1-92bd34c54993",
     "main",
     "dc0e5a24-b6a0-4b5d-91cd-ead5d57702d3",
