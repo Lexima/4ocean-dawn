@@ -76,50 +76,6 @@
       "settings": {
       }
     },
-    "ded6461a-a69a-4ae2-acdd-702c9826c91e": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15981434405057__ded6461a-a69a-4ae2-acdd-702c9826c91e-1665505933d1696ec2-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>Pollution in the Deep Sea (And Boy, Do We Mean DEEP Sea)<\/strong><\/p>",
-            "heading_size": "h2"
-          }
-        },
-        "template--15981434405057__ded6461a-a69a-4ae2-acdd-702c9826c91e-1665505933d1696ec2-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "template--15981434405057__ded6461a-a69a-4ae2-acdd-702c9826c91e-1665505933d1696ec2-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15981434405057__ded6461a-a69a-4ae2-acdd-702c9826c91e-1665505933d1696ec2-0",
-        "template--15981434405057__ded6461a-a69a-4ae2-acdd-702c9826c91e-1665505933d1696ec2-1",
-        "template--15981434405057__ded6461a-a69a-4ae2-acdd-702c9826c91e-1665505933d1696ec2-2"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "74bf7f17-fc0e-44c0-94c0-bad5fe5cece9": {
       "type": "rich-text",
       "blocks": {
@@ -952,7 +908,6 @@
   "order": [
     "6f79aacc-f5b9-402c-8e80-d5e92aca607e",
     "main",
-    "ded6461a-a69a-4ae2-acdd-702c9826c91e",
     "74bf7f17-fc0e-44c0-94c0-bad5fe5cece9",
     "263e9756-5fc5-440e-bd3a-c7ea47330df6",
     "438b20a0-4d9a-4e96-8331-f11fc2bcdc6d",
