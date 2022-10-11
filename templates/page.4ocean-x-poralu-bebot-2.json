@@ -357,6 +357,49 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "0ee25dff-11ab-4d33-8f0d-2f41ee3ffe7f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15980997247169__0ee25dff-11ab-4d33-8f0d-2f41ee3ffe7f-1665501120d067b419-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>See if the BeBot is the right solution for keeping your coastlines clean<\/p><p><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15980997247169__0ee25dff-11ab-4d33-8f0d-2f41ee3ffe7f-1665501120d067b419-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--15980997247169__0ee25dff-11ab-4d33-8f0d-2f41ee3ffe7f-1665501120d067b419-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Download Spec Sheet",
+            "button_link": "https:\/\/cdn.shopify.com\/s\/files\/1\/0996\/1022\/files\/4ocean-poralu-bebot-sheet.pdf?v=1637163009",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15980997247169__0ee25dff-11ab-4d33-8f0d-2f41ee3ffe7f-1665501120d067b419-0",
+        "template--15980997247169__0ee25dff-11ab-4d33-8f0d-2f41ee3ffe7f-1665501120d067b419-1",
+        "template--15980997247169__0ee25dff-11ab-4d33-8f0d-2f41ee3ffe7f-1665501120d067b419-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -367,6 +410,7 @@
     "93c22349-d3b3-45d0-bd96-e45de00ff73e",
     "8844fec0-b561-4d5a-a13a-ff77683e9370",
     "55619050-9b30-497e-b74c-c90785f80d3b",
-    "be91a652-15a3-4d3f-8d4c-16bc239d3fac"
+    "be91a652-15a3-4d3f-8d4c-16bc239d3fac",
+    "0ee25dff-11ab-4d33-8f0d-2f41ee3ffe7f"
   ]
 }
