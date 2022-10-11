@@ -252,6 +252,7 @@
         "template--15980997247169__be91a652-15a3-4d3f-8d4c-16bc239d3fac-1665500689e612c715-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/04-4oocean-poralu-Partner-1_1.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -261,6 +262,7 @@
         "template--15980997247169__be91a652-15a3-4d3f-8d4c-16bc239d3fac-1665500689e612c715-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/04-4oocean-poralu-Partner-2_8ef19a1d-586c-4159-9f82-b05d3fe80543.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -270,6 +272,7 @@
         "template--15980997247169__be91a652-15a3-4d3f-8d4c-16bc239d3fac-1665500689e612c715-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/04-4oocean-poralu-Partner-3_68b41dc6-9134-45d2-9b2a-614361efb1c3.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
