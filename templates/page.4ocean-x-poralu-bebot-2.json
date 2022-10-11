@@ -203,6 +203,49 @@
         "padding_bottom": 52
       }
     },
+    "55619050-9b30-497e-b74c-c90785f80d3b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15980997247169__55619050-9b30-497e-b74c-c90785f80d3b-1665500789922cf916-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Engineered by robotics experts, deployed by Poralu Marine<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15980997247169__55619050-9b30-497e-b74c-c90785f80d3b-1665500789922cf916-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>The BeBot is manufactured by <a href=\"https:\/\/www.poralu.com\/en\/\">Poralu Marine<\/a>, a global leader in the design, manufacture, and installation of environmentally-friendly marine technology and infrastructure. Use the slider to learn more about this groundbreaking clean ocean technology.<\/p>"
+          }
+        },
+        "template--15980997247169__55619050-9b30-497e-b74c-c90785f80d3b-1665500789922cf916-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15980997247169__55619050-9b30-497e-b74c-c90785f80d3b-1665500789922cf916-0",
+        "template--15980997247169__55619050-9b30-497e-b74c-c90785f80d3b-1665500789922cf916-1",
+        "template--15980997247169__55619050-9b30-497e-b74c-c90785f80d3b-1665500789922cf916-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "be91a652-15a3-4d3f-8d4c-16bc239d3fac": {
       "type": "multicolumn",
       "blocks": {
@@ -315,6 +358,7 @@
     "f621e14d-bade-4cdb-aafd-b0a9f985354b",
     "93c22349-d3b3-45d0-bd96-e45de00ff73e",
     "8844fec0-b561-4d5a-a13a-ff77683e9370",
+    "55619050-9b30-497e-b74c-c90785f80d3b",
     "be91a652-15a3-4d3f-8d4c-16bc239d3fac"
   ]
 }
