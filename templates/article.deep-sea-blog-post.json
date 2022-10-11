@@ -912,22 +912,22 @@
         "template--15981434405057__b012d619-043c-48ea-aa40-f213bcc97566-166551002004b437e7-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "Glow-in-the-Dark  Deep Sea Bracelets",
             "heading_size": "h1"
           }
         },
         "template--15981434405057__b012d619-043c-48ea-aa40-f213bcc97566-166551002004b437e7-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>By purchasing any one of these bracelets, you will <strong>pull one pound of trash<\/strong> from the world’s oceans, rivers, and coastlines.<\/p>",
             "text_style": "body"
           }
         },
         "template--15981434405057__b012d619-043c-48ea-aa40-f213bcc97566-166551002004b437e7-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": ""
+            "button_label": "Shop the Collection — Pull a Pound",
+            "button_link": "shopify:\/\/collections\/deep-sea-collection"
           }
         }
       },
