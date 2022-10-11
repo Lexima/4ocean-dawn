@@ -508,24 +508,28 @@
         "template--15981434405057__119e8f15-4385-4f0a-9b7c-99c723bc0cc1-1665506516d31dd213-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Deep-Sea-Blog-Image_5.jpg",
             "link": ""
           }
         },
         "template--15981434405057__119e8f15-4385-4f0a-9b7c-99c723bc0cc1-1665506516d31dd213-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Deep-Sea-Blog-Image_6.jpg",
             "link": ""
           }
         },
         "template--15981434405057__119e8f15-4385-4f0a-9b7c-99c723bc0cc1-1665506516d31dd213-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Deep-Sea-Blog-Image_7.jpg",
             "link": ""
           }
         },
         "template--15981434405057__119e8f15-4385-4f0a-9b7c-99c723bc0cc1-1665506516d31dd213-3": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Deep-Sea-Blog-Image_8.jpg",
             "link": ""
           }
         }
@@ -537,7 +541,7 @@
         "template--15981434405057__119e8f15-4385-4f0a-9b7c-99c723bc0cc1-1665506516d31dd213-3"
       ],
       "settings": {
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "columns_desktop": 2,
         "color_scheme": "background-1",
         "columns_mobile": "2",
