@@ -160,6 +160,19 @@
         "padding_bottom": 52
       }
     },
+    "1e3926c9-0018-4b97-9774-103d25040202": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "video_url": "https:\/\/vimeo.com\/642094294",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "1663078154b4cc1ca6": {
       "type": "apps",
       "blocks": {
@@ -193,6 +206,7 @@
     "main",
     "product-recommendations",
     "e5925c75-e7f9-47b1-9c85-79c56e3f9304",
+    "1e3926c9-0018-4b97-9774-103d25040202",
     "1663078154b4cc1ca6",
     "1664805886b83e7045"
   ]
