@@ -125,8 +125,9 @@
     "456d453f-088f-4b08-8521-7056119792fd": {
       "type": "video",
       "settings": {
-        "heading": "Oasis of life",
+        "heading": "",
         "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/Deep-Sea-Blog-Animal-Screenshots_1.jpg",
         "video_url": "https:\/\/vimeo.com\/759199305",
         "description": "",
         "full_width": false,
