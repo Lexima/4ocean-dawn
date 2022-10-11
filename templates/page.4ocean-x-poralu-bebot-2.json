@@ -7,9 +7,18 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "16108841-2330-44a7-8173-d08df8bef38c": {
+      "type": "modal-video",
+      "settings": {
+        "video_url": "https:\/\/vimeo.com\/579149481\/56a0f53bd6",
+        "video_text": "",
+        "show_product_banner": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "16108841-2330-44a7-8173-d08df8bef38c"
   ]
 }
