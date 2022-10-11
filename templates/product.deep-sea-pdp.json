@@ -116,6 +116,7 @@
     "dee089a2-33ea-4e9a-8b91-a806a1f3ba9a": {
       "type": "modal-video",
       "settings": {
+        "cover_image": "shopify:\/\/shop_images\/Deep-Sea-Homepage-slider-2400x1093_B-_1.jpg",
         "video_url": "https:\/\/vimeo.com\/758151150",
         "video_text": "",
         "show_product_banner": false
