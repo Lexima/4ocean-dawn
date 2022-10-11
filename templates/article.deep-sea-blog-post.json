@@ -309,6 +309,50 @@
         "padding_top": 36,
         "padding_bottom": 8
       }
+    },
+    "cbec9c74-b16e-40a0-b338-f1baca9aaad2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15981434405057__cbec9c74-b16e-40a0-b338-f1baca9aaad2-1665506430a67de8e1-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15981434405057__cbec9c74-b16e-40a0-b338-f1baca9aaad2-1665506430a67de8e1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We tend to think of this underwater realm as remote, pristine, and beyond human impact, but nothing could be further from the truth.<\/p>"
+          }
+        },
+        "template--15981434405057__cbec9c74-b16e-40a0-b338-f1baca9aaad2-1665506430a67de8e1-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15981434405057__cbec9c74-b16e-40a0-b338-f1baca9aaad2-1665506430a67de8e1-0",
+        "template--15981434405057__cbec9c74-b16e-40a0-b338-f1baca9aaad2-1665506430a67de8e1-1",
+        "template--15981434405057__cbec9c74-b16e-40a0-b338-f1baca9aaad2-1665506430a67de8e1-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -318,6 +362,7 @@
     "74bf7f17-fc0e-44c0-94c0-bad5fe5cece9",
     "263e9756-5fc5-440e-bd3a-c7ea47330df6",
     "438b20a0-4d9a-4e96-8331-f11fc2bcdc6d",
-    "7efa3627-ea65-4068-93a8-3ab55c8c3f45"
+    "7efa3627-ea65-4068-93a8-3ab55c8c3f45",
+    "cbec9c74-b16e-40a0-b338-f1baca9aaad2"
   ]
 }
