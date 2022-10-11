@@ -114,6 +114,51 @@
         "padding_bottom": 36
       }
     },
+    "93c22349-d3b3-45d0-bd96-e45de00ff73e": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15980997247169__93c22349-d3b3-45d0-bd96-e45de00ff73e-16655005753f05edb1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Coastal plastic pollution",
+            "heading_size": "h1"
+          }
+        },
+        "template--15980997247169__93c22349-d3b3-45d0-bd96-e45de00ff73e-16655005753f05edb1-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Walk any beach or coastline around the world and you’re bound to encounter some form of plastic pollution. Plastic waste isn’t just an eyesore that impacts tourism and local economies; it’s also an environmental hazard that can harm wildlife and degrade crucial coastal ecosystems.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15980997247169__93c22349-d3b3-45d0-bd96-e45de00ff73e-16655005753f05edb1-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15980997247169__93c22349-d3b3-45d0-bd96-e45de00ff73e-16655005753f05edb1-0",
+        "template--15980997247169__93c22349-d3b3-45d0-bd96-e45de00ff73e-16655005753f05edb1-1",
+        "template--15980997247169__93c22349-d3b3-45d0-bd96-e45de00ff73e-16655005753f05edb1-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/4ocean-poralu_1600x_020a0a21-3ffc-46be-8da8-b25004c34f73.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "8844fec0-b561-4d5a-a13a-ff77683e9370": {
       "type": "rich-text",
       "blocks": {
@@ -127,11 +172,12 @@
         "template--15980997247169__8844fec0-b561-4d5a-a13a-ff77683e9370-1665499981cf83df7c-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Walk any beach or coastline around the world and you’re bound to encounter some form of plastic pollution. Plastic waste isn’t just an eyesore that impacts tourism and local economies; it’s also an environmental hazard that can harm wildlife and degrade crucial coastal ecosystems.<br\/><br\/>To help keep beaches clean, many coastal properties utilize heavy-duty equipment like tractors to rake the sand or manual sifters that are labor intensive, less efficient, trigger beach erosion, and automatically crush fauna and flora present in the sand. Yet these devices leave a lot of plastic waste behind because it’s either too small or too deep in the sand to capture.<br\/><br\/>Sand quality is degraded and any small trash that isn’t recovered will eventually find its way into the ocean or into the stomachs of seabirds, sea turtles, and other animals who rely on our coastal ecosystems to thrive.<br\/><br\/>The BeBot is specifically designed to address these issues and can either replace or work in tandem with existing cleanup equipment and crews.<\/p>"
+            "text": "<p>To help keep beaches clean, many coastal properties utilize heavy-duty equipment like tractors to rake the sand or manual sifters that are labor intensive, less efficient, trigger beach erosion, and automatically crush fauna and flora present in the sand. Yet these devices leave a lot of plastic waste behind because it’s either too small or too deep in the sand to capture.<br\/><br\/>Sand quality is degraded and any small trash that isn’t recovered will eventually find its way into the ocean or into the stomachs of seabirds, sea turtles, and other animals who rely on our coastal ecosystems to thrive.<br\/><br\/>The BeBot is specifically designed to address these issues and can either replace or work in tandem with existing cleanup equipment and crews.<\/p>"
           }
         },
         "template--15980997247169__8844fec0-b561-4d5a-a13a-ff77683e9370-1665499981cf83df7c-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
@@ -162,6 +208,7 @@
     "b7958ae2-3ea4-4ceb-997f-f1c7db27d173",
     "cd828ec5-c5cb-4c01-b0e3-a1a18f4dfd74",
     "f621e14d-bade-4cdb-aafd-b0a9f985354b",
+    "93c22349-d3b3-45d0-bd96-e45de00ff73e",
     "8844fec0-b561-4d5a-a13a-ff77683e9370"
   ]
 }
