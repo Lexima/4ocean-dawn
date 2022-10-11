@@ -548,6 +548,50 @@
         "padding_top": 36,
         "padding_bottom": 8
       }
+    },
+    "4179fde8-8ab5-48d9-9889-95d7e44ee64c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15981434405057__4179fde8-8ab5-48d9-9889-95d7e44ee64c-16655093881cd5f6c3-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15981434405057__4179fde8-8ab5-48d9-9889-95d7e44ee64c-16655093881cd5f6c3-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>For instance, many animals are transparent, which helps them stay hidden from predators. The video below is the first time anyone has seen a living fish from the family Aphyonidae, which has transparent, gelatinous skin instead of scales.<\/p>"
+          }
+        },
+        "template--15981434405057__4179fde8-8ab5-48d9-9889-95d7e44ee64c-16655093881cd5f6c3-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15981434405057__4179fde8-8ab5-48d9-9889-95d7e44ee64c-16655093881cd5f6c3-0",
+        "template--15981434405057__4179fde8-8ab5-48d9-9889-95d7e44ee64c-16655093881cd5f6c3-1",
+        "template--15981434405057__4179fde8-8ab5-48d9-9889-95d7e44ee64c-16655093881cd5f6c3-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -563,6 +607,7 @@
     "cbec9c74-b16e-40a0-b338-f1baca9aaad2",
     "b1bb1ce9-b0b1-4f0c-af5e-e23b7fbb6dad",
     "86ac156b-659f-4151-8b8d-e65ba08bd660",
-    "119e8f15-4385-4f0a-9b7c-99c723bc0cc1"
+    "119e8f15-4385-4f0a-9b7c-99c723bc0cc1",
+    "4179fde8-8ab5-48d9-9889-95d7e44ee64c"
   ]
 }
