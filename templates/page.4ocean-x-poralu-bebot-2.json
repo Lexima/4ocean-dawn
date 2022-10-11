@@ -8,51 +8,22 @@
         "padding_bottom": 0
       }
     },
-    "ed60ee78-24c1-4aff-8609-22c061be8b6e": {
-      "type": "hero",
-      "blocks": {
-        "template--15980997247169__ed60ee78-24c1-4aff-8609-22c061be8b6e-1665499174b2265d21-0": {
-          "type": "eyebrow",
-          "settings": {
-            "eyebrow": "<p>Eyebrow<\/p>"
-          }
-        },
-        "template--15980997247169__ed60ee78-24c1-4aff-8609-22c061be8b6e-1665499174b2265d21-1": {
-          "type": "heading",
-          "settings": {
-            "heading": "Heading",
-            "heading_size": "h1"
-          }
-        },
-        "template--15980997247169__ed60ee78-24c1-4aff-8609-22c061be8b6e-1665499174b2265d21-2": {
-          "type": "copy",
-          "settings": {
-            "copy": "<p>Copy<\/p>"
-          }
-        },
-        "template--15980997247169__ed60ee78-24c1-4aff-8609-22c061be8b6e-1665499174b2265d21-3": {
-          "type": "button",
-          "settings": {
-            "text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--15980997247169__ed60ee78-24c1-4aff-8609-22c061be8b6e-1665499174b2265d21-0",
-        "template--15980997247169__ed60ee78-24c1-4aff-8609-22c061be8b6e-1665499174b2265d21-1",
-        "template--15980997247169__ed60ee78-24c1-4aff-8609-22c061be8b6e-1665499174b2265d21-2",
-        "template--15980997247169__ed60ee78-24c1-4aff-8609-22c061be8b6e-1665499174b2265d21-3"
-      ],
+    "b7958ae2-3ea4-4ceb-997f-f1c7db27d173": {
+      "type": "video",
       "settings": {
-        "desktop_content_alignment": "center",
-        "overlay_opacity": 20,
-        "video_url": "https:\/\/vimeo.com\/579149481\/56a0f53bd6"
+        "heading": "Video",
+        "heading_size": "h1",
+        "video_url": "https:\/\/vimeo.com\/579149481\/56a0f53bd6",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     }
   },
   "order": [
     "main",
-    "ed60ee78-24c1-4aff-8609-22c061be8b6e"
+    "b7958ae2-3ea4-4ceb-997f-f1c7db27d173"
   ]
 }
