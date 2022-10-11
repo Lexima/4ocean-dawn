@@ -1,7 +1,53 @@
 {
   "sections": {
+    "ab924d5d-086a-49b1-97c1-92bd34c54993": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15981434405057__ab924d5d-086a-49b1-97c1-92bd34c54993-1665512039c40eff41-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Pollution in the Deep Sea (And Boy, Do We Mean DEEP Sea)",
+            "heading_size": "h2"
+          }
+        },
+        "template--15981434405057__ab924d5d-086a-49b1-97c1-92bd34c54993-1665512039c40eff41-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Pollution in the Mariana Trench is a stark reminder of how little we really know about the ocean or our impact on it<\/strong><\/p><p>In the western Pacific Ocean (near Guam) lies a giant underwater canyon called the Mariana Trench. Roughly 1,500 miles long and 43 miles wide, this crescent-shaped ravine is home to the deepest-known place on Earth—Challenger Deep.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15981434405057__ab924d5d-086a-49b1-97c1-92bd34c54993-1665512039c40eff41-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15981434405057__ab924d5d-086a-49b1-97c1-92bd34c54993-1665512039c40eff41-0",
+        "template--15981434405057__ab924d5d-086a-49b1-97c1-92bd34c54993-1665512039c40eff41-1",
+        "template--15981434405057__ab924d5d-086a-49b1-97c1-92bd34c54993-1665512039c40eff41-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Deep-Sea-Blog-Image_1.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "6f79aacc-f5b9-402c-8e80-d5e92aca607e": {
       "type": "hero",
+      "disabled": true,
       "blocks": {
         "template--15981434405057__6f79aacc-f5b9-402c-8e80-d5e92aca607e-166551032310fa3258-0": {
           "type": "eyebrow",
@@ -45,40 +91,9 @@
         "image": "shopify:\/\/shop_images\/Deep-Sea-Blog-Image_1.jpg"
       }
     },
-    "main": {
-      "type": "main-article",
-      "disabled": true,
-      "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-            "blog_show_date": true,
-            "blog_show_author": false
-          }
-        },
-        "share": {
-          "type": "share",
-          "disabled": true,
-          "settings": {
-            "share_label": "Share"
-          }
-        },
-        "content": {
-          "type": "content",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "title",
-        "share",
-        "content"
-      ],
-      "settings": {
-      }
-    },
     "74bf7f17-fc0e-44c0-94c0-bad5fe5cece9": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "template--15981434405057__74bf7f17-fc0e-44c0-94c0-bad5fe5cece9-1665505999a24c63ee-0": {
           "type": "heading",
@@ -118,6 +133,38 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "blog_show_date": true,
+            "blog_show_author": false
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "share",
+        "content"
+      ],
+      "settings": {
       }
     },
     "263e9756-5fc5-440e-bd3a-c7ea47330df6": {
@@ -907,9 +954,10 @@
     }
   },
   "order": [
+    "ab924d5d-086a-49b1-97c1-92bd34c54993",
     "6f79aacc-f5b9-402c-8e80-d5e92aca607e",
-    "main",
     "74bf7f17-fc0e-44c0-94c0-bad5fe5cece9",
+    "main",
     "263e9756-5fc5-440e-bd3a-c7ea47330df6",
     "438b20a0-4d9a-4e96-8331-f11fc2bcdc6d",
     "456d453f-088f-4b08-8521-7056119792fd",
