@@ -400,6 +400,50 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "84f2c510-396d-405f-8c36-965152767f39": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15980997247169__84f2c510-396d-405f-8c36-965152767f39-1665501543fd0f0998-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "You make it possible to invest in tech that maximizes our impact",
+            "heading_size": "h1"
+          }
+        },
+        "template--15980997247169__84f2c510-396d-405f-8c36-965152767f39-1665501543fd0f0998-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>We’re always looking for new and innovative clean ocean technologies that will help us maximize the efficiency and impact of our cleanups. Investments in clean ocean technology like the BeBot are only possible because of the clean ocean movement. Every time you shop 4ocean and pull a pound of trash, you provide the funding we need to advance our mission to end the ocean plastic crisis.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15980997247169__84f2c510-396d-405f-8c36-965152767f39-1665501543fd0f0998-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now + Pull Pounds",
+            "button_link": "https:\/\/www.4ocean.com\/pages\/shop"
+          }
+        }
+      },
+      "block_order": [
+        "template--15980997247169__84f2c510-396d-405f-8c36-965152767f39-1665501543fd0f0998-0",
+        "template--15980997247169__84f2c510-396d-405f-8c36-965152767f39-1665501543fd0f0998-1",
+        "template--15980997247169__84f2c510-396d-405f-8c36-965152767f39-1665501543fd0f0998-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/06-4ocean-poralu-Impact_1600x_7a4f200c-b1ff-44fc-97a3-5c0429ecc4cb.webp",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -411,6 +455,7 @@
     "8844fec0-b561-4d5a-a13a-ff77683e9370",
     "55619050-9b30-497e-b74c-c90785f80d3b",
     "be91a652-15a3-4d3f-8d4c-16bc239d3fac",
-    "0ee25dff-11ab-4d33-8f0d-2f41ee3ffe7f"
+    "0ee25dff-11ab-4d33-8f0d-2f41ee3ffe7f",
+    "84f2c510-396d-405f-8c36-965152767f39"
   ]
 }
