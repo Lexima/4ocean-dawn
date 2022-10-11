@@ -137,8 +137,8 @@
         "template--15981398098113__e5925c75-e7f9-47b1-9c85-79c56e3f9304-16655049906e8b8763-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
-            "button_link": "",
+            "button_label": "Learn More",
+            "button_link": "https:\/\/www.4ocean.com\/blogs\/blog\/pollution-in-the-deep-sea-and-boy-do-we-mean-deep-sea",
             "button_style_secondary": false,
             "button_label_2": "",
             "button_link_2": "",
