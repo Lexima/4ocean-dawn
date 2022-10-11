@@ -118,6 +118,48 @@
         "padding_bottom": 28
       }
     },
+    "e5925c75-e7f9-47b1-9c85-79c56e3f9304": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15981398098113__e5925c75-e7f9-47b1-9c85-79c56e3f9304-16655049906e8b8763-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Osborne Reef Tire Cleanup<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15981398098113__e5925c75-e7f9-47b1-9c85-79c56e3f9304-16655049906e8b8763-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our crews are diving to new depths to clean the ocean and protect our coral reefs from millions of tires that were sunk into the ocean over 50 years ago. This historic underwater cleanup is funded through the sale of our Osborne Reef Jewelry Collection, which is made with rubber from the tires we recover. <\/p>"
+          }
+        },
+        "template--15981398098113__e5925c75-e7f9-47b1-9c85-79c56e3f9304-16655049906e8b8763-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15981398098113__e5925c75-e7f9-47b1-9c85-79c56e3f9304-16655049906e8b8763-0",
+        "template--15981398098113__e5925c75-e7f9-47b1-9c85-79c56e3f9304-16655049906e8b8763-1",
+        "template--15981398098113__e5925c75-e7f9-47b1-9c85-79c56e3f9304-16655049906e8b8763-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1663078154b4cc1ca6": {
       "type": "apps",
       "blocks": {
@@ -150,6 +192,7 @@
     "1662480421232cbefb",
     "main",
     "product-recommendations",
+    "e5925c75-e7f9-47b1-9c85-79c56e3f9304",
     "1663078154b4cc1ca6",
     "1664805886b83e7045"
   ]
