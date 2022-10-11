@@ -165,6 +165,7 @@
       "settings": {
         "heading": "",
         "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/Oz-Reef-Video.jpg",
         "video_url": "https:\/\/vimeo.com\/642094294",
         "description": "",
         "full_width": false,
