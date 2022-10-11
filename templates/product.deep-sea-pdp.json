@@ -101,25 +101,16 @@
     },
     "660cef90-9afd-4432-9747-3c8dfbec7a20": {
       "type": "video",
-      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/Deep-Sea-Homepage-slider-2400x1093_B.jpg",
         "video_url": "https:\/\/vimeo.com\/758151150",
         "description": "",
         "full_width": false,
         "color_scheme": "background-1",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "dee089a2-33ea-4e9a-8b91-a806a1f3ba9a": {
-      "type": "modal-video",
-      "settings": {
-        "cover_image": "shopify:\/\/shop_images\/Deep-Sea-Homepage-slider-2400x1093_B-_1.jpg",
-        "video_url": "https:\/\/vimeo.com\/758151150",
-        "video_text": "",
-        "show_product_banner": false
       }
     },
     "15c928e6-c265-4dc5-a7bf-dbb652056091": {
@@ -263,7 +254,6 @@
     "1662480421232cbefb",
     "main",
     "660cef90-9afd-4432-9747-3c8dfbec7a20",
-    "dee089a2-33ea-4e9a-8b91-a806a1f3ba9a",
     "15c928e6-c265-4dc5-a7bf-dbb652056091",
     "0824b7dd-59ba-49c2-b4a7-c0f1db18e2d0",
     "product-recommendations",
