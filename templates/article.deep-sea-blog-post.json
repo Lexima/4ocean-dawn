@@ -263,6 +263,19 @@
         "padding_bottom": 52
       }
     },
+    "456d453f-088f-4b08-8521-7056119792fd": {
+      "type": "video",
+      "settings": {
+        "heading": "Oasis of life",
+        "heading_size": "h1",
+        "video_url": "https:\/\/vimeo.com\/759199305",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "7efa3627-ea65-4068-93a8-3ab55c8c3f45": {
       "type": "pdp-photo-grid",
       "blocks": {
@@ -496,6 +509,7 @@
     "74bf7f17-fc0e-44c0-94c0-bad5fe5cece9",
     "263e9756-5fc5-440e-bd3a-c7ea47330df6",
     "438b20a0-4d9a-4e96-8331-f11fc2bcdc6d",
+    "456d453f-088f-4b08-8521-7056119792fd",
     "7efa3627-ea65-4068-93a8-3ab55c8c3f45",
     "cbec9c74-b16e-40a0-b338-f1baca9aaad2",
     "b1bb1ce9-b0b1-4f0c-af5e-e23b7fbb6dad",
