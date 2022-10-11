@@ -572,8 +572,9 @@
     "f48a42a2-a77c-443e-9d5d-22aba5cdce96": {
       "type": "video",
       "settings": {
-        "heading": "Jellyfish",
+        "heading": "",
         "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/Deep-Sea-Blog-Animal-Screenshots_4.jpg",
         "video_url": "https:\/\/vimeo.com\/759197809",
         "description": "",
         "full_width": false,
@@ -629,8 +630,9 @@
     "fb173b1b-41b1-46f8-b7f0-16f6b7aa9c99": {
       "type": "video",
       "settings": {
-        "heading": "Mud monsters",
+        "heading": "",
         "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/Deep-Sea-Blog-Animal-Screenshots_5.jpg",
         "video_url": "https:\/\/vimeo.com\/759196839",
         "description": "",
         "full_width": false,
