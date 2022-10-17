@@ -117,6 +117,7 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "FREE gift with $10 purchase. Discount applied at checkout. Limit one (1) per transaction. Ends 10\/16.",
               "text_alignment": "center",
