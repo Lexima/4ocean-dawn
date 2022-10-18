@@ -1,0 +1,209 @@
+{
+  "sections": {
+    "1662039171b82f6aa8": {
+      "type": "sticky-product-banner",
+      "settings": {
+        "show_price": true
+      }
+    },
+    "1662480421232cbefb": {
+      "type": "breadcrumbs",
+      "settings": {
+        "padding_top": 12,
+        "padding_bottom": 12
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "3f8620c4-3162-4096-8349-6936a40f20dc": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/star-rating\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "83719e7c-3384-46fa-b2cc-bd2ba8edf862": {
+          "type": "text",
+          "settings": {
+            "text": "A 2022 Holiday Exclusive",
+            "text_style": "body"
+          }
+        },
+        "e3fee1d5-4cc5-464d-adf2-4ccc9dbabd16": {
+          "type": "pounds_pulled",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "pills_background_color": "#ffffff",
+            "pills_text_color": "#121212",
+            "pills_border_color": "#121212",
+            "active_pill_background_color": "#0565ce",
+            "active_pill_text_color": "#ffffff",
+            "active_pill_border_color": "#0565ce"
+          }
+        },
+        "79722eb2-d29a-4c6d-8fa1-948e3ae1ec2f": {
+          "type": "subscription_upsell",
+          "settings": {
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "3081a042-0d7c-4c14-8379-fb29fd845783": {
+          "type": "icons",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "3f8620c4-3162-4096-8349-6936a40f20dc",
+        "83719e7c-3384-46fa-b2cc-bd2ba8edf862",
+        "e3fee1d5-4cc5-464d-adf2-4ccc9dbabd16",
+        "price",
+        "variant_picker",
+        "79722eb2-d29a-4c6d-8fa1-948e3ae1ec2f",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "3081a042-0d7c-4c14-8379-fb29fd845783"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "gallery_layout": "stacked",
+        "media_size": "medium",
+        "mobile_thumbnails": "show",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 12
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "btn_label": "Shop All",
+        "btn_link": "",
+        "view_all_style": "link",
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_color": true,
+        "show_rating": false,
+        "padding_top": 36,
+        "padding_bottom": 28
+      }
+    },
+    "496bf847-b7b9-409a-a4fe-518b7a1b4af9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15992204329153__496bf847-b7b9-409a-a4fe-518b7a1b4af9-1666064239153d1a73-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>The Dune Sandbank<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15992204329153__496bf847-b7b9-409a-a4fe-518b7a1b4af9-1666064239153d1a73-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>One of the world’s largest collections of sand and earth elements, Dune’s Sandbank features natural materials like sea shells, clay, soil, sand, stones, and flower petals from over 5,000 iconic and memorable locations around the world. <\/p><p>All elements in the Dune Sandbank are ethically collected by people just like you! Since 2010, Dune’s customers and community members have sent in sand and earth elements from vacations, weddings, honeymoons, and other special occasions to capture their personal experiences. <\/p><p>There are often extra elements leftover once their custom pieces are created. In fact, a single cup of any element can be used to make over 1,000 designs. To ensure no materials go to waste, Dune authenticates all unused material before adding them to the Sandbank so other customers can add these elements to their own custom designs.<\/p>"
+          }
+        },
+        "template--15992204329153__496bf847-b7b9-409a-a4fe-518b7a1b4af9-1666064239153d1a73-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15992204329153__496bf847-b7b9-409a-a4fe-518b7a1b4af9-1666064239153d1a73-0",
+        "template--15992204329153__496bf847-b7b9-409a-a4fe-518b7a1b4af9-1666064239153d1a73-1",
+        "template--15992204329153__496bf847-b7b9-409a-a4fe-518b7a1b4af9-1666064239153d1a73-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "1663078154b4cc1ca6": {
+      "type": "apps",
+      "blocks": {
+        "4d3eccda-c267-4660-97ae-7a1a51101319": {
+          "type": "shopify:\/\/apps\/yotpo-product-photo-reviews\/blocks\/reviews\/eb7dfd7d-db44-4334-bc49-c893b51b36cf",
+          "settings": {
+            "product": "{{product}}"
+          }
+        }
+      },
+      "block_order": [
+        "4d3eccda-c267-4660-97ae-7a1a51101319"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "1664805886b83e7045": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<script type=\"text\/javascript\">\nvar _learnq = _learnq || [];\n  var classname = document.getElementsByClassName(\"product-form__submit\");\nvar addToCart = function() {\n_learnq.push(['track', 'Added to Cart', item]);\n}; for (var i = 0; i < classname.length; i++) {\nclassname[i].addEventListener('click', addToCart, false);\n}\n<\/script>",
+        "color_scheme": "background-1",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    }
+  },
+  "order": [
+    "1662039171b82f6aa8",
+    "1662480421232cbefb",
+    "main",
+    "product-recommendations",
+    "496bf847-b7b9-409a-a4fe-518b7a1b4af9",
+    "1663078154b4cc1ca6",
+    "1664805886b83e7045"
+  ]
+}
