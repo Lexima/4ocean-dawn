@@ -127,6 +127,49 @@
         "padding_bottom": 28
       }
     },
+    "496bf847-b7b9-409a-a4fe-518b7a1b4af9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15992204329153__496bf847-b7b9-409a-a4fe-518b7a1b4af9-1666064239153d1a73-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>The Dune Sandbank<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15992204329153__496bf847-b7b9-409a-a4fe-518b7a1b4af9-1666064239153d1a73-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>One of the world’s largest collections of sand and earth elements, Dune’s Sandbank features natural materials like sea shells, clay, soil, sand, stones, and flower petals from over 5,000 iconic and memorable locations around the world. <\/p><p>All elements in the Dune Sandbank are ethically collected by people just like you! Since 2010, Dune’s customers and community members have sent in sand and earth elements from vacations, weddings, honeymoons, and other special occasions to capture their personal experiences. <\/p><p>There are often extra elements leftover once their custom pieces are created. In fact, a single cup of any element can be used to make over 1,000 designs. To ensure no materials go to waste, Dune authenticates all unused material before adding them to the Sandbank so other customers can add these elements to their own custom designs.<\/p>"
+          }
+        },
+        "template--15992204329153__496bf847-b7b9-409a-a4fe-518b7a1b4af9-1666064239153d1a73-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15992204329153__496bf847-b7b9-409a-a4fe-518b7a1b4af9-1666064239153d1a73-0",
+        "template--15992204329153__496bf847-b7b9-409a-a4fe-518b7a1b4af9-1666064239153d1a73-1",
+        "template--15992204329153__496bf847-b7b9-409a-a4fe-518b7a1b4af9-1666064239153d1a73-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1663078154b4cc1ca6": {
       "type": "apps",
       "blocks": {
@@ -159,6 +202,7 @@
     "1662480421232cbefb",
     "main",
     "product-recommendations",
+    "496bf847-b7b9-409a-a4fe-518b7a1b4af9",
     "1663078154b4cc1ca6",
     "1664805886b83e7045"
   ]
