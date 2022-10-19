@@ -7,9 +7,52 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "609e8d1e-8c27-4d1f-b95a-4544cd1aae3b": {
+      "type": "hero",
+      "blocks": {
+        "template--15994830192833__609e8d1e-8c27-4d1f-b95a-4544cd1aae3b-16662050847fca9ac1-0": {
+          "type": "eyebrow",
+          "settings": {
+            "eyebrow": "<p>Eyebrow<\/p>"
+          }
+        },
+        "template--15994830192833__609e8d1e-8c27-4d1f-b95a-4544cd1aae3b-16662050847fca9ac1-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Heading",
+            "heading_size": "h1"
+          }
+        },
+        "template--15994830192833__609e8d1e-8c27-4d1f-b95a-4544cd1aae3b-16662050847fca9ac1-2": {
+          "type": "copy",
+          "settings": {
+            "copy": "<p>Copy<\/p>"
+          }
+        },
+        "template--15994830192833__609e8d1e-8c27-4d1f-b95a-4544cd1aae3b-16662050847fca9ac1-3": {
+          "type": "button",
+          "settings": {
+            "text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15994830192833__609e8d1e-8c27-4d1f-b95a-4544cd1aae3b-16662050847fca9ac1-0",
+        "template--15994830192833__609e8d1e-8c27-4d1f-b95a-4544cd1aae3b-16662050847fca9ac1-1",
+        "template--15994830192833__609e8d1e-8c27-4d1f-b95a-4544cd1aae3b-16662050847fca9ac1-2",
+        "template--15994830192833__609e8d1e-8c27-4d1f-b95a-4544cd1aae3b-16662050847fca9ac1-3"
+      ],
+      "settings": {
+        "desktop_content_alignment": "center",
+        "overlay_opacity": 20,
+        "video_url": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "609e8d1e-8c27-4d1f-b95a-4544cd1aae3b"
   ]
 }
