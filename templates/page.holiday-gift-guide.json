@@ -59,8 +59,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Holiday-Gift-Guide_Image-2.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "$25 or less",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -69,8 +69,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Holiday-Gift-Guide_Image-3.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "$50 or less",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -79,8 +79,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Holiday-Gift-Guide_Image-4_efc50aa3-5c24-49eb-895e-9ddbafafa1e7.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "$75 or less",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -89,8 +89,8 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Holiday-Gift-Guide_Image-5.jpg",
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "title": "$100 or more",
+            "text": "",
             "link_label": "",
             "link": ""
           }
