@@ -118,6 +118,49 @@
         "padding_bottom": 28
       }
     },
+    "0f33825b-9ab2-4482-b946-119b7d7a7128": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15994779467969__0f33825b-9ab2-4482-b946-119b7d7a7128-1666203133291fee65-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>A 2022 Holiday Exclusive<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15994779467969__0f33825b-9ab2-4482-b946-119b7d7a7128-1666203133291fee65-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Made with our new, 100% 4ocean Plastic, metallic copper cord, this fun and festive holiday collection will add warmth, sparkle, shimmer, and shine to any 4ocean bracelet stack. But hurry! These bracelets are only available during the 2022 holiday season, so pull a pound with your favorite styles and snag a few extras as gifts to help raise awareness about our mission. <\/p>"
+          }
+        },
+        "template--15994779467969__0f33825b-9ab2-4482-b946-119b7d7a7128-1666203133291fee65-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15994779467969__0f33825b-9ab2-4482-b946-119b7d7a7128-1666203133291fee65-0",
+        "template--15994779467969__0f33825b-9ab2-4482-b946-119b7d7a7128-1666203133291fee65-1",
+        "template--15994779467969__0f33825b-9ab2-4482-b946-119b7d7a7128-1666203133291fee65-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1663078154b4cc1ca6": {
       "type": "apps",
       "blocks": {
@@ -150,6 +193,7 @@
     "1662480421232cbefb",
     "main",
     "product-recommendations",
+    "0f33825b-9ab2-4482-b946-119b7d7a7128",
     "1663078154b4cc1ca6",
     "1664805886b83e7045"
   ]
