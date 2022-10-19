@@ -13,6 +13,7 @@
       "blocks": {
         "template--15994830192833__609e8d1e-8c27-4d1f-b95a-4544cd1aae3b-16662050847fca9ac1-0": {
           "type": "eyebrow",
+          "disabled": true,
           "settings": {
             "eyebrow": "<p>Eyebrow<\/p>"
           }
@@ -20,7 +21,7 @@
         "template--15994830192833__609e8d1e-8c27-4d1f-b95a-4544cd1aae3b-16662050847fca9ac1-1": {
           "type": "heading",
           "settings": {
-            "heading": "Heading",
+            "heading": "2022 Holiday Gift Guide",
             "heading_size": "h1"
           }
         },
@@ -47,7 +48,8 @@
       "settings": {
         "desktop_content_alignment": "center",
         "overlay_opacity": 20,
-        "video_url": ""
+        "video_url": "",
+        "image": "shopify:\/\/shop_images\/Holiday-Gift-Guide-Landing-page_1.jpg"
       }
     }
   },
