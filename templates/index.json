@@ -10,42 +10,6 @@
     "1663779992260fd87c": {
       "type": "slideshow",
       "blocks": {
-        "225dacec-bcc5-4214-bcde-fe55c422b83f": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Deep-Sea-Homepage-slider-2400x1093_B-_1.jpg",
-            "heading": "Deep Sea Collection",
-            "heading_size": "h1",
-            "subheading": "These glow-in-the-dark bracelets mimic  the bioluminescence of deep sea animals!",
-            "button_label": "Shop Now — Pull a Pound",
-            "link": "shopify:\/\/collections\/deep-sea-collection",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 0,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
-        },
-        "7c93d820-fec6-4769-8227-6d697bdab84e": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/HP-Slider-Hurrican-Ian-Relief-2400x1093.jpg",
-            "heading": "Hurricane Ian  Emergency Disaster Relief",
-            "heading_size": "h1",
-            "subheading": "We’re donating 100% of the net proceeds from our Everglades Awareness Bracelet to help people impacted by Hurricane Ian.",
-            "button_label": "Shop Now — Help a Neighbor",
-            "link": "https:\/\/www.4ocean.com\/products\/everglades-bracelet",
-            "button_style_secondary": false,
-            "box_align": "middle-center",
-            "show_text_box": false,
-            "text_alignment": "center",
-            "image_overlay_opacity": 30,
-            "color_scheme": "accent-2",
-            "text_alignment_mobile": "center"
-          }
-        },
         "1663779992f92a6c14-0": {
           "type": "slide",
           "settings": {
@@ -82,6 +46,24 @@
             "text_alignment_mobile": "center"
           }
         },
+        "225dacec-bcc5-4214-bcde-fe55c422b83f": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Deep-Sea-Homepage-slider-2400x1093_B-_1.jpg",
+            "heading": "Deep Sea Collection",
+            "heading_size": "h1",
+            "subheading": "These glow-in-the-dark bracelets mimic  the bioluminescence of deep sea animals!",
+            "button_label": "Shop Now — Pull a Pound",
+            "link": "shopify:\/\/collections\/deep-sea-collection",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
+        },
         "0a123744-d51e-45de-8d53-a3e5ca6e9053": {
           "type": "slide",
           "settings": {
@@ -99,14 +81,32 @@
             "color_scheme": "accent-2",
             "text_alignment_mobile": "center"
           }
+        },
+        "7c93d820-fec6-4769-8227-6d697bdab84e": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Luxe-Homepage-slider-2400x1093.jpg",
+            "heading": "Luxe Collection",
+            "heading_size": "h1",
+            "subheading": "Only available during the 2022 holiday season, these bracelets will add a festive shimmer to any 4ocean bracelet stack!",
+            "button_label": "Shop Now — Pull a Pound",
+            "link": "shopify:\/\/collections\/the-luxe-collection",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 30,
+            "color_scheme": "accent-2",
+            "text_alignment_mobile": "center"
+          }
         }
       },
       "block_order": [
-        "225dacec-bcc5-4214-bcde-fe55c422b83f",
-        "7c93d820-fec6-4769-8227-6d697bdab84e",
         "1663779992f92a6c14-0",
         "1663779992f92a6c14-1",
-        "0a123744-d51e-45de-8d53-a3e5ca6e9053"
+        "225dacec-bcc5-4214-bcde-fe55c422b83f",
+        "0a123744-d51e-45de-8d53-a3e5ca6e9053",
+        "7c93d820-fec6-4769-8227-6d697bdab84e"
       ],
       "settings": {
         "layout": "full_bleed",
