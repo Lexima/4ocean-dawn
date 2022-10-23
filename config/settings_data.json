@@ -117,12 +117,11 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
-              "text": "FREE gift with $10 purchase. Discount applied at checkout. Limit one (1) per transaction. Ends 10\/16.",
+              "text": "FREE gift with any purchase. Discount applied at checkout. Limit one (1) per transaction. Ends 10\/30.",
               "text_alignment": "center",
               "color_scheme": "background-2",
-              "link": "https:\/\/www.4ocean.com\/Free-Sponges"
+              "link": "https:\/\/www.4ocean.com\/FreeSeaOtter"
             }
           }
         },
