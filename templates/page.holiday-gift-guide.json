@@ -218,19 +218,21 @@
         "template--15994830192833__9dbc7e3a-1b43-49e3-92ed-c8af8aebdde4-1666625184a37b4565-1": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Holiday-Gift-Guide_Image-7.jpg",
+            "title": "4ocean x Dune Holiday Ornament",
+            "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/collections\/all-dune"
           }
         },
         "template--15994830192833__9dbc7e3a-1b43-49e3-92ed-c8af8aebdde4-1666625184a37b4565-2": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Holiday-Gift-Guide_Image-8.jpg",
+            "title": "Luxe Collection",
+            "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/collections\/the-luxe-collection"
           }
         },
         "c8dba90b-3fb3-4ca8-9cf2-52369c2c1fa3": {
@@ -255,7 +257,7 @@
         "heading_alignment": "title-wrapper-with-link--center",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "Button label",
