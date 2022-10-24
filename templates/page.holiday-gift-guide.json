@@ -238,8 +238,9 @@
         "c8dba90b-3fb3-4ca8-9cf2-52369c2c1fa3": {
           "type": "column",
           "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "image": "shopify:\/\/shop_images\/Holiday-Gift-Guide_Image-9.jpg",
+            "title": "Signature holiday exclusives",
+            "text": "",
             "link_label": "",
             "link": ""
           }
