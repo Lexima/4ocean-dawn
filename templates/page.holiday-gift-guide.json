@@ -325,13 +325,61 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "",
-        "button_link": "",
+        "button_label": "Shop All New Arrivals",
+        "button_link": "shopify:\/\/collections\/tranding-now",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "9b894ab0-1d9a-47a7-894b-6960f72368f1": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15994830192833__9b894ab0-1d9a-47a7-894b-6960f72368f1-16666261728ecd9e8f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The 4ocean Super Sack",
+            "heading_size": "h1"
+          }
+        },
+        "template--15994830192833__9b894ab0-1d9a-47a7-894b-6960f72368f1-16666261728ecd9e8f-1": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "text_style": "body"
+          }
+        },
+        "template--15994830192833__9b894ab0-1d9a-47a7-894b-6960f72368f1-16666261728ecd9e8f-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "Shop Now — Pull 3 Pounds",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15994830192833__9b894ab0-1d9a-47a7-894b-6960f72368f1-16666261728ecd9e8f-0",
+        "template--15994830192833__9b894ab0-1d9a-47a7-894b-6960f72368f1-16666261728ecd9e8f-1",
+        "template--15994830192833__9b894ab0-1d9a-47a7-894b-6960f72368f1-16666261728ecd9e8f-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
       }
     }
   },
@@ -341,6 +389,7 @@
     "a915bc74-d8eb-4e1e-9ced-9cc8f5e260fc",
     "f8194305-7c1b-4744-9498-570b2a1713e1",
     "9dbc7e3a-1b43-49e3-92ed-c8af8aebdde4",
-    "d08a59f1-084c-4c73-b198-0397a5ad6e0e"
+    "d08a59f1-084c-4c73-b198-0397a5ad6e0e",
+    "9b894ab0-1d9a-47a7-894b-6960f72368f1"
   ]
 }
