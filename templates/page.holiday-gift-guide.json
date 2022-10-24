@@ -888,6 +888,70 @@
         "padding_top": 20,
         "padding_bottom": 52
       }
+    },
+    "69a219ff-14ab-4689-ab4c-b2a729a8ef76": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15994830192833__69a219ff-14ab-4689-ab4c-b2a729a8ef76-1666628428fd60cf48-0": {
+          "type": "column",
+          "settings": {
+            "title": "TBD",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15994830192833__69a219ff-14ab-4689-ab4c-b2a729a8ef76-1666628428fd60cf48-1": {
+          "type": "column",
+          "settings": {
+            "title": "TBD",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15994830192833__69a219ff-14ab-4689-ab4c-b2a729a8ef76-1666628428fd60cf48-2": {
+          "type": "column",
+          "settings": {
+            "title": "TBD",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "7f34c00b-453c-4d20-ae4b-b9f7ba3dc8b8": {
+          "type": "column",
+          "settings": {
+            "title": "TBD",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15994830192833__69a219ff-14ab-4689-ab4c-b2a729a8ef76-1666628428fd60cf48-0",
+        "template--15994830192833__69a219ff-14ab-4689-ab4c-b2a729a8ef76-1666628428fd60cf48-1",
+        "template--15994830192833__69a219ff-14ab-4689-ab4c-b2a729a8ef76-1666628428fd60cf48-2",
+        "7f34c00b-453c-4d20-ae4b-b9f7ba3dc8b8"
+      ],
+      "settings": {
+        "title": "Multicolumn",
+        "heading_size": "h1",
+        "heading_alignment": "title-wrapper-with-link--center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -907,6 +971,7 @@
     "78d674f7-31a0-4721-ad2a-bb071853bee8",
     "e31499b2-d964-4e8f-b8fb-b276257417f1",
     "8ef206ca-ae26-49cf-a30e-8bd42b3f2c37",
-    "da6b175b-78e3-46cd-97c3-e4a5b506d7d6"
+    "da6b175b-78e3-46cd-97c3-e4a5b506d7d6",
+    "69a219ff-14ab-4689-ab4c-b2a729a8ef76"
   ]
 }
