@@ -685,6 +685,70 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "78d674f7-31a0-4721-ad2a-bb071853bee8": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15994830192833__78d674f7-31a0-4721-ad2a-bb071853bee8-1666628031b1cf3118-0": {
+          "type": "column",
+          "settings": {
+            "title": "TBD",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15994830192833__78d674f7-31a0-4721-ad2a-bb071853bee8-1666628031b1cf3118-1": {
+          "type": "column",
+          "settings": {
+            "title": "TBD",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15994830192833__78d674f7-31a0-4721-ad2a-bb071853bee8-1666628031b1cf3118-2": {
+          "type": "column",
+          "settings": {
+            "title": "TBD",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "6976b51c-8992-4a6a-80d1-a4a01a7c5860": {
+          "type": "column",
+          "settings": {
+            "title": "TBD",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15994830192833__78d674f7-31a0-4721-ad2a-bb071853bee8-1666628031b1cf3118-0",
+        "template--15994830192833__78d674f7-31a0-4721-ad2a-bb071853bee8-1666628031b1cf3118-1",
+        "template--15994830192833__78d674f7-31a0-4721-ad2a-bb071853bee8-1666628031b1cf3118-2",
+        "6976b51c-8992-4a6a-80d1-a4a01a7c5860"
+      ],
+      "settings": {
+        "title": "Give a Gift With Impact",
+        "heading_size": "h1",
+        "heading_alignment": "title-wrapper-with-link--center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Shop All Holiday Bundles",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -700,6 +764,7 @@
     "a468a080-1ec0-4ddc-a8a3-d513cfafe1f1",
     "bdcd6221-e921-4f25-92e9-04971050298e",
     "106a628b-7134-43a0-8311-1597c3c81535",
-    "624df32b-0ab8-41ca-808c-56114aa7ec8a"
+    "624df32b-0ab8-41ca-808c-56114aa7ec8a",
+    "78d674f7-31a0-4721-ad2a-bb071853bee8"
   ]
 }
