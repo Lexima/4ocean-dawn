@@ -435,6 +435,57 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "a468a080-1ec0-4ddc-a8a3-d513cfafe1f1": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15994830192833__a468a080-1ec0-4ddc-a8a3-d513cfafe1f1-16666265887ceb4294-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "",
+            "heading_size": "h2"
+          }
+        },
+        "template--15994830192833__a468a080-1ec0-4ddc-a8a3-d513cfafe1f1-16666265887ceb4294-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--15994830192833__a468a080-1ec0-4ddc-a8a3-d513cfafe1f1-16666265887ceb4294-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15994830192833__a468a080-1ec0-4ddc-a8a3-d513cfafe1f1-16666265887ceb4294-0",
+        "template--15994830192833__a468a080-1ec0-4ddc-a8a3-d513cfafe1f1-16666265887ceb4294-1",
+        "template--15994830192833__a468a080-1ec0-4ddc-a8a3-d513cfafe1f1-16666265887ceb4294-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
     }
   },
   "order": [
@@ -445,6 +496,7 @@
     "9dbc7e3a-1b43-49e3-92ed-c8af8aebdde4",
     "d08a59f1-084c-4c73-b198-0397a5ad6e0e",
     "9b894ab0-1d9a-47a7-894b-6960f72368f1",
-    "e885f844-a47c-4a4a-87c7-070e65d4ed4f"
+    "e885f844-a47c-4a4a-87c7-070e65d4ed4f",
+    "a468a080-1ec0-4ddc-a8a3-d513cfafe1f1"
   ]
 }
