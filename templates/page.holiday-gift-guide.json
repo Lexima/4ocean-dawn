@@ -156,7 +156,7 @@
         "653730aa-5bd8-4e62-91c0-b9cd69c3551d": {
           "type": "featured_collection",
           "settings": {
-            "collection": "accessories"
+            "collection": ""
           }
         },
         "73cbc531-0e3d-4f68-804a-26d997ad438c": {
@@ -168,13 +168,13 @@
         "8a80933d-cf04-42d4-9e67-d33582049ad9": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "monthly-subscription"
           }
         },
         "09f80d8e-d759-4dc5-9a00-412edaca4e95": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "clearance"
           }
         }
       },
