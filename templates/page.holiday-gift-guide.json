@@ -119,11 +119,94 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "f8194305-7c1b-4744-9498-570b2a1713e1": {
+      "type": "collection-list",
+      "blocks": {
+        "template--15994830192833__f8194305-7c1b-4744-9498-570b2a1713e1-1666624737fd997f37-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--15994830192833__f8194305-7c1b-4744-9498-570b2a1713e1-1666624737fd997f37-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--15994830192833__f8194305-7c1b-4744-9498-570b2a1713e1-1666624737fd997f37-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "apparel"
+          }
+        },
+        "fcc1452c-d70a-4c52-9e2f-d1e3707c2ced": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "sterling-silver-jewelry"
+          }
+        },
+        "97bd538f-4ae1-4b19-84b5-3b6da214f0a8": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "653730aa-5bd8-4e62-91c0-b9cd69c3551d": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "73cbc531-0e3d-4f68-804a-26d997ad438c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "8a80933d-cf04-42d4-9e67-d33582049ad9": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "09f80d8e-d759-4dc5-9a00-412edaca4e95": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15994830192833__f8194305-7c1b-4744-9498-570b2a1713e1-1666624737fd997f37-0",
+        "template--15994830192833__f8194305-7c1b-4744-9498-570b2a1713e1-1666624737fd997f37-1",
+        "template--15994830192833__f8194305-7c1b-4744-9498-570b2a1713e1-1666624737fd997f37-2",
+        "fcc1452c-d70a-4c52-9e2f-d1e3707c2ced",
+        "97bd538f-4ae1-4b19-84b5-3b6da214f0a8",
+        "653730aa-5bd8-4e62-91c0-b9cd69c3551d",
+        "73cbc531-0e3d-4f68-804a-26d997ad438c",
+        "8a80933d-cf04-42d4-9e67-d33582049ad9",
+        "09f80d8e-d759-4dc5-9a00-412edaca4e95"
+      ],
+      "settings": {
+        "title": "Gifts by Category",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "609e8d1e-8c27-4d1f-b95a-4544cd1aae3b",
-    "a915bc74-d8eb-4e1e-9ced-9cc8f5e260fc"
+    "a915bc74-d8eb-4e1e-9ced-9cc8f5e260fc",
+    "f8194305-7c1b-4744-9498-570b2a1713e1"
   ]
 }
