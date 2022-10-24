@@ -641,6 +641,50 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "624df32b-0ab8-41ca-808c-56114aa7ec8a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15994830192833__624df32b-0ab8-41ca-808c-56114aa7ec8a-166662760996d261e5-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Glows in the dark!",
+            "heading_size": "h1"
+          }
+        },
+        "template--15994830192833__624df32b-0ab8-41ca-808c-56114aa7ec8a-166662760996d261e5-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>These bracelets mimic the bioluminescence of deep sea animals with glow-in-the-dark cord made from 100% 4ocean Plastic<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15994830192833__624df32b-0ab8-41ca-808c-56114aa7ec8a-166662760996d261e5-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop the Collection",
+            "button_link": "shopify:\/\/collections\/deep-sea-collection"
+          }
+        }
+      },
+      "block_order": [
+        "template--15994830192833__624df32b-0ab8-41ca-808c-56114aa7ec8a-166662760996d261e5-0",
+        "template--15994830192833__624df32b-0ab8-41ca-808c-56114aa7ec8a-166662760996d261e5-1",
+        "template--15994830192833__624df32b-0ab8-41ca-808c-56114aa7ec8a-166662760996d261e5-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Holiday-Gift-Guide_Image-13.gif",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -655,6 +699,7 @@
     "5b30ffdb-16aa-4b6e-aabf-d2149e833849",
     "a468a080-1ec0-4ddc-a8a3-d513cfafe1f1",
     "bdcd6221-e921-4f25-92e9-04971050298e",
-    "106a628b-7134-43a0-8311-1597c3c81535"
+    "106a628b-7134-43a0-8311-1597c3c81535",
+    "624df32b-0ab8-41ca-808c-56114aa7ec8a"
   ]
 }
