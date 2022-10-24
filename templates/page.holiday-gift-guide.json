@@ -436,6 +436,50 @@
         "padding_bottom": 36
       }
     },
+    "5b30ffdb-16aa-4b6e-aabf-d2149e833849": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15994830192833__5b30ffdb-16aa-4b6e-aabf-d2149e833849-166662665545b1e98e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>…pre-wrapped in collector’s edition tins and our reusable gift bag<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15994830192833__5b30ffdb-16aa-4b6e-aabf-d2149e833849-166662665545b1e98e-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--15994830192833__5b30ffdb-16aa-4b6e-aabf-d2149e833849-166662665545b1e98e-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15994830192833__5b30ffdb-16aa-4b6e-aabf-d2149e833849-166662665545b1e98e-0",
+        "template--15994830192833__5b30ffdb-16aa-4b6e-aabf-d2149e833849-166662665545b1e98e-1",
+        "template--15994830192833__5b30ffdb-16aa-4b6e-aabf-d2149e833849-166662665545b1e98e-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "a468a080-1ec0-4ddc-a8a3-d513cfafe1f1": {
       "type": "image-banner",
       "blocks": {
@@ -457,9 +501,8 @@
         },
         "template--15994830192833__a468a080-1ec0-4ddc-a8a3-d513cfafe1f1-16666265887ceb4294-2": {
           "type": "buttons",
-          "disabled": true,
           "settings": {
-            "button_label_1": "Button label",
+            "button_label_1": "Shop Now — Pull 3 Pounds",
             "button_link_1": "",
             "button_style_secondary_1": false,
             "button_label_2": "",
@@ -497,6 +540,7 @@
     "d08a59f1-084c-4c73-b198-0397a5ad6e0e",
     "9b894ab0-1d9a-47a7-894b-6960f72368f1",
     "e885f844-a47c-4a4a-87c7-070e65d4ed4f",
+    "5b30ffdb-16aa-4b6e-aabf-d2149e833849",
     "a468a080-1ec0-4ddc-a8a3-d513cfafe1f1"
   ]
 }
