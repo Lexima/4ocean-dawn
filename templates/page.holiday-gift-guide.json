@@ -1016,6 +1016,100 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "225c5571-29c8-4a08-9a17-eb1b1e779e59": {
+      "type": "image-banner",
+      "blocks": {
+        "template--15994830192833__225c5571-29c8-4a08-9a17-eb1b1e779e59-16666286735405ab71-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "template--15994830192833__225c5571-29c8-4a08-9a17-eb1b1e779e59-16666286735405ab71-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "template--15994830192833__225c5571-29c8-4a08-9a17-eb1b1e779e59-16666286735405ab71-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15994830192833__225c5571-29c8-4a08-9a17-eb1b1e779e59-16666286735405ab71-0",
+        "template--15994830192833__225c5571-29c8-4a08-9a17-eb1b1e779e59-16666286735405ab71-1",
+        "template--15994830192833__225c5571-29c8-4a08-9a17-eb1b1e779e59-16666286735405ab71-2"
+      ],
+      "settings": {
+        "full_width": true,
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "b0c6e611-7ac5-4ac7-ad62-3837e7c764d8": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--15994830192833__b0c6e611-7ac5-4ac7-ad62-3837e7c764d8-166662869257e6075e-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "The gift that keeps on giving",
+            "heading_size": "h2"
+          }
+        },
+        "template--15994830192833__b0c6e611-7ac5-4ac7-ad62-3837e7c764d8-166662869257e6075e-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our monthly subscriptions are the #1 way to fund our global cleanup operation and support our mission to end the ocean plastic crisis. <\/p><p>Join our Bracelet of the Month Subscription and prepay for 3, 6, or 12 months for extra savings!<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--15994830192833__b0c6e611-7ac5-4ac7-ad62-3837e7c764d8-166662869257e6075e-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Learn More",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15994830192833__b0c6e611-7ac5-4ac7-ad62-3837e7c764d8-166662869257e6075e-0",
+        "template--15994830192833__b0c6e611-7ac5-4ac7-ad62-3837e7c764d8-166662869257e6075e-1",
+        "template--15994830192833__b0c6e611-7ac5-4ac7-ad62-3837e7c764d8-166662869257e6075e-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -1037,6 +1131,8 @@
     "8ef206ca-ae26-49cf-a30e-8bd42b3f2c37",
     "da6b175b-78e3-46cd-97c3-e4a5b506d7d6",
     "69a219ff-14ab-4689-ab4c-b2a729a8ef76",
-    "82470a88-30a5-47ee-9a8d-efee6adc743d"
+    "82470a88-30a5-47ee-9a8d-efee6adc743d",
+    "225c5571-29c8-4a08-9a17-eb1b1e779e59",
+    "b0c6e611-7ac5-4ac7-ad62-3837e7c764d8"
   ]
 }
