@@ -381,6 +381,60 @@
         "stack_images_on_mobile": true,
         "show_text_below": true
       }
+    },
+    "e885f844-a47c-4a4a-87c7-070e65d4ed4f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15994830192833__e885f844-a47c-4a4a-87c7-070e65d4ed4f-166662640361f21c35-0": {
+          "type": "column",
+          "settings": {
+            "title": "4ocean Beaded Bracelet",
+            "text": "<p>Made with 100% 4ocean Plastic cord, recycled glass beads, and recycled stainless steel charms<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15994830192833__e885f844-a47c-4a4a-87c7-070e65d4ed4f-166662640361f21c35-1": {
+          "type": "column",
+          "settings": {
+            "title": "Osborne Reef Awareness Bracelet",
+            "text": "<p>Made with rubber from tires that our crews recovered from the bottom of the ocean<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15994830192833__e885f844-a47c-4a4a-87c7-070e65d4ed4f-166662640361f21c35-2": {
+          "type": "column",
+          "settings": {
+            "title": "Ghost Net Awareness Bracelet",
+            "text": "<p>Made with actual pieces of ghost net recovered by our crews in Hawaiʻi<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15994830192833__e885f844-a47c-4a4a-87c7-070e65d4ed4f-166662640361f21c35-0",
+        "template--15994830192833__e885f844-a47c-4a4a-87c7-070e65d4ed4f-166662640361f21c35-1",
+        "template--15994830192833__e885f844-a47c-4a4a-87c7-070e65d4ed4f-166662640361f21c35-2"
+      ],
+      "settings": {
+        "title": "This gift set includes all three of our most impactful bracelets…",
+        "heading_size": "h1",
+        "heading_alignment": "title-wrapper-with-link--center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -390,6 +444,7 @@
     "f8194305-7c1b-4744-9498-570b2a1713e1",
     "9dbc7e3a-1b43-49e3-92ed-c8af8aebdde4",
     "d08a59f1-084c-4c73-b198-0397a5ad6e0e",
-    "9b894ab0-1d9a-47a7-894b-6960f72368f1"
+    "9b894ab0-1d9a-47a7-894b-6960f72368f1",
+    "e885f844-a47c-4a4a-87c7-070e65d4ed4f"
   ]
 }
