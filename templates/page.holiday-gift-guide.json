@@ -952,6 +952,70 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "82470a88-30a5-47ee-9a8d-efee6adc743d": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--15994830192833__82470a88-30a5-47ee-9a8d-efee6adc743d-166662852600baf538-0": {
+          "type": "column",
+          "settings": {
+            "title": "TBD",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15994830192833__82470a88-30a5-47ee-9a8d-efee6adc743d-166662852600baf538-1": {
+          "type": "column",
+          "settings": {
+            "title": "TBD",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15994830192833__82470a88-30a5-47ee-9a8d-efee6adc743d-166662852600baf538-2": {
+          "type": "column",
+          "settings": {
+            "title": "TBD",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "678e2302-418e-47de-8046-13b45daf6dbf": {
+          "type": "column",
+          "settings": {
+            "title": "TBD",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15994830192833__82470a88-30a5-47ee-9a8d-efee6adc743d-166662852600baf538-0",
+        "template--15994830192833__82470a88-30a5-47ee-9a8d-efee6adc743d-166662852600baf538-1",
+        "template--15994830192833__82470a88-30a5-47ee-9a8d-efee6adc743d-166662852600baf538-2",
+        "678e2302-418e-47de-8046-13b45daf6dbf"
+      ],
+      "settings": {
+        "title": "Give the Gift of Adventure",
+        "heading_size": "h1",
+        "heading_alignment": "title-wrapper-with-link--center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Shop All Beach Gear",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -972,6 +1036,7 @@
     "e31499b2-d964-4e8f-b8fb-b276257417f1",
     "8ef206ca-ae26-49cf-a30e-8bd42b3f2c37",
     "da6b175b-78e3-46cd-97c3-e4a5b506d7d6",
-    "69a219ff-14ab-4689-ab4c-b2a729a8ef76"
+    "69a219ff-14ab-4689-ab4c-b2a729a8ef76",
+    "82470a88-30a5-47ee-9a8d-efee6adc743d"
   ]
 }
