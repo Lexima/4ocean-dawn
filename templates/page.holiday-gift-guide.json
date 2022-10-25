@@ -1158,6 +1158,30 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "47b823b2-0c9e-49a7-bb90-8dbae52c26b7": {
+      "type": "featured-products",
+      "blocks": {
+        "c2fedcad-763b-451f-9686-41cbb146750b": {
+          "type": "products",
+          "settings": {
+            "product_list": [
+              "4ocean-hoodie-sweatshirt"
+            ],
+            "show_pounds_pulled": true,
+            "enable_quick_add": true,
+            "show_yotpo": true
+          }
+        }
+      },
+      "block_order": [
+        "c2fedcad-763b-451f-9686-41cbb146750b"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "padding_top": 90,
+        "padding_bottom": 120
+      }
     }
   },
   "order": [
@@ -1182,6 +1206,7 @@
     "69a219ff-14ab-4689-ab4c-b2a729a8ef76",
     "82470a88-30a5-47ee-9a8d-efee6adc743d",
     "225c5571-29c8-4a08-9a17-eb1b1e779e59",
-    "b0c6e611-7ac5-4ac7-ad62-3837e7c764d8"
+    "b0c6e611-7ac5-4ac7-ad62-3837e7c764d8",
+    "47b823b2-0c9e-49a7-bb90-8dbae52c26b7"
   ]
 }
