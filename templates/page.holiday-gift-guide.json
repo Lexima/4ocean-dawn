@@ -1041,10 +1041,11 @@
         "678e2302-418e-47de-8046-13b45daf6dbf": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/tote__44542.png",
             "title": "4ocean Beach Bag and Cleanup Tote",
             "text": "",
             "link_label": "Shop Now",
-            "link": ""
+            "link": "shopify:\/\/products\/4ocean-cleanup-tote"
           }
         }
       },
