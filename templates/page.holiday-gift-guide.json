@@ -8,49 +8,6 @@
         "padding_bottom": 0
       }
     },
-    "8ecbad99-1967-4ece-98ca-cca216d127ad": {
-      "type": "rich-text",
-      "blocks": {
-        "template--15994830192833__8ecbad99-1967-4ece-98ca-cca216d127ad-166671839868f7d8a2-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "<p><strong>Let’s make this our most impactful holiday season ever!<\/strong><\/p>",
-            "heading_size": "h2"
-          }
-        },
-        "template--15994830192833__8ecbad99-1967-4ece-98ca-cca216d127ad-166671839868f7d8a2-1": {
-          "type": "text",
-          "settings": {
-            "text": "<p>Make a difference for the ocean with every gift you give this holiday season. With new products, exclusive offers, and delightful deals, this Gift Guide makes it easy to find something for everyone on your list. Shop now and our professional captains and crews will pull one pound of trash from the ocean for every gift you purchase.<\/p>"
-          }
-        },
-        "template--15994830192833__8ecbad99-1967-4ece-98ca-cca216d127ad-166671839868f7d8a2-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false,
-            "button_label_2": "",
-            "button_link_2": "",
-            "button_style_secondary_2": false
-          }
-        }
-      },
-      "block_order": [
-        "template--15994830192833__8ecbad99-1967-4ece-98ca-cca216d127ad-166671839868f7d8a2-0",
-        "template--15994830192833__8ecbad99-1967-4ece-98ca-cca216d127ad-166671839868f7d8a2-1",
-        "template--15994830192833__8ecbad99-1967-4ece-98ca-cca216d127ad-166671839868f7d8a2-2"
-      ],
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "left",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "609e8d1e-8c27-4d1f-b95a-4544cd1aae3b": {
       "type": "hero",
       "blocks": {
@@ -93,6 +50,49 @@
         "overlay_opacity": 20,
         "video_url": "",
         "image": "shopify:\/\/shop_images\/Holiday-Gift-Guide-Landing-page_1.jpg"
+      }
+    },
+    "8ecbad99-1967-4ece-98ca-cca216d127ad": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15994830192833__8ecbad99-1967-4ece-98ca-cca216d127ad-166671839868f7d8a2-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Let’s make this our most impactful holiday season ever!<\/strong><\/p>",
+            "heading_size": "h2"
+          }
+        },
+        "template--15994830192833__8ecbad99-1967-4ece-98ca-cca216d127ad-166671839868f7d8a2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Make a difference for the ocean with every gift you give this holiday season. With new products, exclusive offers, and delightful deals, this Gift Guide makes it easy to find something for everyone on your list. Shop now and our professional captains and crews will pull one pound of trash from the ocean for every gift you purchase.<\/p>"
+          }
+        },
+        "template--15994830192833__8ecbad99-1967-4ece-98ca-cca216d127ad-166671839868f7d8a2-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15994830192833__8ecbad99-1967-4ece-98ca-cca216d127ad-166671839868f7d8a2-0",
+        "template--15994830192833__8ecbad99-1967-4ece-98ca-cca216d127ad-166671839868f7d8a2-1",
+        "template--15994830192833__8ecbad99-1967-4ece-98ca-cca216d127ad-166671839868f7d8a2-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
       }
     },
     "a915bc74-d8eb-4e1e-9ced-9cc8f5e260fc": {
@@ -1161,8 +1161,8 @@
   },
   "order": [
     "main",
-    "8ecbad99-1967-4ece-98ca-cca216d127ad",
     "609e8d1e-8c27-4d1f-b95a-4544cd1aae3b",
+    "8ecbad99-1967-4ece-98ca-cca216d127ad",
     "a915bc74-d8eb-4e1e-9ced-9cc8f5e260fc",
     "f8194305-7c1b-4744-9498-570b2a1713e1",
     "9dbc7e3a-1b43-49e3-92ed-c8af8aebdde4",
