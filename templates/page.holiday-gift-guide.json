@@ -367,7 +367,7 @@
         "template--15994830192833__d08a59f1-084c-4c73-b198-0397a5ad6e0e-166662584916b87ee1-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Dune-New-Pink-Cuff-PDP_1.jpg",
+            "image": "shopify:\/\/shop_images\/Dune-New-Pink-Cuff-PDP_2.jpg",
             "title": "4ocean x Dune Rope Cuff Bracelet in Florida Pink",
             "text": "",
             "link_label": "Shop Now",
@@ -377,10 +377,11 @@
         "template--15994830192833__d08a59f1-084c-4c73-b198-0397a5ad6e0e-166662584916b87ee1-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/PDP_Oz-Reef-bundle_2.jpg",
             "title": "Osborne Reef Gift Set",
             "text": "",
             "link_label": "Shop Now",
-            "link": ""
+            "link": "shopify:\/\/products\/osborne-reef-gift-set"
           }
         },
         "template--15994830192833__d08a59f1-084c-4c73-b198-0397a5ad6e0e-166662584916b87ee1-2": {
