@@ -826,10 +826,11 @@
         "6976b51c-8992-4a6a-80d1-a4a01a7c5860": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Deep-Sea-Stacks-Black-PDP_1.jpg",
             "title": "Deep Sea Bracelet Stack - Saltwater Glow",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/products\/deep-sea-bracelet-stack-saltwater-glow"
           }
         }
       },
