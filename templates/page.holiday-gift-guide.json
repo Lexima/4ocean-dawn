@@ -1031,10 +1031,11 @@
         "template--15994830192833__82470a88-30a5-47ee-9a8d-efee6adc743d-166662852600baf538-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Beach-Towel-PDP-730x620_5.jpg",
             "title": "4ocean oversized Beach Towel",
             "text": "",
             "link_label": "Shop Now",
-            "link": ""
+            "link": "shopify:\/\/products\/oversized-beach-towel"
           }
         },
         "678e2302-418e-47de-8046-13b45daf6dbf": {
