@@ -937,39 +937,68 @@
         "padding_bottom": 52
       }
     },
-    "47b823b2-0c9e-49a7-bb90-8dbae52c26b7": {
-      "type": "featured-products",
+    "cf8adc47-0b1f-4eef-9ae8-a910ab34040f": {
+      "type": "multicolumn",
       "blocks": {
-        "5949030f-361b-4e91-aed9-5b978ab84a16": {
-          "type": "heading",
+        "template--15994830192833__cf8adc47-0b1f-4eef-9ae8-a910ab34040f-166672081818b561a6-0": {
+          "type": "column",
           "settings": {
-            "heading": "Give the Gift of Belonging",
-            "heading_size": "h1"
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         },
-        "c2fedcad-763b-451f-9686-41cbb146750b": {
-          "type": "products",
+        "template--15994830192833__cf8adc47-0b1f-4eef-9ae8-a910ab34040f-166672081818b561a6-1": {
+          "type": "column",
           "settings": {
-            "product_list": [
-              "4ocean-hoodie-sweatshirt",
-              "4ocean-logo-unisex-long-sleeve-t-shirt",
-              "4ocean-logo-t-shirt",
-              "4ocean-classic-trucker-hat-4o-logo"
-            ],
-            "show_pounds_pulled": true,
-            "enable_quick_add": true,
-            "show_yotpo": true
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "template--15994830192833__cf8adc47-0b1f-4eef-9ae8-a910ab34040f-166672081818b561a6-2": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "7acda62b-e305-45e1-8cb8-991144ad0e23": {
+          "type": "column",
+          "settings": {
+            "title": "Column",
+            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "link_label": "",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "5949030f-361b-4e91-aed9-5b978ab84a16",
-        "c2fedcad-763b-451f-9686-41cbb146750b"
+        "template--15994830192833__cf8adc47-0b1f-4eef-9ae8-a910ab34040f-166672081818b561a6-0",
+        "template--15994830192833__cf8adc47-0b1f-4eef-9ae8-a910ab34040f-166672081818b561a6-1",
+        "template--15994830192833__cf8adc47-0b1f-4eef-9ae8-a910ab34040f-166672081818b561a6-2",
+        "7acda62b-e305-45e1-8cb8-991144ad0e23"
       ],
       "settings": {
+        "title": "Give the Gift of Belonging",
+        "heading_size": "h1",
+        "heading_alignment": "title-wrapper-with-link--center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 4,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
         "color_scheme": "background-1",
-        "padding_top": 90,
-        "padding_bottom": 120
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
       }
     },
     "82470a88-30a5-47ee-9a8d-efee6adc743d": {
@@ -1150,7 +1179,7 @@
     "e31499b2-d964-4e8f-b8fb-b276257417f1",
     "8ef206ca-ae26-49cf-a30e-8bd42b3f2c37",
     "da6b175b-78e3-46cd-97c3-e4a5b506d7d6",
-    "47b823b2-0c9e-49a7-bb90-8dbae52c26b7",
+    "cf8adc47-0b1f-4eef-9ae8-a910ab34040f",
     "82470a88-30a5-47ee-9a8d-efee6adc743d",
     "225c5571-29c8-4a08-9a17-eb1b1e779e59",
     "b0c6e611-7ac5-4ac7-ad62-3837e7c764d8"
