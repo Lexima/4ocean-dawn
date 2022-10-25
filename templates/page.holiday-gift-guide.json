@@ -944,7 +944,7 @@
           "type": "column",
           "settings": {
             "title": "4ocean Logo Hoodie",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -953,7 +953,7 @@
           "type": "column",
           "settings": {
             "title": "Long sleeve 4ocean t-shirt",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -962,7 +962,7 @@
           "type": "column",
           "settings": {
             "title": "Short Sleeve 4ocean t-shirt",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
@@ -971,7 +971,7 @@
           "type": "column",
           "settings": {
             "title": "4ocean classic trucker hat",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "",
             "link_label": "",
             "link": ""
           }
