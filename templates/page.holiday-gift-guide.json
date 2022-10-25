@@ -796,21 +796,11 @@
         "template--15994830192833__78d674f7-31a0-4721-ad2a-bb071853bee8-1666628031b1cf3118-0": {
           "type": "column",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Oz-Reef_Bali-Border-PDP-730x620_2.jpg",
+            "image": "shopify:\/\/shop_images\/4ocean-reusable-3-pound-pack.png",
             "title": "Osborne Reef Stack",
             "text": "",
             "link_label": "Shop Now",
-            "link": "shopify:\/\/products\/osborne-reef-stack"
-          }
-        },
-        "template--15994830192833__78d674f7-31a0-4721-ad2a-bb071853bee8-1666628031b1cf3118-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/5-PackBundle-Trans.png",
-            "title": "Plastic Free Starter Kit",
-            "text": "",
-            "link_label": "Shop Now",
-            "link": "shopify:\/\/products\/plastic-free-starter-kit"
+            "link": "shopify:\/\/products\/reusable-essentials-3-pound-pack"
           }
         },
         "template--15994830192833__78d674f7-31a0-4721-ad2a-bb071853bee8-1666628031b1cf3118-2": {
@@ -832,13 +822,23 @@
             "link_label": "Shop Now",
             "link": "shopify:\/\/products\/blackout-ii-short-sleeve-bundle"
           }
+        },
+        "template--15994830192833__78d674f7-31a0-4721-ad2a-bb071853bee8-1666628031b1cf3118-1": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/5-PackBundle-Trans.png",
+            "title": "Plastic Free Starter Kit",
+            "text": "",
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/products\/plastic-free-starter-kit"
+          }
         }
       },
       "block_order": [
         "template--15994830192833__78d674f7-31a0-4721-ad2a-bb071853bee8-1666628031b1cf3118-0",
-        "template--15994830192833__78d674f7-31a0-4721-ad2a-bb071853bee8-1666628031b1cf3118-1",
         "template--15994830192833__78d674f7-31a0-4721-ad2a-bb071853bee8-1666628031b1cf3118-2",
-        "6976b51c-8992-4a6a-80d1-a4a01a7c5860"
+        "6976b51c-8992-4a6a-80d1-a4a01a7c5860",
+        "template--15994830192833__78d674f7-31a0-4721-ad2a-bb071853bee8-1666628031b1cf3118-1"
       ],
       "settings": {
         "title": "Give a Gift With Impact",
