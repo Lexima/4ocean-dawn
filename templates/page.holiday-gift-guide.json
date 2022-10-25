@@ -103,9 +103,9 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Holiday-Gift-Guide_Image-2.jpg",
-            "title": "$25 or less",
+            "title": "",
             "text": "",
-            "link_label": "",
+            "link_label": "$25 or less",
             "link": "shopify:\/\/collections\/gifts-under-25"
           }
         },
@@ -113,9 +113,9 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Holiday-Gift-Guide_Image-3.jpg",
-            "title": "$50 or less",
+            "title": "",
             "text": "",
-            "link_label": "",
+            "link_label": "$50 or less",
             "link": "shopify:\/\/collections\/gifts-under-50"
           }
         },
@@ -123,9 +123,9 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Holiday-Gift-Guide_Image-4_efc50aa3-5c24-49eb-895e-9ddbafafa1e7.jpg",
-            "title": "$75 or less",
+            "title": "",
             "text": "",
-            "link_label": "",
+            "link_label": "$75 or less",
             "link": "shopify:\/\/collections\/gifts-under-75"
           }
         },
@@ -133,9 +133,9 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Holiday-Gift-Guide_Image-5.jpg",
-            "title": "$100 or more",
+            "title": "",
             "text": "",
-            "link_label": "",
+            "link_label": "$100 or more",
             "link": "shopify:\/\/collections\/gifts-over-100"
           }
         }
