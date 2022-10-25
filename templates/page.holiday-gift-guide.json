@@ -33,6 +33,7 @@
         },
         "template--15994830192833__609e8d1e-8c27-4d1f-b95a-4544cd1aae3b-16662050847fca9ac1-3": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "text": "Shop All",
             "link": "https:\/\/www.4ocean.com\/pages\/shop"
@@ -163,6 +164,50 @@
         "padding_bottom": 36
       }
     },
+    "069b94e5-2a08-4e56-9622-9f050e538a5e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15994830192833__069b94e5-2a08-4e56-9622-9f050e538a5e-16667265155c58a98f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>Gifts by Category<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15994830192833__069b94e5-2a08-4e56-9622-9f050e538a5e-16667265155c58a98f-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--15994830192833__069b94e5-2a08-4e56-9622-9f050e538a5e-16667265155c58a98f-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15994830192833__069b94e5-2a08-4e56-9622-9f050e538a5e-16667265155c58a98f-0",
+        "template--15994830192833__069b94e5-2a08-4e56-9622-9f050e538a5e-16667265155c58a98f-1",
+        "template--15994830192833__069b94e5-2a08-4e56-9622-9f050e538a5e-16667265155c58a98f-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "f8194305-7c1b-4744-9498-570b2a1713e1": {
       "type": "collection-list",
       "blocks": {
@@ -236,7 +281,7 @@
         "09f80d8e-d759-4dc5-9a00-412edaca4e95"
       ],
       "settings": {
-        "title": "Gifts by Category",
+        "title": "",
         "heading_size": "h1",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -1174,6 +1219,7 @@
     "609e8d1e-8c27-4d1f-b95a-4544cd1aae3b",
     "8ecbad99-1967-4ece-98ca-cca216d127ad",
     "a915bc74-d8eb-4e1e-9ced-9cc8f5e260fc",
+    "069b94e5-2a08-4e56-9622-9f050e538a5e",
     "f8194305-7c1b-4744-9498-570b2a1713e1",
     "9dbc7e3a-1b43-49e3-92ed-c8af8aebdde4",
     "d08a59f1-084c-4c73-b198-0397a5ad6e0e",
