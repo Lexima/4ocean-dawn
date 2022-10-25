@@ -1011,10 +1011,11 @@
         "template--15994830192833__82470a88-30a5-47ee-9a8d-efee6adc743d-166662852600baf538-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/4ocean-Signature-Layflat-Backpack-Beach-Chair.png",
             "title": "4ocean Backpack Beach Chair",
             "text": "",
             "link_label": "Shop Now",
-            "link": ""
+            "link": "shopify:\/\/products\/4ocean-signature-layflat-cooler-backpack-beach-chair"
           }
         },
         "template--15994830192833__82470a88-30a5-47ee-9a8d-efee6adc743d-166662852600baf538-1": {
