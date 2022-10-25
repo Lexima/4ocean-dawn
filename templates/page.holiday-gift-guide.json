@@ -946,8 +946,8 @@
             "image": "shopify:\/\/shop_images\/4ocean-blue-Hoodie.png",
             "title": "4ocean Logo Hoodie",
             "text": "",
-            "link_label": "",
-            "link": ""
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/products\/4ocean-hoodie-sweatshirt"
           }
         },
         "template--15994830192833__cf8adc47-0b1f-4eef-9ae8-a910ab34040f-166672081818b561a6-1": {
@@ -956,25 +956,27 @@
             "image": "shopify:\/\/shop_images\/4ocean-logo-long-sleevel-t-shirt-black.png",
             "title": "Long sleeve 4ocean t-shirt",
             "text": "",
-            "link_label": "",
+            "link_label": "Shop Now",
             "link": ""
           }
         },
         "template--15994830192833__cf8adc47-0b1f-4eef-9ae8-a910ab34040f-166672081818b561a6-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/4ocean-unisex-tshirt-blue.png",
             "title": "Short Sleeve 4ocean t-shirt",
             "text": "",
-            "link_label": "",
+            "link_label": "Shop Now",
             "link": ""
           }
         },
         "7acda62b-e305-45e1-8cb8-991144ad0e23": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/4O_trucker__40146_7814115f-6755-48e6-94c4-f47a6b87b267.png",
             "title": "4ocean classic trucker hat",
             "text": "",
-            "link_label": "",
+            "link_label": "Shop Now",
             "link": ""
           }
         }
