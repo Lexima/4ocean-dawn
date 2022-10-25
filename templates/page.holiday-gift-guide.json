@@ -387,10 +387,11 @@
         "template--15994830192833__d08a59f1-084c-4c73-b198-0397a5ad6e0e-166662584916b87ee1-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Bali-Boarder-Stack-PDP-730x620_2.jpg",
             "title": "The Bali Boarder Stack",
             "text": "",
             "link_label": "Shop Now",
-            "link": ""
+            "link": "shopify:\/\/products\/the-bali-boarder-stack"
           }
         },
         "71a6f3ca-a710-4fe1-9fab-07bb84cfc800": {
