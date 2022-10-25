@@ -204,18 +204,21 @@
         },
         "73cbc531-0e3d-4f68-804a-26d997ad438c": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": ""
           }
         },
         "8a80933d-cf04-42d4-9e67-d33582049ad9": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "monthly-subscription"
           }
         },
         "09f80d8e-d759-4dc5-9a00-412edaca4e95": {
           "type": "featured_collection",
+          "disabled": true,
           "settings": {
             "collection": "clearance"
           }
@@ -254,7 +257,7 @@
             "image": "shopify:\/\/shop_images\/Holiday-Gift-Guide_Image-6.jpg",
             "title": "4ocean x Dune Wine Stopper",
             "text": "",
-            "link_label": "Shop Now → ",
+            "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/all-dune"
           }
         },
@@ -264,7 +267,7 @@
             "image": "shopify:\/\/shop_images\/Holiday-Gift-Guide_Image-7.jpg",
             "title": "4ocean x Dune Holiday Ornament",
             "text": "",
-            "link_label": "Shop Now → ",
+            "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/all-dune"
           }
         },
@@ -274,7 +277,7 @@
             "image": "shopify:\/\/shop_images\/Holiday-Gift-Guide_Image-8.jpg",
             "title": "Luxe Collection",
             "text": "",
-            "link_label": "Shop Now → ",
+            "link_label": "Shop Now",
             "link": "shopify:\/\/collections\/the-luxe-collection"
           }
         },
