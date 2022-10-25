@@ -593,10 +593,11 @@
         "template--15994830192833__bdcd6221-e921-4f25-92e9-04971050298e-1666627473a69d0cce-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/4ocean-stasher-reusable-storage-bag-bundle-branded.png",
             "title": "Stasher Reusable Bags",
             "text": "",
             "link_label": "Shop Now",
-            "link": ""
+            "link": "shopify:\/\/products\/4ocean-x-stasher-reusable-storage-bag"
           }
         },
         "template--15994830192833__bdcd6221-e921-4f25-92e9-04971050298e-1666627473a69d0cce-2": {
