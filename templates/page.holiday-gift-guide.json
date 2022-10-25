@@ -175,7 +175,7 @@
         "template--15994830192833__f8194305-7c1b-4744-9498-570b2a1713e1-1666624737fd997f37-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "single-use-alternatives"
           }
         },
         "template--15994830192833__f8194305-7c1b-4744-9498-570b2a1713e1-1666624737fd997f37-2": {
@@ -285,10 +285,10 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/Holiday-Gift-Guide_Image-9.jpg",
-            "title": "Signature holiday exclusives",
+            "title": "Signature holiday exclusive",
             "text": "",
-            "link_label": "",
-            "link": ""
+            "link_label": "Shop Now",
+            "link": "shopify:\/\/products\/beyond-the-sea-bracelet"
           }
         }
       },
