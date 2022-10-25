@@ -796,16 +796,17 @@
         "template--15994830192833__78d674f7-31a0-4721-ad2a-bb071853bee8-1666628031b1cf3118-0": {
           "type": "column",
           "settings": {
-            "title": "TBD",
+            "image": "shopify:\/\/shop_images\/Oz-Reef_Bali-Border-PDP-730x620_2.jpg",
+            "title": "Osborne Reef Stack",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/products\/osborne-reef-stack"
           }
         },
         "template--15994830192833__78d674f7-31a0-4721-ad2a-bb071853bee8-1666628031b1cf3118-1": {
           "type": "column",
           "settings": {
-            "title": "TBD",
+            "title": "Plastic Free Starter Kit",
             "text": "",
             "link_label": "",
             "link": ""
@@ -814,7 +815,7 @@
         "template--15994830192833__78d674f7-31a0-4721-ad2a-bb071853bee8-1666628031b1cf3118-2": {
           "type": "column",
           "settings": {
-            "title": "TBD",
+            "title": "Bali Wave Stack in Ocean Heart",
             "text": "",
             "link_label": "",
             "link": ""
@@ -823,7 +824,7 @@
         "6976b51c-8992-4a6a-80d1-a4a01a7c5860": {
           "type": "column",
           "settings": {
-            "title": "TBD",
+            "title": "Deep Sea Bracelet Stack - Saltwater Glow",
             "text": "",
             "link_label": "",
             "link": ""
