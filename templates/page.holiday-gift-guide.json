@@ -1021,10 +1021,11 @@
         "template--15994830192833__82470a88-30a5-47ee-9a8d-efee6adc743d-166662852600baf538-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Striped-chair-PDP-730x620_1.jpg",
             "title": "4ocean Striped Backpack Beach Chair",
             "text": "",
             "link_label": "Shop Now",
-            "link": ""
+            "link": "shopify:\/\/products\/backpack-beach-chair-in-nautical-stripe"
           }
         },
         "template--15994830192833__82470a88-30a5-47ee-9a8d-efee6adc743d-166662852600baf538-2": {
