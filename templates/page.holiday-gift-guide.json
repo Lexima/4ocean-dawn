@@ -1166,7 +1166,10 @@
           "type": "products",
           "settings": {
             "product_list": [
-              "4ocean-hoodie-sweatshirt"
+              "4ocean-hoodie-sweatshirt",
+              "4ocean-logo-unisex-long-sleeve-t-shirt",
+              "4ocean-logo-t-shirt",
+              "4ocean-classic-trucker-hat-4o-logo"
             ],
             "show_pounds_pulled": true,
             "enable_quick_add": true,
