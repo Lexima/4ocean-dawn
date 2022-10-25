@@ -937,68 +937,39 @@
         "padding_bottom": 52
       }
     },
-    "69a219ff-14ab-4689-ab4c-b2a729a8ef76": {
-      "type": "multicolumn",
+    "47b823b2-0c9e-49a7-bb90-8dbae52c26b7": {
+      "type": "featured-products",
       "blocks": {
-        "template--15994830192833__69a219ff-14ab-4689-ab4c-b2a729a8ef76-1666628428fd60cf48-0": {
-          "type": "column",
+        "5949030f-361b-4e91-aed9-5b978ab84a16": {
+          "type": "heading",
           "settings": {
-            "title": "TBD",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "heading": "Give the Gift of Belonging",
+            "heading_size": "h1"
           }
         },
-        "template--15994830192833__69a219ff-14ab-4689-ab4c-b2a729a8ef76-1666628428fd60cf48-1": {
-          "type": "column",
+        "c2fedcad-763b-451f-9686-41cbb146750b": {
+          "type": "products",
           "settings": {
-            "title": "TBD",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--15994830192833__69a219ff-14ab-4689-ab4c-b2a729a8ef76-1666628428fd60cf48-2": {
-          "type": "column",
-          "settings": {
-            "title": "TBD",
-            "text": "",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "7f34c00b-453c-4d20-ae4b-b9f7ba3dc8b8": {
-          "type": "column",
-          "settings": {
-            "title": "TBD",
-            "text": "",
-            "link_label": "",
-            "link": ""
+            "product_list": [
+              "4ocean-hoodie-sweatshirt",
+              "4ocean-logo-unisex-long-sleeve-t-shirt",
+              "4ocean-logo-t-shirt",
+              "4ocean-classic-trucker-hat-4o-logo"
+            ],
+            "show_pounds_pulled": true,
+            "enable_quick_add": true,
+            "show_yotpo": true
           }
         }
       },
       "block_order": [
-        "template--15994830192833__69a219ff-14ab-4689-ab4c-b2a729a8ef76-1666628428fd60cf48-0",
-        "template--15994830192833__69a219ff-14ab-4689-ab4c-b2a729a8ef76-1666628428fd60cf48-1",
-        "template--15994830192833__69a219ff-14ab-4689-ab4c-b2a729a8ef76-1666628428fd60cf48-2",
-        "7f34c00b-453c-4d20-ae4b-b9f7ba3dc8b8"
+        "5949030f-361b-4e91-aed9-5b978ab84a16",
+        "c2fedcad-763b-451f-9686-41cbb146750b"
       ],
       "settings": {
-        "title": "Give the Gift of Belonging",
-        "heading_size": "h1",
-        "heading_alignment": "title-wrapper-with-link--center",
-        "image_width": "full",
-        "image_ratio": "adapt",
-        "columns_desktop": 4,
-        "column_alignment": "left",
-        "background_style": "primary",
-        "button_label": "Shop All Apparel",
-        "button_link": "shopify:\/\/collections\/apparel",
         "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
+        "padding_top": 90,
+        "padding_bottom": 120
       }
     },
     "82470a88-30a5-47ee-9a8d-efee6adc743d": {
@@ -1158,33 +1129,6 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
-    },
-    "47b823b2-0c9e-49a7-bb90-8dbae52c26b7": {
-      "type": "featured-products",
-      "blocks": {
-        "c2fedcad-763b-451f-9686-41cbb146750b": {
-          "type": "products",
-          "settings": {
-            "product_list": [
-              "4ocean-hoodie-sweatshirt",
-              "4ocean-logo-unisex-long-sleeve-t-shirt",
-              "4ocean-logo-t-shirt",
-              "4ocean-classic-trucker-hat-4o-logo"
-            ],
-            "show_pounds_pulled": true,
-            "enable_quick_add": true,
-            "show_yotpo": true
-          }
-        }
-      },
-      "block_order": [
-        "c2fedcad-763b-451f-9686-41cbb146750b"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "padding_top": 90,
-        "padding_bottom": 120
-      }
     }
   },
   "order": [
@@ -1206,10 +1150,9 @@
     "e31499b2-d964-4e8f-b8fb-b276257417f1",
     "8ef206ca-ae26-49cf-a30e-8bd42b3f2c37",
     "da6b175b-78e3-46cd-97c3-e4a5b506d7d6",
-    "69a219ff-14ab-4689-ab4c-b2a729a8ef76",
+    "47b823b2-0c9e-49a7-bb90-8dbae52c26b7",
     "82470a88-30a5-47ee-9a8d-efee6adc743d",
     "225c5571-29c8-4a08-9a17-eb1b1e779e59",
-    "b0c6e611-7ac5-4ac7-ad62-3837e7c764d8",
-    "47b823b2-0c9e-49a7-bb90-8dbae52c26b7"
+    "b0c6e611-7ac5-4ac7-ad62-3837e7c764d8"
   ]
 }
