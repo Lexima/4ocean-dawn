@@ -806,10 +806,11 @@
         "template--15994830192833__78d674f7-31a0-4721-ad2a-bb071853bee8-1666628031b1cf3118-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/5-PackBundle-Trans.png",
             "title": "Plastic Free Starter Kit",
             "text": "",
             "link_label": "",
-            "link": ""
+            "link": "shopify:\/\/products\/plastic-free-starter-kit"
           }
         },
         "template--15994830192833__78d674f7-31a0-4721-ad2a-bb071853bee8-1666628031b1cf3118-2": {
