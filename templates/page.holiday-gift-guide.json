@@ -397,10 +397,11 @@
         "71a6f3ca-a710-4fe1-9fab-07bb84cfc800": {
           "type": "column",
           "settings": {
-            "title": "Lava Stone Braided Bracelet in Shark Black",
+            "image": "shopify:\/\/shop_images\/Blue-Beaded-Lava-PDP-730x620_4.jpg",
+            "title": "Lava Stone Beaded Bracelet in Signature Blue",
             "text": "",
             "link_label": "Shop Now",
-            "link": ""
+            "link": "shopify:\/\/products\/lava-stone-beaded-bracelet-in-signature-blue"
           }
         }
       },
