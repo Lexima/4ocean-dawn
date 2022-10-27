@@ -13,6 +13,7 @@
         },
         "166430079212d9a332-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p>Due to Hurricane Ian, shipments will be delayed by 2-3 business days<\/p>"
           }
