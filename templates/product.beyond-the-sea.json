@@ -127,6 +127,49 @@
         "padding_bottom": 28
       }
     },
+    "aa88b597-c91e-45e8-9feb-a72a9dca5de3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15997629956289__aa88b597-c91e-45e8-9feb-a72a9dca5de3-1666880381e5a17fbd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>A 2022 Holiday Exclusive<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--15997629956289__aa88b597-c91e-45e8-9feb-a72a9dca5de3-1666880381e5a17fbd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Made with 100% 4ocean Plastic cord and delicate metal seed beads, this bracelet is a festive addition that will add sparkle and shine to any 4ocean bracelet stack. But hurry! These bracelets are only available during the 2022 holiday season, so pull a pound with your favorite styles and snag a few extras as gifts to help raise awareness about our mission. <\/p>"
+          }
+        },
+        "template--15997629956289__aa88b597-c91e-45e8-9feb-a72a9dca5de3-1666880381e5a17fbd-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15997629956289__aa88b597-c91e-45e8-9feb-a72a9dca5de3-1666880381e5a17fbd-0",
+        "template--15997629956289__aa88b597-c91e-45e8-9feb-a72a9dca5de3-1666880381e5a17fbd-1",
+        "template--15997629956289__aa88b597-c91e-45e8-9feb-a72a9dca5de3-1666880381e5a17fbd-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1663078154b4cc1ca6": {
       "type": "apps",
       "blocks": {
@@ -159,6 +202,7 @@
     "1662480421232cbefb",
     "main",
     "product-recommendations",
+    "aa88b597-c91e-45e8-9feb-a72a9dca5de3",
     "1663078154b4cc1ca6",
     "1664805886b83e7045"
   ]
