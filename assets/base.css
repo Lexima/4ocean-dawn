@@ -2969,3 +2969,8 @@ details-disclosure > details {
 .cart-item__details dl {
   display: none;
 }
+@media (max-width: 749px) {
+  .header__icon.header__icon--account.link.focus-inset.small-hide {
+     display: flex !important;
+  }
+}
