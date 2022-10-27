@@ -158,7 +158,54 @@
         "color_scheme": "background-1",
         "full_width": true,
         "padding_top": 40,
-        "padding_bottom": 52
+        "padding_bottom": 24
+      }
+    },
+    "c057ba90-a251-4226-936d-41cf3791a999": {
+      "type": "pdp-photo-grid",
+      "blocks": {
+        "template--16004250009793__c057ba90-a251-4226-936d-41cf3791a999-16669050334b6c3cd1-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BRO_Animal_1.jpg",
+            "link": ""
+          }
+        },
+        "template--16004250009793__c057ba90-a251-4226-936d-41cf3791a999-16669050334b6c3cd1-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BRO_Animal_2.jpg",
+            "link": ""
+          }
+        },
+        "template--16004250009793__c057ba90-a251-4226-936d-41cf3791a999-16669050334b6c3cd1-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BRO_Animal_3.jpg",
+            "link": ""
+          }
+        },
+        "template--16004250009793__c057ba90-a251-4226-936d-41cf3791a999-16669050334b6c3cd1-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/BRO_Animal_4.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16004250009793__c057ba90-a251-4226-936d-41cf3791a999-16669050334b6c3cd1-0",
+        "template--16004250009793__c057ba90-a251-4226-936d-41cf3791a999-16669050334b6c3cd1-1",
+        "template--16004250009793__c057ba90-a251-4226-936d-41cf3791a999-16669050334b6c3cd1-2",
+        "template--16004250009793__c057ba90-a251-4226-936d-41cf3791a999-16669050334b6c3cd1-3"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "1663078154b4cc1ca6": {
@@ -194,6 +241,7 @@
     "main",
     "product-recommendations",
     "4e569b66-8e15-4e7e-ad99-b5883bc9dbca",
+    "c057ba90-a251-4226-936d-41cf3791a999",
     "1663078154b4cc1ca6",
     "1664805886b83e7045"
   ]
