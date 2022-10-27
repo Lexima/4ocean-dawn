@@ -85,12 +85,12 @@
         "7c93d820-fec6-4769-8227-6d697bdab84e": {
           "type": "slide",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Luxe-Homepage-slider-2400x1093.jpg",
-            "heading": "Luxe Collection",
+            "image": "shopify:\/\/shop_images\/Holiday-GG-Homepage-slider-2400x1093_B.jpg",
+            "heading": "2022 Holiday Gift Guide",
             "heading_size": "h1",
-            "subheading": "Only available during the 2022 holiday season, these bracelets will add a festive shimmer to any 4ocean bracelet stack!",
+            "subheading": "Find something for everyone on your list and clean the ocean with every gift you give this holiday season.",
             "button_label": "Shop Now — Pull a Pound",
-            "link": "shopify:\/\/collections\/the-luxe-collection",
+            "link": "shopify:\/\/pages\/holiday-gift-guide",
             "button_style_secondary": false,
             "box_align": "middle-center",
             "show_text_box": false,
