@@ -118,6 +118,49 @@
         "padding_bottom": 28
       }
     },
+    "4e569b66-8e15-4e7e-ad99-b5883bc9dbca": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16004250009793__4e569b66-8e15-4e7e-ad99-b5883bc9dbca-16669028818a99026f-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Blue-ringed octopus<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16004250009793__4e569b66-8e15-4e7e-ad99-b5883bc9dbca-16669028818a99026f-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>All octopuses are venomous, but the blue-ringed octopus is the only one that’s deadly to humans. Just one has enough venom to kill 26 adults in minutes. The good news is that they’re not at all aggressive toward humans, but small fishes, crustaceans, and bivalves beware!<\/p><p><\/p>"
+          }
+        },
+        "template--16004250009793__4e569b66-8e15-4e7e-ad99-b5883bc9dbca-16669028818a99026f-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16004250009793__4e569b66-8e15-4e7e-ad99-b5883bc9dbca-16669028818a99026f-0",
+        "template--16004250009793__4e569b66-8e15-4e7e-ad99-b5883bc9dbca-16669028818a99026f-1",
+        "template--16004250009793__4e569b66-8e15-4e7e-ad99-b5883bc9dbca-16669028818a99026f-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1663078154b4cc1ca6": {
       "type": "apps",
       "blocks": {
@@ -150,6 +193,7 @@
     "1662480421232cbefb",
     "main",
     "product-recommendations",
+    "4e569b66-8e15-4e7e-ad99-b5883bc9dbca",
     "1663078154b4cc1ca6",
     "1664805886b83e7045"
   ]
