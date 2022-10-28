@@ -440,6 +440,186 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "414f846c-aea3-4dc5-87ed-e27eda3982b6": {
+      "type": "pdp-photo-grid",
+      "blocks": {
+        "template--16004951474369__414f846c-aea3-4dc5-87ed-e27eda3982b6-1666965777f6fa329a-0": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--16004951474369__414f846c-aea3-4dc5-87ed-e27eda3982b6-1666965777f6fa329a-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--16004951474369__414f846c-aea3-4dc5-87ed-e27eda3982b6-1666965777f6fa329a-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--16004951474369__414f846c-aea3-4dc5-87ed-e27eda3982b6-1666965777f6fa329a-3": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16004951474369__414f846c-aea3-4dc5-87ed-e27eda3982b6-1666965777f6fa329a-0",
+        "template--16004951474369__414f846c-aea3-4dc5-87ed-e27eda3982b6-1666965777f6fa329a-1",
+        "template--16004951474369__414f846c-aea3-4dc5-87ed-e27eda3982b6-1666965777f6fa329a-2",
+        "template--16004951474369__414f846c-aea3-4dc5-87ed-e27eda3982b6-1666965777f6fa329a-3"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "b13e93b2-1979-406d-8bf0-9e23c64d3f70": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16004951474369__b13e93b2-1979-406d-8bf0-9e23c64d3f70-166696579178bd0da2-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16004951474369__b13e93b2-1979-406d-8bf0-9e23c64d3f70-166696579178bd0da2-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>There may up to 10 species of blue-ringed octopus in the genus <em>Hapalochlaena<\/em>, but only four of them have been officially named: <\/p><p>The greater blue-ringed octopus (<em>H. lunulata<\/em>) isn’t larger or better than the other species listed here; the “greater” part of its name comes from the fact that it’s got the largest blue rings<\/p><p>The southern blue-ringed octopus (<em>H. maculosa<\/em>)<em> <\/em>is the biggest of the bunch, reaching lengths of up to eight inches; all other species reach maximum lengths of two to four inches<\/p><p>The blue-lined octopus (<em>H. fasciata<\/em>) has rings on its arms as well as lines on its head (or mantle, if you want to get technical)<\/p><p><em>H. nierstraszi <\/em>is<em> <\/em>the only species that hasn’t yet been given a common name; only two of them have been caught in all of recorded history! This may mean they’re either naturally rarer or simply more reclusive than other species<\/p><p>All four species hunt using a “pouncing” technique. This means they lie in wait or approach their prey ever-so-slowly until they are within striking distance. Then, with a startling burst of speed, they attack from above and quickly wrap their arms around their prey. <\/p><p>Using their suckers to keep a firm grip, they draw the prey close to their mouth and pierce them with their beak to deliver a dose of paralyzing venom that acts almost instantly. Once their prey is paralyzed, they inject digestive juices that help soften up the meat before extracting it.<\/p>"
+          }
+        },
+        "template--16004951474369__b13e93b2-1979-406d-8bf0-9e23c64d3f70-166696579178bd0da2-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16004951474369__b13e93b2-1979-406d-8bf0-9e23c64d3f70-166696579178bd0da2-0",
+        "template--16004951474369__b13e93b2-1979-406d-8bf0-9e23c64d3f70-166696579178bd0da2-1",
+        "template--16004951474369__b13e93b2-1979-406d-8bf0-9e23c64d3f70-166696579178bd0da2-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "5fb3a2b1-b2a4-4391-afb0-14b48b9f4f07": {
+      "type": "pdp-photo-grid",
+      "blocks": {
+        "template--16004951474369__5fb3a2b1-b2a4-4391-afb0-14b48b9f4f07-16669658251fa9f744-0": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--16004951474369__5fb3a2b1-b2a4-4391-afb0-14b48b9f4f07-16669658251fa9f744-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--16004951474369__5fb3a2b1-b2a4-4391-afb0-14b48b9f4f07-16669658251fa9f744-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--16004951474369__5fb3a2b1-b2a4-4391-afb0-14b48b9f4f07-16669658251fa9f744-3": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16004951474369__5fb3a2b1-b2a4-4391-afb0-14b48b9f4f07-16669658251fa9f744-0",
+        "template--16004951474369__5fb3a2b1-b2a4-4391-afb0-14b48b9f4f07-16669658251fa9f744-1",
+        "template--16004951474369__5fb3a2b1-b2a4-4391-afb0-14b48b9f4f07-16669658251fa9f744-2",
+        "template--16004951474369__5fb3a2b1-b2a4-4391-afb0-14b48b9f4f07-16669658251fa9f744-3"
+      ],
+      "settings": {
+        "image_ratio": "square",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
+    },
+    "5c4cad04-05d6-4a52-8564-3284da5d3d9b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16004951474369__5c4cad04-05d6-4a52-8564-3284da5d3d9b-1666965832a5d42b30-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "<p>Talk about your brand<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16004951474369__5c4cad04-05d6-4a52-8564-3284da5d3d9b-1666965832a5d42b30-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>No species of blue-ringed octopus are considered endangered at this time and, because their habitat is so expansive, it’s thought that they are not facing any direct environmental pressures either. <\/p><p>However, degradation of inshore habitats like the ones where blue-ringed octopuses are found is well documented and can easily become a threat without oversight.<\/p><p>The blue-ringed octopus’s psychedelic coloring and lethal reputation has also sparked growing interest from exotic animal collectors who want them as pets. Imports have skyrocketed from just 11 in 2004 to more than 1,100 in 2011 in the U.S. alone. <\/p><p>Octopuses are world-renowned escape artists, which makes keeping them as pets an extreme challenge. But their gorgeous coloring and lethal nature make them less than ideal for home aquariums, especially when children are present or owners are uninformed. <\/p><p>Blue-ringed octopuses also have a short lifespan—one to two years—and females only reproduce once before they die. They aren’t very hardy and don’t fare well during shipment. Many die within days or weeks of purchase, which means committed collectors would have to purchase new animals frequently. <\/p><p>Even moderate increases in demand could lead to overfishing. Over time, sustained pressure could impact their populations and become a concern for conservationists.<\/p><p>That’s why ocean conservation and education are so important. The more we understand about our planet and the animals we share it with, the better we can appreciate, respect, and protect them.<\/p><p>Shop our limited edition Blue-ringed Octopus Awareness Bracelets to pull a pound of trash from the ocean and help raise awareness about the importance of teaching people how to safely and respectfully love the ocean and all the wonderful creatures that call it home.<\/p>"
+          }
+        },
+        "template--16004951474369__5c4cad04-05d6-4a52-8564-3284da5d3d9b-1666965832a5d42b30-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16004951474369__5c4cad04-05d6-4a52-8564-3284da5d3d9b-1666965832a5d42b30-0",
+        "template--16004951474369__5c4cad04-05d6-4a52-8564-3284da5d3d9b-1666965832a5d42b30-1",
+        "template--16004951474369__5c4cad04-05d6-4a52-8564-3284da5d3d9b-1666965832a5d42b30-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -452,6 +632,10 @@
     "c955ba73-605d-488b-bfba-0e88be0e623f",
     "6231a123-c136-4cf8-9d7a-34cdb9d35e31",
     "4aa24015-8620-4fd5-ae17-b1530b912007",
-    "8858309e-0161-4779-bb3b-343ff97699d5"
+    "8858309e-0161-4779-bb3b-343ff97699d5",
+    "414f846c-aea3-4dc5-87ed-e27eda3982b6",
+    "b13e93b2-1979-406d-8bf0-9e23c64d3f70",
+    "5fb3a2b1-b2a4-4391-afb0-14b48b9f4f07",
+    "5c4cad04-05d6-4a52-8564-3284da5d3d9b"
   ]
 }
