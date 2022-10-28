@@ -620,6 +620,49 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "5ce35cfc-d0f6-4bb2-8871-a41088416b41": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16004951474369__5ce35cfc-d0f6-4bb2-8871-a41088416b41-166696587663af4814-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Blue-ringed Octopus Awareness Bracelets",
+            "heading_size": "h2"
+          }
+        },
+        "template--16004951474369__5ce35cfc-d0f6-4bb2-8871-a41088416b41-166696587663af4814-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>By purchasing this limited edition bracelet, you will <strong>pull one pound of trash<\/strong> from the world’s oceans, rivers, and coastlines.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--16004951474369__5ce35cfc-d0f6-4bb2-8871-a41088416b41-166696587663af4814-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now — Pull a Pound",
+            "button_link": "shopify:\/\/products\/blue-ringed-octopus-awareness-bracelet"
+          }
+        }
+      },
+      "block_order": [
+        "template--16004951474369__5ce35cfc-d0f6-4bb2-8871-a41088416b41-166696587663af4814-0",
+        "template--16004951474369__5ce35cfc-d0f6-4bb2-8871-a41088416b41-166696587663af4814-1",
+        "template--16004951474369__5ce35cfc-d0f6-4bb2-8871-a41088416b41-166696587663af4814-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -636,6 +679,7 @@
     "414f846c-aea3-4dc5-87ed-e27eda3982b6",
     "b13e93b2-1979-406d-8bf0-9e23c64d3f70",
     "5fb3a2b1-b2a4-4391-afb0-14b48b9f4f07",
-    "5c4cad04-05d6-4a52-8564-3284da5d3d9b"
+    "5c4cad04-05d6-4a52-8564-3284da5d3d9b",
+    "5ce35cfc-d0f6-4bb2-8871-a41088416b41"
   ]
 }
