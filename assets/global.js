@@ -750,6 +750,16 @@ class VariantSelects extends HTMLElement {
   }
 
   onVariantChange() {
+
+
+    var pound = document.querySelector('input[name="Style"]:checked').getAttribute('data-pound');
+    var pelem = document.querySelector(".product__pounds-pulled b");
+    if(Number(pound) > 1){
+      pelem.textContent="pulls "+pound+ " pounds";
+    }else{
+      pelem.textContent="pulls "+pound+ " pound";
+    }
+    
     this.updateOptions();
     this.updateMasterId();
     this.toggleAddButton(true, '', false);
