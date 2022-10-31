@@ -36,6 +36,10 @@
               <div class="rich-text__text rte" {{ block.shopify_attributes }}>
                 {{ block.settings.text }}
               </div>
+            {%- when 'html' -%}
+              <div class="rich-text__text rte" {{ block.shopify_attributes }}>
+                {{ block.settings.html_text }} 
+              </div>
             {%- when 'button' -%}
               <div class="rich-text__buttons{% if block.settings.button_label != blank and block.settings.button_label_2 != blank %} rich-text__buttons--multiple{% endif %}" {{ block.shopify_attributes }}>
                 {%- if block.settings.button_label != blank -%}
@@ -50,7 +54,7 @@
       </div>
     </div>
   </div>
-</div>
+</div> 
 
 {% schema %}
 {
@@ -194,7 +198,7 @@
           "default": "h1",
           "label": "t:sections.all.heading_size.label"
         }
-      ]
+      ] 
     },
     {
       "type": "caption",
@@ -255,6 +259,19 @@
           "id": "text",
           "default": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
           "label": "t:sections.rich-text.blocks.text.settings.text.label"
+        }
+      ]
+    },
+    {
+      "type": "html",
+      "name": "Html",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "html",
+          "id": "html_text",
+          "default": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+          "label": "Html Content"
         }
       ]
     },
