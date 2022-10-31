@@ -116,8 +116,15 @@
                     {%- endif -%}
 
                     {% if item.product.metafields.custom.pounds_pulled != blank %}
-                      <div class="cart-item__pounds-pulled">
-                        Pulls {{ item.product.metafields.custom.pounds_pulled }} {{ item.product.metafields.custom.pounds_pulled | pluralize: 'pound', 'pounds' }}
+                       <div class="cart-item__pounds-pulled">
+                        {% if line_item.product.has_only_default_variant %}
+                          {% assign pound_pull = item.product.metafields.custom.pounds_pulled  | times : item.quantity %}
+                          Pulls {{ pound_pull }} {{ pound_pull | pluralize: 'pound', 'pounds' }} 
+                        {% else %}
+                           {% assign pound_per_qty = item.variant.metafields.custom.pounds_pulled | default : item.product.metafields.custom.pounds_pulled %}
+                           {% assign pound_pull = pound_per_qty | times : item.quantity %}
+                           Pulls {{ pound_pull }} {{ pound_pull | pluralize: 'pound', 'pounds' }} 
+                         {% endif %} 
                       </div>
                     {% endif %}
 
