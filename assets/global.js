@@ -898,6 +898,13 @@ customElements.define('variant-selects', VariantSelects);
 class VariantRadios extends VariantSelects {
   constructor() {
     super();
+      var pound = document.querySelector('input[name="Style"]:checked').getAttribute('data-pound');
+      var pelem = document.querySelector(".product__pounds-pulled b");
+      if(Number(pound) > 1){
+        pelem.textContent="pulls "+pound+ " pounds";
+      }else{
+        pelem.textContent="pulls "+pound+ " pound";
+      }
   }
 
   updateOptions() {
