@@ -246,6 +246,49 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "358dbf74-59b6-4799-9cce-0b11aa2679d0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16008636072129__358dbf74-59b6-4799-9cce-0b11aa2679d0-1667323409bb5aa13b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Ghost Nets: The Silent Killers in Our Oceans<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16008636072129__358dbf74-59b6-4799-9cce-0b11aa2679d0-1667323409bb5aa13b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>More than 100 million pounds of commercial fishing gear enters the ocean each year. Some gear is lost accidentally, either swept away during a storm, cut loose by other maritime traffic, or snagged on rocks or coral. <\/p><p>Other gear may be intentionally abandoned. For instance, old and worn out gear may be tossed overboard when there are no disposal facilities available. Gear may also be cut loose to hide evidence of illegal, unregulated, and unreported (IUU) fishing activity.<\/p><p>ALDFG (abandoned, lost, and discarded fishing gear) includes everything from 10,000-pound fishing nets to miles-long fishing lines as well as commercial fishing hooks, buoys, traps, and dredges. <\/p><p>Often called “ghost gear” because it continues to fish long after humans lose control of it, ALDFG is the deadliest type of plastic pollution in our oceans today.<\/p>"
+          }
+        },
+        "template--16008636072129__358dbf74-59b6-4799-9cce-0b11aa2679d0-1667323409bb5aa13b-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16008636072129__358dbf74-59b6-4799-9cce-0b11aa2679d0-1667323409bb5aa13b-0",
+        "template--16008636072129__358dbf74-59b6-4799-9cce-0b11aa2679d0-1667323409bb5aa13b-1",
+        "template--16008636072129__358dbf74-59b6-4799-9cce-0b11aa2679d0-1667323409bb5aa13b-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -255,6 +298,7 @@
     "44fcddda-8a5b-40ee-ba03-3170e662b4c0",
     "3978a330-133c-4fe2-9295-fdb2dac54f2f",
     "df7b93ae-1be4-4065-a4b9-b8f1e1d5927c",
-    "cf0cd233-ea52-4764-b499-b71abc7cff06"
+    "cf0cd233-ea52-4764-b499-b71abc7cff06",
+    "358dbf74-59b6-4799-9cce-0b11aa2679d0"
   ]
 }
