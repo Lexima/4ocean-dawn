@@ -176,24 +176,28 @@
         "template--16008519286977__c3256f2f-103b-43f4-9372-950623ade6f6-16673103270e65b55e-0": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Ghost-Net-photogrid_1.jpg",
             "link": ""
           }
         },
         "template--16008519286977__c3256f2f-103b-43f4-9372-950623ade6f6-16673103270e65b55e-1": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Ghost-Net-photogrid_2.jpg",
             "link": ""
           }
         },
         "template--16008519286977__c3256f2f-103b-43f4-9372-950623ade6f6-16673103270e65b55e-2": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Ghost-Net-photogrid_3.jpg",
             "link": ""
           }
         },
         "template--16008519286977__c3256f2f-103b-43f4-9372-950623ade6f6-16673103270e65b55e-3": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Ghost-Net-photogrid_4.jpg",
             "link": ""
           }
         }
