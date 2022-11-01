@@ -447,6 +447,49 @@
         "show_text_below": true,
         "accessibility_info": "Slideshow about our brand"
       }
+    },
+    "a43caa2d-872c-40ee-92a5-8401105b1663": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16008636072129__a43caa2d-872c-40ee-92a5-8401105b1663-1667324760f5f79f6a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Ghost gear never stops fishing<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16008636072129__a43caa2d-872c-40ee-92a5-8401105b1663-1667324760f5f79f6a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Unlike other types of plastic pollution, fishing gear is intentionally designed to catch and kill marine life. And because it’s plastic, it won’t biodegrade like a leaf becomes soil. So even when it’s lost at sea and completely outside human control, it never stops fishing. <\/p><p>Ghost fishing impacts many vulnerable and endangered animals including sea turtles, seals, whales, dolphins, corals, seabirds, sharks, and other fish. In fact, fishing gear entanglements are so widespread that they’re now the leading cause of serious injury and death for large whales. <\/p><p>Ghost gear can also smother seagrass beds and break, shade, and abrade coral, which prevents healthy growth and introduces diseases, all of which makes these critical marine ecosystems extra vulnerable to other threats like climate change.<\/p><p>Some organizations have tried to estimate how many animals are lost to ghost fishing each year, but the unfortunate truth is that most of these tragedies happen in the open ocean where they cannot be observed or documented by humans. <\/p><p>While the true magnitude of ghost fishing will likely remain hidden beneath the ocean’s surface, we already know that urgent and immediate action is required to protect our wildlife and address this global issue.<\/p>"
+          }
+        },
+        "template--16008636072129__a43caa2d-872c-40ee-92a5-8401105b1663-1667324760f5f79f6a-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16008636072129__a43caa2d-872c-40ee-92a5-8401105b1663-1667324760f5f79f6a-0",
+        "template--16008636072129__a43caa2d-872c-40ee-92a5-8401105b1663-1667324760f5f79f6a-1",
+        "template--16008636072129__a43caa2d-872c-40ee-92a5-8401105b1663-1667324760f5f79f6a-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -459,6 +502,7 @@
     "cf0cd233-ea52-4764-b499-b71abc7cff06",
     "358dbf74-59b6-4799-9cce-0b11aa2679d0",
     "f6e0ce63-dcbc-4122-89ff-0871dc8ee5fb",
-    "b86f8951-d1fe-4453-8c1a-31197c1a8d3e"
+    "b86f8951-d1fe-4453-8c1a-31197c1a8d3e",
+    "a43caa2d-872c-40ee-92a5-8401105b1663"
   ]
 }
