@@ -336,6 +336,113 @@
         "padding_top": 36,
         "padding_bottom": 8
       }
+    },
+    "b86f8951-d1fe-4453-8c1a-31197c1a8d3e": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16008636072129__b86f8951-d1fe-4453-8c1a-31197c1a8d3e-1667323522a10e08a1-0": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ghost-Net-slider-2400x1093_1.jpg",
+            "heading": "",
+            "heading_size": "h1",
+            "subheading": "",
+            "button_label": "",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": false,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "template--16008636072129__b86f8951-d1fe-4453-8c1a-31197c1a8d3e-1667323522a10e08a1-1": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "47b91a36-be17-4700-b0d8-d5e21474d666": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "51ac9ba1-d450-4c6b-bdcf-0ea8b6d8f07b": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        },
+        "19bf702f-2054-4e05-8a01-77b7d33de5c3": {
+          "type": "slide",
+          "settings": {
+            "heading": "Image slide",
+            "heading_size": "h1",
+            "subheading": "Tell your brand's story through images",
+            "button_label": "Button label",
+            "link": "",
+            "button_style_secondary": false,
+            "box_align": "middle-center",
+            "show_text_box": true,
+            "text_alignment": "center",
+            "image_overlay_opacity": 0,
+            "color_scheme": "background-1",
+            "text_alignment_mobile": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16008636072129__b86f8951-d1fe-4453-8c1a-31197c1a8d3e-1667323522a10e08a1-0",
+        "template--16008636072129__b86f8951-d1fe-4453-8c1a-31197c1a8d3e-1667323522a10e08a1-1",
+        "47b91a36-be17-4700-b0d8-d5e21474d666",
+        "51ac9ba1-d450-4c6b-bdcf-0ea8b6d8f07b",
+        "19bf702f-2054-4e05-8a01-77b7d33de5c3"
+      ],
+      "settings": {
+        "layout": "full_bleed",
+        "slide_height": "adapt_image",
+        "slider_visual": "counter",
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "show_text_below": true,
+        "accessibility_info": "Slideshow about our brand"
+      }
     }
   },
   "order": [
@@ -347,6 +454,7 @@
     "df7b93ae-1be4-4065-a4b9-b8f1e1d5927c",
     "cf0cd233-ea52-4764-b499-b71abc7cff06",
     "358dbf74-59b6-4799-9cce-0b11aa2679d0",
-    "f6e0ce63-dcbc-4122-89ff-0871dc8ee5fb"
+    "f6e0ce63-dcbc-4122-89ff-0871dc8ee5fb",
+    "b86f8951-d1fe-4453-8c1a-31197c1a8d3e"
   ]
 }
