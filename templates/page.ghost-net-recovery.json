@@ -141,12 +141,67 @@
         "padding_top": 36,
         "padding_bottom": 8
       }
+    },
+    "3978a330-133c-4fe2-9295-fdb2dac54f2f": {
+      "type": "multicolumn",
+      "blocks": {
+        "template--16008636072129__3978a330-133c-4fe2-9295-fdb2dac54f2f-1667316065669c68e5-0": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Order a Ghost Net Awareness Bracelet →",
+            "link": ""
+          }
+        },
+        "template--16008636072129__3978a330-133c-4fe2-9295-fdb2dac54f2f-1667316065669c68e5-1": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Use Pound+ to fund our global ocean cleanups →",
+            "link": ""
+          }
+        },
+        "template--16008636072129__3978a330-133c-4fe2-9295-fdb2dac54f2f-1667316065669c68e5-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "Discover more ways to support our mission →",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16008636072129__3978a330-133c-4fe2-9295-fdb2dac54f2f-1667316065669c68e5-0",
+        "template--16008636072129__3978a330-133c-4fe2-9295-fdb2dac54f2f-1667316065669c68e5-1",
+        "template--16008636072129__3978a330-133c-4fe2-9295-fdb2dac54f2f-1667316065669c68e5-2"
+      ],
+      "settings": {
+        "title": "3 ways you can help right now",
+        "heading_size": "h1",
+        "heading_alignment": "title-wrapper-with-link--center",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "Button label",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "main",
     "4ac6f02f-9cc4-416f-8795-5df76412f4ba",
     "1cbf838a-3e01-4a1f-aebb-ba6a1534129f",
-    "44fcddda-8a5b-40ee-ba03-3170e662b4c0"
+    "44fcddda-8a5b-40ee-ba03-3170e662b4c0",
+    "3978a330-133c-4fe2-9295-fdb2dac54f2f"
   ]
 }
