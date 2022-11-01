@@ -2,13 +2,57 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "1cbf838a-3e01-4a1f-aebb-ba6a1534129f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16008636072129__1cbf838a-3e01-4a1f-aebb-ba6a1534129f-166731508312a28245-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Ghost Net Recovery<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16008636072129__1cbf838a-3e01-4a1f-aebb-ba6a1534129f-166731508312a28245-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Abandoned, lost, and discarded fishing gear, called ALDFG or “ghost gear” for short, is the deadliest type of plastic pollution in our oceans today—and human intervention is the only way to get them out. <\/p><p>Made with actual pieces of ghost net recovered by our professional, full-time captains and crews, the 4ocean Ghost Net Awareness Bracelet funds the removal of ghost gear from our oceans and helps raise awareness about its impact on marine life.<\/p>"
+          }
+        },
+        "template--16008636072129__1cbf838a-3e01-4a1f-aebb-ba6a1534129f-166731508312a28245-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Now — Pull a Pound",
+            "button_link": "shopify:\/\/products\/ghost-net-awareness-bracelet",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16008636072129__1cbf838a-3e01-4a1f-aebb-ba6a1534129f-166731508312a28245-0",
+        "template--16008636072129__1cbf838a-3e01-4a1f-aebb-ba6a1534129f-166731508312a28245-1",
+        "template--16008636072129__1cbf838a-3e01-4a1f-aebb-ba6a1534129f-166731508312a28245-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "left",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1cbf838a-3e01-4a1f-aebb-ba6a1534129f"
   ]
 }
