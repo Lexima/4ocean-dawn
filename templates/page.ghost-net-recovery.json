@@ -211,6 +211,41 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "cf0cd233-ea52-4764-b499-b71abc7cff06": {
+      "type": "logo-cloud",
+      "blocks": {
+        "template--16008636072129__cf0cd233-ea52-4764-b499-b71abc7cff06-1667323202ca37cdf3-0": {
+          "type": "logo",
+          "settings": {
+          }
+        },
+        "template--16008636072129__cf0cd233-ea52-4764-b499-b71abc7cff06-1667323202ca37cdf3-1": {
+          "type": "logo",
+          "settings": {
+          }
+        },
+        "template--16008636072129__cf0cd233-ea52-4764-b499-b71abc7cff06-1667323202ca37cdf3-2": {
+          "type": "logo",
+          "settings": {
+          }
+        },
+        "2b715924-1698-4d2a-a35e-a75037020ece": {
+          "type": "logo",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "template--16008636072129__cf0cd233-ea52-4764-b499-b71abc7cff06-1667323202ca37cdf3-0",
+        "template--16008636072129__cf0cd233-ea52-4764-b499-b71abc7cff06-1667323202ca37cdf3-1",
+        "template--16008636072129__cf0cd233-ea52-4764-b499-b71abc7cff06-1667323202ca37cdf3-2",
+        "2b715924-1698-4d2a-a35e-a75037020ece"
+      ],
+      "settings": {
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -219,6 +254,7 @@
     "1cbf838a-3e01-4a1f-aebb-ba6a1534129f",
     "44fcddda-8a5b-40ee-ba03-3170e662b4c0",
     "3978a330-133c-4fe2-9295-fdb2dac54f2f",
-    "df7b93ae-1be4-4065-a4b9-b8f1e1d5927c"
+    "df7b93ae-1be4-4065-a4b9-b8f1e1d5927c",
+    "cf0cd233-ea52-4764-b499-b71abc7cff06"
   ]
 }
