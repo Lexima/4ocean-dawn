@@ -289,6 +289,53 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "f6e0ce63-dcbc-4122-89ff-0871dc8ee5fb": {
+      "type": "pdp-photo-grid",
+      "blocks": {
+        "template--16008636072129__f6e0ce63-dcbc-4122-89ff-0871dc8ee5fb-166732343984b84a07-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ghost-Net-Landing-Page_5.jpg",
+            "link": ""
+          }
+        },
+        "template--16008636072129__f6e0ce63-dcbc-4122-89ff-0871dc8ee5fb-166732343984b84a07-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ghost-Net-Landing-Page_6.jpg",
+            "link": ""
+          }
+        },
+        "template--16008636072129__f6e0ce63-dcbc-4122-89ff-0871dc8ee5fb-166732343984b84a07-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ghost-Net-Landing-Page_7.jpg",
+            "link": ""
+          }
+        },
+        "template--16008636072129__f6e0ce63-dcbc-4122-89ff-0871dc8ee5fb-166732343984b84a07-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Ghost-Net-Landing-Page_8.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16008636072129__f6e0ce63-dcbc-4122-89ff-0871dc8ee5fb-166732343984b84a07-0",
+        "template--16008636072129__f6e0ce63-dcbc-4122-89ff-0871dc8ee5fb-166732343984b84a07-1",
+        "template--16008636072129__f6e0ce63-dcbc-4122-89ff-0871dc8ee5fb-166732343984b84a07-2",
+        "template--16008636072129__f6e0ce63-dcbc-4122-89ff-0871dc8ee5fb-166732343984b84a07-3"
+      ],
+      "settings": {
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "color_scheme": "background-1",
+        "columns_mobile": "2",
+        "padding_top": 36,
+        "padding_bottom": 8
+      }
     }
   },
   "order": [
@@ -299,6 +346,7 @@
     "3978a330-133c-4fe2-9295-fdb2dac54f2f",
     "df7b93ae-1be4-4065-a4b9-b8f1e1d5927c",
     "cf0cd233-ea52-4764-b499-b71abc7cff06",
-    "358dbf74-59b6-4799-9cce-0b11aa2679d0"
+    "358dbf74-59b6-4799-9cce-0b11aa2679d0",
+    "f6e0ce63-dcbc-4122-89ff-0871dc8ee5fb"
   ]
 }
