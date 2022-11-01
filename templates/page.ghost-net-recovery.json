@@ -8,6 +8,50 @@
         "padding_bottom": 0
       }
     },
+    "4ac6f02f-9cc4-416f-8795-5df76412f4ba": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16008636072129__4ac6f02f-9cc4-416f-8795-5df76412f4ba-166731600146735c60-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p><strong>Ghost Net Recovery<\/strong><\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16008636072129__4ac6f02f-9cc4-416f-8795-5df76412f4ba-166731600146735c60-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "template--16008636072129__4ac6f02f-9cc4-416f-8795-5df76412f4ba-166731600146735c60-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16008636072129__4ac6f02f-9cc4-416f-8795-5df76412f4ba-166731600146735c60-0",
+        "template--16008636072129__4ac6f02f-9cc4-416f-8795-5df76412f4ba-166731600146735c60-1",
+        "template--16008636072129__4ac6f02f-9cc4-416f-8795-5df76412f4ba-166731600146735c60-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 24,
+        "padding_bottom": 12
+      }
+    },
     "1cbf838a-3e01-4a1f-aebb-ba6a1534129f": {
       "type": "rich-text",
       "blocks": {
@@ -47,7 +91,7 @@
         "content_alignment": "left",
         "color_scheme": "background-1",
         "full_width": true,
-        "padding_top": 40,
+        "padding_top": 16,
         "padding_bottom": 52
       }
     },
@@ -101,6 +145,7 @@
   },
   "order": [
     "main",
+    "4ac6f02f-9cc4-416f-8795-5df76412f4ba",
     "1cbf838a-3e01-4a1f-aebb-ba6a1534129f",
     "44fcddda-8a5b-40ee-ba03-3170e662b4c0"
   ]
