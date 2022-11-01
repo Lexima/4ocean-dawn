@@ -148,6 +148,7 @@
         "template--16008636072129__3978a330-133c-4fe2-9295-fdb2dac54f2f-1667316065669c68e5-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Ghost-Net-Landing-Page_2.jpg",
             "title": "",
             "text": "",
             "link_label": "Order a Ghost Net Awareness Bracelet →",
@@ -157,6 +158,7 @@
         "template--16008636072129__3978a330-133c-4fe2-9295-fdb2dac54f2f-1667316065669c68e5-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Ghost-Net-Landing-Page_3.jpg",
             "title": "",
             "text": "",
             "link_label": "Use Pound+ to fund our global ocean cleanups →",
@@ -166,6 +168,7 @@
         "template--16008636072129__3978a330-133c-4fe2-9295-fdb2dac54f2f-1667316065669c68e5-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Ghost-Net-Landing-Page_4.jpg",
             "title": "",
             "text": "",
             "link_label": "Discover more ways to support our mission →",
