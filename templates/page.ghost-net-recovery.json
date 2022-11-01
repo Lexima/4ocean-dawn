@@ -13,6 +13,7 @@
       "blocks": {
         "template--16008636072129__1cbf838a-3e01-4a1f-aebb-ba6a1534129f-166731508312a28245-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "<p><strong>Ghost Net Recovery<\/strong><\/p>",
             "heading_size": "h1"
